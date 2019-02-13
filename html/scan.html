@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="title" content="">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<title>扫描管理 - <?php echo soft_name?></title>
+
+	<!-- Le styles -->
+	<link href="css/bootstrap-combined.min.css" rel="stylesheet">
+	<link href="css/layoutit.css" rel="stylesheet">
+
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<![endif]-->
+
+	<!-- Fav and touch icons -->
+	<link rel="shortcut icon" href="img/favicon.png">
+
+	<script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<![endif]-->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
+	<script type="text/javascript" src="js/jquery.htmlClean.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript" src="js/action.js"></script>
+</head>
+
+
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+			<div class="navbar navbar-inverse">
+				<div class="navbar-inner">
+					<div class="container-fluid">
+						<a class="btn btn-navbar" data-target=".navbar-responsive-collapse" data-toggle="collapse"></a> <a class="brand" href="?m=index"><?php echo soft_name?></a>
+						<div class="nav-collapse collapse navbar-responsive-collapse">
+							<ul class="nav">
+								<li>
+									<a href="?m=manager">管理中心</a>
+								</li>
+								<li>
+									<a href="?m=customer">客户管理</a>
+								</li>
+
+								<li class="active">
+									<a href="?m=scan">扫描管理</a>
+								</li>
+								<li>
+									<a href="?m=info">信息搜集</a>
+								</li>
+								<li>
+									<a href="?m=spider">站点爬虫</a>
+								</li>
+								<li>
+									<a href="?m=pro">专项检测</a>
+								</li>
+								<li>
+									<a href="?m=point">节点管理</a>
+								</li>
+								<li>
+									<a href="?m=set">系统管理</a>
+								</li>
+								<li>
+									<a href="?m=proxy">代理地址池</a>
+								</li>
+							</ul>
+							<ul class="nav pull-right">
+								<li class="active">
+									<a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo $_SESSION['username'];?></a>
+									<ul class="dropdown-menu">
+
+										<li>
+											<a id="modal-978241" href="#cpasswd-<?php echo $_SESSION['username']?>" data-toggle="modal">修改密码</a>
+										</li>
+										<li>
+											<a href="?m=logout">退出</a>
+										</li>
+
+									</ul>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+			<div class="tabbable" id="tabs-25550">
+				<ul class="nav nav-tabs">
+					<li class="active">
+						<a href="#panel-941070" data-toggle="tab">任务列表</a>
+					</li>
+					<li>
+						<a href="#panel-910581" data-toggle="tab">新建任务</a>
+					</li>
+				</ul>
+				<div class="tab-content">
+					<div class="tab-pane active" id="panel-941070">
+
+						<table class="table" style="font-size:14px;">
+							<thead>
+							<tr>
+								<th style="text-align:center">
+									ID
+								</th>
+								<th style="text-align:center">
+									站点
+								</th>
+								<th style="text-align:center">
+									标题
+								</th>
+								<th style="text-align:center">
+									客户
+								</th>
+								<th style="text-align:center">
+									状态
+								</th>
+								<th style="text-align:center">
+									高危
+								</th>
+								<th style="text-align:center">
+									中危
+								</th>
+								<th style="text-align:center">
+									低危
+								</th>
+								<th style="text-align:center">
+									Banner
+								</th>
+								<th style="text-align:center">
+									OS
+								</th>
+								<th style="text-align:center">
+									扫描周期
+								</th>
+								<th style="text-align:center">
+									扫描时间
+								</th>
+								<th style="text-align:center">
+									操作
+								</th>
+							</tr>
+							</thead>
+							<tbody>
+							<?php echo $html_str;?>
+							</tbody>
+						</table>
+					</div>
+
+					<div class="tab-pane" id="panel-910581">
+
+						<form action="?m=scan&c=new" method="POST">
+							<fieldset>
+								<!--<label>URL</label><input type="text" style="width:500px" name="url"/>-->
+								<label>URL&nbsp;&nbsp;&nbsp;<font color="orange" size="2px">tag：添加多个URL时使用回车换行，每行一个URL地址</font></label><textarea rows="5" cols="200" style="width:500px" name="url"></textarea>
+
+								<label>所属客户</label>
+
+								<select name="customer">
+
+								<?php
+								global $db;
+
+								$sql = "SELECT * FROM customer order by convert(name using gbk) ASC";
+
+								$results = $db->query($sql);
+								while ($fs = $db->fetch_array($results)){
+								?>
+									<option value="<?php echo $fs['0'];?>"><?php echo $fs['1'];?></option>
+								<?php
+								} ?>
+
+								</select>
+								<label>扫描周期</label>
+								<select name="delay">
+									<option value="4">仅一次</option>
+									<option value="1">每月一次</option>
+									<option value ="2">每季度一次</option>
+									<option value ="3">每半年一次</option>
+								</select>
+
+								<label>账号</label><input type="text" name="user"/>
+								<label>密码</label><input type="text" name="pwd"/>
+								<label>COOKIE</label><textarea rows="5" cols="200" style="width:500px" name="cookie"></textarea>
+								<label>扫描策略</label>
+								<select name="rule">
+									<option value="4">Default</option>
+									<option value ="1">SQL</option>
+									<option value ="2">XSS</option>
+									<option value="3">CSRF</option>
+								</select>
+								<label class="checkbox"><input type="checkbox" name="auth" /> 认证扫描 </label>
+								<button type="submit" class="btn">提交扫描</button>
+								<button type="submit" class="btn">取消</button>
+							</fieldset>
+						</form>
+
+					</div>
+
+					<?php echo scan_display();?>
+
+					<div id="cpasswd-<?php echo $_SESSION['username']?>" class="modal hide fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+							<h3 id="myModalLabel">
+								<?php echo $_SESSION['username']?>的密码修改
+							</h3>
+						</div>
+						<div class="modal-body">
+							<fieldset>
+								<label>旧 密 码</label><input type="text" value="" name="oldpasswd" id="oldpasswd"/>
+								<label>新 密 码</label><input type="text" value="" name="newpasswd" id="newpasswd"/>
+								<label>重新输入</label><input type="text" value="" name="repasswd" id="repasswd"/>
+							</fieldset>
+						</div>
+						<div class="modal-footer">
+							<button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button> <button class="btn btn-primary" onclick="cpasswd()">保存设置</button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

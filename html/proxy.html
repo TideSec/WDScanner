@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="title" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>山东新潮代理地址池</title>
+
+    <!-- Le styles -->
+    <link href="css/bootstrap-combined.min.css" rel="stylesheet">
+    <link href="css/layoutit.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="js/jquery.htmlClean.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/action.js"></script>
+</head>
+
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12">
+            <div class="navbar navbar-inverse">
+                <!--<div class="navbar-inner" style="padding-left: 550px;">-->
+                    <!--<div class="container-fluid">-->
+                        <!--<a class="btn btn-navbar" data-target=".navbar-responsive-collapse" data-toggle="collapse"></a> <a class="brand" href="proxy.php">山东新潮代理地址池</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <div class="navbar-inner">
+                    <div class="container-fluid">
+                        <a class="btn btn-navbar" data-target=".navbar-responsive-collapse" data-toggle="collapse"></a> <a class="brand" href="?m=index"><?php echo soft_name?></a>
+                        <div class="nav-collapse collapse navbar-responsive-collapse">
+                            <ul class="nav">
+                                <li>
+                                    <a href="?m=manager">管理中心</a>
+                                </li>
+                                <li>
+                                    <a href="?m=customer">客户管理</a>
+                                </li>
+
+                                <li>
+                                    <a href="?m=scan">扫描管理</a>
+                                </li>
+                                <li>
+                                    <a href="?m=info">信息搜集</a>
+                                </li>
+                                <li>
+                                    <a href="?m=spider">站点爬虫</a>
+                                </li>
+                                <li>
+                                    <a href="?m=pro">专项检测</a>
+                                </li>
+                                <li>
+                                    <a href="?m=point">节点管理</a>
+                                </li>
+                                <li>
+                                    <a href="?m=set">系统管理</a>
+                                </li>s
+                                <li  class="active">
+                                    <a href="?m=proxy">代理地址池</a>
+                                </li>
+                            </ul>
+                            <ul class="nav pull-right">
+                                <li class="active">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo $_SESSION['username'];?></a>
+                                    <ul class="dropdown-menu">
+
+                                        <li>
+                                            <a id="modal-978241" href="#cpasswd-<?php echo $_SESSION['username']?>" data-toggle="modal">修改密码</a>
+                                        </li>
+                                        <li>
+                                            <a href="?m=logout">退出</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="navbar-inner" style="padding-left: 10px">
+                <div class="container" style="width: 100%">
+                    <p></p>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;关于代理：从多个代理网站上抓取最新代理IP地址，对每个IP进行10轮筛选，根据响应时间进行评分，评分最高则最优。每天更新并重新筛选。
+                    </p>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;代理接口：如自己编写程序时想直接调用代理IP地址数据，可直接访问<a href="proxy-ip.php" target="_blank">proxy-ip.php</a>，返回按得分排序的ip地址列表。
+                    </p>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;联系我们：TideSec@山东新潮信息技术有限公司
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="tabbable" id="tabs-25550">
+                <ul class="nav nav-tabs">
+                    <li class="active">
+                        <a href="#panel-941070" data-toggle="tab">代理列表</a>
+                    </li>
+
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="panel-941070">
+                        <!--
+                             <button class="btn btn-primary" type="button">启动定时任务</button> <button class="btn btn-primary" type="button">手动刷新</button>
+                             -->
+                        <table class="table" style="font-size:14px;">
+                            <thead>
+                            <tr>
+                                <th>
+                                    序号
+                                </th>
+                                <th>
+                                    代理地址
+                                </th>
+                                <th>
+                                    测试次数
+                                </th>
+                                <th>
+                                    失败次数
+                                </th>
+                                <th>
+                                    平均耗时
+                                </th>
+                                <th>
+                                    代理评分
+                                </th>
+
+                                <th>
+                                    操作
+                                </th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <?php echo $html_str;?>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

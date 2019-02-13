@@ -13,6 +13,7 @@ tips:在2017年完成的一个小型扫描平台，集成了一些常用的功�
 ****
 
 # 目录
+* [Install](#Install)
 * [Change_Log](#Change_Log)
 * [Abstract](#Abstract)
 * [Function](#Function)
@@ -28,6 +29,11 @@ tips:在2017年完成的一个小型扫描平台，集成了一些常用的功�
     * [报告输出](#10、报告输出)
 * [ToDo](#ToDo)
 
+# Install
+
+1、解压缩wdscanner.sql.zip，在mysql中新建数据库wdscan，将其中的wdscanner.sql导入。
+
+2、访问http://ip:port，用户名密码为admin/123456，登录即可。
 
 # Change_Log
 
