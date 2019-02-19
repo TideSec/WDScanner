@@ -33,7 +33,9 @@ tips:在2017年完成的一个小型扫描平台，集成了一些常用的功�
 
 1、解压缩wdscanner.sql.zip，在mysql中新建数据库wdscan，将其中的wdscanner.sql导入。
 
-2、访问http://ip:port，用户名密码为admin/123456，登录即可。
+2、在扫描节点机器上安装wvs，10或者10以下版本，然后运行taskpython目录下的taskscan.py
+
+3、访问http://ip:port，用户名密码为admin/123456，登录即可。
 
 # Change_Log
 
