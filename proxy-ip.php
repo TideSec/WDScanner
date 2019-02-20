@@ -9,9 +9,9 @@ require(dirname(__FILE__).'/include/config.inc.php');
  */
 #echo "1111";
 $cfg['db_host'] = 'localhost';       // 数据库服务器
-$cfg['db_name'] = 'proxy';       // 数据库名
+$cfg['db_name'] = 'wdscan';       // 数据库名
 $cfg['db_user'] = 'root';       // 数据库用户名
-$cfg['db_pass'] = 'sdxc6295259';       // 数据库密码
+$cfg['db_pass'] = '123456';       // 数据库密码
 $cfg['db_charset'] = 'utf-8';      //数据库编码
 $cfg['db_pre'] = '';      //表前缀
 
