@@ -66,6 +66,14 @@ WDScanner使用了分布式web漏洞扫描技术，前端服务器和用户进�
 
 ![pic](images/pic1.jpg)
 
+因为wvs的结果是英文的，如果需要提供报告给客户的话友好度不高，所以对wvs的扫描结果、加固建议、漏洞描述等进行了汉化。
+
+对wvs的汉化主要是爬取了wvs官方的漏洞库，对较为常见的漏洞进行了人工翻译，然后使用谷歌翻译对其他漏洞进行了翻译，人工进行了核对，最终大约包含670个漏洞。
+
+汉化后的数据库可从这个表中获取，`https://github.com/TideSec/WDScanner`，在数据库文件的vul_cn表中。
+
+![pic](https://raw.githubusercontent.com/TideSec/Tide/master/images/vul_cn.jpg)
+
 扫描核心库使用了secscanner+w3af+awvs三款工具（secscanner是在建的另一套web扫描器， w3af是最好的开源扫描器），使用较多的扫描工具可能导致扫描速度有所降低，但误报率也会大大降低，扫描时也可选择最实用的扫描策略以节省时间。
 
 ![pic](images/pic2.jpg)
