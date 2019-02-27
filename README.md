@@ -33,11 +33,13 @@ tips:在2017年完成的一个小型扫描平台，集成了一些常用的功�
 
 1、解压缩wdscanner.sql.zip，在mysql中新建数据库wdscan，将其中的wdscanner.sql导入，在include目录下的config.inc.php中修改数据库密码。
 
-2、访问http://ip:port，用户名密码为admin/123456，登录即可，然后进行添加客户、添加任务、添加节点等。
+2、建议使用windows系统，将所有文件放在c:\wdscanner\www目录下，因为有些偷懒，把一些路径写的绝对路径，如果自己有代码编辑能力，强烈建议自行二次开发。
 
-3、在扫描节点机器上安装wvs，10或者10以下版本，然后运行TaskPython目录下的taskscan.py、taskspider.py、taskinfo.py即可分别进行任务扫描、网站爬取关键字分析、信息搜集等。（由于w3af配套部署比较麻烦，所以本版本未集成w3af）
+3、访问http://ip:port，用户名密码为admin/123456，登录即可，然后进行添加客户、添加任务、添加节点等。
 
-4、执行TaskPython/proxy目录下的ip_pool.py、assess_quality.py可进行代理搜集及代理评分。
+4、在扫描节点机器上安装wvs，10或者10以下版本，然后运行TaskPython目录下的taskscan.py、taskspider.py、taskinfo.py即可分别进行任务扫描、网站爬取关键字分析、信息搜集等。（由于w3af配套部署比较麻烦，所以本版本未集成w3af）
+
+5、执行TaskPython/proxy目录下的ip_pool.py、assess_quality.py可进行代理搜集及代理评分。
 
 
 # Change_Log

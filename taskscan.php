@@ -120,33 +120,5 @@ if (mysql_num_rows($results) > 0){
     }
     }
 
-//$get_hash = '181bc7b15ab682b2753afa23011e3084';
-  //          if (!empty($get_hash)){
-    //            $url = "http://127.0.0.1/file.php?p=$get_hash";
-////                echo '+++'.$url.'+++';
-////                get_xml($url);
-//               get_spider($url);
-//            }
-//function spider_read_hash(){
-//    global $db;
-//    $sql = "select * from spider where status = 'new'";
-//    $fs = $db->fetch_assoc($sql);
-////    if (mysql_num_rows($results) > 0){
-////        while ($fs = $db->fetch_array($results)){
-//            $hash = $fs['hash'];
-//            $hash = 'e27c1ac042e4aae07293edc569eaa69d';
-//            $up_arr['status'] = 'ok';
-////            echo $hash;
-////            $update = $db->update('spider',$up_arr,"status='new' and hash='{$hash}'");
-//            if (!empty($hash)){
-//                $url = "http://127.0.0.1/WDScanner/file.php?p=$hash";
-////                echo '+++'.$url.'+++';
-////                get_xml($url);
-//                get_spider($url);
-//        }
-////    }
-////}
-//}
-//spider_read_hash();
 
 ?>

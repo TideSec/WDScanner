@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Acunetix\Web Vulnerability Scanner 10\wvs_console.exe" /Scan http://zhaosheng.lyu.edu.cn --HtmlAuthUser= --HtmlAuthPass= --EnablePortScanning=True /Verbose /ExportXML /SaveLogs /SaveFolder C:\WDScanner\WWW\report\00dde594e5f4fbef569bf66947122478\
