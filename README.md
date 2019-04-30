@@ -33,7 +33,7 @@ tips:在2017年完成的一个小型扫描平台，集成了一些常用的功�
 
 1、解压缩wdscanner.sql.zip，在mysql中新建数据库wdscan，将其中的wdscanner.sql导入，在include目录下的config.inc.php中修改数据库密码。
 
-2、建议使用windows系统，将所有文件放在c:\wdscanner\www目录下，因为有些偷懒，把一些路径写的绝对路径，如果自己有代码编辑能力，强烈建议自行二次开发。
+2、建议使用windows系统，使用phpstudy进行搭建部署，将所有文件放在c:\wdscanner\www目录下。因为有些偷懒，把一些路径写的绝对路径，如果自己有代码编辑能力，强烈建议自行二次开发。
 
 3、访问http://ip:port，用户名密码为admin/123456，登录即可，然后进行添加客户、添加任务、添加节点等。
 
