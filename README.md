@@ -62,7 +62,7 @@ WDScanner平台目前实现了如下功能：分布式web漏洞扫描、客户�
 4、本机访问http://127.0.0.1 ，用户名密码为admin/123456， 登录即可，然后进行添加客户、添加任务、执行扫描等。
 
 
-## 方式2：半手工安装
+## 方式2：半集成安装
 
 1、下载软件包
 
@@ -71,7 +71,7 @@ WDScanner平台目前实现了如下功能：分布式web漏洞扫描、客户�
 ```
 这里面打包好了phpstudy环境，把它解压到C盘根目录下，目录名不要变，即C:\WDScanner目录下。
 
-2、安装python2.7、ruby、nmap、awvs10.5等。
+2、安装python2.7、ruby、nmap、awvs10.5、pip等。
 
 从安装包的wdscan-soft目录下安装相应软件，进行环境变量配置。
 
@@ -88,11 +88,11 @@ WDScanner平台目前实现了如下功能：分布式web漏洞扫描、客户�
 
 ## 方式3：手工安装
 
-1、安装python2.7、ruby、nmap、awvs10.5等。
+1、安装python2.7、ruby、nmap、awvs10.5、pip等。
 
-建议使用windows环境，因为wvs只能运行在windows环境下，wvs建议使用wvs10.5版本。python和pip安装后配置好环境变量。
+建议使用windows环境，因为wvs当时只能运行在windows环境下（现在好像有了linux版），wvs建议使用wvs10.5版本。python和pip安装后配置好环境变量。
 
-我把上面需要几个软件进行了打包，在`wdscan-soft`目录下，下载地址：
+我把上面需要几个软件进行了打包，在`wdscan-soft`目录下，逐个安装即可，下载地址：
 ```
 链接：https://pan.baidu.com/s/1ojKxbrDabLqtL4HDgjljlg  提取码：vb3h  解压密码www.tidesec.net
 ```
