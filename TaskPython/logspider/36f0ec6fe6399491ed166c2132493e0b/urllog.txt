@@ -1,0 +1,3 @@
+bad##http://testaspnet.vulnweb.com/javascript:__doPostBack('RightPanel1$Calendar','7078') --- Parent_Page:http://testaspnet.vulnweb.com/Signup.aspx+++
+bad##http://testaspnet.vulnweb.com/javascript:__doPostBack('RightPanel1$Calendar','7089') --- Parent_Page:http://testaspnet.vulnweb.com/Signup.aspx+++
+bad##http://testaspnet.vulnweb.com/ReadNews.aspx?id=2&NewsAd=ads/def.html --- Parent_Page:http://testaspnet.vulnweb.com/Default.aspx+++

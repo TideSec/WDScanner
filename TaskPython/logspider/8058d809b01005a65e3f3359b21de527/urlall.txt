@@ -1,0 +1,48 @@
+http://www.chngec.com.cn/'+_ROOT+'/process/grsf_wz_back?m=query_aqyrDetail&dbid='+rec.dbid+'
+http://www.chngec.com.cn/' + _ROOT + '/login.jsp?uname=' + staffCode + '
+http://www.chngec.com.cn/javascript:regist();
+http://www.chngec.com.cn//safe.jsp
+http://www.chngec.com.cn/
+http://www.chngec.com.cn//jsp/grkhcx.jsp
+http://www.chngec.com.cn//aboutMain.jsp
+http://www.chngec.com.cn/javascript:searchAdress();
+http://www.chngec.com.cn//e-invoice.jsp
+http://www.chngec.com.cn/index1
+http://www.chngec.com.cn//onlineStop.jsp
+http://www.chngec.com.cn//consult.jsp
+http://www.chngec.com.cn/javascript:submitUserMsg();
+http://www.chngec.com.cn//index.jsp
+http://www.chngec.com.cn//onlineRepair.jsp
+http://www.xinnet.com/domain/cert.do?method=listCert&enDomainName=chngec.com.cn
+http://www.chngec.com.cn//onlineOpen.jsp
+http://www.chngec.com.cn/javascript:void(0);
+http://www.chngec.com.cn//jsp/mingxi.jsp
+http://www.chngec.com.cn//noice.jsp
+http://www.chngec.com.cn//news.jsp
+http://www.chngec.com.cn//safe_yr.jsp
+http://www.chngec.com.cn/javascript:searchGrkh();
+http://www.chngec.com.cn/onlineOpen.jsp
+http://www.chngec.com.cn/onlineStop.jsp
+http://www.chngec.com.cn/onlineRepair.jsp
+http://www.chngec.com.cn/' + _ROOT + '/jsp/baoxiu.jsp
+http://www.chngec.com.cn/javascript:webjf();
+http://www.chngec.com.cn/' + _ROOT + '/process/grsf_wz_back?m='+flag+'&dbid=' + rec1.dbid + '
+http://www.chngec.com.cn/javascript:pay4order();
+http://www.chngec.com.cn/javascript:qxZxbtbx(\'' + type + '\');
+http://www.chngec.com.cn/'+_ROOT+'/process/grsf_wz_back?m='+flag+'&dbid='+rec.dbid+'
+http://www.chngec.com.cn/' + url + '
+http://www.chngec.com.cn/' + _ROOT + '/jsp/viewbtbx.jsp?type=' + type + '&id=' + rec.dbid + '
+http://www.chngec.com.cn/' + _ROOT + '/jsp/stop.jsp
+http://www.chngec.com.cn/' + (rec.ismain == '1' ? '
+http://www.chngec.com.cn/javascript:delorder();
+http://www.chngec.com.cn/javascript:submit2();
+http://www.chngec.com.cn/javascript:submit();
+http://www.chngec.com.cn/javascript:searchQfmingxi();
+http://www.chngec.com.cn///consult.jsp
+http://www.chngec.com.cn///index.jsp
+http://www.chngec.com.cn///e-invoice.jsp
+http://www.chngec.com.cn///aboutMain.jsp
+http://www.chngec.com.cn///safe.jsp
+http://www.chngec.com.cn///jsp/mingxi.jsp
+http://www.chngec.com.cn//contact/about_rizhao.jsp
+http://www.chngec.com.cn///noice.jsp

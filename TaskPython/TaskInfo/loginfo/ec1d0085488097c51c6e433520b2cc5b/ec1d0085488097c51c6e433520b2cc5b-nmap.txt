@@ -1,0 +1,13 @@
+# Nmap 7.60 scan initiated Wed May 15 18:09:50 2019 as: nmap.exe -oN C:\WDScanner\WWW\TaskPython\TaskInfo\loginfo\ec1d0085488097c51c6e433520b2cc5b\ec1d0085488097c51c6e433520b2cc5b-nmap.txt -sT -sV -O --script=banner --top-port 200 testhtml5.vulnweb.com
+Nmap scan report for testhtml5.vulnweb.com (176.28.50.165)
+Host is up (0.024s latency).
+rDNS record for 176.28.50.165: rs202995.rs.hosteurope.de
+All 200 scanned ports on testhtml5.vulnweb.com (176.28.50.165) are filtered
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: WAP|general purpose
+Running: Actiontec embedded, Linux 2.4.X|3.X
+OS CPE: cpe:/h:actiontec:mi424wr-gen3i cpe:/o:linux:linux_kernel cpe:/o:linux:linux_kernel:2.4.37 cpe:/o:linux:linux_kernel:3.2 cpe:/o:linux:linux_kernel:4.4
+OS details: Actiontec MI424WR-GEN3I WAP, DD-WRT v24-sp2 (Linux 2.4.37), Linux 3.2, Linux 4.4
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed May 15 18:10:03 2019 -- 1 IP address (1 host up) scanned in 12.82 seconds

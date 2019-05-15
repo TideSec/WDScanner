@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Acunetix\Web Vulnerability Scanner 10\wvs_console.exe" /Scan http://testaspnet.vulnweb.com/ --HtmlAuthUser= --HtmlAuthPass=  /Verbose /ExportXML /SaveLogs /SaveFolder C:\WDScanner\WWW\report\36f0ec6fe6399491ed166c2132493e0b\

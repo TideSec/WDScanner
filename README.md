@@ -1,14 +1,25 @@
 <div align=center><img src=images/logo.png width=30% ></div>
 
 
-# WDScanner
+# WDScanner_v1.1
 
-WDScanner平台目前实现了如下功能：分布式web漏洞扫描、客户管理、漏洞定期扫描、网站爬虫、暗链检测、坏链检测、网站指纹搜集、专项漏洞检测、代理搜集及部署、密码定向破解、社工库查询等功能。
+WDScanner平台目前实现了如下功能：分布式web漏洞扫描、客户管理、漏洞定期扫描、网站爬虫、暗链检测、坏链检测、网站指纹搜集、代理搜集及部署、密码定向破解等功能。
 
-```
-tips:在2017年完成的一个小型扫描平台，集成了一些常用的功能模块，能为客户提供一些定制化的服务，现在来看各方面都有些Low了~
 
-```
+****
+
+# 声明
+
+**本平台只是对目标系统进行信息搜集和端口开放性探测，漏洞扫描调用了wvs的扫描核心，主要是为了方便大家对目标系统进行安全检测并出具中文报告。**
+
+**对互联网任何目标的检测均需在取得授权后方可进行，如需测试本平台可用性请自行搭建靶机环境。若使用者因此做出危害网络安全的行为后果自负，与作者无关，特此声明。**
+
+
+# 更新说明
+
+**v1.0版本：** 在2019年3月开源在github上，但之前没想到大家会对这个小平台关注度这么高，所以提供的安装方法也比较简陋，导致很多朋友在安装时遇到一些问题浪费了一些时间，在此表示歉意。
+
+**v1.1版本：** 2019年5月，根据大家的反馈，重新打包了整个环境，提供了三种安装方式。由于里面有个别模块是对接的我们内网其他系统，比如社工库、poc库之类的，所以这里就不再提供。
 
 ****
 
@@ -29,17 +40,80 @@ tips:在2017年完成的一个小型扫描平台，集成了一些常用的功�
     * [报告输出](#10、报告输出)
 * [ToDo](#ToDo)
 
+
 # Install
 
-1、解压缩wdscanner.sql.zip，在mysql中新建数据库wdscan，将其中的wdscanner.sql导入，在include目录下的config.inc.php中修改数据库密码。
+## 方式1：虚拟机环境
 
-2、建议使用windows系统，使用phpstudy进行搭建部署，将所有文件放在c:\wdscanner\www目录下。因为有些偷懒，把一些路径写的绝对路径，如果自己有代码编辑能力，强烈建议自行二次开发。
+1、下载虚拟机镜像
 
-3、访问http://ip:port，用户名密码为admin/123456，登录即可，然后进行添加客户、添加任务、添加节点等。
+打包好的vmware环境，使用VMware Workstation 15 Pro制作，直接下载后解压，用vmware打开即可。
 
-4、在扫描节点机器上安装wvs，10或者10以下版本，然后运行TaskPython目录下的taskscan.py、taskspider.py、taskinfo.py即可分别进行任务扫描、网站爬取关键字分析、信息搜集等。（由于w3af配套部署比较麻烦，所以本版本未集成w3af）
+虚拟机为win7系统，用户名TideSec，密码123456。
 
-5、执行TaskPython/proxy目录下的ip_pool.py、assess_quality.py可进行代理搜集及代理评分。
+虚拟机默认是nat模式联网，理论上可自动分配ip地址可直接使用。
+
+2、运行桌面上的phpstudy，启动服务。
+
+3、运行桌面上的`Tide-proxy-bat.bat`和`Tide-WDScanner-bat.bat`两个文件。
+
+4、本机访问http://127.0.0.1，用户名密码为admin/123456， 登录即可，然后进行添加客户、添加任务、执行扫描等。
+
+
+## 方式2：半手工安装
+
+1、下载软件包
+
+```
+链接：https://pan.baidu.com/s/1ojKxbrDabLqtL4HDgjljlg  提取码：vb3h  解压密码www.tidesec.net
+```
+这里面打包好了phpstudy环境，把它解压到C盘根目录下，目录名不要变，即C:\WDScanner目录下。
+
+2、安装python2.7、ruby、nmap、awvs10.5等。
+
+从安装包的wdscan-soft目录下安装相应软件，进行环境变量配置。
+
+3、安装python依赖库
+
+因为后台脚本都是使用的python来运行，所以调用了一些第三方库，在TaskPython目录下有个requirements.txt文件
+
+在TaskPython目录下执行`pip install -r requirements.txt`即可。
+
+4、在TaskPython目录下分别执行`Tide-proxy-bat.bat`和`Tide-WDScanner-bat.bat`两个文件，则分别开启了WDScanner后台任务和代理搜集任务。
+
+5、本机访问http://127.0.0.1，用户名密码为admin/123456， 登录即可，然后进行添加客户、添加任务、执行扫描等。
+
+
+## 方式3：手工安装
+
+1、安装python2.7、ruby、nmap、awvs10.5等。
+
+建议使用windows环境，因为wvs只能运行在windows环境下，wvs建议使用wvs10.5版本。python和pip安装后配置好环境变量。
+
+我把上面需要几个软件进行了打包，在`wdscan-soft`目录下，下载地址：
+```
+链接：https://pan.baidu.com/s/1ojKxbrDabLqtL4HDgjljlg  提取码：vb3h  解压密码www.tidesec.net
+```
+
+2、安装php运行环境
+
+建议使用apache，php版本5.*不要太高，建议使用phpstudy，简单便捷，一键部署。
+
+将所有文件放在c:\wdscanner\www目录下。因为有些偷懒，把一些路径写的绝对路径，如果自己有代码编辑能力，强烈建议自行二次开发。
+
+3、安装python依赖库
+
+因为后台脚本都是使用的python来运行，所以调用了一些第三方库，在TaskPython目录下有个requirements.txt文件
+
+在TaskPython目录下执行`pip install -r requirements.txt`即可。
+
+4、解压缩wdscanner.sql.zip，在mysql中新建数据库wdscan，将其中的wdscanner.sql导入，在include目录下的config.inc.php中修改数据库密码。
+
+5、在扫描节点上运行TaskPython目录下的taskscan.py、taskspider.py、taskinfo.py即可分别进行任务扫描、网站爬取关键字分析、信息搜集等。（由于w3af配套部署比较麻烦，所以本版本未集成w3af）
+
+6、执行TaskPython/proxy目录下的ip_pool.py、assess_quality.py可进行代理搜集及代理评分。
+
+7、本机访问http://127.0.0.1，用户名密码为admin/123456， 登录即可，然后进行添加客户、添加任务、执行扫描等。
 
 
 # Change_Log
@@ -165,7 +239,9 @@ WDScanner集成了专项漏洞检测功能，可在发生高危漏洞时快速�
 
 # ToDo
 
-- 前端配色能不那么恶俗
+- 前端配色能不那么恶俗；
+- 平台是之前开发的，有些代码可能存在bug，不要部署在互联网上；
+- 部分功能因为耗时较长，已在代码中注释掉，建议有兴趣的可以进行二次开发。
 
 # 关注我们
 

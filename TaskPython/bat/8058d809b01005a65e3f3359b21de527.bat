@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Acunetix\Web Vulnerability Scanner 10\wvs_console.exe" /Scan http://www.chngec.com.cn/ --HtmlAuthUser= --HtmlAuthPass=  /Verbose /ExportXML /SaveLogs /SaveFolder C:\WDScanner\WWW\report\8058d809b01005a65e3f3359b21de527\

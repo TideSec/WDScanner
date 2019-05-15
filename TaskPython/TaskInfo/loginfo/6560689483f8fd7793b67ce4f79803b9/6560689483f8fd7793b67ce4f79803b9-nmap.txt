@@ -1,0 +1,12 @@
+# Nmap 7.60 scan initiated Tue Mar 19 16:07:43 2019 as: nmap.exe -oN C:\WDScanner\WWW\TaskPython\TaskInfo\loginfo\6560689483f8fd7793b67ce4f79803b9\6560689483f8fd7793b67ce4f79803b9-nmap.txt -sT -sV -O --script=banner --min-hostgroup 1024 --min-parallelism 1024 --top-port 200 www.lvquan.cn
+Nmap scan report for www.lvquan.cn (218.5.76.86)
+Host is up (0.00s latency).
+All 200 scanned ports on www.lvquan.cn (218.5.76.86) are filtered
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: firewall
+Running: Fortinet embedded
+OS CPE: cpe:/h:fortinet:fortigate_200b
+OS details: Fortinet FortiGate 200B firewall
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Mar 19 16:07:56 2019 -- 1 IP address (1 host up) scanned in 13.47 seconds

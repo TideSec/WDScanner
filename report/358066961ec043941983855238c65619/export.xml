@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<ScanGroup ExportedOn="19/3/2019, 15:45">
+ <Scan>
+  <Name><![CDATA[Scan Thread 1 ( http://www.whhywater.com )]]></Name>
+  <ShortName><![CDATA[Scan Thread 1]]></ShortName>
+  <StartURL><![CDATA[http://www.whhywater.com]]></StartURL>
+  <StartTime><![CDATA[19/3/2019, 15:45:32]]></StartTime>
+  <FinishTime><![CDATA[19/3/2019, 15:45:32]]></FinishTime>
+  <ScanTime><![CDATA[]]></ScanTime>
+  <Aborted><![CDATA[True]]></Aborted>
+  <Responsive><![CDATA[False]]></Responsive>
+  <Banner><![CDATA[]]></Banner>
+  <Os><![CDATA[]]></Os>
+  <WebServer><![CDATA[]]></WebServer>
+  <Technologies><![CDATA[]]></Technologies>
+  <KBase>
+  </KBase>
+  <Crawler StartUrl="http://www.whhywater.com">
+   <Cookies>
+   </Cookies>
+   <SiteFiles>
+   </SiteFiles>
+  </Crawler>
+    <ReportItems>
+		</ReportItems>
+ </Scan>
+</ScanGroup>

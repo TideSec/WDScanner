@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Acunetix\Web Vulnerability Scanner 10\wvs_console.exe" /Scan http://www.whhywater.com --HtmlAuthUser= --HtmlAuthPass=  /Verbose /ExportXML /SaveLogs /SaveFolder C:\WDScanner\WWW\report\358066961ec043941983855238c65619\

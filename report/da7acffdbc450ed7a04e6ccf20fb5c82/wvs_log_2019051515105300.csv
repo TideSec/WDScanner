@@ -1,0 +1,1617 @@
+TimeStamp, Source,LogType,Description
+05.15 15:10.53, , Initialization, Info, Command line:wvs.exe /ps 1320012305780 /console "C:\Program Files (x86)\Acunetix\Web Vulnerability Scanner 10\wvs_console.exe"  /Scan http://www.webscantest.com/ --HtmlAuthUser= --HtmlAuthPass=  /Verbose /ExportXML /SaveLogs /SaveFolder C:\WDScanner\WWW\report\da7acffdbc450ed7a04e6ccf20fb5c82\
+05.15 15:10.53, Console,Info,Test temporary directory ...
+05.15 15:10.53, Console,Info,Init WinSock ...
+05.15 15:10.53, Console,Info,Init HTTP module ...
+05.15 15:10.53, Console,Info,Clear old logs ...
+05.15 15:10.53, Console,Info,Parse branding ...
+05.15 15:10.53, App_Initialization_Shutdown,Info,Build: 20160217
+05.15 15:10.53, Console,Info,Init the browser ...
+05.15 15:10.53, Console,Info,Init database manager ...
+05.15 15:10.53, Console,Info,Init GHDB ...
+05.15 15:10.53, Console,Info,Init server info interface ...
+05.15 15:10.53, Frame_Config,Info,Parse Frame Config XML ...
+05.15 15:10.53, Console,Info,Init application detection ...
+05.15 15:10.53, Console,Info,Init Acunetix VVS ...
+05.15 15:10.53, Console,Info,Load false positives ...
+05.15 15:10.53, Console,Info,Init global messaging ...
+05.15 15:10.53, Console,Info,Done.
+05.15 15:10.53, Scan,Info,http://www.webscantest.com/ have the ip 69.164.223.208
+05.15 15:11.00, Scan,Info,Start URL : http://www.webscantest.com/
+05.15 15:11.00, Scan,Info,Scanning Mode : Heuristic
+05.15 15:11.00, Scan,Info,Server banner: Apache 2.x
+05.15 15:11.00, Site_Structure,Info,Site_File unit instances (before reinit):
+05.15 15:11.00, Site_File,Info,SF: 0; SFL: 1; SFRL: 7
+05.15 15:11.00, Crawler,Info,[TCrawler : $0BA802B0] Structure initialized
+05.15 15:11.00, Site_Structure,Info,Site_File unit instances (after reinit):
+05.15 15:11.00, Site_File,Info,SF: 1; SFL: 3; SFRL: 8
+05.15 15:11.00, Crawler,Info,[TCrawler : $0BA802B0] Crawling started, URL: http://www.webscantest.com/
+05.15 15:11.00, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_INITIALIZED -> CS_RUNNING
+05.15 15:11.00, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/
+05.15 15:11.00, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_DETECT404
+05.15 15:11.02, Crawler,Info,Auto custom 404 page detector done.
+05.15 15:11.02, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_DETECT404 -> CS_RUNNING
+05.15 15:11.02, ScriptExecThread(5),Info,Per server script "Apache_Geronimo_Default_Administrative_Credentials.script" starting
+05.15 15:11.02, ScriptExecThread(1),Info,Per server script "Apache_httpOnly_Cookie_Disclosure.script" starting
+05.15 15:11.02, ScriptExecThread(0),Info,Per server script "AJP_Audit.script" starting
+05.15 15:11.02, ScriptExecThread(8),Info,Per server script "Apache_Server_Information.script" starting
+05.15 15:11.02, ScriptExecThread(2),Info,Per server script "Apache_Running_As_Proxy.script" starting
+05.15 15:11.02, ScriptExecThread(3),Info,Per server script "Amazon_S3_Ping.script" starting
+05.15 15:11.02, ScriptExecThread(9),Info,Per server script "Apache_mod_negotiation_Filename_Bruteforcing.script" starting
+05.15 15:11.02, ScriptExecThread(6),Info,Per server script "Apache_Proxy_CONNECT_Enabled.script" starting
+05.15 15:11.02, ScriptExecThread(7),Info,Per server script "Apache_Axis2_Audit.script" starting
+05.15 15:11.02, ScriptExecThread(4),Info,Per server script "Apache_Roller_Audit.script" starting
+05.15 15:11.03, ScriptExecThread(3),Info,Per server script "Amazon_S3_Ping.script" finished in 406 ms. Request count: 1. Status: 0
+05.15 15:11.03, ScriptExecThread(3),Info,Per server script "Apache_Solr_Exposed.script" starting
+05.15 15:11.03, ScriptExecThread(2),Info,Per server script "Apache_Running_As_Proxy.script" finished in 499 ms. Request count: 1. Status: 0
+05.15 15:11.03, ScriptExecThread(2),Info,Per server script "Apache_Unfiltered_Expect_Header_Injection.script" starting
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/favicon.ico
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/robots.txt
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Processing file /
+05.15 15:11.03, Reporter,Info,[medium] HTML form without CSRF protection "/"
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/csrf
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/business
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/login.php
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/privacy.php
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/angular
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/soap/demo
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/rest/demo
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/react/index
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/cors/cors.php
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/css/style.css
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/xmldb/index.php
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/infodb/index.php
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/gonowhere
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/jsmenu/auto_osrun.php
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/jsmenu/dynalink_myfiles.php
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/jsmenu/gotoajax.php
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/jsmenu/gotoframeme.php
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/jsmenu/gotoframeme.php
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/jsmenu/dynalink_rfplaces.php
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/jsmenu/auto_shutterdb.php
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/jsmenu/auto_datastore.php
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/jsmenu/auto_crosstraining.php
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/jsmenu/cookie_set_coffeepits.php
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/soap
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/rest
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/react
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/cors
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/css
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/xmldb
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/infodb
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/jsmenu
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/images
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:11.03, ScriptExecThread(5),Info,Per server script "Apache_Geronimo_Default_Administrative_Credentials.script" finished in 531 ms. Request count: 1. Status: 0
+05.15 15:11.03, ScriptExecThread(5),Info,Per server script "Apache_XSS_via_Malformed_Method.script" starting
+05.15 15:11.03, ScriptExecThread(4),Info,Per server script "Apache_Roller_Audit.script" finished in 577 ms. Request count: 1. Status: 0
+05.15 15:11.03, ScriptExecThread(4),Info,Per server script "Arbitrary_file_existence_disclosure_in_Action_Pack.script" starting
+05.15 15:11.03, ScriptExecThread(6),Info,Per server script "Apache_Proxy_CONNECT_Enabled.script" finished in 609 ms. Request count: 1. Status: 0
+05.15 15:11.03, ScriptExecThread(6),Info,Per server script "ASP_NET_Error_Message.script" starting
+05.15 15:11.03, ScriptExecThread(2),Info,Per server script "Apache_Unfiltered_Expect_Header_Injection.script" finished in 515 ms. Request count: 1. Status: 0
+05.15 15:11.03, ScriptExecThread(2),Info,Per server script "ASP_NET_Forms_Authentication_Bypass.script" starting
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/osrun
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/cal_endar
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/sitemap.xml
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/sitemap.xml.gz
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/robots.txt
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Processing file /robots.txt
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:11.03, ScriptExecThread(5),Info,Per server script "Apache_XSS_via_Malformed_Method.script" finished in 530 ms. Request count: 1. Status: 0
+05.15 15:11.03, ScriptExecThread(5),Info,Per server script "ASP_NET_Oracle_Padding.script" starting
+05.15 15:11.03, ScriptExecThread(5),Info,Per server script "ASP_NET_Oracle_Padding.script" finished in 0 ms. Request count: 0. Status: 0
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/?redirect=pickone
+05.15 15:11.03, Crawler,Info,[TCrawler : $0BA802B0] Processing file / (variation 1)
+05.15 15:11.03, ScriptExecThread(5),Info,Per server script "Barracuda_locale_Directory_Traversal.script" starting
+05.15 15:11.03, ScriptExecThread(9),Info,Per server script "Apache_mod_negotiation_Filename_Bruteforcing.script" finished in 1077 ms. Request count: 2. Status: 0
+05.15 15:11.03, ScriptExecThread(9),Info,Per server script "Bash_RCE_Server_Audit.script" starting
+05.15 15:11.04, ScriptExecThread(6),Info,Per server script "ASP_NET_Error_Message.script" finished in 889 ms. Request count: 1. Status: 0
+05.15 15:11.04, ScriptExecThread(6),Info,Per server script "Clickjacking_X_Frame_Options.script" starting
+05.15 15:11.04, ScriptExecThread(2),Info,Per server script "ASP_NET_Forms_Authentication_Bypass.script" finished in 499 ms. Request count: 1. Status: 0
+05.15 15:11.04, ScriptExecThread(2),Info,Per server script "ClientAccessPolicy_XML.script" starting
+05.15 15:11.04, ScriptExecThread(4),Info,Per server script "Arbitrary_file_existence_disclosure_in_Action_Pack.script" finished in 999 ms. Request count: 1. Status: 0
+05.15 15:11.04, ScriptExecThread(4),Info,Per server script "ColdFusion_Audit.script" starting
+05.15 15:11.04, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/?redirect=hrs
+05.15 15:11.04, Crawler,Info,[TCrawler : $0BA802B0] Processing file / (variation 2)
+05.15 15:11.04, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/?redirect=payment_analysis
+05.15 15:11.04, Crawler,Info,[TCrawler : $0BA802B0] Processing file / (variation 3)
+05.15 15:11.04, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/csrf
+05.15 15:11.04, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/csrf/
+05.15 15:11.04, Crawler,Info,[TCrawler : $0BA802B0] Processing file /csrf
+05.15 15:11.04, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/
+05.15 15:11.04, Crawler,Info,[TCrawler : $0BA802B0] Processing file /
+05.15 15:11.04, Reporter,Info,[low] Clickjacking: X-Frame-Options header missing "Web Server"
+05.15 15:11.04, ScriptExecThread(6),Info,Per server script "Clickjacking_X_Frame_Options.script" finished in 608 ms. Request count: 1. Status: 0
+05.15 15:11.04, ScriptExecThread(6),Info,Per server script "ColdFusion_User_Agent_XSS.script" starting
+05.15 15:11.05, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/business
+05.15 15:11.05, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/business/
+05.15 15:11.05, Crawler,Info,[TCrawler : $0BA802B0] Processing file /business
+05.15 15:11.05, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/login.php
+05.15 15:11.05, Crawler,Info,[TCrawler : $0BA802B0] Processing file /login.php
+05.15 15:11.05, Reporter,Info,[info] Password type input with auto-complete enabled "/login.php"
+05.15 15:11.05, Reporter,Info,[medium] User credentials are sent in clear text "/login.php"
+05.15 15:11.05, Reporter,Info,[medium] HTML form without CSRF protection "/login.php"
+05.15 15:11.05, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/login.php
+05.15 15:11.05, ScriptExecThread(8),Info,Per server script "Apache_Server_Information.script" finished in 2605 ms. Request count: 5. Status: 0
+05.15 15:11.05, ScriptExecThread(8),Info,Per server script "ColdFusion_v8_File_Upload.script" starting
+05.15 15:11.05, ScriptExecThread(6),Info,Per server script "ColdFusion_User_Agent_XSS.script" finished in 858 ms. Request count: 1. Status: 0
+05.15 15:11.05, ScriptExecThread(6),Info,Per server script "ColdFusion_v9_Solr_Exposed.script" starting
+05.15 15:11.05, ScriptExecThread(2),Info,Per server script "ClientAccessPolicy_XML.script" finished in 1498 ms. Request count: 2. Status: 0
+05.15 15:11.05, ScriptExecThread(2),Info,Per server script "CoreDumpCheck.script" starting
+05.15 15:11.05, ScriptExecThread(7),Info,Per server script "Apache_Axis2_Audit.script" finished in 3027 ms. Request count: 5. Status: 0
+05.15 15:11.05, ScriptExecThread(7),Info,Per server script "CRLF_Injection_PerServer.script" starting
+05.15 15:11.05, ScriptExecThread(4),Info,Per server script "ColdFusion_Audit.script" finished in 1482 ms. Request count: 2. Status: 0
+05.15 15:11.05, ScriptExecThread(4),Info,Per server script "Crossdomain_XML.script" starting
+05.15 15:11.05, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/privacy.php
+05.15 15:11.05, Crawler,Info,[TCrawler : $0BA802B0] Processing file /privacy.php
+05.15 15:11.06, ScriptExecThread(8),Info,Per server script "ColdFusion_v8_File_Upload.script" finished in 843 ms. Request count: 1. Status: 0
+05.15 15:11.06, ScriptExecThread(8),Info,Per server script "Database_Backup.script" starting
+05.15 15:11.06, ScriptExecThread(2),Info,Per server script "CoreDumpCheck.script" finished in 484 ms. Request count: 1. Status: 0
+05.15 15:11.06, ScriptExecThread(2),Info,Per server script "Django_Admin_Weak_Password.script" starting
+05.15 15:11.06, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static
+05.15 15:11.06, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/
+05.15 15:11.06, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static
+05.15 15:11.06, ScriptExecThread(6),Info,Per server script "ColdFusion_v9_Solr_Exposed.script" finished in 562 ms. Request count: 1. Status: 0
+05.15 15:11.06, ScriptExecThread(6),Info,Per server script "elasticsearch_Audit.script" starting
+05.15 15:11.06, ScriptExecThread(7),Info,Per server script "CRLF_Injection_PerServer.script" finished in 514 ms. Request count: 1. Status: 0
+05.15 15:11.06, ScriptExecThread(7),Info,Per server script "elmah_Information_Disclosure.script" starting
+05.15 15:11.06, ScriptExecThread(4),Info,Per server script "Crossdomain_XML.script" finished in 515 ms. Request count: 1. Status: 0
+05.15 15:11.06, ScriptExecThread(4),Info,Per server script "Error_Page_Path_Disclosure.script" starting
+05.15 15:11.06, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/angular
+05.15 15:11.06, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/angular/
+05.15 15:11.06, Crawler,Info,[TCrawler : $0BA802B0] Processing file /angular
+05.15 15:11.06, ScriptExecThread(2),Info,Per server script "Django_Admin_Weak_Password.script" finished in 546 ms. Request count: 1. Status: 0
+05.15 15:11.06, ScriptExecThread(2),Info,Per server script "Fantastico_Filelist.script" starting
+05.15 15:11.07, Reporter,Info,[info] Error page web server version disclosure "Web Server"
+05.15 15:11.07, ScriptExecThread(2),Info,Per server script "Fantastico_Filelist.script" finished in 530 ms. Request count: 1. Status: 0
+05.15 15:11.07, ScriptExecThread(2),Info,Per server script "Flask_Debug_Mode.script" starting
+05.15 15:11.07, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/soap/demo
+05.15 15:11.07, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/soap/demo/
+05.15 15:11.07, Crawler,Info,[TCrawler : $0BA802B0] Processing file /soap/demo
+05.15 15:11.07, ScriptExecThread(7),Info,Per server script "elmah_Information_Disclosure.script" finished in 1436 ms. Request count: 2. Status: 0
+05.15 15:11.07, ScriptExecThread(7),Info,Per server script "Frontpage_authors_pwd.script" starting
+05.15 15:11.07, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/rest/demo
+05.15 15:11.07, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/rest/demo/
+05.15 15:11.07, Crawler,Info,[TCrawler : $0BA802B0] Processing file /rest/demo
+05.15 15:11.07, ScriptExecThread(2),Info,Per server script "Flask_Debug_Mode.script" finished in 530 ms. Request count: 1. Status: 0
+05.15 15:11.07, ScriptExecThread(2),Info,Per server script "Frontpage_Extensions_Enabled.script" starting
+05.15 15:11.08, ScriptExecThread(7),Info,Per server script "Frontpage_authors_pwd.script" finished in 530 ms. Request count: 1. Status: 0
+05.15 15:11.08, ScriptExecThread(7),Info,Per server script "Frontpage_Information.script" starting
+05.15 15:11.08, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/react/index
+05.15 15:11.08, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/react/index/
+05.15 15:11.08, Crawler,Info,[TCrawler : $0BA802B0] Processing file /react/index
+05.15 15:11.08, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/cors/cors.php
+05.15 15:11.08, Crawler,Info,[TCrawler : $0BA802B0] Processing file /cors/cors.php
+05.15 15:11.08, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/cors/cors_noJS.php
+05.15 15:11.08, ScriptExecThread(7),Info,Per server script "Frontpage_Information.script" finished in 608 ms. Request count: 1. Status: 0
+05.15 15:11.08, ScriptExecThread(7),Info,Per server script "GlassFish_41_Directory_Traversal.script" starting
+05.15 15:11.09, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/css/style.css
+05.15 15:11.09, Crawler,Info,[TCrawler : $0BA802B0] Processing file /css/style.css
+05.15 15:11.09, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/css/style-forms.css
+05.15 15:11.09, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/css/style-buttons.css
+05.15 15:11.09, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/css/img
+05.15 15:11.09, ScriptExecThread(2),Info,Per server script "Frontpage_Extensions_Enabled.script" finished in 1514 ms. Request count: 2. Status: 0
+05.15 15:11.09, ScriptExecThread(2),Info,Per server script "GlassFish_Audit.script" starting
+05.15 15:11.09, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/infodb/index.php
+05.15 15:11.09, Crawler,Info,[TCrawler : $0BA802B0] Processing file /infodb/index.php
+05.15 15:11.09, Reporter,Info,[medium] HTML form without CSRF protection "/infodb/index.php"
+05.15 15:11.09, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/infodb/search_by_name.php
+05.15 15:11.09, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/infodb/search_by_name.php
+05.15 15:11.09, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/infodb/readme.php
+05.15 15:11.09, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/infodb/comment.php
+05.15 15:11.09, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/infodb/readmetop.php
+05.15 15:11.09, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/xmldb/index.php
+05.15 15:11.09, Crawler,Info,[TCrawler : $0BA802B0] Processing file /xmldb/index.php
+05.15 15:11.09, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/xmldb/search_by_name.php
+05.15 15:11.09, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/xmldb/search_by_name.php
+05.15 15:11.09, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/xmldb/search_by_name.php
+05.15 15:11.10, ScriptExecThread(5),Info,Per server script "Barracuda_locale_Directory_Traversal.script" finished in 6256 ms. Request count: 1. Status: 0
+05.15 15:11.10, ScriptExecThread(5),Info,Per server script "Hadoop_Cluster_Web_Interface.script" starting
+05.15 15:11.10, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/gonowhere
+05.15 15:11.10, Reporter,Info,[info] Broken links "/gonowhere"
+05.15 15:11.10, Crawler,Info,[TCrawler : $0BA802B0] Processing file /gonowhere
+05.15 15:11.10, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:11.10, ScriptExecThread(7),Info,Per server script "GlassFish_41_Directory_Traversal.script" finished in 1404 ms. Request count: 2. Status: 0
+05.15 15:11.10, ScriptExecThread(7),Info,Per server script "Heartbleed_Bug.script" starting
+05.15 15:11.10, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/jsmenu/auto_osrun.php
+05.15 15:11.10, Crawler,Info,[TCrawler : $0BA802B0] Processing file /jsmenu/auto_osrun.php
+05.15 15:11.10, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/jsmenu/auto_osrun_inc.js
+05.15 15:11.10, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/jsmenu/dynalink_myfiles.php
+05.15 15:11.10, Crawler,Info,[TCrawler : $0BA802B0] Processing file /jsmenu/dynalink_myfiles.php
+05.15 15:11.11, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/jsmenu/gotoframeme.php
+05.15 15:11.11, Crawler,Info,[TCrawler : $0BA802B0] Processing file /jsmenu/gotoframeme.php
+05.15 15:11.11, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:11.11, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/jsmenu/gotoajax.php
+05.15 15:11.11, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/bjax
+05.15 15:11.11, Crawler,Info,[TCrawler : $0BA802B0] Processing file /jsmenu/gotoajax.php
+05.15 15:11.11, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:11.11, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/jsmenu/gotoframeme.php?foo%3D0%20bar%3D%20url%3Dhttps://auth.ntobjectives.com%20dr%3Dsomedir
+05.15 15:11.11, Crawler,Info,[TCrawler : $0BA802B0] Processing file /jsmenu/gotoframeme.php (variation 1)
+05.15 15:11.11, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:11.12, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/jsmenu/dynalink_rfplaces.php
+05.15 15:11.12, Crawler,Info,[TCrawler : $0BA802B0] Processing file /jsmenu/dynalink_rfplaces.php
+05.15 15:11.12, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/jsmenu/auto_shutterdb.php
+05.15 15:11.12, Crawler,Info,[TCrawler : $0BA802B0] Processing file /jsmenu/auto_shutterdb.php
+05.15 15:11.12, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/shutterform
+05.15 15:11.12, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/shutterform/
+05.15 15:11.12, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/jsmenu/auto_datastore.php
+05.15 15:11.12, Crawler,Info,[TCrawler : $0BA802B0] Processing file /jsmenu/auto_datastore.php
+05.15 15:11.12, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/data
+05.15 15:11.12, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/jsmenu/auto_crosstraining.php
+05.15 15:11.12, Crawler,Info,[TCrawler : $0BA802B0] Processing file /jsmenu/auto_crosstraining.php
+05.15 15:11.13, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/jsmenu/cookie_set_coffeepits.php
+05.15 15:11.13, Crawler,Info,[TCrawler : $0BA802B0] Processing file /jsmenu/cookie_set_coffeepits.php
+05.15 15:11.13, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/soap
+05.15 15:11.13, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/soap/
+05.15 15:11.13, Crawler,Info,[TCrawler : $0BA802B0] Processing file /soap
+05.15 15:11.13, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/rest
+05.15 15:11.13, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/rest/
+05.15 15:11.13, Crawler,Info,[TCrawler : $0BA802B0] Processing file /rest
+05.15 15:11.14, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/react
+05.15 15:11.14, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/react/
+05.15 15:11.14, Crawler,Info,[TCrawler : $0BA802B0] Processing file /react
+05.15 15:11.14, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/cors
+05.15 15:11.14, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/cors/
+05.15 15:11.14, Crawler,Info,[TCrawler : $0BA802B0] Processing file /cors
+05.15 15:11.14, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/css
+05.15 15:11.14, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/css/
+05.15 15:11.14, Crawler,Info,[TCrawler : $0BA802B0] Processing file /css
+05.15 15:11.15, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/xmldb
+05.15 15:11.15, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/xmldb/
+05.15 15:11.15, Crawler,Info,[TCrawler : $0BA802B0] Processing file /xmldb
+05.15 15:11.15, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/infodb
+05.15 15:11.15, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/infodb/
+05.15 15:11.15, Crawler,Info,[TCrawler : $0BA802B0] Processing file /infodb
+05.15 15:11.15, ScriptExecThread(9),Info,Per server script "Bash_RCE_Server_Audit.script" finished in 11606 ms. Request count: 18. Status: 0
+05.15 15:11.15, ScriptExecThread(9),Info,Per server script "Horde_IMP_Webmail_Exploit.script" starting
+05.15 15:11.15, ScriptExecThread(2),Info,Per server script "GlassFish_Audit.script" finished in 6240 ms. Request count: 1. Status: 0
+05.15 15:11.15, ScriptExecThread(2),Info,Per server script "IBM_WebSphere_Audit.script" starting
+05.15 15:11.15, ScriptExecThread(7),Info,Per server script "Heartbleed_Bug.script" finished in 5492 ms. Request count: 0. Status: 0
+05.15 15:11.15, ScriptExecThread(7),Info,Per server script "IIS_Global_Asa.script" starting
+05.15 15:11.15, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/jsmenu
+05.15 15:11.15, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/jsmenu/
+05.15 15:11.15, Crawler,Info,[TCrawler : $0BA802B0] Processing file /jsmenu
+05.15 15:11.15, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/images
+05.15 15:11.15, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/images/
+05.15 15:11.15, Crawler,Info,[TCrawler : $0BA802B0] Processing file /images
+05.15 15:11.16, ScriptExecThread(9),Info,Per server script "Horde_IMP_Webmail_Exploit.script" finished in 1170 ms. Request count: 2. Status: 0
+05.15 15:11.16, ScriptExecThread(9),Info,Per server script "IIS_Internal_IP_Address.script" starting
+05.15 15:11.16, ScriptExecThread(7),Info,Per server script "IIS_Global_Asa.script" finished in 1029 ms. Request count: 2. Status: 0
+05.15 15:11.16, ScriptExecThread(7),Info,Per server script "IIS_service_cnf.script" starting
+05.15 15:11.16, ScriptExecThread(4),Info,Per server script "Error_Page_Path_Disclosure.script" finished in 10545 ms. Request count: 16. Status: 0
+05.15 15:11.16, ScriptExecThread(4),Info,Per server script "IIS_Unicode_Directory_Traversal.script" starting
+05.15 15:11.16, ScriptExecThread(4),Info,Per server script "IIS_Unicode_Directory_Traversal.script" finished in 0 ms. Request count: 0. Status: 0
+05.15 15:11.16, ScriptExecThread(4),Info,Per server script "IIS_v5_NTML_Basic_Auth_Bypass.script" starting
+05.15 15:11.17, ScriptExecThread(9),Info,Per server script "IIS_Internal_IP_Address.script" finished in 484 ms. Request count: 1. Status: 0
+05.15 15:11.17, ScriptExecThread(9),Info,Per server script "Ioncube_Loader_Wizard.script" starting
+05.15 15:11.17, ScriptExecThread(7),Info,Per server script "IIS_service_cnf.script" finished in 484 ms. Request count: 1. Status: 0
+05.15 15:11.17, ScriptExecThread(7),Info,Per server script "Java_Application_Servers_Fuzz.script" starting
+05.15 15:11.17, ScriptExecThread(7),Info,Per server script "Java_Application_Servers_Fuzz.script" finished in 0 ms. Request count: 0. Status: 0
+05.15 15:11.17, ScriptExecThread(7),Info,Per server script "Java_Debug_Wire_Protocol_Audit.script" starting
+05.15 15:11.17, ScriptExecThread(4),Info,Per server script "IIS_v5_NTML_Basic_Auth_Bypass.script" finished in 500 ms. Request count: 1. Status: 0
+05.15 15:11.17, ScriptExecThread(4),Info,Per server script "JBoss_Audit.script" starting
+05.15 15:11.18, ScriptExecThread(9),Info,Per server script "Ioncube_Loader_Wizard.script" finished in 1513 ms. Request count: 3. Status: 0
+05.15 15:11.18, ScriptExecThread(9),Info,Per server script "JBoss_Status_Servlet_Information_Leak.script" starting
+05.15 15:11.20, ScriptExecThread(9),Info,Per server script "JBoss_Status_Servlet_Information_Leak.script" finished in 1451 ms. Request count: 3. Status: 0
+05.15 15:11.20, ScriptExecThread(9),Info,Per server script "JBoss_Web_Service_Console.script" starting
+05.15 15:11.20, ScriptExecThread(9),Info,Per server script "JBoss_Web_Service_Console.script" finished in 530 ms. Request count: 1. Status: 0
+05.15 15:11.20, ScriptExecThread(9),Info,Per server script "Jenkins_Audit.script" starting
+05.15 15:11.21, ScriptExecThread(4),Info,Per server script "JBoss_Audit.script" finished in 4056 ms. Request count: 8. Status: 0
+05.15 15:11.21, ScriptExecThread(4),Info,Per server script "Jetty_Audit.script" starting
+05.15 15:11.22, ScriptExecThread(4),Info,Per server script "Jetty_Audit.script" finished in 546 ms. Request count: 1. Status: 0
+05.15 15:11.22, ScriptExecThread(4),Info,Per server script "JMX_RMI_service.script" starting
+05.15 15:11.22, ScriptExecThread(2),Info,Per server script "IBM_WebSphere_Audit.script" finished in 6489 ms. Request count: 1. Status: 0
+05.15 15:11.22, ScriptExecThread(2),Info,Per server script "lighttpd_v1434_Sql_Injection.script" starting
+05.15 15:11.22, ScriptExecThread(2),Info,Per server script "lighttpd_v1434_Sql_Injection.script" finished in 16 ms. Request count: 0. Status: 0
+05.15 15:11.22, ScriptExecThread(2),Info,Per server script "Lotus_Domino_crlf_xss.script" starting
+05.15 15:11.22, ScriptExecThread(2),Info,Per server script "Lotus_Domino_crlf_xss.script" finished in 515 ms. Request count: 1. Status: 0
+05.15 15:11.22, ScriptExecThread(2),Info,Per server script "Misfortune_Cookie.script" starting
+05.15 15:11.24, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/favicon.ico
+05.15 15:11.24, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:11.24, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:11.25, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/osrun
+05.15 15:11.25, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/osrun/
+05.15 15:11.25, Crawler,Info,[TCrawler : $0BA802B0] Processing file /osrun
+05.15 15:11.25, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/cal_endar
+05.15 15:11.25, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/cal_endar/
+05.15 15:11.25, Crawler,Info,[TCrawler : $0BA802B0] Processing file /cal_endar
+05.15 15:11.25, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags
+05.15 15:11.25, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/
+05.15 15:11.25, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags
+05.15 15:11.25, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/csrf/
+05.15 15:11.25, Crawler,Info,[TCrawler : $0BA802B0] Processing file /csrf
+05.15 15:11.25, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/csrf/token.php
+05.15 15:11.25, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/csrf/csrfpost.php
+05.15 15:11.25, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/csrf/session.php
+05.15 15:11.25, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/csrf/redirect.php
+05.15 15:11.25, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/sitemap.xml.gz
+05.15 15:11.25, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/sitemap.xml
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/business/
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Processing file /business
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/business/access.php
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/business/access.php
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/business/account.php
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/business/account.php
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/business/quantity.php
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/business/quantity.php
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/business/quantity.php
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/business/privilege.php
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/business/privilege.php
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product7.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product6.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product9.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product8.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product5.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product2.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product1.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product4.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product3.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product37.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product36.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product38.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product40.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product39.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product32.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product31.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product33.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product35.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product34.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product47.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product46.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product48.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product50.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product49.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product42.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product41.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product43.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product45.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product44.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product30.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product15.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product14.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product16.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product18.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product17.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product10.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product11.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product13.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product12.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product19.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product26.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product25.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product27.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product29.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product28.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product21.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product20.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product22.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product24.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/static/product23.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/login.php
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Processing file /login.php (variation 1)
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/angular/
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Processing file /angular
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/angular/angular1/index.html
+05.15 15:11.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/angular/angular1
+05.15 15:11.30, ScriptExecThread(9),Info,Per server script "Jenkins_Audit.script" finished in 10000 ms. Request count: 1. Status: 0
+05.15 15:11.30, ScriptExecThread(9),Info,Per server script "MongoDB_Audit.script" starting
+05.15 15:11.32, ScriptExecThread(2),Info,Per server script "Misfortune_Cookie.script" finished in 10031 ms. Request count: 1. Status: 0
+05.15 15:11.32, ScriptExecThread(2),Info,Per server script "Movable_Type_4_RCE.script" starting
+05.15 15:11.32, ScriptExecThread(5),Info,Per server script "Hadoop_Cluster_Web_Interface.script" finished in 22651 ms. Request count: 3. Status: 0
+05.15 15:11.32, ScriptExecThread(5),Info,Per server script "ms12-050.script" starting
+05.15 15:11.33, ScriptExecThread(7),Info,Per server script "Java_Debug_Wire_Protocol_Audit.script" finished in 16458 ms. Request count: 0. Status: 0
+05.15 15:11.33, ScriptExecThread(7),Info,Per server script "Nginx_PHP_FastCGI_Code_Execution_File_Upload.script" starting
+05.15 15:11.33, ScriptExecThread(7),Info,Per server script "Nginx_PHP_FastCGI_Code_Execution_File_Upload.script" finished in 16 ms. Request count: 0. Status: 0
+05.15 15:11.33, ScriptExecThread(7),Info,Per server script "Open_Redirect.script" starting
+05.15 15:11.42, ScriptExecThread(9),Info,Per server script "MongoDB_Audit.script" finished in 12059 ms. Request count: 1. Status: 0
+05.15 15:11.42, ScriptExecThread(9),Info,Per server script "Options_Server_Method.script" starting
+05.15 15:11.55, ScriptExecThread(6),Info,Per server script "elasticsearch_Audit.script" finished in 49109 ms. Request count: 1. Status: 0
+05.15 15:11.55, ScriptExecThread(6),Info,Per server script "Oracle_Application_Logs.script" starting
+05.15 15:12.08, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/rest/demo/
+05.15 15:12.08, Crawler,Info,[TCrawler : $0BA802B0] Processing file /rest/demo
+05.15 15:12.08, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/soap/demo/
+05.15 15:12.08, Crawler,Info,[TCrawler : $0BA802B0] Processing file /soap/demo
+05.15 15:12.08, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/soap/demo/jquery.xml2json.js
+05.15 15:12.08, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/soap/demo/jquery.soap.js
+05.15 15:12.09, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/react/index/
+05.15 15:12.09, Crawler,Info,[TCrawler : $0BA802B0] Processing file /react/index
+05.15 15:12.09, ScriptExecThread(5),Info,Per server script "ms12-050.script" finished in 36613 ms. Request count: 1. Status: 0
+05.15 15:12.09, ScriptExecThread(5),Info,Per server script "Oracle_Reports_Audit.script" starting
+05.15 15:12.09, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/css/style-buttons.css
+05.15 15:12.09, Crawler,Info,[TCrawler : $0BA802B0] Processing file /css/style-buttons.css
+05.15 15:12.09, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:12.09, ScriptExecThread(5),Info,Per server script "Oracle_Reports_Audit.script" finished in 499 ms. Request count: 1. Status: 0
+05.15 15:12.09, ScriptExecThread(5),Info,Per server script "Parallels_Plesk_Audit.script" starting
+05.15 15:12.10, ScriptExecThread(6),Info,Per server script "Oracle_Application_Logs.script" finished in 14960 ms. Request count: 2. Status: 0
+05.15 15:12.10, ScriptExecThread(6),Info,Per server script "phpMoAdmin_Remote_Code_Execution.script" starting
+05.15 15:12.10, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/css/img
+05.15 15:12.10, Crawler,Info,[TCrawler : $0BA802B0] Processing file /css/img
+05.15 15:12.10, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:12.10, ScriptExecThread(5),Info,Per server script "Parallels_Plesk_Audit.script" finished in 998 ms. Request count: 1. Status: 0
+05.15 15:12.10, ScriptExecThread(5),Info,Per server script "PHP_CGI_RCE_Force_Redirect.script" starting
+05.15 15:12.11, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/infodb/search_by_name.php
+05.15 15:12.11, Crawler,Info,[TCrawler : $0BA802B0] Processing file /infodb/search_by_name.php
+05.15 15:12.13, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/cors/cors_noJS.php
+05.15 15:12.13, Crawler,Info,[TCrawler : $0BA802B0] Processing file /cors/cors_noJS.php
+05.15 15:12.13, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:12.14, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/infodb/readme.php
+05.15 15:12.14, Crawler,Info,[TCrawler : $0BA802B0] Processing file /infodb/readme.php
+05.15 15:12.16, ScriptExecThread(2),Info,Per server script "Movable_Type_4_RCE.script" finished in 43555 ms. Request count: 2. Status: 0
+05.15 15:12.16, ScriptExecThread(2),Info,Per server script "PHP_Hash_Collision_Denial_Of_Service.script" starting
+05.15 15:12.16, ScriptExecThread(2),Info,Per server script "PHP_Hash_Collision_Denial_Of_Service.script" finished in 0 ms. Request count: 0. Status: 0
+05.15 15:12.16, ScriptExecThread(2),Info,Per server script "Plesk_Agent_SQL_Injection.script" starting
+05.15 15:12.18, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/infodb/comment.php
+05.15 15:12.18, Crawler,Info,[TCrawler : $0BA802B0] Processing file /infodb/comment.php
+05.15 15:12.19, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/infodb/readmetop.php
+05.15 15:12.19, Crawler,Info,[TCrawler : $0BA802B0] Processing file /infodb/readmetop.php
+05.15 15:12.19, ScriptExecThread(4),Info,Per server script "JMX_RMI_service.script" finished in 57751 ms. Request count: 0. Status: 0
+05.15 15:12.19, ScriptExecThread(4),Info,Per server script "Plesk_SSO_XXE.script" starting
+05.15 15:12.20, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/xmldb/search_by_name.php
+05.15 15:12.20, Crawler,Info,[TCrawler : $0BA802B0] Processing file /xmldb/search_by_name.php
+05.15 15:12.20, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/infodb/search_by_name.php
+05.15 15:12.20, Crawler,Info,[TCrawler : $0BA802B0] Processing file /infodb/search_by_name.php (variation 1)
+05.15 15:12.21, ScriptExecThread(5),Info,Per server script "PHP_CGI_RCE_Force_Redirect.script" finished in 10468 ms. Request count: 9. Status: 0
+05.15 15:12.21, ScriptExecThread(5),Info,Per server script "Plone&Zope_Remote_Command_Execution.script" starting
+05.15 15:12.21, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/xmldb/search_by_name.php?index=Lunch
+05.15 15:12.21, Crawler,Info,[TCrawler : $0BA802B0] Processing file /xmldb/search_by_name.php (variation 1)
+05.15 15:12.21, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/xmldb/search_by_name.php
+05.15 15:12.22, ScriptExecThread(6),Info,Per server script "phpMoAdmin_Remote_Code_Execution.script" finished in 11623 ms. Request count: 3. Status: 0
+05.15 15:12.22, ScriptExecThread(6),Info,Per server script "Pyramid_Debug_Mode.script" starting
+05.15 15:12.22, ScriptExecThread(5),Info,Per server script "Plone&Zope_Remote_Command_Execution.script" finished in 952 ms. Request count: 1. Status: 0
+05.15 15:12.22, ScriptExecThread(5),Info,Per server script "Railo_Audit.script" starting
+05.15 15:12.22, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/xmldb/search_by_name.php?index=Waffles
+05.15 15:12.22, Crawler,Info,[TCrawler : $0BA802B0] Processing file /xmldb/search_by_name.php (variation 2)
+05.15 15:12.22, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/xmldb/search_by_name.php
+05.15 15:12.22, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/xmldb/search_by_name.php
+05.15 15:12.22, ScriptExecThread(6),Info,Per server script "Pyramid_Debug_Mode.script" finished in 780 ms. Request count: 1. Status: 0
+05.15 15:12.22, ScriptExecThread(6),Info,Per server script "Rails_XML_YAML.script" starting
+05.15 15:12.22, ScriptExecThread(6),Info,Per server script "Rails_XML_YAML.script" finished in 0 ms. Request count: 0. Status: 0
+05.15 15:12.22, ScriptExecThread(6),Info,Per server script "Registration_Page.script" starting
+05.15 15:12.23, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/jsmenu/auto_osrun_inc.js
+05.15 15:12.23, Crawler,Info,[TCrawler : $0BA802B0] Processing file /jsmenu/auto_osrun_inc.js
+05.15 15:12.23, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:12.24, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/bjax
+05.15 15:12.24, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/bjax/
+05.15 15:12.24, Crawler,Info,[TCrawler : $0BA802B0] Processing file /bjax
+05.15 15:12.25, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/shutterform
+05.15 15:12.25, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/shutterform/
+05.15 15:12.25, Crawler,Info,[TCrawler : $0BA802B0] Processing file /shutterform
+05.15 15:12.26, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/shutterform/
+05.15 15:12.26, Crawler,Info,[TCrawler : $0BA802B0] Processing file /shutterform
+05.15 15:12.26, Reporter,Info,[medium] HTML form without CSRF protection "/shutterform"
+05.15 15:12.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/shutterform/index.php
+05.15 15:12.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/shutterform/index.php
+05.15 15:12.26, ScriptExecThread(2),Info,Per server script "Plesk_Agent_SQL_Injection.script" finished in 10468 ms. Request count: 1. Status: 0
+05.15 15:12.26, ScriptExecThread(2),Info,Per server script "Reverse_Proxy_Bypass.script" starting
+05.15 15:12.27, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/data
+05.15 15:12.30, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/css/style-forms.css
+05.15 15:12.30, Crawler,Info,[TCrawler : $0BA802B0] Processing file /css/style-forms.css
+05.15 15:12.30, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:12.32, ScriptExecThread(5),Info,Per server script "Railo_Audit.script" finished in 10171 ms. Request count: 1. Status: 0
+05.15 15:12.32, ScriptExecThread(5),Info,Per server script "RubyOnRails_Database_File.script" starting
+05.15 15:12.40, ScriptExecThread(4),Info,Per server script "Plesk_SSO_XXE.script" finished in 20951 ms. Request count: 2. Status: 0
+05.15 15:12.40, ScriptExecThread(4),Info,Per server script "Same_Site_Scripting.script" starting
+05.15 15:12.40, ScriptExecThread(7),Info,Per server script "Open_Redirect.script" finished in 67096 ms. Request count: 3. Status: 0
+05.15 15:12.40, ScriptExecThread(7),Info,Per server script "Snoop_Servlet.script" starting
+05.15 15:12.41, ScriptExecThread(4),Info,Per server script "Same_Site_Scripting.script" finished in 702 ms. Request count: 0. Status: 0
+05.15 15:12.41, ScriptExecThread(4),Info,Per server script "Spring_Boot_Actuator.script" starting
+05.15 15:12.42, ScriptExecThread(4),Info,Per server script "Spring_Boot_Actuator.script" finished in 780 ms. Request count: 1. Status: 0
+05.15 15:12.42, ScriptExecThread(4),Info,Per server script "SSL_Audit.script" starting
+05.15 15:12.42, ScriptExecThread(4),Info,Per server script "SSL_Audit.script" finished in 0 ms. Request count: 0. Status: 0
+05.15 15:12.42, ScriptExecThread(4),Info,Per server script "Subdomain_Takeover.script" starting
+05.15 15:12.43, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/react/
+05.15 15:12.43, Crawler,Info,[TCrawler : $0BA802B0] Processing file /react
+05.15 15:12.43, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/react/react.js
+05.15 15:12.43, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/react/app.js
+05.15 15:12.43, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/react/js7.js
+05.15 15:12.45, ScriptExecThread(1),Info,Per server script "Apache_httpOnly_Cookie_Disclosure.script" finished in 102555 ms. Request count: 1. Status: 0
+05.15 15:12.45, ScriptExecThread(1),Info,Per server script "Tomcat_Audit.script" starting
+05.15 15:13.14, ScriptExecThread(0),Info,Per server script "AJP_Audit.script" finished in 132055 ms. Request count: 0. Status: 0
+05.15 15:13.14, ScriptExecThread(0),Info,Per server script "Tomcat_Default_Credentials.script" starting
+05.15 15:13.14, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/rest/
+05.15 15:13.14, Crawler,Info,[TCrawler : $0BA802B0] Processing file /rest
+05.15 15:13.15, ScriptExecThread(7),Info,Per server script "Snoop_Servlet.script" finished in 34959 ms. Request count: 6. Status: 0
+05.15 15:13.15, ScriptExecThread(7),Info,Per server script "Tomcat_Examples.script" starting
+05.15 15:13.16, ScriptExecThread(0),Info,Per server script "Tomcat_Default_Credentials.script" finished in 1310 ms. Request count: 2. Status: 0
+05.15 15:13.16, ScriptExecThread(0),Info,Per server script "Tomcat_Hello_JSP_XSS.script" starting
+05.15 15:13.16, ScriptExecThread(0),Info,Per server script "Tomcat_Hello_JSP_XSS.script" finished in 578 ms. Request count: 1. Status: 0
+05.15 15:13.16, ScriptExecThread(0),Info,Per server script "Tomcat_Status_Page.script" starting
+05.15 15:13.16, ScriptExecThread(2),Info,Per server script "Reverse_Proxy_Bypass.script" finished in 50201 ms. Request count: 4. Status: 0
+05.15 15:13.16, ScriptExecThread(2),Info,Per server script "Tornado_Debug_Mode.script" starting
+05.15 15:13.17, ScriptExecThread(0),Info,Per server script "Tomcat_Status_Page.script" finished in 608 ms. Request count: 1. Status: 0
+05.15 15:13.17, ScriptExecThread(0),Info,Per server script "Track_Trace_Server_Methods.script" starting
+05.15 15:13.17, ScriptExecThread(2),Info,Per server script "Tornado_Debug_Mode.script" finished in 671 ms. Request count: 1. Status: 0
+05.15 15:13.17, ScriptExecThread(2),Info,Per server script "Unprotected_phpMyAdmin_Interface.script" starting
+05.15 15:13.18, ScriptExecThread(7),Info,Per server script "Tomcat_Examples.script" finished in 2465 ms. Request count: 4. Status: 0
+05.15 15:13.18, ScriptExecThread(7),Info,Per server script "Version_Check.script" starting
+05.15 15:13.18, Reporter,Info,[medium] Multiple vulnerabilities fixed in PHP versions 5.5.12 and 5.4.28 "Web Server"
+05.15 15:13.18, ScriptExecThread(7),Info,Per server script "Version_Check.script" finished in 16 ms. Request count: 0. Status: 0
+05.15 15:13.18, ScriptExecThread(7),Info,Per server script "VirtualHost_Audit.script" starting
+05.15 15:13.18, ScriptExecThread(0),Info,Per server script "Track_Trace_Server_Methods.script" finished in 1232 ms. Request count: 2. Status: 0
+05.15 15:13.18, ScriptExecThread(0),Info,Per server script "VMWare_Directory_Traversal.script" starting
+05.15 15:13.19, ScriptExecThread(0),Info,Per server script "VMWare_Directory_Traversal.script" finished in 547 ms. Request count: 1. Status: 0
+05.15 15:13.19, ScriptExecThread(0),Info,Per server script "WAF_Detection.script" starting
+05.15 15:13.19, ScriptExecThread(9),Info,Per server script "Options_Server_Method.script" finished in 96783 ms. Request count: 1. Status: 0
+05.15 15:13.19, ScriptExecThread(9),Info,Per server script "WebInfWebXML_Audit.script" starting
+05.15 15:13.33, ScriptExecThread(3),Info,Per server script "Apache_Solr_Exposed.script" finished in 150198 ms. Request count: 3. Status: 0
+05.15 15:13.33, ScriptExecThread(3),Info,Per server script "WebLogic_Audit.script" starting
+05.15 15:13.51, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/soap/
+05.15 15:13.51, Crawler,Warning,Request: http://www.webscantest.com/soap/
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:14.14, ScriptExecThread(5),Info,Per server script "RubyOnRails_Database_File.script" finished in 102446 ms. Request count: 15. Status: 0
+05.15 15:14.14, ScriptExecThread(5),Info,Per server script "WEBrick_Directory_Traversal.script" starting
+05.15 15:14.15, ScriptExecThread(5),Info,Per server script "WEBrick_Directory_Traversal.script" finished in 998 ms. Request count: 1. Status: 0
+05.15 15:14.15, ScriptExecThread(5),Info,Per server script "Web_Server_Default_Welcome_Page.script" starting
+05.15 15:14.22, ScriptExecThread(1),Info,Per server script "Tomcat_Audit.script" finished in 97345 ms. Request count: 2. Status: 0
+05.15 15:14.22, ScriptExecThread(1),Info,Per server script "Web_Statistics.script" starting
+05.15 15:14.23, ScriptExecThread(5),Info,Per server script "Web_Server_Default_Welcome_Page.script" finished in 7270 ms. Request count: 1. Status: 0
+05.15 15:14.23, ScriptExecThread(5),Info,Per server script "XML_External_Entity_Injection.script" starting
+05.15 15:14.23, ScriptExecThread(5),Info,Per server script "XML_External_Entity_Injection.script" finished in 655 ms. Request count: 1. Status: 0
+05.15 15:14.23, ScriptExecThread(5),Info,Per server script "Zend_Framework_Config_File.script" starting
+05.15 15:14.24, ScriptExecThread(5),Info,Per server script "Zend_Framework_Config_File.script" finished in 827 ms. Request count: 1. Status: 0
+05.15 15:14.25, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/cors/
+05.15 15:14.25, Crawler,Info,[TCrawler : $0BA802B0] Processing file /cors
+05.15 15:14.25, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/cors/cors_null.php
+05.15 15:14.25, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/cors/cors_CSRF.php
+05.15 15:14.25, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/cors/cors_public.php
+05.15 15:14.25, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/cors/cors_private.php
+05.15 15:14.25, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/cors/cors_volatile.php
+05.15 15:14.25, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/cors/cors_invalid.php
+05.15 15:14.25, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/cors/cors_allow_all.php
+05.15 15:14.25, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/cors/cors_notAuthorized.php
+05.15 15:14.25, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/icons
+05.15 15:14.25, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/css/
+05.15 15:14.25, Crawler,Info,[TCrawler : $0BA802B0] Processing file /css
+05.15 15:14.26, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/xmldb/
+05.15 15:14.26, Crawler,Info,[TCrawler : $0BA802B0] Processing file /xmldb
+05.15 15:14.26, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/infodb/
+05.15 15:14.26, Crawler,Info,[TCrawler : $0BA802B0] Processing file /infodb
+05.15 15:14.26, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/jsmenu/
+05.15 15:14.26, Crawler,Info,[TCrawler : $0BA802B0] Processing file /jsmenu
+05.15 15:14.26, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.27, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/images/
+05.15 15:14.27, Crawler,Info,[TCrawler : $0BA802B0] Processing file /images
+05.15 15:14.27, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.27, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.27, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/osrun/
+05.15 15:14.27, Crawler,Info,[TCrawler : $0BA802B0] Processing file /osrun
+05.15 15:14.27, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/osrun/whois.php
+05.15 15:14.27, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/osrun/whois_nv.php
+05.15 15:14.27, ScriptExecThread(0),Info,Per server script "WAF_Detection.script" finished in 68718 ms. Request count: 8. Status: 0
+05.15 15:14.27, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/cal_endar/
+05.15 15:14.27, Crawler,Info,[TCrawler : $0BA802B0] Processing file /cal_endar
+05.15 15:14.27, Reporter,Info,[medium] HTML form without CSRF protection "/cal_endar"
+05.15 15:14.27, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/cal_endar/
+05.15 15:14.27, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/cal_endar/
+05.15 15:14.27, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/cal_endar/
+05.15 15:14.28, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/
+05.15 15:14.28, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags
+05.15 15:14.28, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.28, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.28, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_js.php
+05.15 15:14.28, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_js.php
+05.15 15:14.28, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.28, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.28, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/csrf/token.php
+05.15 15:14.28, Crawler,Info,[TCrawler : $0BA802B0] Processing file /csrf/token.php
+05.15 15:14.28, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/csrf/token.php
+05.15 15:14.28, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/csrf/csrfpost.php
+05.15 15:14.28, Crawler,Info,[TCrawler : $0BA802B0] Processing file /csrf/csrfpost.php
+05.15 15:14.28, Reporter,Info,[medium] HTML form without CSRF protection "/csrf/csrfpost.php"
+05.15 15:14.28, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/csrf/csrfpost.php
+05.15 15:14.28, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/csrf/session.php
+05.15 15:14.28, Crawler,Info,[TCrawler : $0BA802B0] Processing file /csrf/session.php
+05.15 15:14.28, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/csrf/session.php
+05.15 15:14.28, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/csrf/redirect.php
+05.15 15:14.28, Crawler,Info,[TCrawler : $0BA802B0] Processing file /csrf/redirect.php
+05.15 15:14.28, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/csrf/redirect.php
+05.15 15:14.28, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/business/access.php
+05.15 15:14.28, Crawler,Info,[TCrawler : $0BA802B0] Processing file /business/access.php
+05.15 15:14.29, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/business/access.php?serviceid=123456789
+05.15 15:14.29, Crawler,Info,[TCrawler : $0BA802B0] Processing file /business/access.php (variation 1)
+05.15 15:14.29, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/business/account.php
+05.15 15:14.29, Crawler,Info,[TCrawler : $0BA802B0] Processing file /business/account.php
+05.15 15:14.29, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/business/account.php?accountId=123456789-abcdef
+05.15 15:14.29, Crawler,Info,[TCrawler : $0BA802B0] Processing file /business/account.php (variation 1)
+05.15 15:14.29, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/business/quantity.php
+05.15 15:14.29, Crawler,Info,[TCrawler : $0BA802B0] Processing file /business/quantity.php
+05.15 15:14.29, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/business/quantity.php?quantity=123
+05.15 15:14.29, Crawler,Info,[TCrawler : $0BA802B0] Processing file /business/quantity.php (variation 1)
+05.15 15:14.29, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/business/quantity.php?quantity=1000
+05.15 15:14.29, Crawler,Info,[TCrawler : $0BA802B0] Processing file /business/quantity.php (variation 2)
+05.15 15:14.30, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/business/privilege.php
+05.15 15:14.30, Crawler,Info,[TCrawler : $0BA802B0] Processing file /business/privilege.php
+05.15 15:14.30, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/business/privilege.php?admin=yes
+05.15 15:14.30, Crawler,Info,[TCrawler : $0BA802B0] Processing file /business/privilege.php (variation 1)
+05.15 15:14.30, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product7.html
+05.15 15:14.30, Reporter,Info,[info] Broken links "/static/product7.html"
+05.15 15:14.30, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product7.html
+05.15 15:14.30, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.30, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product6.html
+05.15 15:14.30, Reporter,Info,[info] Broken links "/static/product6.html"
+05.15 15:14.30, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product6.html
+05.15 15:14.30, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.30, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product9.html
+05.15 15:14.30, Reporter,Info,[info] Broken links "/static/product9.html"
+05.15 15:14.30, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product9.html
+05.15 15:14.30, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.30, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product8.html
+05.15 15:14.30, Reporter,Info,[info] Broken links "/static/product8.html"
+05.15 15:14.30, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product8.html
+05.15 15:14.30, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.31, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product5.html
+05.15 15:14.31, Reporter,Info,[info] Broken links "/static/product5.html"
+05.15 15:14.31, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product5.html
+05.15 15:14.31, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.31, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product2.html
+05.15 15:14.31, Reporter,Info,[info] Broken links "/static/product2.html"
+05.15 15:14.31, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product2.html
+05.15 15:14.31, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.31, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product1.html
+05.15 15:14.31, Reporter,Info,[info] Broken links "/static/product1.html"
+05.15 15:14.31, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product1.html
+05.15 15:14.31, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.31, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product4.html
+05.15 15:14.31, Reporter,Info,[info] Broken links "/static/product4.html"
+05.15 15:14.31, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product4.html
+05.15 15:14.31, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.31, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product3.html
+05.15 15:14.31, Reporter,Info,[info] Broken links "/static/product3.html"
+05.15 15:14.31, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product3.html
+05.15 15:14.31, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.31, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product37.html
+05.15 15:14.31, Reporter,Info,[info] Broken links "/static/product37.html"
+05.15 15:14.31, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product37.html
+05.15 15:14.31, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.31, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product36.html
+05.15 15:14.31, Reporter,Info,[info] Broken links "/static/product36.html"
+05.15 15:14.31, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product36.html
+05.15 15:14.31, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.32, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product38.html
+05.15 15:14.32, Reporter,Info,[info] Broken links "/static/product38.html"
+05.15 15:14.32, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product38.html
+05.15 15:14.32, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.32, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product40.html
+05.15 15:14.32, Reporter,Info,[info] Broken links "/static/product40.html"
+05.15 15:14.32, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product40.html
+05.15 15:14.32, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.32, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product39.html
+05.15 15:14.32, Reporter,Info,[info] Broken links "/static/product39.html"
+05.15 15:14.32, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product39.html
+05.15 15:14.32, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.32, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product32.html
+05.15 15:14.32, Reporter,Info,[info] Broken links "/static/product32.html"
+05.15 15:14.32, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product32.html
+05.15 15:14.32, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.32, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product31.html
+05.15 15:14.32, Reporter,Info,[info] Broken links "/static/product31.html"
+05.15 15:14.32, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product31.html
+05.15 15:14.32, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.33, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product33.html
+05.15 15:14.33, Reporter,Info,[info] Broken links "/static/product33.html"
+05.15 15:14.33, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product33.html
+05.15 15:14.33, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.33, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product35.html
+05.15 15:14.33, Reporter,Info,[info] Broken links "/static/product35.html"
+05.15 15:14.33, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product35.html
+05.15 15:14.33, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.33, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product34.html
+05.15 15:14.33, Reporter,Info,[info] Broken links "/static/product34.html"
+05.15 15:14.33, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product34.html
+05.15 15:14.33, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.33, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product47.html
+05.15 15:14.33, Reporter,Info,[info] Broken links "/static/product47.html"
+05.15 15:14.33, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product47.html
+05.15 15:14.33, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.33, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product46.html
+05.15 15:14.33, Reporter,Info,[info] Broken links "/static/product46.html"
+05.15 15:14.33, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product46.html
+05.15 15:14.33, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.33, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product48.html
+05.15 15:14.33, Reporter,Info,[info] Broken links "/static/product48.html"
+05.15 15:14.33, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product48.html
+05.15 15:14.33, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.33, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product50.html
+05.15 15:14.33, Reporter,Info,[info] Broken links "/static/product50.html"
+05.15 15:14.33, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product50.html
+05.15 15:14.33, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.34, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product49.html
+05.15 15:14.34, Reporter,Info,[info] Broken links "/static/product49.html"
+05.15 15:14.34, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product49.html
+05.15 15:14.34, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.34, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product42.html
+05.15 15:14.34, Reporter,Info,[info] Broken links "/static/product42.html"
+05.15 15:14.34, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product42.html
+05.15 15:14.34, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.34, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product41.html
+05.15 15:14.34, Reporter,Info,[info] Broken links "/static/product41.html"
+05.15 15:14.34, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product41.html
+05.15 15:14.34, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.34, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product43.html
+05.15 15:14.34, Reporter,Info,[info] Broken links "/static/product43.html"
+05.15 15:14.34, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product43.html
+05.15 15:14.34, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.34, ScriptExecThread(3),Info,Per server script "WebLogic_Audit.script" finished in 61370 ms. Request count: 3. Status: 0
+05.15 15:14.34, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product45.html
+05.15 15:14.34, Reporter,Info,[info] Broken links "/static/product45.html"
+05.15 15:14.34, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product45.html
+05.15 15:14.34, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.34, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product44.html
+05.15 15:14.34, Reporter,Info,[info] Broken links "/static/product44.html"
+05.15 15:14.34, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product44.html
+05.15 15:14.34, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.35, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product30.html
+05.15 15:14.35, Reporter,Info,[info] Broken links "/static/product30.html"
+05.15 15:14.35, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product30.html
+05.15 15:14.35, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.35, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product15.html
+05.15 15:14.35, Reporter,Info,[info] Broken links "/static/product15.html"
+05.15 15:14.35, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product15.html
+05.15 15:14.35, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.35, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product16.html
+05.15 15:14.35, Reporter,Info,[info] Broken links "/static/product16.html"
+05.15 15:14.35, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product16.html
+05.15 15:14.35, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.35, ScriptExecThread(9),Info,Per server script "WebInfWebXML_Audit.script" finished in 75801 ms. Request count: 20. Status: 0
+05.15 15:14.35, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product14.html
+05.15 15:14.35, Reporter,Info,[info] Broken links "/static/product14.html"
+05.15 15:14.35, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product14.html
+05.15 15:14.35, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.35, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product18.html
+05.15 15:14.35, Reporter,Info,[info] Broken links "/static/product18.html"
+05.15 15:14.35, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product18.html
+05.15 15:14.35, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.35, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product17.html
+05.15 15:14.35, Reporter,Info,[info] Broken links "/static/product17.html"
+05.15 15:14.35, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product17.html
+05.15 15:14.35, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.35, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product10.html
+05.15 15:14.35, Reporter,Info,[info] Broken links "/static/product10.html"
+05.15 15:14.35, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product10.html
+05.15 15:14.35, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.35, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product11.html
+05.15 15:14.35, Reporter,Info,[info] Broken links "/static/product11.html"
+05.15 15:14.35, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product11.html
+05.15 15:14.35, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.35, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product13.html
+05.15 15:14.35, Reporter,Info,[info] Broken links "/static/product13.html"
+05.15 15:14.35, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product13.html
+05.15 15:14.35, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.36, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product12.html
+05.15 15:14.36, Reporter,Info,[info] Broken links "/static/product12.html"
+05.15 15:14.36, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product12.html
+05.15 15:14.36, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.36, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product19.html
+05.15 15:14.36, Reporter,Info,[info] Broken links "/static/product19.html"
+05.15 15:14.36, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product19.html
+05.15 15:14.36, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.36, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product26.html
+05.15 15:14.36, Reporter,Info,[info] Broken links "/static/product26.html"
+05.15 15:14.36, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product26.html
+05.15 15:14.36, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.36, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product25.html
+05.15 15:14.36, Reporter,Info,[info] Broken links "/static/product25.html"
+05.15 15:14.36, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product25.html
+05.15 15:14.36, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.36, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product27.html
+05.15 15:14.36, Reporter,Info,[info] Broken links "/static/product27.html"
+05.15 15:14.36, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product27.html
+05.15 15:14.36, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.36, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product29.html
+05.15 15:14.36, Reporter,Info,[info] Broken links "/static/product29.html"
+05.15 15:14.36, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product29.html
+05.15 15:14.36, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.36, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product28.html
+05.15 15:14.36, Reporter,Info,[info] Broken links "/static/product28.html"
+05.15 15:14.36, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product28.html
+05.15 15:14.36, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.36, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product21.html
+05.15 15:14.36, Reporter,Info,[info] Broken links "/static/product21.html"
+05.15 15:14.36, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product21.html
+05.15 15:14.36, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.36, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product20.html
+05.15 15:14.36, Reporter,Info,[info] Broken links "/static/product20.html"
+05.15 15:14.36, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product20.html
+05.15 15:14.36, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product22.html
+05.15 15:14.37, Reporter,Info,[info] Broken links "/static/product22.html"
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product22.html
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product24.html
+05.15 15:14.37, Reporter,Info,[info] Broken links "/static/product24.html"
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product24.html
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/static/product23.html
+05.15 15:14.37, Reporter,Info,[info] Broken links "/static/product23.html"
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] Processing file /static/product23.html
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/angular/angular1/index.html
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] Processing file /angular/angular1/index.html
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/angular/angular1/styles/style.css
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/angular/angular1/styles/bootstrap.css
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/angular/angular1/js/angular-js-1.6.4.js
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/angular/angular1/js/script.js
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/angular/angular1/styles
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/angular/angular1/js
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/angular/angular1
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/angular/angular1/
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] Processing file /angular/angular1
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/soap/demo/jquery.xml2json.js
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] Processing file /soap/demo/jquery.xml2json.js
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/soap/demo/jquery.soap.js
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] Processing file /soap/demo/jquery.soap.js
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/xmldb/search_by_name.php?action=addtocart&id=1006&index=Lunch
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] Processing file /xmldb/search_by_name.php (variation 3)
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/xmldb/search_by_name.php?action=addtocart&id=1000&index=Waffles
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] Processing file /xmldb/search_by_name.php (variation 4)
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/xmldb/search_by_name.php?action=addtocart&id=1002&index=Waffles
+05.15 15:14.37, Crawler,Info,[TCrawler : $0BA802B0] Processing file /xmldb/search_by_name.php (variation 5)
+05.15 15:14.38, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/bjax/
+05.15 15:14.38, Crawler,Info,[TCrawler : $0BA802B0] Processing file /bjax
+05.15 15:14.38, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/bjax/ajax.js
+05.15 15:14.38, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/shutterform/
+05.15 15:14.38, Crawler,Info,[TCrawler : $0BA802B0] Processing file /shutterform
+05.15 15:14.38, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/shutterform/index.php
+05.15 15:14.38, Crawler,Info,[TCrawler : $0BA802B0] Processing file /shutterform/index.php
+05.15 15:14.38, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/shutterform/index.php
+05.15 15:14.38, Crawler,Info,[TCrawler : $0BA802B0] Processing file /shutterform/index.php (variation 1)
+05.15 15:14.38, ScriptExecThread(1),Info,Per server script "Web_Statistics.script" finished in 15662 ms. Request count: 26. Status: 0
+05.15 15:14.38, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/react/app.js
+05.15 15:14.38, Crawler,Info,[TCrawler : $0BA802B0] Processing file /react/app.js
+05.15 15:14.38, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/react/js7.js
+05.15 15:14.38, Crawler,Info,[TCrawler : $0BA802B0] Processing file /react/js7.js
+05.15 15:14.38, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/cors/cors_null.php
+05.15 15:14.38, Crawler,Info,[TCrawler : $0BA802B0] Processing file /cors/cors_null.php
+05.15 15:14.38, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.38, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/cors/cors_CSRF.php
+05.15 15:14.38, Crawler,Info,[TCrawler : $0BA802B0] Processing file /cors/cors_CSRF.php
+05.15 15:14.38, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.38, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/react/react.js
+05.15 15:14.38, Crawler,Info,[TCrawler : $0BA802B0] Processing file /react/react.js
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/cors/cors_public.php
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Processing file /cors/cors_public.php
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/cors/cors_private.php
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Processing file /cors/cors_private.php
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/cors/cors_allow_all.php
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Processing file /cors/cors_allow_all.php
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/cors/cors_volatile.php
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Processing file /cors/cors_volatile.php
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/cors/cors_invalid.php
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Processing file /cors/cors_invalid.php
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/cors/cors_notAuthorized.php
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Processing file /cors/cors_notAuthorized.php
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/icons
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/icons/
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Processing file /icons
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/cal_endar/?redirect=2000
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Processing file /cal_endar (variation 2)
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/cal_endar/?redirect=2005
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Processing file /cal_endar (variation 3)
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 1)
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/cal_endar/?redirect=1999
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Processing file /cal_endar (variation 1)
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php&search=blah
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/osrun/whois_nv.php
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Processing file /osrun/whois_nv.php
+05.15 15:14.39, Reporter,Info,[medium] HTML form without CSRF protection "/osrun/whois_nv.php"
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/osrun/whois_nv.php
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/osrun/whois.php
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Processing file /osrun/whois.php
+05.15 15:14.39, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/osrun/whois.php
+05.15 15:14.40, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_js.php?search=blah
+05.15 15:14.40, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_js.php (variation 1)
+05.15 15:14.40, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_js.php
+05.15 15:14.40, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_js.php
+05.15 15:14.40, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/csrf/csrfpost.php
+05.15 15:14.40, Crawler,Info,[TCrawler : $0BA802B0] Processing file /csrf/csrfpost.php (variation 1)
+05.15 15:14.40, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.40, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php
+05.15 15:14.40, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.40, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?search=blah
+05.15 15:14.40, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 1)
+05.15 15:14.40, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.40, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/csrf/token.php
+05.15 15:14.40, Crawler,Info,[TCrawler : $0BA802B0] Processing file /csrf/token.php (variation 1)
+05.15 15:14.40, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/csrf/session.php?jsession=123456789
+05.15 15:14.40, Crawler,Info,[TCrawler : $0BA802B0] Processing file /csrf/session.php (variation 1)
+05.15 15:14.40, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/csrf/redirect.php
+05.15 15:14.40, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/csrf/redirect.php
+05.15 15:14.40, Crawler,Info,[TCrawler : $0BA802B0] Processing file /csrf/redirect.php (variation 1)
+05.15 15:14.40, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/angular/angular1/styles/style.css
+05.15 15:14.40, Crawler,Info,[TCrawler : $0BA802B0] Processing file /angular/angular1/styles/style.css
+05.15 15:14.40, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.41, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/angular/angular1/js/script.js
+05.15 15:14.41, Crawler,Info,[TCrawler : $0BA802B0] Processing file /angular/angular1/js/script.js
+05.15 15:14.41, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/angular/angular1/styles
+05.15 15:14.41, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/angular/angular1/styles/
+05.15 15:14.41, Crawler,Info,[TCrawler : $0BA802B0] Processing file /angular/angular1/styles
+05.15 15:14.41, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/angular/angular1/styles/bootstrap.css
+05.15 15:14.41, Crawler,Info,[TCrawler : $0BA802B0] Processing file /angular/angular1/styles/bootstrap.css
+05.15 15:14.41, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.41, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/angular/angular1/js/angular-js-1.6.4.js
+05.15 15:14.41, Crawler,Info,[TCrawler : $0BA802B0] Processing file /angular/angular1/js/angular-js-1.6.4.js
+05.15 15:14.41, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/angular/angular1/js
+05.15 15:14.41, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/angular/angular1/js/
+05.15 15:14.41, Crawler,Info,[TCrawler : $0BA802B0] Processing file /angular/angular1/js
+05.15 15:14.41, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/angular/angular1/
+05.15 15:14.41, Crawler,Info,[TCrawler : $0BA802B0] Processing file /angular/angular1
+05.15 15:14.41, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/bjax/ajax.js
+05.15 15:14.41, Crawler,Info,[TCrawler : $0BA802B0] Processing file /bjax/ajax.js
+05.15 15:14.41, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/icons/
+05.15 15:14.41, Crawler,Info,[TCrawler : $0BA802B0] Processing file /icons
+05.15 15:14.41, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.41, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.41, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.42, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/osrun/whois.php
+05.15 15:14.42, Crawler,Info,[TCrawler : $0BA802B0] Processing file /osrun/whois.php (variation 1)
+05.15 15:14.42, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah
+05.15 15:14.42, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 2)
+05.15 15:14.42, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.42, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h208668567=5&search=blah
+05.15 15:14.42, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 2)
+05.15 15:14.42, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.42, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/osrun/whois_nv.php
+05.15 15:14.42, Crawler,Info,[TCrawler : $0BA802B0] Processing file /osrun/whois_nv.php (variation 1)
+05.15 15:14.42, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php&search=blah
+05.15 15:14.42, Reporter,Info,[info] Broken links "/crawlsnags/infiniteparam.php&search=blah"
+05.15 15:14.42, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php&search=blah
+05.15 15:14.42, Crawler,Info,[TCrawler : $0BA802B0] No links found.
+05.15 15:14.42, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h470297567=5&search=blah
+05.15 15:14.42, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 3)
+05.15 15:14.42, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.42, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/csrf/redirect.php?msg=1
+05.15 15:14.42, Crawler,Info,[TCrawler : $0BA802B0] Processing file /csrf/redirect.php (variation 2)
+05.15 15:14.42, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/angular/angular1/js/
+05.15 15:14.42, Crawler,Info,[TCrawler : $0BA802B0] Processing file /angular/angular1/js
+05.15 15:14.42, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/angular/angular1/styles/
+05.15 15:14.42, Crawler,Info,[TCrawler : $0BA802B0] Processing file /angular/angular1/styles
+05.15 15:14.42, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.42, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.43, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h667956649=5&search=blah
+05.15 15:14.43, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 4)
+05.15 15:14.43, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.43, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h1982233754=5&search=blah
+05.15 15:14.43, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 5)
+05.15 15:14.43, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.43, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah
+05.15 15:14.43, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 3)
+05.15 15:14.43, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.43, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.43, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.43, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h1828365749=5&search=blah
+05.15 15:14.43, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 6)
+05.15 15:14.43, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.43, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah
+05.15 15:14.43, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 4)
+05.15 15:14.43, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.43, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h1095697947=5&search=blah
+05.15 15:14.43, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 7)
+05.15 15:14.43, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.43, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.43, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.44, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h1493226841=5&search=blah
+05.15 15:14.44, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 8)
+05.15 15:14.44, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.44, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.44, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 5)
+05.15 15:14.44, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.44, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h106177160=5&search=blah
+05.15 15:14.44, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 9)
+05.15 15:14.44, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.44, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.44, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.44, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h174773677=5&search=blah
+05.15 15:14.44, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 11)
+05.15 15:14.44, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.44, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.44, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 6)
+05.15 15:14.44, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.44, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h737146481=5&search=blah
+05.15 15:14.44, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 10)
+05.15 15:14.44, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.44, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.44, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.45, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.45, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 7)
+05.15 15:14.45, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.45, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h1405899407=5&search=blah
+05.15 15:14.45, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 13)
+05.15 15:14.45, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.45, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h154354191=5&search=blah
+05.15 15:14.45, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 12)
+05.15 15:14.45, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.45, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.45, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.45, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h1999679134=5&search=blah
+05.15 15:14.45, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 15)
+05.15 15:14.45, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.45, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h622685207=5&search=blah
+05.15 15:14.45, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 14)
+05.15 15:14.45, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.45, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.45, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 8)
+05.15 15:14.45, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.45, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.45, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.46, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h314738997=5&search=blah
+05.15 15:14.46, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 16)
+05.15 15:14.46, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.46, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.46, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 9)
+05.15 15:14.46, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.46, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h124251662=5&search=blah
+05.15 15:14.46, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 17)
+05.15 15:14.46, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.46, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.46, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.46, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.46, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 10)
+05.15 15:14.46, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.46, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h313510164=5&search=blah
+05.15 15:14.46, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 19)
+05.15 15:14.46, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.46, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h1116617311=5&search=blah
+05.15 15:14.46, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 18)
+05.15 15:14.46, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.46, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.46, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.47, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.47, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 11)
+05.15 15:14.47, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.47, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h297839359=5&search=blah
+05.15 15:14.47, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 21)
+05.15 15:14.47, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.47, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h181263404=5&search=blah
+05.15 15:14.47, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 20)
+05.15 15:14.47, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.47, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.47, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.47, ScriptExecThread(2),Info,Per server script "Unprotected_phpMyAdmin_Interface.script" finished in 90090 ms. Request count: 29. Status: 0
+05.15 15:14.47, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.47, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 12)
+05.15 15:14.47, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.47, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h2040188291=5&search=blah
+05.15 15:14.47, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 23)
+05.15 15:14.47, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.47, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h2126287647=5&search=blah
+05.15 15:14.47, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 22)
+05.15 15:14.47, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.47, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.47, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.48, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.48, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 13)
+05.15 15:14.48, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.48, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h1255977106=5&search=blah
+05.15 15:14.48, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 25)
+05.15 15:14.48, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.48, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h1893756867=5&search=blah
+05.15 15:14.48, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 24)
+05.15 15:14.48, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.48, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.48, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.48, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h969075782=5&search=blah
+05.15 15:14.48, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 26)
+05.15 15:14.48, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.48, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.48, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 14)
+05.15 15:14.48, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.48, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h2094113480=5&search=blah
+05.15 15:14.48, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 27)
+05.15 15:14.48, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.48, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.48, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.49, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h391213372=5&search=blah
+05.15 15:14.49, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 28)
+05.15 15:14.49, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.49, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.49, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 15)
+05.15 15:14.49, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.49, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h2082417297=5&search=blah
+05.15 15:14.49, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 29)
+05.15 15:14.49, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.49, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.49, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.49, ScriptExecThread(6),Info,Per server script "Registration_Page.script" finished in 147062 ms. Request count: 42. Status: 0
+05.15 15:14.49, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h1532207771=5&search=blah
+05.15 15:14.49, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 30)
+05.15 15:14.49, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.49, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.49, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 16)
+05.15 15:14.49, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.49, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h727361547=5&search=blah
+05.15 15:14.49, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 31)
+05.15 15:14.49, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.49, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.49, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.50, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h1184967547=5&search=blah
+05.15 15:14.50, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 33)
+05.15 15:14.50, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.50, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h963533353=5&search=blah
+05.15 15:14.50, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 32)
+05.15 15:14.50, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.50, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.50, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 17)
+05.15 15:14.50, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.50, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.50, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.51, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h1472574162=5&search=blah
+05.15 15:14.51, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 34)
+05.15 15:14.51, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.51, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h847654482=5&search=blah
+05.15 15:14.51, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 35)
+05.15 15:14.51, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.51, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.51, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 18)
+05.15 15:14.51, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.51, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.51, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.51, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h1112472679=5&search=blah
+05.15 15:14.51, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 36)
+05.15 15:14.51, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.51, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h263560642=5&search=blah
+05.15 15:14.51, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 37)
+05.15 15:14.51, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.51, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.51, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 19)
+05.15 15:14.51, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.51, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.51, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.52, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h1517340554=5&search=blah
+05.15 15:14.52, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 38)
+05.15 15:14.52, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.52, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.52, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 20)
+05.15 15:14.52, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.52, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h281225207=5&search=blah
+05.15 15:14.52, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 39)
+05.15 15:14.52, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.52, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.52, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.52, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.52, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 21)
+05.15 15:14.52, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.52, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h564403508=5&search=blah
+05.15 15:14.52, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 40)
+05.15 15:14.52, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.52, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h1841523379=5&search=blah
+05.15 15:14.52, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 41)
+05.15 15:14.52, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.52, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.52, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.53, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h253963394=5&search=blah
+05.15 15:14.53, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 43)
+05.15 15:14.53, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.53, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.53, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 22)
+05.15 15:14.53, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.53, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h91660613=5&search=blah
+05.15 15:14.53, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 42)
+05.15 15:14.53, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.53, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.53, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.53, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.53, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 23)
+05.15 15:14.53, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.53, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h275065940=5&search=blah
+05.15 15:14.53, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 44)
+05.15 15:14.53, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.53, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h502901942=5&search=blah
+05.15 15:14.53, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 45)
+05.15 15:14.53, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.53, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.53, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.54, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.54, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 24)
+05.15 15:14.54, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.54, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h1937970450=5&search=blah
+05.15 15:14.54, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 47)
+05.15 15:14.54, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.54, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h1900512606=5&search=blah
+05.15 15:14.54, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 46)
+05.15 15:14.54, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.54, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.54, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.54, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h966344964=5&search=blah
+05.15 15:14.54, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 48)
+05.15 15:14.54, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_form.php
+05.15 15:14.54, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h401146636=5&search=blah
+05.15 15:14.54, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 49)
+05.15 15:14.54, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.54, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 25)
+05.15 15:14.54, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.54, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.54, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.55, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.55, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 26)
+05.15 15:14.55, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.55, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_form.php?h1027276675=5&search=blah
+05.15 15:14.55, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam_form.php (variation 50)
+05.15 15:14.55, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.55, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.55, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.55, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 27)
+05.15 15:14.55, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.55, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.55, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.56, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.56, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 28)
+05.15 15:14.56, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.56, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.56, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.56, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.56, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 29)
+05.15 15:14.56, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.56, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.56, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.57, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.57, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 30)
+05.15 15:14.57, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.57, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.57, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.57, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.57, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 31)
+05.15 15:14.57, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.57, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.57, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.58, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.58, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 32)
+05.15 15:14.58, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.58, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.58, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.58, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.58, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 33)
+05.15 15:14.58, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.58, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.58, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.59, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.59, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 34)
+05.15 15:14.59, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.59, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.59, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:14.59, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:14.59, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 35)
+05.15 15:14.59, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:14.59, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:14.59, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:15.00, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:15.00, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 36)
+05.15 15:15.00, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:15.00, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:15.00, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:15.00, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:15.00, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 37)
+05.15 15:15.00, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:15.00, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:15.00, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:15.01, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:15.01, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 38)
+05.15 15:15.01, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:15.01, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:15.01, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:15.01, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:15.01, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 39)
+05.15 15:15.01, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:15.01, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:15.01, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:15.02, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:15.02, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 40)
+05.15 15:15.02, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:15.02, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:15.02, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:15.02, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:15.02, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 41)
+05.15 15:15.02, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:15.02, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:15.02, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:15.03, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:15.03, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 42)
+05.15 15:15.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:15.03, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:15.03, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:15.03, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:15.03, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 43)
+05.15 15:15.03, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:15.03, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:15.03, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:15.04, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:15.04, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 44)
+05.15 15:15.04, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:15.04, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:15.04, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:15.04, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:15.04, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 45)
+05.15 15:15.04, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:15.04, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:15.04, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:15.05, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:15.05, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 46)
+05.15 15:15.05, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:15.05, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:15.05, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:15.05, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:15.05, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 47)
+05.15 15:15.05, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:15.05, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:15.05, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:15.06, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:15.06, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 48)
+05.15 15:15.06, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:15.06, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:15.06, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:15.06, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:15.06, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 49)
+05.15 15:15.06, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam.php
+05.15 15:15.06, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:15.06, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:15.07, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam.php?search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah&search=blah
+05.15 15:15.07, Crawler,Info,[TCrawler : $0BA802B0] Processing file /crawlsnags/infiniteparam.php (variation 50)
+05.15 15:15.07, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:15.07, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:15.07, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/
+05.15 15:15.07, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/
+05.15 15:15.07, Crawler,Info,[TCrawler : $0BA802B0] Processing file / (variation 4)
+05.15 15:15.07, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:15.07, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:15.07, Crawler,Info,[TCrawler : $0BA802B0] No more requests.
+05.15 15:15.07, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_INTERCEPTION_MODE
+05.15 15:15.07, Crawler,Info,[TCrawler : $0BA802B0] Analyzing file: /
+05.15 15:15.07, Crawler,Info,[TCrawler : $0BA802B0] Analyzing file: /cors/cors.php
+05.15 15:15.07, Crawler,Info,[TCrawler : $0BA802B0] Analyzing file: /jsmenu/auto_osrun.php
+05.15 15:15.07, Crawler,Info,[TCrawler : $0BA802B0] Analyzing file: /jsmenu/dynalink_myfiles.php
+05.15 15:15.07, Crawler,Info,[TCrawler : $0BA802B0] Analyzing file: /jsmenu/dynalink_rfplaces.php
+05.15 15:15.12, ScriptExecThread(7),Info,Per server script "VirtualHost_Audit.script" finished in 114037 ms. Request count: 79. Status: 0
+05.15 15:15.12, Crawler,Info,[TCrawler : $0BA802B0] File done: /jsmenu/auto_osrun.php
+05.15 15:15.12, Crawler,Info,[TCrawler : $0BA802B0] Analyzing file: /jsmenu/auto_shutterdb.php
+05.15 15:15.13, Crawler,Info,[TCrawler : $0BA802B0] File done: /jsmenu/dynalink_rfplaces.php
+05.15 15:15.13, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/rfplaces
+05.15 15:15.13, Crawler,Info,[TCrawler : $0BA802B0] Analyzing file: /jsmenu/auto_datastore.php
+05.15 15:15.13, Crawler,Info,[TCrawler : $0BA802B0] File done: /jsmenu/dynalink_myfiles.php
+05.15 15:15.13, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/myfiles
+05.15 15:15.13, Crawler,Info,[TCrawler : $0BA802B0] Analyzing file: /jsmenu/auto_crosstraining.php
+05.15 15:15.15, Crawler,Info,[TCrawler : $0BA802B0] File done: /jsmenu/auto_shutterdb.php
+05.15 15:15.15, Crawler,Info,[TCrawler : $0BA802B0] Analyzing file: /jsmenu/cookie_set_coffeepits.php
+05.15 15:15.16, Crawler,Info,[TCrawler : $0BA802B0] File done: /
+05.15 15:15.16, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/hrs
+05.15 15:15.16, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/payment_analysis
+05.15 15:15.16, Crawler,Info,[TCrawler : $0BA802B0] Analyzing file: /csrf/
+05.15 15:15.16, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/csrf/token_autorized.php
+05.15 15:15.16, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/csrf/token_autorized.php
+05.15 15:15.16, Crawler,Info,[TCrawler : $0BA802B0] Requested: http://www.webscantest.com/csrf/token_autorized.php
+05.15 15:15.16, Crawler,Info,[TCrawler : $0BA802B0] File done: /jsmenu/auto_datastore.php
+05.15 15:15.16, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/datastore
+05.15 15:15.16, Crawler,Info,[TCrawler : $0BA802B0] Analyzing file: /rest/demo/
+05.15 15:15.16, Crawler,Info,[TCrawler : $0BA802B0] File done: /jsmenu/auto_crosstraining.php
+05.15 15:15.16, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crosstraining
+05.15 15:15.16, Crawler,Info,[TCrawler : $0BA802B0] Analyzing file: /soap/demo/
+05.15 15:15.16, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css
+05.15 15:15.16, Crawler,Info,[TCrawler : $0BA802B0] Requested: http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css
+05.15 15:15.16, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js
+05.15 15:15.16, Crawler,Info,[TCrawler : $0BA802B0] Requested: http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js
+05.15 15:15.16, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://ajax.aspnetcdn.com/ajax/knockout/knockout-2.2.1.js
+05.15 15:15.16, Crawler,Info,[TCrawler : $0BA802B0] Requested: http://ajax.aspnetcdn.com/ajax/knockout/knockout-2.2.1.js
+05.15 15:15.16, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js
+05.15 15:15.16, Crawler,Info,[TCrawler : $0BA802B0] Requested: http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js
+05.15 15:15.16, Crawler,Info,[TCrawler : $0BA802B0] Requested: http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css
+05.15 15:15.16, Crawler,Info,[TCrawler : $0BA802B0] Requested: http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js
+05.15 15:15.16, Crawler,Info,[TCrawler : $0BA802B0] Requested: http://ajax.aspnetcdn.com/ajax/knockout/knockout-2.2.1.js
+05.15 15:15.16, Crawler,Info,[TCrawler : $0BA802B0] Requested: http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js
+05.15 15:15.18, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/rest/demo/index.php/products
+05.15 15:15.18, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/rest/demo/index.php/products?_=1557904518701
+05.15 15:15.18, Crawler,Info,[TCrawler : $0BA802B0] Requested: http://www.webscantest.com/rest/demo/index.php/products?_=1557904518701
+05.15 15:15.18, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/soap/demo/api/
+05.15 15:15.18, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/soap/demo/api/
+05.15 15:15.18, Crawler,Info,[TCrawler : $0BA802B0] Requested: http://www.webscantest.com/soap/demo/api/
+05.15 15:15.29, ScriptExecThread(8),Info,Per server script "Database_Backup.script" finished in 263486 ms. Request count: 152. Status: 0
+05.15 15:15.46, ScriptExecThread(4),Info,Per server script "Subdomain_Takeover.script" finished in 184174 ms. Request count: 94. Status: 0
+05.15 15:16.01, Slow_HTTP_DOS,Info,Slow_HTTP_DOS finished and the server is not vulnerable. Difference is 109
+05.15 15:16.01, Scan,Info,Internal module finished.
+05.15 15:18.01, Crawler,Info,[TCrawler : $0BA802B0] File done: /jsmenu/cookie_set_coffeepits.php
+05.15 15:18.01, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/jsmenu/cookie_test_coffeepits.php
+05.15 15:18.01, Crawler,Info,[TCrawler : $0BA802B0] Analyzing file: /react/
+05.15 15:18.10, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.js
+05.15 15:18.10, Crawler,Info,[TCrawler : $0BA802B0] Requested: https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.js
+05.15 15:18.10, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL https://fb.me/react-dom-0.14.6.js
+05.15 15:18.10, Crawler,Info,[TCrawler : $0BA802B0] Requested: https://fb.me/react-dom-0.14.6.js
+05.15 15:18.10, Crawler,Info,[TCrawler : $0BA802B0] File done: /cors/cors.php
+05.15 15:18.10, Crawler,Info,[TCrawler : $0BA802B0] Analyzing file: /cal_endar/
+05.15 15:18.16, Crawler,Info,[TCrawler : $0BA802B0] Requested: https://fb.me/react-dom-0.14.6.js
+05.15 15:18.32, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/rest/demo/index.php/products/175866
+05.15 15:18.32, Crawler,Info,[TCrawler : $0BA802B0] Requested: http://www.webscantest.com/rest/demo/index.php/products/175866
+05.15 15:18.32, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/soap/demo/api/
+05.15 15:18.32, Crawler,Info,[TCrawler : $0BA802B0] Requested: http://www.webscantest.com/soap/demo/api/
+05.15 15:18.32, Crawler,Info,[TCrawler : $0BA802B0] File done: /cal_endar/
+05.15 15:18.32, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/cal_endar/year.php
+05.15 15:18.32, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/cal_endar/year.php
+05.15 15:18.32, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/cal_endar/year.php
+05.15 15:18.32, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/cal_endar/year.php
+05.15 15:18.32, Crawler,Info,[TCrawler : $0BA802B0] Analyzing file: /angular/angular1/index.html
+05.15 15:18.33, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/angular/angular1/data/vuln.json
+05.15 15:18.33, Crawler,Info,[TCrawler : $0BA802B0] Requested: http://www.webscantest.com/angular/angular1/data/vuln.json
+05.15 15:19.21, Crawler,Error,[TCrawler : $0BA802B0] Session timeout for /csrf/
+05.15 15:19.21, Crawler,Info,[TCrawler : $0BA802B0] Analyzing file: /bjax/
+05.15 15:19.21, Crawler,Error,[TCrawler : $0BA802B0] Session timeout for /soap/demo/
+05.15 15:19.21, Crawler,Info,[TCrawler : $0BA802B0] Analyzing file: /crawlsnags/infiniteparam_js.php?search=blah
+05.15 15:19.21, Crawler,Error,[TCrawler : $0BA802B0] Session timeout for /rest/demo/
+05.15 15:19.23, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/bjax/servertime.php
+05.15 15:19.23, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/bjax/servertime.php
+05.15 15:19.23, Crawler,Info,[TCrawler : $0BA802B0] Requested: http://www.webscantest.com/bjax/servertime.php
+05.15 15:19.24, Crawler,Info,[TCrawler : $0BA802B0] File done: /angular/angular1/index.html
+05.15 15:19.24, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/angular/angular1/sub/docs-mousedown.html
+05.15 15:19.24, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/angular/angular1/sub/users-mousedown.html
+05.15 15:19.24, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/angular/angular1/sub/about-onchange.html
+05.15 15:19.24, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/angular/angular1/sub/contact-onchange.html
+05.15 15:19.24, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/angular/angular1/sub/addvuln-click.html
+05.15 15:19.24, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/angular/angular1/sub/svg-click.html
+05.15 15:19.24, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/angular/angular1/vuln-data-click.html
+05.15 15:19.24, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/angular/angular1/vuln-data-click.html
+05.15 15:19.24, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/angular/angular1/vuln-data-click.html
+05.15 15:19.24, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/angular/angular1/vuln-data-click.html
+05.15 15:19.26, Crawler,Info,[TCrawler : $0BA802B0] File done: /crawlsnags/infiniteparam_js.php
+05.15 15:19.26, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/crawlsnags/infiniteparam_js.php
+05.15 15:19.26, Crawler,Info,[TCrawler : $0BA802B0] File done: /bjax/
+05.15 15:19.36, Crawler,Warning,Request: https://fb.me/react-dom-0.14.6.js
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:22.01, Crawler,Info,[TCrawler : $0BA802B0] File done: /react/
+05.15 15:22.01, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_INTERCEPTION_MODE -> CS_RUNNING
+05.15 15:22.01, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/rest/demo/index.php
+05.15 15:22.01, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/angular/angular1/data
+05.15 15:22.01, Crawler,Info,[TCrawler : $0BA802B0] Added request for URL http://www.webscantest.com/angular/angular1/sub
+05.15 15:22.01, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_LOGIN
+05.15 15:22.01, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_LOGIN -> CS_RUNNING
+05.15 15:23.25, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/csrf/token_autorized.php
+05.15 15:23.25, Crawler,Warning,Request: http://www.webscantest.com/csrf/token_autorized.php
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:23.25, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/soap/demo/api/
+05.15 15:23.25, Crawler,Warning,Request: http://www.webscantest.com/soap/demo/api/
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:23.25, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/rfplaces
+05.15 15:23.25, Crawler,Warning,Request: http://www.webscantest.com/rfplaces
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:23.25, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/payment_analysis
+05.15 15:23.25, Crawler,Warning,Request: http://www.webscantest.com/payment_analysis
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:23.25, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/hrs
+05.15 15:23.25, Crawler,Warning,Request: http://www.webscantest.com/hrs
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:23.25, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/rest/demo/index.php/products
+05.15 15:23.25, Crawler,Warning,Request: http://www.webscantest.com/rest/demo/index.php/products
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:23.25, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/datastore
+05.15 15:23.25, Crawler,Warning,Request: http://www.webscantest.com/datastore
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:23.25, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crosstraining
+05.15 15:23.25, Crawler,Warning,Request: http://www.webscantest.com/crosstraining
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:23.25, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/myfiles
+05.15 15:23.25, Crawler,Warning,Request: http://www.webscantest.com/myfiles
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:23.51, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/jsmenu/cookie_test_coffeepits.php
+05.15 15:23.51, Crawler,Warning,Request: http://www.webscantest.com/jsmenu/cookie_test_coffeepits.php
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:24.49, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/cal_endar/year.php
+05.15 15:24.49, Crawler,Warning,Request: http://www.webscantest.com/cal_endar/year.php
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:24.49, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/bjax/servertime.php
+05.15 15:24.49, Crawler,Warning,Request: http://www.webscantest.com/bjax/servertime.php
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:24.49, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/angular/angular1/sub/contact-onchange.html
+05.15 15:24.49, Crawler,Warning,Request: http://www.webscantest.com/angular/angular1/sub/contact-onchange.html
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:24.49, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/angular/angular1/sub/docs-mousedown.html
+05.15 15:24.49, Crawler,Warning,Request: http://www.webscantest.com/angular/angular1/sub/docs-mousedown.html
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:24.49, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/cal_endar/year.php?year=2000
+05.15 15:24.49, Crawler,Warning,Request: http://www.webscantest.com/cal_endar/year.php?year=2000
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:24.49, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/cal_endar/year.php?year=2005
+05.15 15:24.49, Crawler,Warning,Request: http://www.webscantest.com/cal_endar/year.php?year=2005
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:24.49, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/cal_endar/year.php?year=1999
+05.15 15:24.49, Crawler,Warning,Request: http://www.webscantest.com/cal_endar/year.php?year=1999
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:24.49, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/angular/angular1/sub/about-onchange.html
+05.15 15:24.49, Crawler,Warning,Request: http://www.webscantest.com/angular/angular1/sub/about-onchange.html
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:24.49, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/angular/angular1/sub/users-mousedown.html
+05.15 15:24.49, Crawler,Warning,Request: http://www.webscantest.com/angular/angular1/sub/users-mousedown.html
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:25.16, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/angular/angular1/sub/addvuln-click.html
+05.15 15:25.16, Crawler,Warning,Request: http://www.webscantest.com/angular/angular1/sub/addvuln-click.html
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:26.13, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/angular/angular1/vuln-data-click.html?id=2
+05.15 15:26.13, Crawler,Warning,Request: http://www.webscantest.com/angular/angular1/vuln-data-click.html?id=2
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:26.13, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/angular/angular1/vuln-data-click.html
+05.15 15:26.13, Crawler,Warning,Request: http://www.webscantest.com/angular/angular1/vuln-data-click.html
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:26.13, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/crawlsnags/infiniteparam_js.php?search=blah&search=blah
+05.15 15:26.13, Crawler,Warning,Request: http://www.webscantest.com/crawlsnags/infiniteparam_js.php?search=blah&search=blah
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:26.13, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/angular/angular1/vuln-data-click.html?id=3
+05.15 15:26.13, Crawler,Warning,Request: http://www.webscantest.com/angular/angular1/vuln-data-click.html?id=3
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:26.13, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/angular/angular1/vuln-data-click.html?id=1
+05.15 15:26.13, Crawler,Warning,Request: http://www.webscantest.com/angular/angular1/vuln-data-click.html?id=1
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:26.14, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/angular/angular1/sub/svg-click.html
+05.15 15:26.14, Crawler,Warning,Request: http://www.webscantest.com/angular/angular1/sub/svg-click.html
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:26.14, Crawler,Info,[TCrawler : $0BA802B0] Request done, http://www.webscantest.com/rest/demo/index.php
+05.15 15:26.14, Crawler,Warning,Request: http://www.webscantest.com/rest/demo/index.php
+Cannot connect. [00020004]
+Error while connecting to web server
+05.15 15:26.14, Scan,Error,Scan aborted because of too many network errors! This can be configured from Configuration > Scan settings > Scanning Options.
+05.15 15:26.14, Scan,Error,Scan "Scan Thread 1" was aborted by user.
+05.15 15:26.14, Reporter,Info,[low] Cookie without HttpOnly flag set "/"
+05.15 15:26.14, Reporter,Info,[low] Cookie without HttpOnly flag set "/"
+05.15 15:26.14, Reporter,Info,[low] Cookie without HttpOnly flag set "/"
+05.15 15:26.14, Crawler,Info,[TCrawler : $0BA802B0] Crawler:  http://www.webscantest.com/ State transition: CS_RUNNING -> CS_DONE
+05.15 15:26.14, Crawler,Info,[TCrawler : $0BA802B0] Crawling done http://www.webscantest.com/
+05.15 15:26.14, Crawler,Info,[TCrawler : $0BA802B0] Memory after crawling 55185408
+05.15 15:26.14, ScriptExec,Info,[TScriptExecutor : $05BEC220] No scripts are currently executing
+05.15 15:26.14, Console,Info,--------------------------- Scan statistics ---------------------------
+05.15 15:26.14, Console,Info,Scan http://www.webscantest.com/
+05.15 15:26.14, Console,Info, Number of alerts      : 67
+05.15 15:26.14, Console,Info, Number of KB items    : 0
+05.15 15:26.14, Console,Info, Number of requests    : 965
+05.15 15:26.14, Console,Info, Number of iterations  : 1
+05.15 15:26.14, Console,Info, Start time            : 15/5/2019, 15:10:53
+05.15 15:26.14, Console,Info, Finish time           : 15/5/2019, 15:26:14
+05.15 15:26.14, Console,Info, Scan time             : 15 minutes, 20 seconds
+05.15 15:26.14, Console,Info, Average response time : 1563.65
+05.15 15:26.14, Console,Info, Scan was responsive   : YES
+05.15 15:26.14, Console,Info, Scan was aborted      : YES
+05.15 15:26.14, Console,Info, Number of files       : 127
+05.15 15:26.14, Console,Info, Number of directories : 33
+05.15 15:26.14, Console,Info, Number of variations  : 141
+05.15 15:26.14, Console,Info,-----------------------------------------------------------------------

@@ -1,0 +1,67 @@
+TimeStamp, Source,LogType,Description
+03.19 15:40.41, , Initialization, Info, Command line:wvs.exe /ps 318802376893 /console "C:\Program Files (x86)\Acunetix\Web Vulnerability Scanner 10\wvs_console.exe"  /Scan http://www.kongziyjy.org --HtmlAuthUser= --HtmlAuthPass=  /Verbose /ExportXML /SaveLogs /SaveFolder C:\WDScanner\WWW\report\9b20620a18e0ef7f542a1ef51ffa7b96\
+03.19 15:40.41, Console,Info,Test temporary directory ...
+03.19 15:40.41, Console,Info,Init WinSock ...
+03.19 15:40.41, Console,Info,Init HTTP module ...
+03.19 15:40.41, Console,Info,Clear old logs ...
+03.19 15:40.41, Console,Info,Parse branding ...
+03.19 15:40.41, App_Initialization_Shutdown,Info,Build: 20160217
+03.19 15:40.41, Console,Info,Init the browser ...
+03.19 15:40.41, Console,Info,Init database manager ...
+03.19 15:40.41, Console,Info,Init GHDB ...
+03.19 15:40.41, Console,Info,Init server info interface ...
+03.19 15:40.41, Frame_Config,Info,Parse Frame Config XML ...
+03.19 15:40.41, Console,Info,Init application detection ...
+03.19 15:40.41, Console,Info,Init Acunetix VVS ...
+03.19 15:40.41, Web_Activation,Info,ActivateLicenseKey LoadActivationSettings
+03.19 15:40.41, Web_Activation,Info,ActivateLicenseKey 8C43-BCB1-8326-CE87
+03.19 15:40.41, Web_Activation,Info,ActivateLicenseKey InternetOpen
+03.19 15:40.41, Web_Activation,Info,ActivateLicenseKey InternetConnect
+03.19 15:40.41, Web_Activation,Info,ActivateLicenseKey HttpOpenRequest
+03.19 15:40.41, Web_Activation,Info,ActivateLicenseKey InternetSetOption
+03.19 15:40.41, Web_Activation,Info,ActivateLicenseKey HttpAddRequestHeaders
+03.19 15:40.41, Web_Activation,Info,ActivateLicenseKey prepare POST data
+03.19 15:40.41, Web_Activation,Info,ActivateLicenseKey Request: cglaq+2vmQwXUVMcjJCdXesdjrjBk2UnjzvPy7M5KgROCOewO03wXhTIQ7i+c3u6u0lj5xrp9Ex5pP+3jWYkBcdrCzCxDrW4cO7RgjH2ynUw4TT9OMCtrAdH53mv6S8/CeB+j0WcB8XOgkUhFnKm9a5tx3D/340M2dBg6C98+KSrUWqWgj6JG/Y6zZkDlcxpXyAUmDPPp3VYli5QH8bJmsSBFi1mhW1bXTP4ifpxI5T4/3mmtHZP7iQaf/FnNm/rXInedzX8++A93EdhVeXFWqwNT1GHtCigC5G/sx98KH3RR7dESU9MNBHMdjRKIaqm4yMWji8SO79qXQ0LsBjlgZNAm3SCo+Ef4SkNWWW17SG3Go6yllkHzCTU8ThikCh3lhKs5NVz4cGDg6uxX3aC5EEpj4w2lMX31V9+nhkseQf2+5BIlwwLwjWMcGPVkgKzzRu+uz67Yh/rkETg1ISUrFF8hKvt+pFCoFRdcgQf6fDHjPE97Q8trhLknDruv/ryWG65VfUDh6NP3YFGlCfvrzmlobYBexou7HAL0GnAz+mBPx8IqRraUwDmAZEWFAnTOL33bvHHrU+89xyfE1s96axz5oZ+IgmFlUmQrFhN0Xk68AlQGTteLdO3ZpL+Jo/j+mjilH8P+4vKvcAEcupcHEA8qY1zxjTCyYeupDBOIHOYyw9qExyOrXFnM/D2oQ8U4CPYav2H6ByBtXyeeEYfeuuc1Jr9683fenFniyk2D1RgeS1nbkuNuEwZWy+R6H118hlhsYT9peP+QA0dfaSUsJwwzxKpEpgQbMvPKUfKtVBzpbTwQIJL5FaFS/peFq9gGa32SLlt/3eQcVVHS121EMidO8kvDXbav7DcXRf/kFWdmf+4PIzbRwd3biZyp76O1ca+d8C/RUNdSnJpV2x1o44pE0aQbRo8yoDJC2i+A6LhmLEMCu4Km5uobOjcmIAXC+kgk0ms9MXXfeNOOF6o9unOWq1hpQFtzUZPPY1fkp93xOXmdlUgfbmMEiz5cfkCAF02lHgjSig/TFRo6kUAUV/Tx4Wulx/ik2bpGp/4MsVRstpqamk1pZ8c9dDIK6WumXfiZrROM5nA4RYICkf4eas4ZpvvtAFrxIulFKnhvZl+kAAt6KQfUXv7Vbz819qYF9ClGWEvmzD0S4D9Lq5dseAGZzEnV2EAD+2zmmaI/944DCIrFISDsIU6ovvn03vhAIBR6YCYebCWdWgn85XmP276tqWxI60fO4SYX/Irjz1ArO4ptajsHgkkQqG76gEd8uXgciQFwauaRxFdmJhB+2zGfXZzrliPxW15EJtJLLTBv/RIvzIURXCoNPQCFRRmnnTlGWfEGydE8Ft61eRDddluy6/Pz39rz8Gc/t0o5QfAJUtvynYQvmTmGdhB8APcyeXjPGdulJOuWCF6FiO6LVGUAKrR9Wl//BjwH4k7He6YZ5GC8j+TC4gVkGv4LwTidszWhG4armbV9u5DvRDgxIi2dvLV10+sdAbBQwxugQ==
+03.19 15:40.41, Web_Activation,Info,ActivateLicenseKey HttpSendRequest
+03.19 15:40.43, Web_Activation,Info,ActivateLicenseKey HttpQueryInfo
+03.19 15:40.43, Web_Activation,Info,ActivateLicenseKey HttpQueryInfo dwCode = 200
+03.19 15:40.43, Web_Activation,Info,ActivateLicenseKey InternetReadFile
+03.19 15:40.43, Web_Activation,Info,ActivateLicenseKey InternetReadFile END
+03.19 15:40.43, Web_Activation,Info,ActivateLicenseKey ActivateRequestDone
+03.19 15:40.43, Web_Activation,Info,ActivateLicenseKey ActivateRequestDone
+03.19 15:40.43, Web_Activation,Info,ActivationResponse: cglaq+2vmQwXUVMcjJCdXesdjrjBk2UnjzvPy7M5FiNnCOeqMUrhHFmWDY/xPS3jpEly8gujo2V5oaCojXcxGJ1uEyqyDuLkbqSExDKxlCBtqWy4f97psBkdum3vum8iXaFQp2WgFMiJz1xhE3Kmu7dwzSj/l4EVxYQ8/SB467f+CjCNgGOJBrF9i5gs665VTi9ex2LS/zRzrwNtH8uO193OWjt403tbA321gP40YZP1uHqls2IX8n0Cerg/N3G0H8GpCEmfq6dohAkwBLjGGKgTA3aEvyH7Fe7RzVYqaTXHHIRRCw0ZGA3NL3IqR+T1/iFexhoBdfkzSw4Zql3vnIcAiybN5LdVrVJBAnu0+3u3XKyvy08E1TXKikca33oEwlP4rc0o1vyjgKy7Xj6TrDl7wN5FwISjgBAQ0DM6fgvw5YVQkRA6h2iMfRWGyDylnBmqtDmTP1rCjWfrwoSl4x89xueovo8E/WhceFxFz+rrh/M3+2d0nUCjxXTatNT1WWS7eegIjO9/2Z8L/BHgznX35PdFImcd6nYZxH7R6aLUFRJE6F6qBkS9RsdeXj2fZ+myPKi16QvgonaiKUEt+bZj9ppxWCyehVi/vElvwmFwrS5aFkZuAfXzKN6Oe92rmQLknxNS2Ibcu9o6dstWFyhU0ZNj2juym8jq7RBVAGKTygRyFwPVr3ZiK7q28Cs2wyTSNuiMugrw/CehS0oPZv6J7Zr86pa1MEA22gklDklbezRAJS/r/FIJRyDhujItxBV7h5D3vcmhESlWQaavuYt642CMNKlfJrSPBkbfuXZYqrziQLMToQDMDq0tQu4oOLukHfUqwnyDJgEBKBX7MNiCYIUKDXzK7difE1GwkFqDhfDFGpXTWAo9Q39JrrS7+NH1JYqKT08aX3xwDndiq5wwEBbuAgQgxdOGSjikfY7qlOFEV+QsvtXRZ7qFvoMNFfhs
+03.19 15:40.43, Web_Activation,Info,ActivateLicenseKey ActivateRequestDone END
+03.19 15:40.43, Console,Info,Load false positives ...
+03.19 15:40.43, Console,Info,Init global messaging ...
+03.19 15:40.43, Console,Info,Done.
+03.19 15:40.43, Scan,Info,http://www.kongziyjy.org have the ip 218.59.159.254
+03.19 15:42.08, Scan,Info,Start URL : http://www.kongziyjy.org
+03.19 15:42.08, Scan,Info,Scanning Mode : Heuristic
+03.19 15:42.08, Scan,Error,Server "http://www.kongziyjy.org" is not responsive.
+03.19 15:42.08, Scan,Error,Cannot connect.
+03.19 15:42.08, Scan,Error,Cannot connect. [00020004]
+Error while connecting to web server
+03.19 15:42.08, Site_Structure,Info,Site_File unit instances (before reinit):
+03.19 15:42.08, Site_File,Info,SF: 0; SFL: 1; SFRL: 7
+03.19 15:42.08, Crawler,Info,[TCrawler : $0D39C9C0] Structure initialized
+03.19 15:42.08, Site_Structure,Info,Site_File unit instances (after reinit):
+03.19 15:42.08, Site_File,Info,SF: 1; SFL: 3; SFRL: 8
+03.19 15:42.08, Crawler,Info,[TCrawler : $0D39C9C0] Crawler:  http://www.kongziyjy.org State transition: CS_INITIALIZED -> CS_DONE
+03.19 15:42.08, Crawler,Info,[TCrawler : $0D39C9C0] Crawling done http://www.kongziyjy.org
+03.19 15:42.08, Crawler,Info,[TCrawler : $0D39C9C0] Memory after crawling 66297856
+03.19 15:42.08, Console,Info,--------------------------- Scan statistics ---------------------------
+03.19 15:42.08, Console,Info,Scan http://www.kongziyjy.org
+03.19 15:42.08, Console,Info, Number of alerts      : 0
+03.19 15:42.08, Console,Info, Number of KB items    : 0
+03.19 15:42.08, Console,Info, Number of requests    : 0
+03.19 15:42.08, Console,Info, Number of iterations  : 1
+03.19 15:42.08, Console,Info, Start time            : 19/3/2019, 15:40:43
+03.19 15:42.08, Console,Info, Finish time           : 19/3/2019, 15:42:08
+03.19 15:42.08, Console,Info, Scan time             : 1 minutes, 25 seconds
+03.19 15:42.08, Console,Info, Average response time : 0.00
+03.19 15:42.08, Console,Info, Scan was responsive   : NO
+03.19 15:42.08, Console,Info, Scan was aborted      : YES
+03.19 15:42.08, Console,Info, Number of files       : 0
+03.19 15:42.08, Console,Info, Number of directories : 0
+03.19 15:42.08, Console,Info, Number of variations  : 0
+03.19 15:42.08, Console,Info,-----------------------------------------------------------------------

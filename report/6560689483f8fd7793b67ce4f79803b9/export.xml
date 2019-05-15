@@ -1,0 +1,1986 @@
+<?xml version="1.0"?>
+<ScanGroup ExportedOn="19/3/2019, 16:06">
+ <Scan>
+  <Name><![CDATA[Scan Thread 1 ( http://www.lvquan.cn/ )]]></Name>
+  <ShortName><![CDATA[Scan Thread 1]]></ShortName>
+  <StartURL><![CDATA[http://www.lvquan.cn/]]></StartURL>
+  <StartTime><![CDATA[19/3/2019, 16:00:52]]></StartTime>
+  <FinishTime><![CDATA[19/3/2019, 16:06:28]]></FinishTime>
+  <ScanTime><![CDATA[5 minutes, 36 seconds]]></ScanTime>
+  <Aborted><![CDATA[True]]></Aborted>
+  <Responsive><![CDATA[True]]></Responsive>
+  <Banner><![CDATA[Apache]]></Banner>
+  <Os><![CDATA[Unknown]]></Os>
+  <WebServer><![CDATA[Apache]]></WebServer>
+  <Technologies><![CDATA[PHP]]></Technologies>
+  <KBase>
+  </KBase>
+  <Crawler StartUrl="http://www.lvquan.cn/">
+   <Cookies>
+     <Variable Name="security_session_verify" Type="Cookie">
+     </Variable>
+     <Variable Name="PHPSESSID" Type="Cookie">
+     </Variable>
+   </Cookies>
+   <SiteFiles>
+     <SiteFile id="1">
+      <Name></Name>
+      <URL>/</URL>
+      <FullURL>http://www.lvquan.cn/</FullURL>
+      <Inputs>
+       <Variable Name="Host" Type="HTTP Header">
+       </Variable>
+      </Inputs>
+      <Variations>
+        <Variation>
+         <URL>http://www.lvquan.cn/</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="2">
+      <Name>en</Name>
+      <URL>/en/</URL>
+      <FullURL>http://www.lvquan.cn/en/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="3">
+      <Name>index.php</Name>
+      <URL>/en/index.php</URL>
+      <FullURL>http://www.lvquan.cn/en/index.php</FullURL>
+      <Inputs>
+       <Variable Name="a" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="c" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="cid" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="modelid" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="a" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="c" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="id" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="a" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="c" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="catid" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="a" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="c" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="cid" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="modelid" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="" Type="URL encoded POST">
+       </Variable>
+       <Variable Name="data%5bdizhi%5d" Type="URL encoded POST">
+       </Variable>
+       <Variable Name="data%5bemail%5d" Type="URL encoded POST">
+       </Variable>
+       <Variable Name="data%5bgongsi%5d" Type="URL encoded POST">
+       </Variable>
+       <Variable Name="data%5bname%5d" Type="URL encoded POST">
+       </Variable>
+       <Variable Name="data%5bneirong%5d" Type="URL encoded POST">
+       </Variable>
+       <Variable Name="data%5btel%5d" Type="URL encoded POST">
+       </Variable>
+       <Variable Name="a" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="c" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="hits" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="id" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="a" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="c" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="catid" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="page" Type="URL encoded GET">
+       </Variable>
+      </Inputs>
+      <Variations>
+        <Variation>
+         <URL>http://www.lvquan.cn/en/index.php?a=post&amp;c=form&amp;cid=0&amp;modelid=11</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/en/index.php?a=show&amp;c=content&amp;id=495</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/en/index.php?a=show&amp;c=content&amp;id=483</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/en/index.php?a=show&amp;c=content&amp;id=484</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/en/index.php?a=list&amp;c=content&amp;catid=184</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/en/index.php?a=list&amp;c=content&amp;catid=10</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/en/index.php?a=list&amp;c=content&amp;catid=198</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/en/index.php?a=post&amp;c=form&amp;cid=0&amp;modelid=11</URL>
+         <PostData><![CDATA[submit=Submit&amp;data%5bdizhi%5d=01/01/1967&amp;data%5bemail%5d=sample%40email.tst&amp;data%5bgongsi%5d=01/01/1967&amp;data%5bname%5d=goprrfln&amp;data%5bneirong%5d=01/01/1967&amp;data%5btel%5d=555-666-0606]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/en/index.php?a=hits&amp;c=api&amp;hits=471&amp;id=495</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/en/index.php?a=hits&amp;c=api&amp;hits=318&amp;id=483</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/en/index.php?a=hits&amp;c=api&amp;hits=403&amp;id=484</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/en/index.php?a=list&amp;c=content&amp;catid=184&amp;page=5</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/en/index.php?a=list&amp;c=content&amp;catid=184&amp;page=2</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/en/index.php?a=list&amp;c=content&amp;catid=184&amp;page=4</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/en/index.php?a=list&amp;c=content&amp;catid=184&amp;page=3</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/en/index.php?a=list&amp;c=content&amp;catid=198&amp;page=2</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/en/index.php?a=list&amp;c=content&amp;catid=184&amp;page=1</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/en/index.php?a=list&amp;c=content&amp;catid=198&amp;page=1</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="4">
+      <Name>views</Name>
+      <URL>/en/views/</URL>
+      <FullURL>http://www.lvquan.cn/en/views/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="5">
+      <Name>default</Name>
+      <URL>/en/views/default/</URL>
+      <FullURL>http://www.lvquan.cn/en/views/default/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="6">
+      <Name>css</Name>
+      <URL>/en/views/default/css/</URL>
+      <FullURL>http://www.lvquan.cn/en/views/default/css/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="7">
+      <Name>css.css</Name>
+      <URL>/en/views/default/css/css.css</URL>
+      <FullURL>http://www.lvquan.cn/en/views/default/css/css.css</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="8">
+      <Name>iepngfix.htc</Name>
+      <URL>/en/views/default/css/iepngfix.htc</URL>
+      <FullURL>http://www.lvquan.cn/en/views/default/css/iepngfix.htc</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="9">
+      <Name>images</Name>
+      <URL>/en/views/default/images/</URL>
+      <FullURL>http://www.lvquan.cn/en/views/default/images/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="10">
+      <Name>js</Name>
+      <URL>/en/views/default/js/</URL>
+      <FullURL>http://www.lvquan.cn/en/views/default/js/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="11">
+      <Name>jquery-1.8.1.min.js</Name>
+      <URL>/en/views/default/js/jquery-1.8.1.min.js</URL>
+      <FullURL>http://www.lvquan.cn/en/views/default/js/jquery-1.8.1.min.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="12">
+      <Name>jquery.jslides.js</Name>
+      <URL>/en/views/default/js/jquery.jslides.js</URL>
+      <FullURL>http://www.lvquan.cn/en/views/default/js/jquery.jslides.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="13">
+      <Name>slide.js</Name>
+      <URL>/en/views/default/js/slide.js</URL>
+      <FullURL>http://www.lvquan.cn/en/views/default/js/slide.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="14">
+      <Name>jquery.SuperSlide.js</Name>
+      <URL>/en/views/default/js/jquery.SuperSlide.js</URL>
+      <FullURL>http://www.lvquan.cn/en/views/default/js/jquery.SuperSlide.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="15">
+      <Name>img</Name>
+      <URL>/en/views/default/img/</URL>
+      <FullURL>http://www.lvquan.cn/en/views/default/img/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="16">
+      <Name>admin.css</Name>
+      <URL>/en/views/default/img/admin.css</URL>
+      <FullURL>http://www.lvquan.cn/en/views/default/img/admin.css</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="17">
+      <Name>admin</Name>
+      <URL>/en/views/admin/</URL>
+      <FullURL>http://www.lvquan.cn/en/views/admin/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="18">
+      <Name>images</Name>
+      <URL>/en/views/admin/images/</URL>
+      <FullURL>http://www.lvquan.cn/en/views/admin/images/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="19">
+      <Name>dialog.css</Name>
+      <URL>/en/views/admin/images/dialog.css</URL>
+      <FullURL>http://www.lvquan.cn/en/views/admin/images/dialog.css</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="20">
+      <Name>table_form.css</Name>
+      <URL>/en/views/admin/images/table_form.css</URL>
+      <FullURL>http://www.lvquan.cn/en/views/admin/images/table_form.css</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="21">
+      <Name>blue</Name>
+      <URL>/en/views/admin/images/blue/</URL>
+      <FullURL>http://www.lvquan.cn/en/views/admin/images/blue/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="22">
+      <Name>js</Name>
+      <URL>/en/views/admin/js/</URL>
+      <FullURL>http://www.lvquan.cn/en/views/admin/js/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="23">
+      <Name>dialog.js</Name>
+      <URL>/en/views/admin/js/dialog.js</URL>
+      <FullURL>http://www.lvquan.cn/en/views/admin/js/dialog.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="24">
+      <Name>core.js</Name>
+      <URL>/en/views/admin/js/core.js</URL>
+      <FullURL>http://www.lvquan.cn/en/views/admin/js/core.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="25">
+      <Name>uploadfiles</Name>
+      <URL>/en/uploadfiles/</URL>
+      <FullURL>http://www.lvquan.cn/en/uploadfiles/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="26">
+      <Name>image</Name>
+      <URL>/en/uploadfiles/image/</URL>
+      <FullURL>http://www.lvquan.cn/en/uploadfiles/image/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="27">
+      <Name>201502</Name>
+      <URL>/en/uploadfiles/image/201502/</URL>
+      <FullURL>http://www.lvquan.cn/en/uploadfiles/image/201502/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="28">
+      <Name>extensions</Name>
+      <URL>/en/extensions/</URL>
+      <FullURL>http://www.lvquan.cn/en/extensions/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="29">
+      <Name>language</Name>
+      <URL>/en/extensions/language/</URL>
+      <FullURL>http://www.lvquan.cn/en/extensions/language/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="30">
+      <Name>zh-cn</Name>
+      <URL>/en/extensions/language/zh-cn/</URL>
+      <FullURL>http://www.lvquan.cn/en/extensions/language/zh-cn/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="31">
+      <Name>lang.js</Name>
+      <URL>/en/extensions/language/zh-cn/lang.js</URL>
+      <FullURL>http://www.lvquan.cn/en/extensions/language/zh-cn/lang.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="32">
+      <Name>index.php</Name>
+      <URL>/index.php</URL>
+      <FullURL>http://www.lvquan.cn/index.php</FullURL>
+      <Inputs>
+       <Variable Name="a" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="c" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="cid" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="modelid" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="a" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="c" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="id" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="a" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="c" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="catid" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="s" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="c" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="a" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="c" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="hits" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="id" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="a" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="c" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="cid" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="modelid" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="" Type="URL encoded POST">
+       </Variable>
+       <Variable Name="data%5bdizhi%5d" Type="URL encoded POST">
+       </Variable>
+       <Variable Name="data%5bemail%5d" Type="URL encoded POST">
+       </Variable>
+       <Variable Name="data%5bgongsi%5d" Type="URL encoded POST">
+       </Variable>
+       <Variable Name="data%5bname%5d" Type="URL encoded POST">
+       </Variable>
+       <Variable Name="data%5bneirong%5d" Type="URL encoded POST">
+       </Variable>
+       <Variable Name="data%5btel%5d" Type="URL encoded POST">
+       </Variable>
+       <Variable Name="back" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="c" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="s" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="c" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="s" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="c" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="s" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="" Type="URL encoded POST">
+       </Variable>
+       <Variable Name="password" Type="URL encoded POST">
+       </Variable>
+       <Variable Name="username" Type="URL encoded POST">
+       </Variable>
+       <Variable Name="c" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="s" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="url" Type="URL encoded GET">
+       </Variable>
+      </Inputs>
+      <Variations>
+        <Variation>
+         <URL>http://www.lvquan.cn/index.php?a=post&amp;c=form&amp;cid=0&amp;modelid=11</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/index.php?a=show&amp;c=content&amp;id=493</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/index.php?a=show&amp;c=content&amp;id=487</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/index.php?a=list&amp;c=content&amp;catid=263</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/index.php?a=show&amp;c=content&amp;id=486</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/index.php?a=list&amp;c=content&amp;catid=10</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/index.php?a=list&amp;c=content&amp;catid=114</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/index.php?s=member</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/index.php?c=api</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/index.php?s=sysadmin</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/index.php?a=hits&amp;c=api&amp;hits=723&amp;id=493</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/index.php?a=post&amp;c=form&amp;cid=0&amp;modelid=11</URL>
+         <PostData><![CDATA[submit=%e6%8f%90%20%e4%ba%a4&amp;data%5bdizhi%5d=01/01/1967&amp;data%5bemail%5d=sample%40email.tst&amp;data%5bgongsi%5d=01/01/1967&amp;data%5bname%5d=osndtbkx&amp;data%5bneirong%5d=01/01/1967&amp;data%5btel%5d=555-666-0606]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/index.php?a=hits&amp;c=api&amp;hits=494&amp;id=487</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/index.php?a=hits&amp;c=api&amp;hits=1360&amp;id=486</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/index.php?back=/index.php%3Fs%3Dmember&amp;c=login&amp;s=member</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/index.php?c=login&amp;s=sysadmin</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/index.php?c=login&amp;s=sysadmin</URL>
+         <PostData><![CDATA[submit=%e7%99%bb%e5%bd%95&amp;password=g00dPa%24%24w0rD&amp;username=nrmjctqv]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://www.lvquan.cn/index.php?c=login&amp;s=sysadmin&amp;url=</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="33">
+      <Name>views</Name>
+      <URL>/views/</URL>
+      <FullURL>http://www.lvquan.cn/views/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="34">
+      <Name>default</Name>
+      <URL>/views/default/</URL>
+      <FullURL>http://www.lvquan.cn/views/default/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="35">
+      <Name>css</Name>
+      <URL>/views/default/css/</URL>
+      <FullURL>http://www.lvquan.cn/views/default/css/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="36">
+      <Name>css.css</Name>
+      <URL>/views/default/css/css.css</URL>
+      <FullURL>http://www.lvquan.cn/views/default/css/css.css</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="37">
+      <Name>iepngfix.htc</Name>
+      <URL>/views/default/css/iepngfix.htc</URL>
+      <FullURL>http://www.lvquan.cn/views/default/css/iepngfix.htc</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="38">
+      <Name>images</Name>
+      <URL>/views/default/images/</URL>
+      <FullURL>http://www.lvquan.cn/views/default/images/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="39">
+      <Name>js</Name>
+      <URL>/views/default/js/</URL>
+      <FullURL>http://www.lvquan.cn/views/default/js/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="40">
+      <Name>jquery-1.8.1.min.js</Name>
+      <URL>/views/default/js/jquery-1.8.1.min.js</URL>
+      <FullURL>http://www.lvquan.cn/views/default/js/jquery-1.8.1.min.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="41">
+      <Name>jquery.jslides.js</Name>
+      <URL>/views/default/js/jquery.jslides.js</URL>
+      <FullURL>http://www.lvquan.cn/views/default/js/jquery.jslides.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="42">
+      <Name>slide.js</Name>
+      <URL>/views/default/js/slide.js</URL>
+      <FullURL>http://www.lvquan.cn/views/default/js/slide.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="43">
+      <Name>jquery.SuperSlide.js</Name>
+      <URL>/views/default/js/jquery.SuperSlide.js</URL>
+      <FullURL>http://www.lvquan.cn/views/default/js/jquery.SuperSlide.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="44">
+      <Name>gundong.js</Name>
+      <URL>/views/default/js/gundong.js</URL>
+      <FullURL>http://www.lvquan.cn/views/default/js/gundong.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="45">
+      <Name>img</Name>
+      <URL>/views/default/img/</URL>
+      <FullURL>http://www.lvquan.cn/views/default/img/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="46">
+      <Name>admin.css</Name>
+      <URL>/views/default/img/admin.css</URL>
+      <FullURL>http://www.lvquan.cn/views/default/img/admin.css</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="47">
+      <Name>admin</Name>
+      <URL>/views/admin/</URL>
+      <FullURL>http://www.lvquan.cn/views/admin/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="48">
+      <Name>images</Name>
+      <URL>/views/admin/images/</URL>
+      <FullURL>http://www.lvquan.cn/views/admin/images/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="49">
+      <Name>dialog.css</Name>
+      <URL>/views/admin/images/dialog.css</URL>
+      <FullURL>http://www.lvquan.cn/views/admin/images/dialog.css</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="50">
+      <Name>table_form.css</Name>
+      <URL>/views/admin/images/table_form.css</URL>
+      <FullURL>http://www.lvquan.cn/views/admin/images/table_form.css</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="51">
+      <Name>blue</Name>
+      <URL>/views/admin/images/blue/</URL>
+      <FullURL>http://www.lvquan.cn/views/admin/images/blue/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="52">
+      <Name>login.css</Name>
+      <URL>/views/admin/images/login.css</URL>
+      <FullURL>http://www.lvquan.cn/views/admin/images/login.css</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="53">
+      <Name>js</Name>
+      <URL>/views/admin/js/</URL>
+      <FullURL>http://www.lvquan.cn/views/admin/js/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="54">
+      <Name>dialog.js</Name>
+      <URL>/views/admin/js/dialog.js</URL>
+      <FullURL>http://www.lvquan.cn/views/admin/js/dialog.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="55">
+      <Name>core.js</Name>
+      <URL>/views/admin/js/core.js</URL>
+      <FullURL>http://www.lvquan.cn/views/admin/js/core.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="56">
+      <Name>jquery.min.js</Name>
+      <URL>/views/admin/js/jquery.min.js</URL>
+      <FullURL>http://www.lvquan.cn/views/admin/js/jquery.min.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="57">
+      <Name>uploadfiles</Name>
+      <URL>/uploadfiles/</URL>
+      <FullURL>http://www.lvquan.cn/uploadfiles/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="58">
+      <Name>image</Name>
+      <URL>/uploadfiles/image/</URL>
+      <FullURL>http://www.lvquan.cn/uploadfiles/image/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="59">
+      <Name>201502</Name>
+      <URL>/uploadfiles/image/201502/</URL>
+      <FullURL>http://www.lvquan.cn/uploadfiles/image/201502/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="60">
+      <Name>201707</Name>
+      <URL>/uploadfiles/image/201707/</URL>
+      <FullURL>http://www.lvquan.cn/uploadfiles/image/201707/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="61">
+      <Name>201604</Name>
+      <URL>/uploadfiles/image/201604/</URL>
+      <FullURL>http://www.lvquan.cn/uploadfiles/image/201604/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="62">
+      <Name>robots.txt</Name>
+      <URL>/robots.txt</URL>
+      <FullURL>http://www.lvquan.cn/robots.txt</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="63">
+      <Name>admin</Name>
+      <URL>/admin/</URL>
+      <FullURL>http://www.lvquan.cn/admin/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="64">
+      <Name>cache</Name>
+      <URL>/cache/</URL>
+      <FullURL>http://www.lvquan.cn/cache/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="65">
+      <Name>config</Name>
+      <URL>/config/</URL>
+      <FullURL>http://www.lvquan.cn/config/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="66">
+      <Name>controllers</Name>
+      <URL>/controllers/</URL>
+      <FullURL>http://www.lvquan.cn/controllers/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="67">
+      <Name>core</Name>
+      <URL>/core/</URL>
+      <FullURL>http://www.lvquan.cn/core/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="68">
+      <Name>extensions</Name>
+      <URL>/extensions/</URL>
+      <FullURL>http://www.lvquan.cn/extensions/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="69">
+      <Name>language</Name>
+      <URL>/extensions/language/</URL>
+      <FullURL>http://www.lvquan.cn/extensions/language/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="70">
+      <Name>zh-cn</Name>
+      <URL>/extensions/language/zh-cn/</URL>
+      <FullURL>http://www.lvquan.cn/extensions/language/zh-cn/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="71">
+      <Name>lang.js</Name>
+      <URL>/extensions/language/zh-cn/lang.js</URL>
+      <FullURL>http://www.lvquan.cn/extensions/language/zh-cn/lang.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="72">
+      <Name>models</Name>
+      <URL>/models/</URL>
+      <FullURL>http://www.lvquan.cn/models/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="73">
+      <Name>plugins</Name>
+      <URL>/plugins/</URL>
+      <FullURL>http://www.lvquan.cn/plugins/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="74">
+      <Name>sysadmin</Name>
+      <URL>/sysadmin/</URL>
+      <FullURL>http://www.lvquan.cn/sysadmin/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+   </SiteFiles>
+  </Crawler>
+    <ReportItems>
+
+      <ReportItem id="0" color="orange">
+       <Name><![CDATA[HTML form without CSRF protection]]></Name>
+       <ModuleName><![CDATA[Crawler]]></ModuleName>
+       <Details><![CDATA[Form name: <font color="navy">&lt;empty&gt;</font><br/>Form action: <font color="navy">http://www.lvquan.cn/index.php?a=post&amp;c=form&amp;cid=0&amp;modelid=11</font><br/>Form method: <font color="navy">POST</font><br/><br/>Form inputs:<br/><ul><li>data[name] [Text]</li><li>data[email] [Text]</li><li>data[tel] [Text]</li><li>data[gongsi] [Text]</li><li>data[dizhi] [Text]</li><li>data[neirong] [TextArea]</li><li>submit [Submit]</li></ul>]]></Details>
+       <Affects><![CDATA[/index.php (dee0661bd2b034891043223d2f9d8565)]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[medium]]></Severity>
+       <Type><![CDATA[Informational]]></Type>
+       <Impact><![CDATA[An attacker may force the users of a web application to execute actions of the attacker''s choosing. A successful CSRF exploit can compromise end user data and operation in case of normal user. If the targeted end user is the administrator account, this can compromise the entire web application.]]></Impact>
+       <Description><![CDATA[ <div class="coolbox"><font color="dark">This alert may be a false positive, manual confirmation is required.</font></div><br/>
+Cross-site request forgery, also known as a one-click attack or session riding and abbreviated as CSRF or XSRF, is a type of malicious exploit of a website whereby unauthorized commands are transmitted from a user that the website trusts.
+
+<br/><br/>Acunetix WVS found a HTML form with no apparent CSRF protection implemented. Consult details for more information about the affected HTML form.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Check if this form requires CSRF protection and implement CSRF countermeasures if necessary.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET /index.php?a=post&amp;c=form&amp;cid=0&amp;modelid=11 HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Referer: http://www.lvquan.cn/
+Acunetix-Aspect: enabled
+Acunetix-Aspect-Password: 082119f75623eb7abd7bf357698ff66c
+Acunetix-Aspect-Queries: filelist;aspectalerts
+Cookie: security_session_verify=bb235f90d7023cb3c78d275ae0b431ee; PHPSESSID=v4o0o0tll60ufjv9q69lqum9t5
+Host: www.lvquan.cn
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 200 OK
+Date: Tue, 19 Mar 2019 08:00:55 GMT
+Server: Apache
+X-Powered-By: PHP/5.3.28
+X-Frame-Options: SAMEORIGIN
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 10315
+Keep-Alive: timeout=5, max=96
+Connection: Keep-Alive
+Content-Type: text/html; charset=utf-8
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="352"><![CDATA[CWE-352]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:H/Au:N/C:N/I:P/A:N]]></Descriptor>
+          <Score><![CDATA[2.6]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[High]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no impact to the confidentiality of the system.]]></Cdesc>
+          <I><![CDATA[Partial]]></I>
+          <Idesc><![CDATA[Modification of some system files or information is possible, but the attacker does not have control over what can be modified, or the scope of what the attacker can affect is limited.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N]]></Descriptor>
+          <Score><![CDATA[4.3]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[Required]]></UI>
+          <UIdesc><![CDATA[Successful exploitation of this vulnerability requires a user to take some action before the vulnerability can be exploited.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no loss of confidentiality within the impacted component.]]></Cdesc>
+          <I><![CDATA[Low]]></I>
+          <Idesc><![CDATA[Modification of data is possible, but the attacker does not have control over the consequence of a modification, or the amount of modification is constrained. The data modification does not have a direct, serious impact on the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+      <References></References>
+      </ReportItem>
+
+      <ReportItem id="1" color="green">
+       <Name><![CDATA[Broken links]]></Name>
+       <ModuleName><![CDATA[Crawler]]></ModuleName>
+       <Details><![CDATA[For a complete list of URLs linking to this file, go to Site Structure &gt; Locate and select the file (marked as &quot;Not Found&quot;) &gt; select Referrers Tab from the bottom of the Information pane.]]></Details>
+       <Affects><![CDATA[/views/default/css/iepngfix.htc]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[info]]></Severity>
+       <Type><![CDATA[Informational]]></Type>
+       <Impact><![CDATA[Problems navigating the site.]]></Impact>
+       <Description><![CDATA[A broken link refers to any link that should take you to a document, image or webpage, that actually results in an error. This page was linked from the website but it is inaccessible.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Remove the links to this file or make it accessible.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET /views/default/css/iepngfix.htc HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Referer: http://www.lvquan.cn/views/default/css/css.css
+Acunetix-Aspect: enabled
+Acunetix-Aspect-Password: 082119f75623eb7abd7bf357698ff66c
+Acunetix-Aspect-Queries: filelist;aspectalerts
+Cookie: security_session_verify=bb235f90d7023cb3c78d275ae0b431ee; PHPSESSID=v4o0o0tll60ufjv9q69lqum9t5
+Host: www.lvquan.cn
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 404 Not Found
+Date: Tue, 19 Mar 2019 08:00:58 GMT
+Server: Apache
+Content-Length: 228
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="16"><![CDATA[CWE-16]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:N/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[0.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no impact to the confidentiality of the system.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[]]></Descriptor>
+          <Score><![CDATA[]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[]]></AV>
+          <AVdesc><![CDATA[]]></AVdesc>
+          <AC><![CDATA[]]></AC>
+          <ACdesc><![CDATA[]]></ACdesc>
+          <PR><![CDATA[]]></PR>
+          <PRdesc><![CDATA[]]></PRdesc>
+          <UI><![CDATA[]]></UI>
+          <UIdesc><![CDATA[]]></UIdesc>
+          <S><![CDATA[]]></S>
+          <Sdesc><![CDATA[]]></Sdesc>
+          <C><![CDATA[]]></C>
+          <Cdesc><![CDATA[]]></Cdesc>
+          <I><![CDATA[]]></I>
+          <Idesc><![CDATA[]]></Idesc>
+          <A><![CDATA[]]></A>
+          <Adesc><![CDATA[]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+      <References></References>
+      </ReportItem>
+
+      <ReportItem id="2" color="green">
+       <Name><![CDATA[Broken links]]></Name>
+       <ModuleName><![CDATA[Crawler]]></ModuleName>
+       <Details><![CDATA[For a complete list of URLs linking to this file, go to Site Structure &gt; Locate and select the file (marked as &quot;Not Found&quot;) &gt; select Referrers Tab from the bottom of the Information pane.]]></Details>
+       <Affects><![CDATA[/admin]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[info]]></Severity>
+       <Type><![CDATA[Informational]]></Type>
+       <Impact><![CDATA[Problems navigating the site.]]></Impact>
+       <Description><![CDATA[A broken link refers to any link that should take you to a document, image or webpage, that actually results in an error. This page was linked from the website but it is inaccessible.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Remove the links to this file or make it accessible.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET /admin/ HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Referer: http://www.lvquan.cn/admin
+Acunetix-Aspect: enabled
+Acunetix-Aspect-Password: 082119f75623eb7abd7bf357698ff66c
+Acunetix-Aspect-Queries: filelist;aspectalerts
+Cookie: security_session_verify=bb235f90d7023cb3c78d275ae0b431ee; PHPSESSID=v4o0o0tll60ufjv9q69lqum9t5
+Host: www.lvquan.cn
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 404 Not Found
+Date: Tue, 19 Mar 2019 08:00:58 GMT
+Server: Apache
+Content-Length: 204
+Keep-Alive: timeout=5, max=95
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="16"><![CDATA[CWE-16]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:N/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[0.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no impact to the confidentiality of the system.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[]]></Descriptor>
+          <Score><![CDATA[]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[]]></AV>
+          <AVdesc><![CDATA[]]></AVdesc>
+          <AC><![CDATA[]]></AC>
+          <ACdesc><![CDATA[]]></ACdesc>
+          <PR><![CDATA[]]></PR>
+          <PRdesc><![CDATA[]]></PRdesc>
+          <UI><![CDATA[]]></UI>
+          <UIdesc><![CDATA[]]></UIdesc>
+          <S><![CDATA[]]></S>
+          <Sdesc><![CDATA[]]></Sdesc>
+          <C><![CDATA[]]></C>
+          <Cdesc><![CDATA[]]></Cdesc>
+          <I><![CDATA[]]></I>
+          <Idesc><![CDATA[]]></Idesc>
+          <A><![CDATA[]]></A>
+          <Adesc><![CDATA[]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+      <References></References>
+      </ReportItem>
+
+      <ReportItem id="3" color="orange">
+       <Name><![CDATA[HTML form without CSRF protection]]></Name>
+       <ModuleName><![CDATA[Crawler]]></ModuleName>
+       <Details><![CDATA[Form name: <font color="navy">&lt;empty&gt;</font><br/>Form action: <font color="navy">http://www.lvquan.cn/en/index.php?a=post&amp;c=form&amp;cid=0&amp;modelid=11</font><br/>Form method: <font color="navy">POST</font><br/><br/>Form inputs:<br/><ul><li>data[name] [Text]</li><li>data[email] [Text]</li><li>data[tel] [Text]</li><li>data[gongsi] [Text]</li><li>data[dizhi] [Text]</li><li>data[neirong] [TextArea]</li><li>submit [Submit]</li></ul>]]></Details>
+       <Affects><![CDATA[/en/index.php (dee0661bd2b034891043223d2f9d8565)]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[medium]]></Severity>
+       <Type><![CDATA[Informational]]></Type>
+       <Impact><![CDATA[An attacker may force the users of a web application to execute actions of the attacker''s choosing. A successful CSRF exploit can compromise end user data and operation in case of normal user. If the targeted end user is the administrator account, this can compromise the entire web application.]]></Impact>
+       <Description><![CDATA[ <div class="coolbox"><font color="dark">This alert may be a false positive, manual confirmation is required.</font></div><br/>
+Cross-site request forgery, also known as a one-click attack or session riding and abbreviated as CSRF or XSRF, is a type of malicious exploit of a website whereby unauthorized commands are transmitted from a user that the website trusts.
+
+<br/><br/>Acunetix WVS found a HTML form with no apparent CSRF protection implemented. Consult details for more information about the affected HTML form.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Check if this form requires CSRF protection and implement CSRF countermeasures if necessary.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET /en/index.php?a=post&amp;c=form&amp;cid=0&amp;modelid=11 HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Referer: http://www.lvquan.cn/en/
+Acunetix-Aspect: enabled
+Acunetix-Aspect-Password: 082119f75623eb7abd7bf357698ff66c
+Acunetix-Aspect-Queries: filelist;aspectalerts
+Cookie: security_session_verify=bb235f90d7023cb3c78d275ae0b431ee; PHPSESSID=v4o0o0tll60ufjv9q69lqum9t5
+Host: www.lvquan.cn
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 200 OK
+Date: Tue, 19 Mar 2019 08:00:58 GMT
+Server: Apache
+X-Powered-By: PHP/5.3.28
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 9287
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/html; charset=utf-8
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="352"><![CDATA[CWE-352]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:H/Au:N/C:N/I:P/A:N]]></Descriptor>
+          <Score><![CDATA[2.6]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[High]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no impact to the confidentiality of the system.]]></Cdesc>
+          <I><![CDATA[Partial]]></I>
+          <Idesc><![CDATA[Modification of some system files or information is possible, but the attacker does not have control over what can be modified, or the scope of what the attacker can affect is limited.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N]]></Descriptor>
+          <Score><![CDATA[4.3]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[Required]]></UI>
+          <UIdesc><![CDATA[Successful exploitation of this vulnerability requires a user to take some action before the vulnerability can be exploited.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no loss of confidentiality within the impacted component.]]></Cdesc>
+          <I><![CDATA[Low]]></I>
+          <Idesc><![CDATA[Modification of data is possible, but the attacker does not have control over the consequence of a modification, or the amount of modification is constrained. The data modification does not have a direct, serious impact on the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+      <References></References>
+      </ReportItem>
+
+      <ReportItem id="4" color="green">
+       <Name><![CDATA[Password type input with auto-complete enabled]]></Name>
+       <ModuleName><![CDATA[Crawler]]></ModuleName>
+       <Details><![CDATA[Password type input named <b><font color="dark">password</font></b> from <b>unnamed form</b> with action <b>571014f2d288da4ca29dacc769ce483c</b> has autocomplete enabled.]]></Details>
+       <Affects><![CDATA[/index.php (571014f2d288da4ca29dacc769ce483c)]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[info]]></Severity>
+       <Type><![CDATA[Informational]]></Type>
+       <Impact><![CDATA[Possible sensitive information disclosure.]]></Impact>
+       <Description><![CDATA[When a new name and password is entered in a form and the form is submitted, the browser asks if the password should be saved.Thereafter when the form is displayed, the name and password are filled in automatically or are completed as the name is entered. An attacker with local access could obtain the cleartext password from the browser cache.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[The password auto-complete should be disabled in sensitive applications. <br/>To disable auto-complete, you may use a code similar to: <pre wrap="virtual"><code>&lt;INPUT TYPE=&quot;password&quot; AUTOCOMPLETE=&quot;off&quot;&gt;</code></pre>]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET /index.php?c=login&amp;s=sysadmin HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Referer: http://www.lvquan.cn/index.php?s=sysadmin
+Acunetix-Aspect: enabled
+Acunetix-Aspect-Password: 082119f75623eb7abd7bf357698ff66c
+Acunetix-Aspect-Queries: filelist;aspectalerts
+Cookie: security_session_verify=bb235f90d7023cb3c78d275ae0b431ee; PHPSESSID=v4o0o0tll60ufjv9q69lqum9t5
+Host: www.lvquan.cn
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 200 OK
+Date: Tue, 19 Mar 2019 08:00:59 GMT
+Server: Apache
+X-Powered-By: PHP/5.3.28
+X-Frame-Options: SAMEORIGIN
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 1486
+Keep-Alive: timeout=5, max=89
+Connection: Keep-Alive
+Content-Type: text/html; charset=utf-8
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="200"><![CDATA[CWE-200]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:N/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[0.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no impact to the confidentiality of the system.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[7.5]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[High]]></C>
+          <Cdesc><![CDATA[There is total loss of confidentiality, resulting in all resources within the impacted component being divulged to the attacker. Alternatively, access to only some restricted information is obtained, but the disclosed information presents a direct, serious impact.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no loss of integrity within the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+      <References></References>
+      </ReportItem>
+
+      <ReportItem id="5" color="orange">
+       <Name><![CDATA[User credentials are sent in clear text]]></Name>
+       <ModuleName><![CDATA[Crawler]]></ModuleName>
+       <Details><![CDATA[Form name: <font color="navy">&lt;empty&gt;</font><br/>Form action: <font color="navy">http://www.lvquan.cn/index.php?c=login&amp;s=sysadmin</font><br/>Form method: <font color="navy">POST</font><br/><br/>Form inputs:<br/><ul><li>username [Text]</li><li>password [Password]</li><li>submit [Submit]</li></ul>]]></Details>
+       <Affects><![CDATA[/index.php (571014f2d288da4ca29dacc769ce483c)]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[medium]]></Severity>
+       <Type><![CDATA[Configuration]]></Type>
+       <Impact><![CDATA[A third party may be able to read the user credentials by intercepting an unencrypted HTTP connection.]]></Impact>
+       <Description><![CDATA[User credentials are transmitted over an unencrypted channel. This information should always be transferred via an encrypted channel (HTTPS) to avoid being intercepted by malicious users.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Because user credentials are considered sensitive information, should always be transferred to the server over an encrypted connection (HTTPS).]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET /index.php?c=login&amp;s=sysadmin HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Referer: http://www.lvquan.cn/index.php?s=sysadmin
+Acunetix-Aspect: enabled
+Acunetix-Aspect-Password: 082119f75623eb7abd7bf357698ff66c
+Acunetix-Aspect-Queries: filelist;aspectalerts
+Cookie: security_session_verify=bb235f90d7023cb3c78d275ae0b431ee; PHPSESSID=v4o0o0tll60ufjv9q69lqum9t5
+Host: www.lvquan.cn
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 200 OK
+Date: Tue, 19 Mar 2019 08:00:59 GMT
+Server: Apache
+X-Powered-By: PHP/5.3.28
+X-Frame-Options: SAMEORIGIN
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 1486
+Keep-Alive: timeout=5, max=89
+Connection: Keep-Alive
+Content-Type: text/html; charset=utf-8
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="310"><![CDATA[CWE-310]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:P/I:N/A:N/E:H/RL:W/RC:C]]></Descriptor>
+          <Score><![CDATA[5.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[Partial]]></C>
+          <Cdesc><![CDATA[There is considerable informational disclosure. Access to some system files is possible, but the attacker does not have control over what is obtained, or the scope of the loss is constrained.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[High]]></E>
+          <Edesc><![CDATA[Either the vulnerability is exploitable by functional mobile autonomous code, or no exploit is required (manual trigger) and details are widely available.]]></Edesc>
+          <RL><![CDATA[Workaround]]></RL>
+          <RLdesc><![CDATA[There is an unofficial, non-vendor solution available. In some cases, users of the affected technology will create a patch of their own or provide steps to work around or otherwise mitigate the vulnerability.]]></RLdesc>
+          <RC><![CDATA[Confirmed]]></RC>
+          <RCdesc><![CDATA[The vulnerability has been acknowledged by the vendor or author of the affected technology.]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N]]></Descriptor>
+          <Score><![CDATA[9.1]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[High]]></C>
+          <Cdesc><![CDATA[There is total loss of confidentiality, resulting in all resources within the impacted component being divulged to the attacker. Alternatively, access to only some restricted information is obtained, but the disclosed information presents a direct, serious impact.]]></Cdesc>
+          <I><![CDATA[High]]></I>
+          <Idesc><![CDATA[There is a total loss of integrity, or a complete loss of protection. For example, the attacker is able to modify any/all files protected by the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+      <References></References>
+      </ReportItem>
+
+      <ReportItem id="6" color="orange">
+       <Name><![CDATA[HTML form without CSRF protection]]></Name>
+       <ModuleName><![CDATA[Crawler]]></ModuleName>
+       <Details><![CDATA[Form name: <font color="navy">&lt;empty&gt;</font><br/>Form action: <font color="navy">http://www.lvquan.cn/index.php?c=login&amp;s=sysadmin</font><br/>Form method: <font color="navy">POST</font><br/><br/>Form inputs:<br/><ul><li>username [Text]</li><li>password [Password]</li><li>submit [Submit]</li></ul>]]></Details>
+       <Affects><![CDATA[/index.php (571014f2d288da4ca29dacc769ce483c)]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[medium]]></Severity>
+       <Type><![CDATA[Informational]]></Type>
+       <Impact><![CDATA[An attacker may force the users of a web application to execute actions of the attacker''s choosing. A successful CSRF exploit can compromise end user data and operation in case of normal user. If the targeted end user is the administrator account, this can compromise the entire web application.]]></Impact>
+       <Description><![CDATA[ <div class="coolbox"><font color="dark">This alert may be a false positive, manual confirmation is required.</font></div><br/>
+Cross-site request forgery, also known as a one-click attack or session riding and abbreviated as CSRF or XSRF, is a type of malicious exploit of a website whereby unauthorized commands are transmitted from a user that the website trusts.
+
+<br/><br/>Acunetix WVS found a HTML form with no apparent CSRF protection implemented. Consult details for more information about the affected HTML form.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Check if this form requires CSRF protection and implement CSRF countermeasures if necessary.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET /index.php?c=login&amp;s=sysadmin HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Referer: http://www.lvquan.cn/index.php?s=sysadmin
+Acunetix-Aspect: enabled
+Acunetix-Aspect-Password: 082119f75623eb7abd7bf357698ff66c
+Acunetix-Aspect-Queries: filelist;aspectalerts
+Cookie: security_session_verify=bb235f90d7023cb3c78d275ae0b431ee; PHPSESSID=v4o0o0tll60ufjv9q69lqum9t5
+Host: www.lvquan.cn
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 200 OK
+Date: Tue, 19 Mar 2019 08:00:59 GMT
+Server: Apache
+X-Powered-By: PHP/5.3.28
+X-Frame-Options: SAMEORIGIN
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 1486
+Keep-Alive: timeout=5, max=89
+Connection: Keep-Alive
+Content-Type: text/html; charset=utf-8
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="352"><![CDATA[CWE-352]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:H/Au:N/C:N/I:P/A:N]]></Descriptor>
+          <Score><![CDATA[2.6]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[High]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no impact to the confidentiality of the system.]]></Cdesc>
+          <I><![CDATA[Partial]]></I>
+          <Idesc><![CDATA[Modification of some system files or information is possible, but the attacker does not have control over what can be modified, or the scope of what the attacker can affect is limited.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N]]></Descriptor>
+          <Score><![CDATA[4.3]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[Required]]></UI>
+          <UIdesc><![CDATA[Successful exploitation of this vulnerability requires a user to take some action before the vulnerability can be exploited.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no loss of confidentiality within the impacted component.]]></Cdesc>
+          <I><![CDATA[Low]]></I>
+          <Idesc><![CDATA[Modification of data is possible, but the attacker does not have control over the consequence of a modification, or the amount of modification is constrained. The data modification does not have a direct, serious impact on the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+      <References></References>
+      </ReportItem>
+
+      <ReportItem id="7" color="green">
+       <Name><![CDATA[Broken links]]></Name>
+       <ModuleName><![CDATA[Crawler]]></ModuleName>
+       <Details><![CDATA[For a complete list of URLs linking to this file, go to Site Structure &gt; Locate and select the file (marked as &quot;Not Found&quot;) &gt; select Referrers Tab from the bottom of the Information pane.]]></Details>
+       <Affects><![CDATA[/en/views/default/css/iepngfix.htc]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[info]]></Severity>
+       <Type><![CDATA[Informational]]></Type>
+       <Impact><![CDATA[Problems navigating the site.]]></Impact>
+       <Description><![CDATA[A broken link refers to any link that should take you to a document, image or webpage, that actually results in an error. This page was linked from the website but it is inaccessible.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Remove the links to this file or make it accessible.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET /en/views/default/css/iepngfix.htc HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Referer: http://www.lvquan.cn/en/views/default/css/css.css
+Acunetix-Aspect: enabled
+Acunetix-Aspect-Password: 082119f75623eb7abd7bf357698ff66c
+Acunetix-Aspect-Queries: filelist;aspectalerts
+Cookie: security_session_verify=bb235f90d7023cb3c78d275ae0b431ee; PHPSESSID=v4o0o0tll60ufjv9q69lqum9t5
+Host: www.lvquan.cn
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 404 Not Found
+Date: Tue, 19 Mar 2019 08:01:00 GMT
+Server: Apache
+Content-Length: 231
+Keep-Alive: timeout=5, max=78
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="16"><![CDATA[CWE-16]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:N/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[0.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no impact to the confidentiality of the system.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[]]></Descriptor>
+          <Score><![CDATA[]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[]]></AV>
+          <AVdesc><![CDATA[]]></AVdesc>
+          <AC><![CDATA[]]></AC>
+          <ACdesc><![CDATA[]]></ACdesc>
+          <PR><![CDATA[]]></PR>
+          <PRdesc><![CDATA[]]></PRdesc>
+          <UI><![CDATA[]]></UI>
+          <UIdesc><![CDATA[]]></UIdesc>
+          <S><![CDATA[]]></S>
+          <Sdesc><![CDATA[]]></Sdesc>
+          <C><![CDATA[]]></C>
+          <Cdesc><![CDATA[]]></Cdesc>
+          <I><![CDATA[]]></I>
+          <Idesc><![CDATA[]]></Idesc>
+          <A><![CDATA[]]></A>
+          <Adesc><![CDATA[]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+      <References></References>
+      </ReportItem>
+
+      <ReportItem id="8" color="red">
+       <Name><![CDATA[Vulnerabilities in SharePoint could allow elevation of privilege]]></Name>
+       <ModuleName><![CDATA[Scripting (ms12-050.script)]]></ModuleName>
+       <Details><![CDATA[<br/>Pattern found: <pre wrap="virtual"><font color="blue">&lt;script&gt;alert(12345)&lt;/script&gt;</font></pre>]]></Details>
+       <Affects><![CDATA[Web Server]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[high]]></Severity>
+       <Type><![CDATA[Configuration]]></Type>
+       <Impact><![CDATA[Malicious users may inject JavaScript, VBScript, ActiveX, HTML or Flash into a vulnerable application to fool a user in order to gather data from them.
+An attacker can steal the session cookie and take over the account, impersonating the user.
+It is also possible to modify the content of the page presented to the user.]]></Impact>
+       <Description><![CDATA[A cross-site scripting and elevation of privilege vulnerability exists in SharePoint that allows attacker-controlled JavaScript to run in the context of the user clicking a link. This is an elevation of privilege vulnerability as it allows an anonymous attacker to potentially issue SharePoint commands in the context of an authenticated user on the site.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Upgrade SharePoint to the latest version.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET /_layouts/scriptresx.ashx?culture=en-us&amp;name=SP.JSGrid.Res&amp;rev=laygpE0lqaosnkB4iqx6mA%3D%3D&amp;sections=All&lt;script&gt;alert(12345)&lt;/script&gt;z HTTP/1.1
+Host: www.lvquan.cn
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 200 OK
+Date: Tue, 19 Mar 2019 08:01:13 GMT
+Server: Apache
+Set-Cookie: security_session_verify=bb235f90d7023cb3c78d275ae0b431ee; expires=Fri, 22-Mar-19 16:01:13 GMT; path=/; HttpOnly
+Set-Cookie: security_session_verify=bb235f90d7023cb3c78d275ae0b431ee; expires=Fri, 22-Mar-19 16:01:13 GMT; path=/; HttpOnly
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Content-Length: 1078
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="79"><![CDATA[CWE-79]]></CWE>
+       <CVEList>
+        <CVE>
+          <Id><![CDATA[CVE-2012-1859]]></Id>
+        </CVE>
+       </CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:M/Au:N/C:N/I:P/A:N/E:H/RL:OF/RC:C]]></Descriptor>
+          <Score><![CDATA[4.4]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Medium]]></AC>
+          <ACdesc><![CDATA[The access conditions are somewhat specialized.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no impact to the confidentiality of the system.]]></Cdesc>
+          <I><![CDATA[Partial]]></I>
+          <Idesc><![CDATA[Modification of some system files or information is possible, but the attacker does not have control over what can be modified, or the scope of what the attacker can affect is limited.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[High]]></E>
+          <Edesc><![CDATA[Either the vulnerability is exploitable by functional mobile autonomous code, or no exploit is required (manual trigger) and details are widely available.]]></Edesc>
+          <RL><![CDATA[Official fix]]></RL>
+          <RLdesc><![CDATA[A complete vendor solution is available. Either the vendor has issued an official patch, or an upgrade is available.]]></RLdesc>
+          <RC><![CDATA[Confirmed]]></RC>
+          <RCdesc><![CDATA[The vulnerability has been acknowledged by the vendor or author of the affected technology.]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N]]></Descriptor>
+          <Score><![CDATA[5.3]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no loss of confidentiality within the impacted component.]]></Cdesc>
+          <I><![CDATA[Low]]></I>
+          <Idesc><![CDATA[Modification of data is possible, but the attacker does not have control over the consequence of a modification, or the amount of modification is constrained. The data modification does not have a direct, serious impact on the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+       <References>
+        <Reference>
+          <Database><![CDATA[Microsoft Security Bulletin MS12-050]]></Database>
+          <URL><![CDATA[http://technet.microsoft.com/en-us/security/bulletin/ms12-050]]></URL>
+        </Reference>
+       </References>
+      </ReportItem>
+
+      <ReportItem id="9" color="blue">
+       <Name><![CDATA[Cookie without HttpOnly flag set]]></Name>
+       <ModuleName><![CDATA[Crawler]]></ModuleName>
+       <Details><![CDATA[Cookie name: <font color="dark">&quot;PHPSESSID&quot;</font><br/>Cookie domain: <font color="dark">&quot;www.lvquan.cn&quot;</font><br/>]]></Details>
+       <Affects><![CDATA[/]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[low]]></Severity>
+       <Type><![CDATA[Informational]]></Type>
+       <Impact><![CDATA[None]]></Impact>
+       <Description><![CDATA[This cookie does not have the HTTPOnly flag set. When a cookie is set with the HTTPOnly flag, it instructs the browser that the cookie can only be accessed by the server and not by client-side scripts. This is an important security protection for session cookies.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[If possible, you should set the HTTPOnly flag for this cookie.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET / HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Cookie: security_session_verify=bb235f90d7023cb3c78d275ae0b431ee; PHPSESSID=v4o0o0tll60ufjv9q69lqum9t5
+Host: www.lvquan.cn
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 200 OK
+Date: Tue, 19 Mar 2019 08:00:55 GMT
+Server: Apache
+X-Powered-By: PHP/5.3.28
+X-Frame-Options: SAMEORIGIN
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 24568
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=utf-8
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="16"><![CDATA[CWE-16]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:N/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[0.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no impact to the confidentiality of the system.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[]]></Descriptor>
+          <Score><![CDATA[]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[]]></AV>
+          <AVdesc><![CDATA[]]></AVdesc>
+          <AC><![CDATA[]]></AC>
+          <ACdesc><![CDATA[]]></ACdesc>
+          <PR><![CDATA[]]></PR>
+          <PRdesc><![CDATA[]]></PRdesc>
+          <UI><![CDATA[]]></UI>
+          <UIdesc><![CDATA[]]></UIdesc>
+          <S><![CDATA[]]></S>
+          <Sdesc><![CDATA[]]></Sdesc>
+          <C><![CDATA[]]></C>
+          <Cdesc><![CDATA[]]></Cdesc>
+          <I><![CDATA[]]></I>
+          <Idesc><![CDATA[]]></Idesc>
+          <A><![CDATA[]]></A>
+          <Adesc><![CDATA[]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+      <References></References>
+      </ReportItem>
+		</ReportItems>
+ </Scan>
+</ScanGroup>

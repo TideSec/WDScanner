@@ -1,0 +1,9 @@
+# Nmap 7.60 scan initiated Wed May 15 16:38:04 2019 as: nmap.exe -oN C:\WDScanner\WWW\TaskPython\TaskInfo\loginfo\36f0ec6fe6399491ed166c2132493e0b\36f0ec6fe6399491ed166c2132493e0b-nmap.txt -sT -sV -O --script=banner --min-hostgroup 1024 --min-parallelism 1024 --top-port 200 testaspnet.vulnweb.com
+Nmap scan report for testaspnet.vulnweb.com (5.175.17.140)
+Host is up (0.00s latency).
+rDNS record for 5.175.17.140: vs231689.vs.hosteurope.de
+All 200 scanned ports on testaspnet.vulnweb.com (5.175.17.140) are filtered
+Too many fingerprints match this host to give specific OS details
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed May 15 16:38:20 2019 -- 1 IP address (1 host up) scanned in 16.12 seconds

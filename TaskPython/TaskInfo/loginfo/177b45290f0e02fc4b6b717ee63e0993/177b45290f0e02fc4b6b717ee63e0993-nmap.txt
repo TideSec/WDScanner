@@ -1,0 +1,15 @@
+# Nmap 7.60 scan initiated Wed May 15 16:57:33 2019 as: nmap.exe -oN C:\WDScanner\WWW\TaskPython\TaskInfo\loginfo\177b45290f0e02fc4b6b717ee63e0993\177b45290f0e02fc4b6b717ee63e0993-nmap.txt -sT -sV -O --script=banner --open --top-port 200 www.jxzls.com
+Nmap scan report for www.jxzls.com (125.211.216.229)
+Host is up (0.015s latency).
+Not shown: 199 filtered ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE    VERSION
+21/tcp open  tcpwrapped
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|WAP|phone
+Running: iPXE 1.X, Linux 2.4.X|2.6.X, Sony Ericsson embedded
+OS CPE: cpe:/o:ipxe:ipxe:1.0.0%2b cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:2.6.22 cpe:/h:sonyericsson:u8i_vivaz
+OS details: iPXE 1.0.0+, Tomato 1.28 (Linux 2.4.20), Tomato firmware (Linux 2.6.22), Sony Ericsson U8i Vivaz mobile phone
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed May 15 16:58:21 2019 -- 1 IP address (1 host up) scanned in 48.06 seconds

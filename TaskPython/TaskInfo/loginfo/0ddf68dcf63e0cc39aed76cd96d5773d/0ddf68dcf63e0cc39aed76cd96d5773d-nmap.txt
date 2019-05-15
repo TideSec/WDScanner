@@ -1,0 +1,18 @@
+# Nmap 7.60 scan initiated Tue Mar 19 16:01:34 2019 as: nmap.exe -oN C:\WDScanner\WWW\TaskPython\TaskInfo\loginfo\0ddf68dcf63e0cc39aed76cd96d5773d\0ddf68dcf63e0cc39aed76cd96d5773d-nmap.txt -sT -sV -O --script=banner --min-hostgroup 1024 --min-parallelism 1024 --top-port 200 www.tyanhome.com.cn
+Nmap scan report for www.tyanhome.com.cn (114.215.147.51)
+Host is up (0.0088s latency).
+Not shown: 198 filtered ports
+PORT   STATE SERVICE    VERSION
+22/tcp open  ssh        OpenSSH 7.2p2 Ubuntu 4ubuntu2.2 (Ubuntu Linux; protocol 2.0)
+|_banner: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.2
+80/tcp open  tcpwrapped
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: firewall
+Running (JUST GUESSING): Fortinet embedded (98%)
+OS CPE: cpe:/h:fortinet:fortigate_200b
+Aggressive OS guesses: Fortinet FortiGate 200B firewall (98%)
+No exact OS matches for host (test conditions non-ideal).
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Mar 19 16:01:51 2019 -- 1 IP address (1 host up) scanned in 17.38 seconds

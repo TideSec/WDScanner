@@ -1,0 +1,4 @@
+bad##http://www.eclectasy.com/Fractal-Explorer/index.html --- Parent_Page:http://testphp.vulnweb.com/product.php?pic=5+++
+bad##http://testphp.vulnweb.com/version.php --- Parent_Page:http://testphp.vulnweb.com/wvstests/pmwiki_2_1_19/scripts/+++
+bad##http://testphp.vulnweb.com//hpp/ --- Parent_Page:http://testphp.vulnweb.com/#+++
+bad##http://testphp.vulnweb.com/../index.php --- Parent_Page:http://testphp.vulnweb.com/Templates/main_dynamic_template.dwt.php+++

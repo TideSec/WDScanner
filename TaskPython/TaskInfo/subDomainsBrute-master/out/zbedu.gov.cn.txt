@@ -1,0 +1,4 @@
+www.zbedu.gov.cn              	218.56.105.79
+m.zbedu.gov.cn                	218.56.105.79
+zb.zbedu.gov.cn               	218.56.105.118
+lx.zbedu.gov.cn               	218.201.121.52

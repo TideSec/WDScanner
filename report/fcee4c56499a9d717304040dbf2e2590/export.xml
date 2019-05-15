@@ -1,0 +1,1400 @@
+<?xml version="1.0"?>
+<ScanGroup ExportedOn="30/9/2017, 06:40">
+ <Scan>
+  <Name><![CDATA[Scan Thread 1 ( http://yilinhb.com )]]></Name>
+  <ShortName><![CDATA[Scan Thread 1]]></ShortName>
+  <StartURL><![CDATA[http://yilinhb.com]]></StartURL>
+  <StartTime><![CDATA[30/9/2017, 05:18:46]]></StartTime>
+  <FinishTime><![CDATA[30/9/2017, 06:40:30]]></FinishTime>
+  <ScanTime><![CDATA[1 hours, 21 minutes]]></ScanTime>
+  <Aborted><![CDATA[False]]></Aborted>
+  <Responsive><![CDATA[True]]></Responsive>
+  <Banner><![CDATA[Microsoft-IIS/6.0]]></Banner>
+  <Os><![CDATA[Windows]]></Os>
+  <WebServer><![CDATA[IIS 6.0]]></WebServer>
+  <Technologies><![CDATA[ASP.NET]]></Technologies>
+  <KBase>
+    <KBItem>
+     <Name><![CDATA[List of file extensions]]></Name>
+     <Text><![CDATA[File extensions can provide information on what technologies are being used on this website.[break] List of file extensions detected:[break][break][ul][li][dark]asp[/dark] =&gt; [bold]3[/bold] file(s)[/li][li][dark]css[/dark] =&gt; [bold]3[/bold] file(s)[/li][li][dark]js[/dark] =&gt; [bold]8[/bold] file(s)[/li][/ul]]]></Text>
+     <References>
+     </References>
+    </KBItem>
+    <KBItem>
+     <Name><![CDATA[Top 10 response times]]></Name>
+     <Text><![CDATA[The files listed below had the slowest response times measured during the crawling process. The average response time for this site was [bold]221.44 ms[/bold]. These files could be targetted in denial of service attacks.[break][break][bold]1. [navy]/ks_inc/jquery.js[/navy][/bold], response time [bold]1872[/bold] ms[break][break][pre]GET /ks_inc/jquery.js HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Referer: http://yilinhb.com/kaiceseo/login.asp
+Acunetix-Aspect: enabled
+Acunetix-Aspect-Password: 082119f75623eb7abd7bf357698ff66c
+Acunetix-Aspect-Queries: filelist;aspectalerts
+Cookie: ASPSESSIONIDAQABABDB=DCNLCMEDCOPNGPJPEAOLEHKI
+Host: yilinhb.com
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+[/pre]]]></Text>
+     <References>
+     </References>
+    </KBItem>
+    <KBItem>
+     <Name><![CDATA[List of client scripts]]></Name>
+     <Text><![CDATA[These files contain Javascript code referenced from the website.[break][break][ul][li][bold]/english/3gimages/3gtiao.js[/bold][/li][li][bold]/kaiceseo/Include/SoftKeyBoard.js[/bold][/li][li][bold]/3gimages/3gtiao.js[/bold][/li][li][bold]/ks_inc/jquery.js[/bold][/li][li][bold]/ks_Inc/lhgdialog.js[/bold][/li][/ul]]]></Text>
+     <References>
+     </References>
+    </KBItem>
+    <KBItem>
+     <Name><![CDATA[List of files with inputs]]></Name>
+     <Text><![CDATA[These files have at least one input (GET or POST).[break][break][ul][li][bold]/[/bold] - [dark][bold] 2 [/bold][/dark] inputs[/li][li][bold]/kaiceseo/Login.asp[/bold] - [dark][bold] 2 [/bold][/dark] inputs[/li][/ul]]]></Text>
+     <References>
+     </References>
+    </KBItem>
+    <KBItem>
+     <Name><![CDATA[List of external hosts]]></Name>
+     <Text><![CDATA[These hosts were linked from this website but they were not scanned because they are not listed in the list of hosts allowed. (Configuration-&gt; Scan Settings -&gt;Scanning Options-&gt; List of hosts allowed).[break][break][ul][li][bold]www.jsyzds.com[/bold][/li][li][bold]www.yctcjcj.com[/bold][/li][li][bold]www.yilinhb.com[/bold][/li][li][bold]www.yilinhbgs.com[/bold][/li][li][bold]about[/bold][/li][/ul]]]></Text>
+     <References>
+     </References>
+    </KBItem>
+  </KBase>
+  <Crawler StartUrl="http://yilinhb.com/">
+   <Cookies>
+     <Variable Name="ASPSESSIONIDAQABABDB" Type="Cookie">
+     </Variable>
+   </Cookies>
+   <SiteFiles>
+     <SiteFile id="1">
+      <Name></Name>
+      <URL>/</URL>
+      <FullURL>http://yilinhb.com/</FullURL>
+      <Inputs>
+       <Variable Name="/" Type="Path Fragment (suffix /)">
+       </Variable>
+       <Variable Name="Host" Type="HTTP Header">
+       </Variable>
+      </Inputs>
+      <Variations>
+        <Variation>
+         <URL>http://yilinhb.com/</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="2">
+      <Name>english</Name>
+      <URL>/english/</URL>
+      <FullURL>http://yilinhb.com/english/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="3">
+      <Name>html</Name>
+      <URL>/english/html/</URL>
+      <FullURL>http://yilinhb.com/english/html/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="4">
+      <Name>lxwm</Name>
+      <URL>/english/html/lxwm/</URL>
+      <FullURL>http://yilinhb.com/english/html/lxwm/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="5">
+      <Name>gywm</Name>
+      <URL>/english/html/gywm/</URL>
+      <FullURL>http://yilinhb.com/english/html/gywm/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="6">
+      <Name>kaiceseo</Name>
+      <URL>/english/kaiceseo/</URL>
+      <FullURL>http://yilinhb.com/english/kaiceseo/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="7">
+      <Name>login.asp</Name>
+      <URL>/english/kaiceseo/login.asp</URL>
+      <FullURL>http://yilinhb.com/english/kaiceseo/login.asp</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="8">
+      <Name>css</Name>
+      <URL>/english/css/</URL>
+      <FullURL>http://yilinhb.com/english/css/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="9">
+      <Name>yilinhuanbao.css</Name>
+      <URL>/english/css/yilinhuanbao.css</URL>
+      <FullURL>http://yilinhb.com/english/css/yilinhuanbao.css</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="10">
+      <Name>3gimages</Name>
+      <URL>/english/3gimages/</URL>
+      <FullURL>http://yilinhb.com/english/3gimages/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="11">
+      <Name>3gtiao.js</Name>
+      <URL>/english/3gimages/3gtiao.js</URL>
+      <FullURL>http://yilinhb.com/english/3gimages/3gtiao.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="12">
+      <Name>js2015</Name>
+      <URL>/english/js2015/</URL>
+      <FullURL>http://yilinhb.com/english/js2015/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="13">
+      <Name>DD_belatedPNG_0.0.8a-min.js</Name>
+      <URL>/english/js2015/DD_belatedPNG_0.0.8a-min.js</URL>
+      <FullURL>http://yilinhb.com/english/js2015/DD_belatedPNG_0.0.8a-min.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="14">
+      <Name>images</Name>
+      <URL>/english/images/</URL>
+      <FullURL>http://yilinhb.com/english/images/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="15">
+      <Name>Images</Name>
+      <URL>/english/Images/</URL>
+      <FullURL>http://yilinhb.com/english/Images/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="16">
+      <Name>images2014</Name>
+      <URL>/english/images2014</URL>
+      <FullURL>http://yilinhb.com/english/images2014</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="17">
+      <Name>html</Name>
+      <URL>/html/</URL>
+      <FullURL>http://yilinhb.com/html/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="18">
+      <Name>lxwm</Name>
+      <URL>/html/lxwm/</URL>
+      <FullURL>http://yilinhb.com/html/lxwm/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="19">
+      <Name>gywm</Name>
+      <URL>/html/gywm/</URL>
+      <FullURL>http://yilinhb.com/html/gywm/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="20">
+      <Name>kaiceseo</Name>
+      <URL>/kaiceseo/</URL>
+      <FullURL>http://yilinhb.com/kaiceseo/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="21">
+      <Name>login.asp</Name>
+      <URL>/kaiceseo/login.asp</URL>
+      <FullURL>http://yilinhb.com/kaiceseo/login.asp</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="22">
+      <Name>Login.asp</Name>
+      <URL>/kaiceseo/Login.asp</URL>
+      <FullURL>http://yilinhb.com/kaiceseo/Login.asp</FullURL>
+      <Inputs>
+       <Variable Name="Action" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="AdminLoginCode" Type="URL encoded POST">
+       </Variable>
+       <Variable Name="PWD" Type="URL encoded POST">
+       </Variable>
+       <Variable Name="UserName" Type="URL encoded POST">
+       </Variable>
+       <Variable Name="Action" Type="URL encoded GET">
+       </Variable>
+      </Inputs>
+      <Variations>
+        <Variation>
+         <URL>http://yilinhb.com/kaiceseo/Login.asp?Action=LoginCheck</URL>
+         <PostData><![CDATA[AdminLoginCode=94102&amp;PWD=1&amp;UserName=elqpfnnd]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://yilinhb.com/kaiceseo/Login.asp?Action=LoginCheck</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="23">
+      <Name>Images</Name>
+      <URL>/kaiceseo/Images/</URL>
+      <FullURL>http://yilinhb.com/kaiceseo/Images/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="24">
+      <Name>login</Name>
+      <URL>/kaiceseo/Images/login/</URL>
+      <FullURL>http://yilinhb.com/kaiceseo/Images/login/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="25">
+      <Name>background</Name>
+      <URL>/kaiceseo/Images/login/background/</URL>
+      <FullURL>http://yilinhb.com/kaiceseo/Images/login/background/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="26">
+      <Name>Include</Name>
+      <URL>/kaiceseo/Include/</URL>
+      <FullURL>http://yilinhb.com/kaiceseo/Include/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="27">
+      <Name>SoftKeyBoard.js</Name>
+      <URL>/kaiceseo/Include/SoftKeyBoard.js</URL>
+      <FullURL>http://yilinhb.com/kaiceseo/Include/SoftKeyBoard.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="28">
+      <Name>css</Name>
+      <URL>/css/</URL>
+      <FullURL>http://yilinhb.com/css/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="29">
+      <Name>yilinhuanbao.css</Name>
+      <URL>/css/yilinhuanbao.css</URL>
+      <FullURL>http://yilinhb.com/css/yilinhuanbao.css</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="30">
+      <Name>images</Name>
+      <URL>/images/</URL>
+      <FullURL>http://yilinhb.com/images/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="31">
+      <Name>UploadFiles</Name>
+      <URL>/UploadFiles/</URL>
+      <FullURL>http://yilinhb.com/UploadFiles/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="32">
+      <Name>2017-09</Name>
+      <URL>/UploadFiles/2017-09/</URL>
+      <FullURL>http://yilinhb.com/UploadFiles/2017-09/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="33">
+      <Name>0</Name>
+      <URL>/UploadFiles/2017-09/0/</URL>
+      <FullURL>http://yilinhb.com/UploadFiles/2017-09/0/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="34">
+      <Name>2017-05</Name>
+      <URL>/UploadFiles/2017-05/</URL>
+      <FullURL>http://yilinhb.com/UploadFiles/2017-05/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="35">
+      <Name>0</Name>
+      <URL>/UploadFiles/2017-05/0/</URL>
+      <FullURL>http://yilinhb.com/UploadFiles/2017-05/0/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="36">
+      <Name>2015-03</Name>
+      <URL>/UploadFiles/2015-03/</URL>
+      <FullURL>http://yilinhb.com/UploadFiles/2015-03/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="37">
+      <Name>0</Name>
+      <URL>/UploadFiles/2015-03/0/</URL>
+      <FullURL>http://yilinhb.com/UploadFiles/2015-03/0/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="38">
+      <Name>3gimages</Name>
+      <URL>/3gimages/</URL>
+      <FullURL>http://yilinhb.com/3gimages/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="39">
+      <Name>3gtiao.js</Name>
+      <URL>/3gimages/3gtiao.js</URL>
+      <FullURL>http://yilinhb.com/3gimages/3gtiao.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="40">
+      <Name>js2015</Name>
+      <URL>/js2015/</URL>
+      <FullURL>http://yilinhb.com/js2015/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="41">
+      <Name>DD_belatedPNG_0.0.8a-min.js</Name>
+      <URL>/js2015/DD_belatedPNG_0.0.8a-min.js</URL>
+      <FullURL>http://yilinhb.com/js2015/DD_belatedPNG_0.0.8a-min.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="42">
+      <Name>Images</Name>
+      <URL>/Images/</URL>
+      <FullURL>http://yilinhb.com/Images/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="43">
+      <Name>images2014</Name>
+      <URL>/images2014</URL>
+      <FullURL>http://yilinhb.com/images2014</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="44">
+      <Name>ks_inc</Name>
+      <URL>/ks_inc/</URL>
+      <FullURL>http://yilinhb.com/ks_inc/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="45">
+      <Name>jquery.js</Name>
+      <URL>/ks_inc/jquery.js</URL>
+      <FullURL>http://yilinhb.com/ks_inc/jquery.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="46">
+      <Name>ks_Inc</Name>
+      <URL>/ks_Inc/</URL>
+      <FullURL>http://yilinhb.com/ks_Inc/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="47">
+      <Name>lhgdialog.js</Name>
+      <URL>/ks_Inc/lhgdialog.js</URL>
+      <FullURL>http://yilinhb.com/ks_Inc/lhgdialog.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="48">
+      <Name>skins</Name>
+      <URL>/ks_Inc/skins/</URL>
+      <FullURL>http://yilinhb.com/ks_Inc/skins/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="49">
+      <Name>iblack.css</Name>
+      <URL>/ks_Inc/skins/iblack.css</URL>
+      <FullURL>http://yilinhb.com/ks_Inc/skins/iblack.css</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="50">
+      <Name>iblack</Name>
+      <URL>/ks_Inc/skins/iblack/</URL>
+      <FullURL>http://yilinhb.com/ks_Inc/skins/iblack/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="51">
+      <Name>ie6</Name>
+      <URL>/ks_Inc/skins/iblack/ie6/</URL>
+      <FullURL>http://yilinhb.com/ks_Inc/skins/iblack/ie6/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="52">
+      <Name>icons</Name>
+      <URL>/ks_Inc/skins/icons/</URL>
+      <FullURL>http://yilinhb.com/ks_Inc/skins/icons/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="53">
+      <Name>js</Name>
+      <URL>/js/</URL>
+      <FullURL>http://yilinhb.com/js/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="54">
+      <Name>iepng.js</Name>
+      <URL>/js/iepng.js</URL>
+      <FullURL>http://yilinhb.com/js/iepng.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="55">
+      <Name>config</Name>
+      <URL>/config/</URL>
+      <FullURL>http://yilinhb.com/config/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="56">
+      <Name>api</Name>
+      <URL>/api/</URL>
+      <FullURL>http://yilinhb.com/api/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="57">
+      <Name>editor</Name>
+      <URL>/editor/</URL>
+      <FullURL>http://yilinhb.com/editor/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+   </SiteFiles>
+  </Crawler>
+    <ReportItems>
+
+      <ReportItem id="0" color="green">
+       <Name><![CDATA[Microsoft IIS version disclosure]]></Name>
+       <ModuleName><![CDATA[Scripting (ASP_NET_Error_Message.script)]]></ModuleName>
+       <Details><![CDATA[<br/>Version information found: <font color="dark">Microsoft-IIS/6.0</font>]]></Details>
+       <Affects><![CDATA[/]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[info]]></Severity>
+       <Type><![CDATA[Configuration]]></Type>
+       <Impact><![CDATA[The HTTP header may disclose sensitive information. This information can be used to launch further attacks.]]></Impact>
+       <Description><![CDATA[The HTTP responses returned by this web application include a header named <b>Server</b>. The value of this header includes the version of Microsoft IIS server.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Microsoft IIS should be configured to remove unwanted HTTP response headers from the response. Consult web references for more information.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET /|~.aspx HTTP/1.1
+Host: yilinhb.com
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 404 Not Found
+Content-Length: 1308
+Content-Type: text/html
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+Date: Fri, 29 Sep 2017 20:38:02 GMT
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="200"><![CDATA[CWE-200]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:N/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[0.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no impact to the confidentiality of the system.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[7.5]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[High]]></C>
+          <Cdesc><![CDATA[There is total loss of confidentiality, resulting in all resources within the impacted component being divulged to the attacker. Alternatively, access to only some restricted information is obtained, but the disclosed information presents a direct, serious impact.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no loss of integrity within the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+       <References>
+        <Reference>
+          <Database><![CDATA[Remove Unwanted HTTP Response Headers]]></Database>
+          <URL><![CDATA[http://blogs.msdn.com/b/varunm/archive/2013/04/23/remove-unwanted-http-response-headers.aspx]]></URL>
+        </Reference>
+       </References>
+      </ReportItem>
+
+      <ReportItem id="1" color="blue">
+       <Name><![CDATA[Clickjacking: X-Frame-Options header missing]]></Name>
+       <ModuleName><![CDATA[Scripting (Clickjacking_X_Frame_Options.script)]]></ModuleName>
+       <Details><![CDATA[No details are available.]]></Details>
+       <Affects><![CDATA[Web Server]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[low]]></Severity>
+       <Type><![CDATA[Configuration]]></Type>
+       <Impact><![CDATA[The impact depends on the affected web application. ]]></Impact>
+       <Description><![CDATA[Clickjacking (User Interface redress attack, UI redress attack, UI redressing) is a malicious technique of tricking a Web user into clicking on something different from what the user perceives they are clicking on, thus potentially revealing confidential information or taking control of their computer while clicking on seemingly innocuous web pages. <br/><br/>
+The server didn't return an <b>X-Frame-Options</b> header which means that this website could be at risk of a clickjacking attack. The X-Frame-Options HTTP response header can be used to indicate whether or not a browser should be allowed to render a page inside a frame or iframe. Sites can use this to avoid clickjacking attacks, by ensuring that their content is not embedded into other sites.
+]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Configure your web server to include an  X-Frame-Options header. Consult Web references for more information about the possible values for this header.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET / HTTP/1.1
+Host: yilinhb.com
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 200 OK
+Content-Length: 4774
+Content-Type: text/html
+Content-Location: http://yilinhb.com/index.html
+Last-Modified: Fri, 29 Sep 2017 08:46:31 GMT
+Accept-Ranges: bytes
+ETag: &quot;12c7672ff38d31:6c185&quot;
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+Date: Fri, 29 Sep 2017 20:38:02 GMT
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="693"><![CDATA[CWE-693]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:M/Au:N/C:P/I:P/A:P]]></Descriptor>
+          <Score><![CDATA[6.8]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Medium]]></AC>
+          <ACdesc><![CDATA[The access conditions are somewhat specialized.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[Partial]]></C>
+          <Cdesc><![CDATA[There is considerable informational disclosure. Access to some system files is possible, but the attacker does not have control over what is obtained, or the scope of the loss is constrained.]]></Cdesc>
+          <I><![CDATA[Partial]]></I>
+          <Idesc><![CDATA[Modification of some system files or information is possible, but the attacker does not have control over what can be modified, or the scope of what the attacker can affect is limited.]]></Idesc>
+          <A><![CDATA[Partial]]></A>
+          <Adesc><![CDATA[There is reduced performance or interruptions in resource availability.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[]]></Descriptor>
+          <Score><![CDATA[]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[]]></AV>
+          <AVdesc><![CDATA[]]></AVdesc>
+          <AC><![CDATA[]]></AC>
+          <ACdesc><![CDATA[]]></ACdesc>
+          <PR><![CDATA[]]></PR>
+          <PRdesc><![CDATA[]]></PRdesc>
+          <UI><![CDATA[]]></UI>
+          <UIdesc><![CDATA[]]></UIdesc>
+          <S><![CDATA[]]></S>
+          <Sdesc><![CDATA[]]></Sdesc>
+          <C><![CDATA[]]></C>
+          <Cdesc><![CDATA[]]></Cdesc>
+          <I><![CDATA[]]></I>
+          <Idesc><![CDATA[]]></Idesc>
+          <A><![CDATA[]]></A>
+          <Adesc><![CDATA[]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+       <References>
+        <Reference>
+          <Database><![CDATA[The X-Frame-Options response header]]></Database>
+          <URL><![CDATA[https://developer.mozilla.org/en-US/docs/HTTP/X-Frame-Options]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[Clickjacking]]></Database>
+          <URL><![CDATA[http://en.wikipedia.org/wiki/Clickjacking]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[OWASP Clickjacking]]></Database>
+          <URL><![CDATA[https://www.owasp.org/index.php/Clickjacking]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[Defending with Content Security Policy frame-ancestors directive]]></Database>
+          <URL><![CDATA[https://www.owasp.org/index.php/Clickjacking_Defense_Cheat_Sheet#Defending_with_Content_Security_Policy_frame-ancestors_directive]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[Frame Buster Buster]]></Database>
+          <URL><![CDATA[http://stackoverflow.com/questions/958997/frame-buster-buster-buster-code-needed]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[Clickjacking Protection for Java EE]]></Database>
+          <URL><![CDATA[https://www.owasp.org/index.php/Clickjacking_Protection_for_Java_EE]]></URL>
+        </Reference>
+       </References>
+      </ReportItem>
+
+      <ReportItem id="2" color="orange">
+       <Name><![CDATA[HTML form without CSRF protection]]></Name>
+       <ModuleName><![CDATA[Crawler]]></ModuleName>
+       <Details><![CDATA[Form name: <font color="navy">LoginForm</font><br/>Form action: <font color="navy">http://yilinhb.com/kaiceseo/Login.asp?Action=LoginCheck</font><br/>Form method: <font color="navy">POST</font><br/><br/>Form inputs:<br/><ul><li>UserName [Text]</li><li>PWD [Password]</li><li>AdminLoginCode [Password]</li></ul>]]></Details>
+       <Affects><![CDATA[/kaiceseo/login.asp]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[medium]]></Severity>
+       <Type><![CDATA[Informational]]></Type>
+       <Impact><![CDATA[An attacker may force the users of a web application to execute actions of the attacker''s choosing. A successful CSRF exploit can compromise end user data and operation in case of normal user. If the targeted end user is the administrator account, this can compromise the entire web application.]]></Impact>
+       <Description><![CDATA[ <div class="coolbox"><font color="dark">This alert may be a false positive, manual confirmation is required.</font></div><br/>
+Cross-site request forgery, also known as a one-click attack or session riding and abbreviated as CSRF or XSRF, is a type of malicious exploit of a website whereby unauthorized commands are transmitted from a user that the website trusts.
+
+<br/><br/>Acunetix WVS found a HTML form with no apparent CSRF protection implemented. Consult details for more information about the affected HTML form.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Check if this form requires CSRF protection and implement CSRF countermeasures if necessary.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET /kaiceseo/login.asp HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Referer: http://yilinhb.com/
+Acunetix-Aspect: enabled
+Acunetix-Aspect-Password: 082119f75623eb7abd7bf357698ff66c
+Acunetix-Aspect-Queries: filelist;aspectalerts
+Host: yilinhb.com
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 29 Sep 2017 20:38:03 GMT
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+Content-Length: 7939
+Content-Type: text/html; Charset=utf-8
+Set-Cookie: ASPSESSIONIDAQABABDB=DCNLCMEDCOPNGPJPEAOLEHKI; path=/
+Cache-control: private
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="352"><![CDATA[CWE-352]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:H/Au:N/C:N/I:P/A:N]]></Descriptor>
+          <Score><![CDATA[2.6]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[High]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no impact to the confidentiality of the system.]]></Cdesc>
+          <I><![CDATA[Partial]]></I>
+          <Idesc><![CDATA[Modification of some system files or information is possible, but the attacker does not have control over what can be modified, or the scope of what the attacker can affect is limited.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N]]></Descriptor>
+          <Score><![CDATA[4.3]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[Required]]></UI>
+          <UIdesc><![CDATA[Successful exploitation of this vulnerability requires a user to take some action before the vulnerability can be exploited.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no loss of confidentiality within the impacted component.]]></Cdesc>
+          <I><![CDATA[Low]]></I>
+          <Idesc><![CDATA[Modification of data is possible, but the attacker does not have control over the consequence of a modification, or the amount of modification is constrained. The data modification does not have a direct, serious impact on the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+      <References></References>
+      </ReportItem>
+
+      <ReportItem id="3" color="orange">
+       <Name><![CDATA[HTML form without CSRF protection]]></Name>
+       <ModuleName><![CDATA[Crawler]]></ModuleName>
+       <Details><![CDATA[Form name: <font color="navy">LoginForm</font><br/>Form action: <font color="navy">http://yilinhb.com/kaiceseo/Login.asp?Action=LoginCheck</font><br/>Form method: <font color="navy">POST</font><br/>]]></Details>
+       <Affects><![CDATA[/kaiceseo/login.asp]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[medium]]></Severity>
+       <Type><![CDATA[Informational]]></Type>
+       <Impact><![CDATA[An attacker may force the users of a web application to execute actions of the attacker''s choosing. A successful CSRF exploit can compromise end user data and operation in case of normal user. If the targeted end user is the administrator account, this can compromise the entire web application.]]></Impact>
+       <Description><![CDATA[ <div class="coolbox"><font color="dark">This alert may be a false positive, manual confirmation is required.</font></div><br/>
+Cross-site request forgery, also known as a one-click attack or session riding and abbreviated as CSRF or XSRF, is a type of malicious exploit of a website whereby unauthorized commands are transmitted from a user that the website trusts.
+
+<br/><br/>Acunetix WVS found a HTML form with no apparent CSRF protection implemented. Consult details for more information about the affected HTML form.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Check if this form requires CSRF protection and implement CSRF countermeasures if necessary.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET /kaiceseo/login.asp HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Referer: http://yilinhb.com/
+Acunetix-Aspect: enabled
+Acunetix-Aspect-Password: 082119f75623eb7abd7bf357698ff66c
+Acunetix-Aspect-Queries: filelist;aspectalerts
+Host: yilinhb.com
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 29 Sep 2017 20:38:03 GMT
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+Content-Length: 7939
+Content-Type: text/html; Charset=utf-8
+Set-Cookie: ASPSESSIONIDAQABABDB=DCNLCMEDCOPNGPJPEAOLEHKI; path=/
+Cache-control: private
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="352"><![CDATA[CWE-352]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:H/Au:N/C:N/I:P/A:N]]></Descriptor>
+          <Score><![CDATA[2.6]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[High]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no impact to the confidentiality of the system.]]></Cdesc>
+          <I><![CDATA[Partial]]></I>
+          <Idesc><![CDATA[Modification of some system files or information is possible, but the attacker does not have control over what can be modified, or the scope of what the attacker can affect is limited.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N]]></Descriptor>
+          <Score><![CDATA[4.3]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[Required]]></UI>
+          <UIdesc><![CDATA[Successful exploitation of this vulnerability requires a user to take some action before the vulnerability can be exploited.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no loss of confidentiality within the impacted component.]]></Cdesc>
+          <I><![CDATA[Low]]></I>
+          <Idesc><![CDATA[Modification of data is possible, but the attacker does not have control over the consequence of a modification, or the amount of modification is constrained. The data modification does not have a direct, serious impact on the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+      <References></References>
+      </ReportItem>
+
+      <ReportItem id="4" color="blue">
+       <Name><![CDATA[Cookie without HttpOnly flag set]]></Name>
+       <ModuleName><![CDATA[Crawler]]></ModuleName>
+       <Details><![CDATA[Cookie name: <font color="dark">&quot;ASPSESSIONIDAQABABDB&quot;</font><br/>Cookie domain: <font color="dark">&quot;yilinhb.com&quot;</font><br/>]]></Details>
+       <Affects><![CDATA[/]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[low]]></Severity>
+       <Type><![CDATA[Informational]]></Type>
+       <Impact><![CDATA[None]]></Impact>
+       <Description><![CDATA[This cookie does not have the HTTPOnly flag set. When a cookie is set with the HTTPOnly flag, it instructs the browser that the cookie can only be accessed by the server and not by client-side scripts. This is an important security protection for session cookies.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[If possible, you should set the HTTPOnly flag for this cookie.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET / HTTP/1.1
+Host: yilinhb.com
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 200 OK
+Content-Length: 4774
+Content-Type: text/html
+Content-Location: http://yilinhb.com/index.html
+Last-Modified: Fri, 29 Sep 2017 08:46:31 GMT
+Accept-Ranges: bytes
+ETag: &quot;12c7672ff38d31:6c185&quot;
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+Date: Fri, 29 Sep 2017 20:38:02 GMT
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="16"><![CDATA[CWE-16]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:N/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[0.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no impact to the confidentiality of the system.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[]]></Descriptor>
+          <Score><![CDATA[]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[]]></AV>
+          <AVdesc><![CDATA[]]></AVdesc>
+          <AC><![CDATA[]]></AC>
+          <ACdesc><![CDATA[]]></ACdesc>
+          <PR><![CDATA[]]></PR>
+          <PRdesc><![CDATA[]]></PRdesc>
+          <UI><![CDATA[]]></UI>
+          <UIdesc><![CDATA[]]></UIdesc>
+          <S><![CDATA[]]></S>
+          <Sdesc><![CDATA[]]></Sdesc>
+          <C><![CDATA[]]></C>
+          <Cdesc><![CDATA[]]></Cdesc>
+          <I><![CDATA[]]></I>
+          <Idesc><![CDATA[]]></Idesc>
+          <A><![CDATA[]]></A>
+          <Adesc><![CDATA[]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+      <References></References>
+      </ReportItem>
+
+      <ReportItem id="5" color="blue">
+       <Name><![CDATA[OPTIONS method is enabled]]></Name>
+       <ModuleName><![CDATA[Scripting (Options_Server_Method.script)]]></ModuleName>
+       <Details><![CDATA[Methods allowed: <font color="dark"><b>OPTIONS, TRACE, GET, HEAD</b></font>]]></Details>
+       <Affects><![CDATA[Web Server]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[low]]></Severity>
+       <Type><![CDATA[Validation]]></Type>
+       <Impact><![CDATA[The OPTIONS method may expose sensitive information that may help an malicious user to prepare more advanced attacks.]]></Impact>
+       <Description><![CDATA[HTTP OPTIONS method is enabled on this web server. The OPTIONS method provides a list of the methods that are supported by the web server, it represents a request for information about the communication options available on the request/response chain identified by the Request-URI.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[It's recommended to disable OPTIONS Method on the web server.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[OPTIONS / HTTP/1.1
+Host: yilinhb.com
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 200 OK
+Allow: OPTIONS, TRACE, GET, HEAD
+Content-Length: 0
+Server: Microsoft-IIS/6.0
+Public: OPTIONS, TRACE, GET, HEAD, POST
+X-Powered-By: ASP.NET
+Date: Fri, 29 Sep 2017 20:38:36 GMT
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="200"><![CDATA[CWE-200]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:P/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[5.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[Partial]]></C>
+          <Cdesc><![CDATA[There is considerable informational disclosure. Access to some system files is possible, but the attacker does not have control over what is obtained, or the scope of the loss is constrained.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[7.5]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[High]]></C>
+          <Cdesc><![CDATA[There is total loss of confidentiality, resulting in all resources within the impacted component being divulged to the attacker. Alternatively, access to only some restricted information is obtained, but the disclosed information presents a direct, serious impact.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no loss of integrity within the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+       <References>
+        <Reference>
+          <Database><![CDATA[Testing for HTTP Methods and XST (OWASP-CM-008)]]></Database>
+          <URL><![CDATA[https://www.owasp.org/index.php/Testing_for_HTTP_Methods_and_XST_(OWASP-CM-008)]]></URL>
+        </Reference>
+       </References>
+      </ReportItem>
+
+      <ReportItem id="6" color="blue">
+       <Name><![CDATA[Possible sensitive directories]]></Name>
+       <ModuleName><![CDATA[Scripting (Possible_Sensitive_Directories.script)]]></ModuleName>
+       <Details><![CDATA[No details are available.]]></Details>
+       <Affects><![CDATA[/config]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[low]]></Severity>
+       <Type><![CDATA[Validation]]></Type>
+       <Impact><![CDATA[This directory may expose sensitive information that could help a malicious user to prepare more advanced attacks.]]></Impact>
+       <Description><![CDATA[A possible sensitive directory has been found. This directory is not directly linked from the website.This check looks for common sensitive resources like backup directories, database dumps, administration pages, temporary directories. Each one of these directories could help an attacker to learn more about his target.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Restrict access to this directory or remove it from the website.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET /config HTTP/1.1
+Accept: acunetix/wvs
+Range: bytes=0-99999
+Cookie: ASPSESSIONIDAQABABDB=DCNLCMEDCOPNGPJPEAOLEHKI
+Host: yilinhb.com
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 301 Moved Permanently
+Content-Length: 149
+Content-Type: text/html
+Location: http://yilinhb.com/config/
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+Date: Fri, 29 Sep 2017 20:47:07 GMT
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="200"><![CDATA[CWE-200]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:P/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[5.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[Partial]]></C>
+          <Cdesc><![CDATA[There is considerable informational disclosure. Access to some system files is possible, but the attacker does not have control over what is obtained, or the scope of the loss is constrained.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[7.5]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[High]]></C>
+          <Cdesc><![CDATA[There is total loss of confidentiality, resulting in all resources within the impacted component being divulged to the attacker. Alternatively, access to only some restricted information is obtained, but the disclosed information presents a direct, serious impact.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no loss of integrity within the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+       <References>
+        <Reference>
+          <Database><![CDATA[Web Server Security and Database Server Security]]></Database>
+          <URL><![CDATA[http://www.acunetix.com/websitesecurity/webserver-security.htm]]></URL>
+        </Reference>
+       </References>
+      </ReportItem>
+
+      <ReportItem id="7" color="blue">
+       <Name><![CDATA[Possible sensitive directories]]></Name>
+       <ModuleName><![CDATA[Scripting (Possible_Sensitive_Directories.script)]]></ModuleName>
+       <Details><![CDATA[No details are available.]]></Details>
+       <Affects><![CDATA[/Config]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[low]]></Severity>
+       <Type><![CDATA[Validation]]></Type>
+       <Impact><![CDATA[This directory may expose sensitive information that could help a malicious user to prepare more advanced attacks.]]></Impact>
+       <Description><![CDATA[A possible sensitive directory has been found. This directory is not directly linked from the website.This check looks for common sensitive resources like backup directories, database dumps, administration pages, temporary directories. Each one of these directories could help an attacker to learn more about his target.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Restrict access to this directory or remove it from the website.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET /Config HTTP/1.1
+Accept: acunetix/wvs
+Range: bytes=0-99999
+Cookie: ASPSESSIONIDAQABABDB=DCNLCMEDCOPNGPJPEAOLEHKI
+Host: yilinhb.com
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 301 Moved Permanently
+Content-Length: 149
+Content-Type: text/html
+Location: http://yilinhb.com/Config/
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+Date: Fri, 29 Sep 2017 20:47:08 GMT
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="200"><![CDATA[CWE-200]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:P/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[5.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[Partial]]></C>
+          <Cdesc><![CDATA[There is considerable informational disclosure. Access to some system files is possible, but the attacker does not have control over what is obtained, or the scope of the loss is constrained.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[7.5]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[High]]></C>
+          <Cdesc><![CDATA[There is total loss of confidentiality, resulting in all resources within the impacted component being divulged to the attacker. Alternatively, access to only some restricted information is obtained, but the disclosed information presents a direct, serious impact.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no loss of integrity within the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+       <References>
+        <Reference>
+          <Database><![CDATA[Web Server Security and Database Server Security]]></Database>
+          <URL><![CDATA[http://www.acunetix.com/websitesecurity/webserver-security.htm]]></URL>
+        </Reference>
+       </References>
+      </ReportItem>
+		</ReportItems>
+ </Scan>
+</ScanGroup>

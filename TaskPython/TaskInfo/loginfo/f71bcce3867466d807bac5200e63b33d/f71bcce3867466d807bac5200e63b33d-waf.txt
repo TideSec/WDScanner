@@ -1,0 +1,17 @@
+
+                                 ^     ^
+        _   __  _   ____ _   __  _    _   ____
+       ///7/ /.' \ / __////7/ /,' \ ,' \ / __/
+      | V V // o // _/ | V V // 0 // 0 // _/
+      |_n_,'/_n_//_/   |_n_,' \_,' \_,'/_/
+                                <
+                                ...'
+
+    WAFW00F - Web Application Firewall Detection Tool
+
+    By Sandro Gauci && Wendel G. Henrique
+
+Checking http://www.zt10jwz.com
+Generic Detection results:
+No WAF detected by the generic detection
+Number of requests: 13

@@ -1,0 +1,12 @@
+beautifulsoup4==4.6.0
+hackhttp
+requests
+gevent
+wafw00f
+pexpect
+lxml
+python-nmap
+dnspython
+py2-ipaddress
+pymysql
+DBUtils

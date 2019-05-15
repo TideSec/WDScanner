@@ -1,0 +1,4 @@
+bad##http://testasp.vulnweb.com/./Register.asp?RetURL=%2Fshowthread%2Easp%3Fid%3D16 --- Parent_Page:http://testasp.vulnweb.com/./Login.asp?RetURL=%2Fshowthread%2Easp%3Fid%3D16+++
+bad##http://testasp.vulnweb.com/./Login.asp?RetURL=%2Fregister%2Easp%3F --- Parent_Page:http://testasp.vulnweb.com/register.asp+++
+bad##http://testasp.vulnweb.com/../Search.asp --- Parent_Page:http://testasp.vulnweb.com/Templates/MainTemplate.dwt.asp+++
+bad##http://testasp.vulnweb.com/showthread.asp?id=5 --- Parent_Page:http://testasp.vulnweb.com/showforum.asp?id=0+++

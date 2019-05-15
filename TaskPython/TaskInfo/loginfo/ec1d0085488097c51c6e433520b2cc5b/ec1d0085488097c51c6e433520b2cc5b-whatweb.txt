@@ -1,0 +1,1 @@
+http://testhtml5.vulnweb.com [200 OK] Country[GERMANY][DE], HTML5, HTTPServer[nginx/1.4.1], IP[176.28.50.165], JQuery[1.9.1], PasswordField[password], Script, Title[SecurityTweets - HTML5 test website for Acunetix Web Vulnerability Scanner], UncommonHeaders[access-control-allow-origin], nginx[1.4.1]

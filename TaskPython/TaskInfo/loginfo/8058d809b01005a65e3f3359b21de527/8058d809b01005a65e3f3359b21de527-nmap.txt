@@ -1,0 +1,16 @@
+# Nmap 7.60 scan initiated Tue Mar 19 15:59:33 2019 as: nmap.exe -oN C:\WDScanner\WWW\TaskPython\TaskInfo\loginfo\8058d809b01005a65e3f3359b21de527\8058d809b01005a65e3f3359b21de527-nmap.txt -sT -sV -O --script=banner --min-hostgroup 1024 --min-parallelism 1024 --top-port 200 www.chngec.com.cn
+Nmap scan report for www.chngec.com.cn (123.233.120.98)
+Host is up (0.010s latency).
+Not shown: 199 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    nginx 1.8.0
+|_http-server-header: nginx/1.8.0
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: firewall
+Running (JUST GUESSING): Fortinet embedded (98%)
+OS CPE: cpe:/h:fortinet:fortigate_200b
+Aggressive OS guesses: Fortinet FortiGate 200B firewall (98%)
+No exact OS matches for host (test conditions non-ideal).
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Mar 19 16:00:06 2019 -- 1 IP address (1 host up) scanned in 33.16 seconds

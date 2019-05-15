@@ -1,0 +1,2428 @@
+<?xml version="1.0"?>
+<ScanGroup ExportedOn="15/5/2019, 14:48">
+ <Scan>
+  <Name><![CDATA[Scan Thread 1 ( http://testhtml5.vulnweb.com )]]></Name>
+  <ShortName><![CDATA[Scan Thread 1]]></ShortName>
+  <StartURL><![CDATA[http://testhtml5.vulnweb.com]]></StartURL>
+  <StartTime><![CDATA[15/5/2019, 14:38:15]]></StartTime>
+  <FinishTime><![CDATA[15/5/2019, 14:48:25]]></FinishTime>
+  <ScanTime><![CDATA[10 minutes, 9 seconds]]></ScanTime>
+  <Aborted><![CDATA[True]]></Aborted>
+  <Responsive><![CDATA[True]]></Responsive>
+  <Banner><![CDATA[nginx/1.4.1]]></Banner>
+  <Os><![CDATA[Unknown]]></Os>
+  <WebServer><![CDATA[nginx]]></WebServer>
+  <Technologies><![CDATA[]]></Technologies>
+  <KBase>
+  </KBase>
+  <Crawler StartUrl="http://testhtml5.vulnweb.com/">
+   <Cookies>
+     <Variable Name="username" Type="Cookie">
+     </Variable>
+   </Cookies>
+   <SiteFiles>
+     <SiteFile id="1">
+      <Name></Name>
+      <URL>/</URL>
+      <FullURL>http://testhtml5.vulnweb.com/</FullURL>
+      <Inputs>
+       <Variable Name="/" Type="Path Fragment">
+       </Variable>
+       <Variable Name="Host" Type="HTTP Header">
+       </Variable>
+      </Inputs>
+      <Variations>
+        <Variation>
+         <URL>http://testhtml5.vulnweb.com/</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="2">
+      <Name>login</Name>
+      <URL>/login</URL>
+      <FullURL>http://testhtml5.vulnweb.com/login</FullURL>
+      <Inputs>
+       <Variable Name="password" Type="URL encoded POST">
+       </Variable>
+       <Variable Name="username" Type="URL encoded POST">
+       </Variable>
+      </Inputs>
+      <Variations>
+        <Variation>
+         <URL>http://testhtml5.vulnweb.com/login</URL>
+         <PostData><![CDATA[password=g00dPa%24%24w0rD&amp;username=admin]]></PostData>
+        </Variation>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="3">
+      <Name>static</Name>
+      <URL>/static</URL>
+      <FullURL>http://testhtml5.vulnweb.com/static</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="4">
+      <Name>css</Name>
+      <URL>/static/css/</URL>
+      <FullURL>http://testhtml5.vulnweb.com/static/css/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="5">
+      <Name>style.css</Name>
+      <URL>/static/css/style.css</URL>
+      <FullURL>http://testhtml5.vulnweb.com/static/css/style.css</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="6">
+      <Name>img</Name>
+      <URL>/static/img/</URL>
+      <FullURL>http://testhtml5.vulnweb.com/static/img/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="7">
+      <Name>app</Name>
+      <URL>/static/app/</URL>
+      <FullURL>http://testhtml5.vulnweb.com/static/app/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="8">
+      <Name>app.js</Name>
+      <URL>/static/app/app.js</URL>
+      <FullURL>http://testhtml5.vulnweb.com/static/app/app.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="9">
+      <Name>libs</Name>
+      <URL>/static/app/libs/</URL>
+      <FullURL>http://testhtml5.vulnweb.com/static/app/libs/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="10">
+      <Name>sessvars.js</Name>
+      <URL>/static/app/libs/sessvars.js</URL>
+      <FullURL>http://testhtml5.vulnweb.com/static/app/libs/sessvars.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="11">
+      <Name>post.js</Name>
+      <URL>/static/app/post.js</URL>
+      <FullURL>http://testhtml5.vulnweb.com/static/app/post.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="12">
+      <Name>controllers</Name>
+      <URL>/static/app/controllers/</URL>
+      <FullURL>http://testhtml5.vulnweb.com/static/app/controllers/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="13">
+      <Name>controllers.js</Name>
+      <URL>/static/app/controllers/controllers.js</URL>
+      <FullURL>http://testhtml5.vulnweb.com/static/app/controllers/controllers.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="14">
+      <Name>services</Name>
+      <URL>/static/app/services/</URL>
+      <FullURL>http://testhtml5.vulnweb.com/static/app/services/</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="15">
+      <Name>itemsService.js</Name>
+      <URL>/static/app/services/itemsService.js</URL>
+      <FullURL>http://testhtml5.vulnweb.com/static/app/services/itemsService.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="16">
+      <Name>logout</Name>
+      <URL>/logout</URL>
+      <FullURL>http://testhtml5.vulnweb.com/logout</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="17">
+      <Name>forgotpw</Name>
+      <URL>/forgotpw</URL>
+      <FullURL>http://testhtml5.vulnweb.com/forgotpw</FullURL>
+      <Inputs>
+       <Variable Name="text/xml" Type="Custom POST">
+       </Variable>
+       <Variable Name="forgot.username#text" Type="XML">
+       </Variable>
+      </Inputs>
+      <Variations>
+        <Variation>
+         <URL>http://testhtml5.vulnweb.com/forgotpw</URL>
+         <PostData><![CDATA[&lt;forgot&gt;&lt;username&gt;e&lt;/username&gt;&lt;/forgot&gt;]]></PostData>
+        </Variation>
+      </Variations>
+     </SiteFile>
+   </SiteFiles>
+  </Crawler>
+    <ReportItems>
+
+      <ReportItem id="0" color="green">
+       <Name><![CDATA[Password type input with auto-complete enabled]]></Name>
+       <ModuleName><![CDATA[Crawler]]></ModuleName>
+       <Details><![CDATA[Password type input named <b><font color="dark">password</font></b> from form with ID <b>loginForm</b> with action <b>/login</b> has autocomplete enabled.]]></Details>
+       <Affects><![CDATA[/]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[info]]></Severity>
+       <Type><![CDATA[Informational]]></Type>
+       <Impact><![CDATA[Possible sensitive information disclosure.]]></Impact>
+       <Description><![CDATA[When a new name and password is entered in a form and the form is submitted, the browser asks if the password should be saved.Thereafter when the form is displayed, the name and password are filled in automatically or are completed as the name is entered. An attacker with local access could obtain the cleartext password from the browser cache.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[The password auto-complete should be disabled in sensitive applications. <br/>To disable auto-complete, you may use a code similar to: <pre wrap="virtual"><code>&lt;INPUT TYPE=&quot;password&quot; AUTOCOMPLETE=&quot;off&quot;&gt;</code></pre>]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET / HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Host: testhtml5.vulnweb.com
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 200 OK
+Server: nginx/1.4.1
+Date: Mon, 02 Feb 1970 21:37:19 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Original-Content-Encoding: gzip
+Content-Length: 6007
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="200"><![CDATA[CWE-200]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:N/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[0.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no impact to the confidentiality of the system.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[7.5]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[High]]></C>
+          <Cdesc><![CDATA[There is total loss of confidentiality, resulting in all resources within the impacted component being divulged to the attacker. Alternatively, access to only some restricted information is obtained, but the disclosed information presents a direct, serious impact.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no loss of integrity within the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+      <References></References>
+      </ReportItem>
+
+      <ReportItem id="1" color="orange">
+       <Name><![CDATA[User credentials are sent in clear text]]></Name>
+       <ModuleName><![CDATA[Crawler]]></ModuleName>
+       <Details><![CDATA[Form name: <font color="navy">&lt;empty&gt;</font><br/>Form action: <font color="navy">http://testhtml5.vulnweb.com/login</font><br/>Form method: <font color="navy">POST</font><br/><br/>Form inputs:<br/><ul><li>username [Text]</li><li>password [Password]</li></ul>]]></Details>
+       <Affects><![CDATA[/]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[medium]]></Severity>
+       <Type><![CDATA[Configuration]]></Type>
+       <Impact><![CDATA[A third party may be able to read the user credentials by intercepting an unencrypted HTTP connection.]]></Impact>
+       <Description><![CDATA[User credentials are transmitted over an unencrypted channel. This information should always be transferred via an encrypted channel (HTTPS) to avoid being intercepted by malicious users.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Because user credentials are considered sensitive information, should always be transferred to the server over an encrypted connection (HTTPS).]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET / HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Host: testhtml5.vulnweb.com
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 200 OK
+Server: nginx/1.4.1
+Date: Mon, 02 Feb 1970 21:37:19 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Original-Content-Encoding: gzip
+Content-Length: 6007
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="310"><![CDATA[CWE-310]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:P/I:N/A:N/E:H/RL:W/RC:C]]></Descriptor>
+          <Score><![CDATA[5.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[Partial]]></C>
+          <Cdesc><![CDATA[There is considerable informational disclosure. Access to some system files is possible, but the attacker does not have control over what is obtained, or the scope of the loss is constrained.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[High]]></E>
+          <Edesc><![CDATA[Either the vulnerability is exploitable by functional mobile autonomous code, or no exploit is required (manual trigger) and details are widely available.]]></Edesc>
+          <RL><![CDATA[Workaround]]></RL>
+          <RLdesc><![CDATA[There is an unofficial, non-vendor solution available. In some cases, users of the affected technology will create a patch of their own or provide steps to work around or otherwise mitigate the vulnerability.]]></RLdesc>
+          <RC><![CDATA[Confirmed]]></RC>
+          <RCdesc><![CDATA[The vulnerability has been acknowledged by the vendor or author of the affected technology.]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N]]></Descriptor>
+          <Score><![CDATA[9.1]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[High]]></C>
+          <Cdesc><![CDATA[There is total loss of confidentiality, resulting in all resources within the impacted component being divulged to the attacker. Alternatively, access to only some restricted information is obtained, but the disclosed information presents a direct, serious impact.]]></Cdesc>
+          <I><![CDATA[High]]></I>
+          <Idesc><![CDATA[There is a total loss of integrity, or a complete loss of protection. For example, the attacker is able to modify any/all files protected by the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+      <References></References>
+      </ReportItem>
+
+      <ReportItem id="2" color="orange">
+       <Name><![CDATA[HTML form without CSRF protection]]></Name>
+       <ModuleName><![CDATA[Crawler]]></ModuleName>
+       <Details><![CDATA[Form name: <font color="navy">&lt;empty&gt;</font><br/>Form action: <font color="navy">http://testhtml5.vulnweb.com/login</font><br/>Form method: <font color="navy">POST</font><br/><br/>Form inputs:<br/><ul><li>username [Text]</li><li>password [Password]</li></ul>]]></Details>
+       <Affects><![CDATA[/]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[medium]]></Severity>
+       <Type><![CDATA[Informational]]></Type>
+       <Impact><![CDATA[An attacker may force the users of a web application to execute actions of the attacker''s choosing. A successful CSRF exploit can compromise end user data and operation in case of normal user. If the targeted end user is the administrator account, this can compromise the entire web application.]]></Impact>
+       <Description><![CDATA[ <div class="coolbox"><font color="dark">This alert may be a false positive, manual confirmation is required.</font></div><br/>
+Cross-site request forgery, also known as a one-click attack or session riding and abbreviated as CSRF or XSRF, is a type of malicious exploit of a website whereby unauthorized commands are transmitted from a user that the website trusts.
+
+<br/><br/>Acunetix WVS found a HTML form with no apparent CSRF protection implemented. Consult details for more information about the affected HTML form.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Check if this form requires CSRF protection and implement CSRF countermeasures if necessary.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET / HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Host: testhtml5.vulnweb.com
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 200 OK
+Server: nginx/1.4.1
+Date: Mon, 02 Feb 1970 21:37:19 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Original-Content-Encoding: gzip
+Content-Length: 6007
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="352"><![CDATA[CWE-352]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:H/Au:N/C:N/I:P/A:N]]></Descriptor>
+          <Score><![CDATA[2.6]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[High]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no impact to the confidentiality of the system.]]></Cdesc>
+          <I><![CDATA[Partial]]></I>
+          <Idesc><![CDATA[Modification of some system files or information is possible, but the attacker does not have control over what can be modified, or the scope of what the attacker can affect is limited.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N]]></Descriptor>
+          <Score><![CDATA[4.3]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[Required]]></UI>
+          <UIdesc><![CDATA[Successful exploitation of this vulnerability requires a user to take some action before the vulnerability can be exploited.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no loss of confidentiality within the impacted component.]]></Cdesc>
+          <I><![CDATA[Low]]></I>
+          <Idesc><![CDATA[Modification of data is possible, but the attacker does not have control over the consequence of a modification, or the amount of modification is constrained. The data modification does not have a direct, serious impact on the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+      <References></References>
+      </ReportItem>
+
+      <ReportItem id="3" color="blue">
+       <Name><![CDATA[Clickjacking: X-Frame-Options header missing]]></Name>
+       <ModuleName><![CDATA[Scripting (Clickjacking_X_Frame_Options.script)]]></ModuleName>
+       <Details><![CDATA[No details are available.]]></Details>
+       <Affects><![CDATA[Web Server]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[low]]></Severity>
+       <Type><![CDATA[Configuration]]></Type>
+       <Impact><![CDATA[The impact depends on the affected web application. ]]></Impact>
+       <Description><![CDATA[Clickjacking (User Interface redress attack, UI redress attack, UI redressing) is a malicious technique of tricking a Web user into clicking on something different from what the user perceives they are clicking on, thus potentially revealing confidential information or taking control of their computer while clicking on seemingly innocuous web pages. <br/><br/>
+The server didn't return an <b>X-Frame-Options</b> header which means that this website could be at risk of a clickjacking attack. The X-Frame-Options HTTP response header can be used to indicate whether or not a browser should be allowed to render a page inside a frame or iframe. Sites can use this to avoid clickjacking attacks, by ensuring that their content is not embedded into other sites.
+]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Configure your web server to include an  X-Frame-Options header. Consult Web references for more information about the possible values for this header.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET / HTTP/1.1
+Cookie: username=admin
+Host: testhtml5.vulnweb.com
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 200 OK
+Server: nginx/1.4.1
+Date: Mon, 02 Feb 1970 21:37:20 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Original-Content-Encoding: gzip
+Content-Length: 5984
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="693"><![CDATA[CWE-693]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:M/Au:N/C:P/I:P/A:P]]></Descriptor>
+          <Score><![CDATA[6.8]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Medium]]></AC>
+          <ACdesc><![CDATA[The access conditions are somewhat specialized.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[Partial]]></C>
+          <Cdesc><![CDATA[There is considerable informational disclosure. Access to some system files is possible, but the attacker does not have control over what is obtained, or the scope of the loss is constrained.]]></Cdesc>
+          <I><![CDATA[Partial]]></I>
+          <Idesc><![CDATA[Modification of some system files or information is possible, but the attacker does not have control over what can be modified, or the scope of what the attacker can affect is limited.]]></Idesc>
+          <A><![CDATA[Partial]]></A>
+          <Adesc><![CDATA[There is reduced performance or interruptions in resource availability.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[]]></Descriptor>
+          <Score><![CDATA[]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[]]></AV>
+          <AVdesc><![CDATA[]]></AVdesc>
+          <AC><![CDATA[]]></AC>
+          <ACdesc><![CDATA[]]></ACdesc>
+          <PR><![CDATA[]]></PR>
+          <PRdesc><![CDATA[]]></PRdesc>
+          <UI><![CDATA[]]></UI>
+          <UIdesc><![CDATA[]]></UIdesc>
+          <S><![CDATA[]]></S>
+          <Sdesc><![CDATA[]]></Sdesc>
+          <C><![CDATA[]]></C>
+          <Cdesc><![CDATA[]]></Cdesc>
+          <I><![CDATA[]]></I>
+          <Idesc><![CDATA[]]></Idesc>
+          <A><![CDATA[]]></A>
+          <Adesc><![CDATA[]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+       <References>
+        <Reference>
+          <Database><![CDATA[The X-Frame-Options response header]]></Database>
+          <URL><![CDATA[https://developer.mozilla.org/en-US/docs/HTTP/X-Frame-Options]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[Clickjacking]]></Database>
+          <URL><![CDATA[http://en.wikipedia.org/wiki/Clickjacking]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[OWASP Clickjacking]]></Database>
+          <URL><![CDATA[https://www.owasp.org/index.php/Clickjacking]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[Defending with Content Security Policy frame-ancestors directive]]></Database>
+          <URL><![CDATA[https://www.owasp.org/index.php/Clickjacking_Defense_Cheat_Sheet#Defending_with_Content_Security_Policy_frame-ancestors_directive]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[Frame Buster Buster]]></Database>
+          <URL><![CDATA[http://stackoverflow.com/questions/958997/frame-buster-buster-buster-code-needed]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[Clickjacking Protection for Java EE]]></Database>
+          <URL><![CDATA[https://www.owasp.org/index.php/Clickjacking_Protection_for_Java_EE]]></URL>
+        </Reference>
+       </References>
+      </ReportItem>
+
+      <ReportItem id="4" color="blue">
+       <Name><![CDATA[OPTIONS method is enabled]]></Name>
+       <ModuleName><![CDATA[Scripting (Options_Server_Method.script)]]></ModuleName>
+       <Details><![CDATA[Methods allowed: <font color="dark"><b>HEAD, OPTIONS, GET</b></font>]]></Details>
+       <Affects><![CDATA[Web Server]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[low]]></Severity>
+       <Type><![CDATA[Validation]]></Type>
+       <Impact><![CDATA[The OPTIONS method may expose sensitive information that may help an malicious user to prepare more advanced attacks.]]></Impact>
+       <Description><![CDATA[HTTP OPTIONS method is enabled on this web server. The OPTIONS method provides a list of the methods that are supported by the web server, it represents a request for information about the communication options available on the request/response chain identified by the Request-URI.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[It's recommended to disable OPTIONS Method on the web server.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[OPTIONS / HTTP/1.1
+Host: testhtml5.vulnweb.com
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 200 OK
+Server: nginx/1.4.1
+Date: Mon, 02 Feb 1970 21:38:08 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 0
+Connection: keep-alive
+Allow: HEAD, OPTIONS, GET
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="200"><![CDATA[CWE-200]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:P/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[5.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[Partial]]></C>
+          <Cdesc><![CDATA[There is considerable informational disclosure. Access to some system files is possible, but the attacker does not have control over what is obtained, or the scope of the loss is constrained.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[7.5]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[High]]></C>
+          <Cdesc><![CDATA[There is total loss of confidentiality, resulting in all resources within the impacted component being divulged to the attacker. Alternatively, access to only some restricted information is obtained, but the disclosed information presents a direct, serious impact.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no loss of integrity within the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+       <References>
+        <Reference>
+          <Database><![CDATA[Testing for HTTP Methods and XST (OWASP-CM-008)]]></Database>
+          <URL><![CDATA[https://www.owasp.org/index.php/Testing_for_HTTP_Methods_and_XST_(OWASP-CM-008)]]></URL>
+        </Reference>
+       </References>
+      </ReportItem>
+
+      <ReportItem id="5" color="red">
+       <Name><![CDATA[nginx SPDY heap buffer overflow]]></Name>
+       <ModuleName><![CDATA[Scripting (Version_Check.script)]]></ModuleName>
+       <Details><![CDATA[Current version is : <font color="dark">nginx/1.4.1</font>]]></Details>
+       <Affects><![CDATA[Web Server]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[high]]></Severity>
+       <Type><![CDATA[Configuration]]></Type>
+       <Impact><![CDATA[An attacker can cause a heap memory buffer overflow in a worker process by using a specially crafted request, potentially
+resulting in arbitrary code execution ]]></Impact>
+       <Description><![CDATA[A heap-based buffer overflow in the SPDY implementation in nginx 1.3.15 before 1.4.7 and 1.5.x before 1.5.12 allows remote attackers to execute arbitrary code via a crafted request. The problem affects nginx compiled with the ngx_http_spdy_module module (which is not compiled by default) and without --with-debug configure option, if the &quot;spdy&quot; option of the &quot;listen&quot; directive is used in a configuration file.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Upgrade nginx to the latest version of apply the patch provided by the vendor.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[]]></Request>
+        <Response><![CDATA[]]></Response>
+       </TechnicalDetails>
+       <CWE id="122"><![CDATA[CWE-122]]></CWE>
+       <CVEList>
+        <CVE>
+          <Id><![CDATA[CVE-2014-0133]]></Id>
+        </CVE>
+       </CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:H/Au:N/C:P/I:P/A:P/E:POC/RL:OF]]></Descriptor>
+          <Score><![CDATA[5.1]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[High]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[Partial]]></C>
+          <Cdesc><![CDATA[There is considerable informational disclosure. Access to some system files is possible, but the attacker does not have control over what is obtained, or the scope of the loss is constrained.]]></Cdesc>
+          <I><![CDATA[Partial]]></I>
+          <Idesc><![CDATA[Modification of some system files or information is possible, but the attacker does not have control over what can be modified, or the scope of what the attacker can affect is limited.]]></Idesc>
+          <A><![CDATA[Partial]]></A>
+          <Adesc><![CDATA[There is reduced performance or interruptions in resource availability.]]></Adesc>
+          <E><![CDATA[Proof of concept code]]></E>
+          <Edesc><![CDATA[Proof-of-concept exploit code or an attack demonstration that is not practical for most systems is available. The code or technique is not functional in all situations and may require substantial modification by a skilled attacker.]]></Edesc>
+          <RL><![CDATA[Official fix]]></RL>
+          <RLdesc><![CDATA[A complete vendor solution is available. Either the vendor has issued an official patch, or an upgrade is available.]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[]]></Descriptor>
+          <Score><![CDATA[]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[]]></AV>
+          <AVdesc><![CDATA[]]></AVdesc>
+          <AC><![CDATA[]]></AC>
+          <ACdesc><![CDATA[]]></ACdesc>
+          <PR><![CDATA[]]></PR>
+          <PRdesc><![CDATA[]]></PRdesc>
+          <UI><![CDATA[]]></UI>
+          <UIdesc><![CDATA[]]></UIdesc>
+          <S><![CDATA[]]></S>
+          <Sdesc><![CDATA[]]></Sdesc>
+          <C><![CDATA[]]></C>
+          <Cdesc><![CDATA[]]></Cdesc>
+          <I><![CDATA[]]></I>
+          <Idesc><![CDATA[]]></Idesc>
+          <A><![CDATA[]]></A>
+          <Adesc><![CDATA[]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+       <References>
+        <Reference>
+          <Database><![CDATA[nginx security advisory (CVE-2014-0133)]]></Database>
+          <URL><![CDATA[http://mailman.nginx.org/pipermail/nginx-announce/2014/000135.html]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[nginx patch]]></Database>
+          <URL><![CDATA[http://nginx.org/download/patch.2014.spdy2.txt]]></URL>
+        </Reference>
+       </References>
+      </ReportItem>
+
+      <ReportItem id="6" color="blue">
+       <Name><![CDATA[Possible virtual host found]]></Name>
+       <ModuleName><![CDATA[Scripting (VirtualHost_Audit.script)]]></ModuleName>
+       <Details><![CDATA[VirtualHost: <font color="dark"><b>localhost</b></font><br/>Response: <pre wrap="virtual"><font color="blue">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href</font></pre>]]></Details>
+       <Affects><![CDATA[localhost]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[low]]></Severity>
+       <Type><![CDATA[Configuration]]></Type>
+       <Impact><![CDATA[Possible sensitive information disclosure.]]></Impact>
+       <Description><![CDATA[Virtual hosting is a method for hosting multiple domain names (with separate handling of each name) on a single server (or pool of servers). This allows one server to share its resources, such as memory and processor cycles, without requiring all services provided to use the same host name. <br/><br/>
+This web server is responding differently when the Host header is manipulated and various common virtual hosts are tested. This could indicate there is a Virtual Host present.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Consult the virtual host configuration and check if this virtual host should be publicly accessible.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET / HTTP/1.1
+Host: localhost
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 200 OK
+Server: nginx/1.4.1
+Date: Mon, 02 Feb 1970 21:40:35 GMT
+Content-Type: text/html
+Last-Modified: Mon, 06 May 2013 11:30:13 GMT
+Connection: keep-alive
+Original-Content-Encoding: gzip
+Content-Length: 612
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="200"><![CDATA[CWE-200]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:P/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[5.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[Partial]]></C>
+          <Cdesc><![CDATA[There is considerable informational disclosure. Access to some system files is possible, but the attacker does not have control over what is obtained, or the scope of the loss is constrained.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[7.5]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[High]]></C>
+          <Cdesc><![CDATA[There is total loss of confidentiality, resulting in all resources within the impacted component being divulged to the attacker. Alternatively, access to only some restricted information is obtained, but the disclosed information presents a direct, serious impact.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no loss of integrity within the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+       <References>
+        <Reference>
+          <Database><![CDATA[Virtual hosting]]></Database>
+          <URL><![CDATA[http://en.wikipedia.org/wiki/Virtual_hosting]]></URL>
+        </Reference>
+       </References>
+      </ReportItem>
+
+      <ReportItem id="7" color="red">
+       <Name><![CDATA[DOM-based cross site scripting]]></Name>
+       <ModuleName><![CDATA[DeepScan]]></ModuleName>
+       <Details><![CDATA[<i>Source: </i><font color="dark">window.name</font><br/><i>window.name: </i><font color="dark">javascript:domxssExecutionSink(2,&quot;'\&quot;&gt;&lt;xsstag&gt;()wildxss&quot;)</font><br/><i>Execution Sink: </i><font color="dark">evaluate code (eval/setTimeout/setInterval/...)</font><br/><i>Evaluated code: </i><pre wrap="virtual">this.myObj=javascript:domxssExecutionSink(2,&quot;'\&quot;&gt;&lt;xsstag&gt;()wildxss&quot;) ...</pre>
+<i>Stack Trace: </i><br/><ul><li>toObject@http://testhtml5.vulnweb.com/static/app/libs/sessvars.js:105:17</li>
+<li>init@http://testhtml5.vulnweb.com/static/app/libs/sessvars.js:76:36</li>
+<li>http://testhtml5.vulnweb.com/static/app/libs/sessvars.js:202:13</li>
+<li>global code@http://testhtml5.vulnweb.com/static/app/libs/sessvars.js:204:2</li>
+</ul>]]></Details>
+       <Affects><![CDATA[/]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[high]]></Severity>
+       <Type><![CDATA[Validation]]></Type>
+       <Impact><![CDATA[Malicious users may inject JavaScript, VBScript, ActiveX, HTML or Flash into a vulnerable application to fool a user in order to gather data from them.
+An attacker can steal the session cookie and take over the account, impersonating the user.
+It is also possible to modify the content of the page presented to the user.]]></Impact>
+       <Description><![CDATA[This script is possibly vulnerable to Cross Site Scripting (XSS) attacks.<br/><br/>
+Cross site scripting (also referred to as XSS) is a vulnerability that allows an attacker to send malicious code (usually in the form of Javascript) to another user.
+Because a browser cannot know if the script should be trusted or not, it will execute the script in the user context allowing the attacker to access any cookies or session tokens retained by the browser.  <br/><br/>While a traditional cross-site scripting vulnerability occurs on the server-side code, document object model based cross-site scripting is a type of vulnerability which affects the script code in the client's browser.]]></Description>
+       <DetailedInformation><![CDATA[<i>Quote from The Cross Site Scripting FAQ - http://www.cgisecurity.com/articles/xss-faq.shtml </i>   <h2>Introduction</h2>  <p>Websites today are more complex than ever, containing a lot of dynamic content making the experience for the user more enjoyable. Dynamic content is achieved through the use of web applications which can deliver different output to a user depending on their settings and needs. Dynamic websites suffer from a threat that static websites don't, called &quot;Cross Site Scripting&quot; (or XSS dubbed by other security professionals). Currently small informational tidbits about Cross Site Scripting holes exist but none really explain them to an average person or administrator. This FAQ was written to provide a better understanding of this emerging threat, and to give guidance on detection and prevention.</p>  <h2>&quot;What is Cross Site Scripting?&quot;</h2>  <p>Cross site scripting (also known as XSS) occurs when a web application gathers malicious data from a user. The data is usually gathered in the form of a hyperlink which contains malicious content within it. The user will most likely click on this link from another website, instant message, or simply just reading a web board or email message. Usually the attacker will encode the malicious portion of the link to the site in HEX (or other encoding methods) so the request is less suspicious looking to the user when clicked on. After the data is collected by the web application, it creates an output page for the user containing the malicious data that was originally sent to it, but in a manner to make it appear as valid content from the website. Many popular guestbook and forum programs allow users to submit posts with html and javascript embedded in them. If for example I was logged in as &quot;john&quot; and read a message by &quot;joe&quot; that contained malicious javascript in it, then it may be possible for &quot;joe&quot; to hijack my session just by reading his bulletin board post. Further details on how attacks like this are accomplished via &quot;cookie theft&quot; are explained in detail below.</p>  <h2>&quot;What does XSS and CSS mean?&quot;</h2>  <p>Often people refer to Cross Site Scripting as CSS. There has been a lot of confusion with Cascading Style Sheets (CSS) and cross site scripting. Some security people refer to Cross Site Scripting as XSS. If you hear someone say &quot;I found a XSS hole&quot;, they are talking about Cross Site Scripting for certain.</p>   <h2>&quot;What are the threats of Cross Site Scripting?&quot;</h2>  <p>Often attackers will inject JavaScript, VBScript, ActiveX, HTML, or Flash into a vulnerable application to fool a user (Read below for further details) in order to gather data from them. Everything from account hijacking, changing of user settings, cookie theft/poisoning, or false advertising is possible. New malicious uses are being found every day for XSS attacks. The post below by Brett Moore brings up a good point with regard to &quot;Denial Of Service&quot;, and potential &quot;auto-attacking&quot; of hosts if a user simply reads a post on a message board.</p>  <h2>&quot;What can I do to protect myself as a vendor?&quot;</h2>  <p>This is a simple answer. Never trust user input and always filter metacharacters. This will eliminate the majority of XSS attacks. Converting &lt; and &gt; to &amp;lt; and &amp;gt; is also suggested when it comes to script output. Remember XSS holes can be damaging and costly to your business if abused. Often attackers will disclose these holes to the public, which can erode customer and public confidence in the security and privacy of your organization's site. Filtering &lt; and &gt; alone will not solve all cross site scripting attacks and it is suggested you also attempt to filter out ( and ) by translating them to &amp;#40; and &amp;#41;, and also # and &amp; by translating them to &amp;#35 (#) and &amp;#38 (&amp;).</p>  <h2>&quot;What can I do to protect myself as a user?&quot;</h2>  <p>The easiest way to protect yourself as a user is to only follow links from the main website you wish to view. If you visit one website and it links to CNN for example, instead of clicking on it visit CNN's main site and use its search engine to find the content. This will probably eliminate ninety percent of the problem. Sometimes XSS can be executed automatically when you open an email, email attachment, read a guestbook, or bulletin board post. If you plan on opening an email, or reading a post on a public board from a person you don't know BE CAREFUL. One of the best ways to protect yourself is to turn off Javascript in your browser settings. In IE turn your security settings to high. This can prevent cookie theft, and in general is a safer thing to do.</p>  <h2>&quot;How common are XSS holes?&quot;</h2>  <p>Cross site scripting holes are gaining popularity among hackers as easy holes to find in large websites. Websites from FBI.gov, CNN.com, Time.com, Ebay, Yahoo, Apple computer, Microsoft, Zdnet, Wired, and Newsbytes have all had one form or another of XSS bugs.</p>  <p>Every month roughly 10-25 XSS holes are found in commercial products and advisories are published explaining the threat.</p>   <h2>&quot;Does encryption protect me?&quot;</h2>  <p>Websites that use SSL (https) are in no way more protected than websites that are not encrypted. The web applications work the same way as before, except the attack is taking place in an encrypted connection. People often think that because they see the lock on their browser it means everything is secure. This just isn't the case.</p>   <h2>&quot;Can XSS holes allow command execution?&quot;</h2>  <p>XSS holes can allow Javascript insertion, which may allow for limited execution. If an attacker were to exploit a browser flaw (browser hole) it could then be possible to execute commands on the client's side. If command execution were possible it would only be possible on the client side. In simple terms XSS holes can be used to help exploit other holes that may exist in your browser.</p>   <h2>&quot;What if I don't feel like fixing a CSS/XSS Hole?&quot;</h2>  <p>By not fixing an XSS hole this could allow possible user account compromise in portions of your site as they get added or updated. Cross Site Scripting has been found in various large sites recently and have been widely publicized. Left unrepaired, someone may discover it and publish a warning about your company. This may damage your company's reputation, depicting it as being lax on security matters. This of course also sends the message to your clients that you aren't dealing with every problem that arises, which turns into a trust issue. If your client doesn't trust you why would they wish to do business with you?</p>]]></DetailedInformation>
+       <Recommendation><![CDATA[Your script should filter metacharacters from user input.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[]]></Request>
+        <Response><![CDATA[]]></Response>
+       </TechnicalDetails>
+       <CWE id="79"><![CDATA[CWE-79]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:M/Au:N/C:N/I:P/A:N]]></Descriptor>
+          <Score><![CDATA[4.4]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Medium]]></AC>
+          <ACdesc><![CDATA[The access conditions are somewhat specialized.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no impact to the confidentiality of the system.]]></Cdesc>
+          <I><![CDATA[Partial]]></I>
+          <Idesc><![CDATA[Modification of some system files or information is possible, but the attacker does not have control over what can be modified, or the scope of what the attacker can affect is limited.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N]]></Descriptor>
+          <Score><![CDATA[5.3]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no loss of confidentiality within the impacted component.]]></Cdesc>
+          <I><![CDATA[Low]]></I>
+          <Idesc><![CDATA[Modification of data is possible, but the attacker does not have control over the consequence of a modification, or the amount of modification is constrained. The data modification does not have a direct, serious impact on the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+       <References>
+        <Reference>
+          <Database><![CDATA[Acunetix Cross Site Scripting Attack]]></Database>
+          <URL><![CDATA[http://www.acunetix.com/websitesecurity/cross-site-scripting.htm]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[VIDEO: How Cross-Site Scripting (XSS) Works]]></Database>
+          <URL><![CDATA[http://www.acunetix.com/blog/web-security-zone/video-how-cross-site-scripting-xss-works/]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[The Cross Site Scripting Faq]]></Database>
+          <URL><![CDATA[http://www.cgisecurity.com/xss-faq.html]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[OWASP Cross Site Scripting]]></Database>
+          <URL><![CDATA[http://www.owasp.org/index.php/Cross_Site_Scripting]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[XSS Annihilation]]></Database>
+          <URL><![CDATA[http://ha.ckers.org/blog/20060602/xss-annihilation/]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[XSS Filter Evasion Cheat Sheet]]></Database>
+          <URL><![CDATA[https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[Cross site scripting]]></Database>
+          <URL><![CDATA[http://en.wikipedia.org/wiki/Cross-site_scripting ]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[OWASP PHP Top 5]]></Database>
+          <URL><![CDATA[http://www.owasp.org/index.php/PHP_Top_5]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[How To: Prevent Cross-Site Scripting in ASP.NET]]></Database>
+          <URL><![CDATA[http://msdn.microsoft.com/en-us/library/ms998274.aspx]]></URL>
+        </Reference>
+       </References>
+      </ReportItem>
+
+      <ReportItem id="8" color="red">
+       <Name><![CDATA[DOM-based cross site scripting]]></Name>
+       <ModuleName><![CDATA[DeepScan]]></ModuleName>
+       <Details><![CDATA[<i>Source: </i><font color="dark">Referrer Header</font><br/><i>Referrer: </i><font color="dark">http://www.acunetix-referrer.com/javascript:domxssExecutionSink(0,&quot;'\&quot;&gt;&lt;xsstag&gt;()refdxss&quot;)</font><br/><i>Execution Sink: </i><font color="dark">set HTML code (innerHTML/outerHTML/...)</font><br/><i>HTML code set: </i><pre wrap="virtual">unknown is coming from &lt;b&gt;http://www.acunetix-referrer.com/javascript:domxssExecutionSink(0,&quot;'\&quot;&amp;gt;&lt;xsstag&gt;()refdxss&quot;)&lt;/xsstag&gt;&lt;/b&gt; and has visited this page &lt;b&gt;1&lt;/b&gt; times. ...</pre>
+<i>Stack Trace: </i><br/><ul><li>http://code.jquery.com/jquery-1.9.1.min.js:4:27657</li>
+<li>access@http://code.jquery.com/jquery-1.9.1.min.js:3:6852</li>
+<li>html@http://code.jquery.com/jquery-1.9.1.min.js:4:27282</li>
+<li>global code@http://testhtml5.vulnweb.com/static/app/post.js:114:17</li>
+</ul>]]></Details>
+       <Affects><![CDATA[/]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[high]]></Severity>
+       <Type><![CDATA[Validation]]></Type>
+       <Impact><![CDATA[Malicious users may inject JavaScript, VBScript, ActiveX, HTML or Flash into a vulnerable application to fool a user in order to gather data from them.
+An attacker can steal the session cookie and take over the account, impersonating the user.
+It is also possible to modify the content of the page presented to the user.]]></Impact>
+       <Description><![CDATA[This script is possibly vulnerable to Cross Site Scripting (XSS) attacks.<br/><br/>
+Cross site scripting (also referred to as XSS) is a vulnerability that allows an attacker to send malicious code (usually in the form of Javascript) to another user.
+Because a browser cannot know if the script should be trusted or not, it will execute the script in the user context allowing the attacker to access any cookies or session tokens retained by the browser.  <br/><br/>While a traditional cross-site scripting vulnerability occurs on the server-side code, document object model based cross-site scripting is a type of vulnerability which affects the script code in the client's browser.]]></Description>
+       <DetailedInformation><![CDATA[<i>Quote from The Cross Site Scripting FAQ - http://www.cgisecurity.com/articles/xss-faq.shtml </i>   <h2>Introduction</h2>  <p>Websites today are more complex than ever, containing a lot of dynamic content making the experience for the user more enjoyable. Dynamic content is achieved through the use of web applications which can deliver different output to a user depending on their settings and needs. Dynamic websites suffer from a threat that static websites don't, called &quot;Cross Site Scripting&quot; (or XSS dubbed by other security professionals). Currently small informational tidbits about Cross Site Scripting holes exist but none really explain them to an average person or administrator. This FAQ was written to provide a better understanding of this emerging threat, and to give guidance on detection and prevention.</p>  <h2>&quot;What is Cross Site Scripting?&quot;</h2>  <p>Cross site scripting (also known as XSS) occurs when a web application gathers malicious data from a user. The data is usually gathered in the form of a hyperlink which contains malicious content within it. The user will most likely click on this link from another website, instant message, or simply just reading a web board or email message. Usually the attacker will encode the malicious portion of the link to the site in HEX (or other encoding methods) so the request is less suspicious looking to the user when clicked on. After the data is collected by the web application, it creates an output page for the user containing the malicious data that was originally sent to it, but in a manner to make it appear as valid content from the website. Many popular guestbook and forum programs allow users to submit posts with html and javascript embedded in them. If for example I was logged in as &quot;john&quot; and read a message by &quot;joe&quot; that contained malicious javascript in it, then it may be possible for &quot;joe&quot; to hijack my session just by reading his bulletin board post. Further details on how attacks like this are accomplished via &quot;cookie theft&quot; are explained in detail below.</p>  <h2>&quot;What does XSS and CSS mean?&quot;</h2>  <p>Often people refer to Cross Site Scripting as CSS. There has been a lot of confusion with Cascading Style Sheets (CSS) and cross site scripting. Some security people refer to Cross Site Scripting as XSS. If you hear someone say &quot;I found a XSS hole&quot;, they are talking about Cross Site Scripting for certain.</p>   <h2>&quot;What are the threats of Cross Site Scripting?&quot;</h2>  <p>Often attackers will inject JavaScript, VBScript, ActiveX, HTML, or Flash into a vulnerable application to fool a user (Read below for further details) in order to gather data from them. Everything from account hijacking, changing of user settings, cookie theft/poisoning, or false advertising is possible. New malicious uses are being found every day for XSS attacks. The post below by Brett Moore brings up a good point with regard to &quot;Denial Of Service&quot;, and potential &quot;auto-attacking&quot; of hosts if a user simply reads a post on a message board.</p>  <h2>&quot;What can I do to protect myself as a vendor?&quot;</h2>  <p>This is a simple answer. Never trust user input and always filter metacharacters. This will eliminate the majority of XSS attacks. Converting &lt; and &gt; to &amp;lt; and &amp;gt; is also suggested when it comes to script output. Remember XSS holes can be damaging and costly to your business if abused. Often attackers will disclose these holes to the public, which can erode customer and public confidence in the security and privacy of your organization's site. Filtering &lt; and &gt; alone will not solve all cross site scripting attacks and it is suggested you also attempt to filter out ( and ) by translating them to &amp;#40; and &amp;#41;, and also # and &amp; by translating them to &amp;#35 (#) and &amp;#38 (&amp;).</p>  <h2>&quot;What can I do to protect myself as a user?&quot;</h2>  <p>The easiest way to protect yourself as a user is to only follow links from the main website you wish to view. If you visit one website and it links to CNN for example, instead of clicking on it visit CNN's main site and use its search engine to find the content. This will probably eliminate ninety percent of the problem. Sometimes XSS can be executed automatically when you open an email, email attachment, read a guestbook, or bulletin board post. If you plan on opening an email, or reading a post on a public board from a person you don't know BE CAREFUL. One of the best ways to protect yourself is to turn off Javascript in your browser settings. In IE turn your security settings to high. This can prevent cookie theft, and in general is a safer thing to do.</p>  <h2>&quot;How common are XSS holes?&quot;</h2>  <p>Cross site scripting holes are gaining popularity among hackers as easy holes to find in large websites. Websites from FBI.gov, CNN.com, Time.com, Ebay, Yahoo, Apple computer, Microsoft, Zdnet, Wired, and Newsbytes have all had one form or another of XSS bugs.</p>  <p>Every month roughly 10-25 XSS holes are found in commercial products and advisories are published explaining the threat.</p>   <h2>&quot;Does encryption protect me?&quot;</h2>  <p>Websites that use SSL (https) are in no way more protected than websites that are not encrypted. The web applications work the same way as before, except the attack is taking place in an encrypted connection. People often think that because they see the lock on their browser it means everything is secure. This just isn't the case.</p>   <h2>&quot;Can XSS holes allow command execution?&quot;</h2>  <p>XSS holes can allow Javascript insertion, which may allow for limited execution. If an attacker were to exploit a browser flaw (browser hole) it could then be possible to execute commands on the client's side. If command execution were possible it would only be possible on the client side. In simple terms XSS holes can be used to help exploit other holes that may exist in your browser.</p>   <h2>&quot;What if I don't feel like fixing a CSS/XSS Hole?&quot;</h2>  <p>By not fixing an XSS hole this could allow possible user account compromise in portions of your site as they get added or updated. Cross Site Scripting has been found in various large sites recently and have been widely publicized. Left unrepaired, someone may discover it and publish a warning about your company. This may damage your company's reputation, depicting it as being lax on security matters. This of course also sends the message to your clients that you aren't dealing with every problem that arises, which turns into a trust issue. If your client doesn't trust you why would they wish to do business with you?</p>]]></DetailedInformation>
+       <Recommendation><![CDATA[Your script should filter metacharacters from user input.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[]]></Request>
+        <Response><![CDATA[]]></Response>
+       </TechnicalDetails>
+       <CWE id="79"><![CDATA[CWE-79]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:M/Au:N/C:N/I:P/A:N]]></Descriptor>
+          <Score><![CDATA[4.4]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Medium]]></AC>
+          <ACdesc><![CDATA[The access conditions are somewhat specialized.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no impact to the confidentiality of the system.]]></Cdesc>
+          <I><![CDATA[Partial]]></I>
+          <Idesc><![CDATA[Modification of some system files or information is possible, but the attacker does not have control over what can be modified, or the scope of what the attacker can affect is limited.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N]]></Descriptor>
+          <Score><![CDATA[5.3]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no loss of confidentiality within the impacted component.]]></Cdesc>
+          <I><![CDATA[Low]]></I>
+          <Idesc><![CDATA[Modification of data is possible, but the attacker does not have control over the consequence of a modification, or the amount of modification is constrained. The data modification does not have a direct, serious impact on the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+       <References>
+        <Reference>
+          <Database><![CDATA[Acunetix Cross Site Scripting Attack]]></Database>
+          <URL><![CDATA[http://www.acunetix.com/websitesecurity/cross-site-scripting.htm]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[VIDEO: How Cross-Site Scripting (XSS) Works]]></Database>
+          <URL><![CDATA[http://www.acunetix.com/blog/web-security-zone/video-how-cross-site-scripting-xss-works/]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[The Cross Site Scripting Faq]]></Database>
+          <URL><![CDATA[http://www.cgisecurity.com/xss-faq.html]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[OWASP Cross Site Scripting]]></Database>
+          <URL><![CDATA[http://www.owasp.org/index.php/Cross_Site_Scripting]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[XSS Annihilation]]></Database>
+          <URL><![CDATA[http://ha.ckers.org/blog/20060602/xss-annihilation/]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[XSS Filter Evasion Cheat Sheet]]></Database>
+          <URL><![CDATA[https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[Cross site scripting]]></Database>
+          <URL><![CDATA[http://en.wikipedia.org/wiki/Cross-site_scripting ]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[OWASP PHP Top 5]]></Database>
+          <URL><![CDATA[http://www.owasp.org/index.php/PHP_Top_5]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[How To: Prevent Cross-Site Scripting in ASP.NET]]></Database>
+          <URL><![CDATA[http://msdn.microsoft.com/en-us/library/ms998274.aspx]]></URL>
+        </Reference>
+       </References>
+      </ReportItem>
+
+      <ReportItem id="9" color="red">
+       <Name><![CDATA[DOM-based cross site scripting]]></Name>
+       <ModuleName><![CDATA[DeepScan]]></ModuleName>
+       <Details><![CDATA[<i>Source: </i><font color="dark">Referrer Header</font><br/><i>Referrer: </i><font color="dark">http://www.acunetix-referrer.com/javascript:domxssExecutionSink(0,&quot;'\&quot;&gt;&lt;xsstag&gt;()refdxss&quot;)</font><br/><i>Execution Sink: </i><font color="dark">document.write</font><br/><i>HTML code written: </i><pre wrap="virtual">&lt;iframe name=&quot;ads_ads_frame&quot; src=&quot;http://ads.bxss.me/ad_server.php?zone_id=234&amp;ad_client=723898932&amp;u_h=900&amp;u_w=1440&amp;pn=&amp;ref=http://www.acunetix-referrer.com/javascript:domxssExecutionSink(0,&quot;'\&quot;&gt;&lt;xsstag&gt;()refdxss&quot;)&amp;url=http://testhtml5.vulnweb.com/&amp;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; vspace=&quot;0&quot; hspace=&quot;0&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot; height=&quot;1&quot; scrolling=&quot;no&quot; width=&quot;1&quot; style=&quot;background-color:#FFFFFF;&quot;&gt;&lt;/iframe&gt; ...</pre>
+<i>Stack Trace: </i><br/><ul><li>http://bxss.s3.amazonaws.com/ad.js:30:19</li>
+<li>global code@http://bxss.s3.amazonaws.com/ad.js:32:2</li>
+</ul>]]></Details>
+       <Affects><![CDATA[/]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[high]]></Severity>
+       <Type><![CDATA[Validation]]></Type>
+       <Impact><![CDATA[Malicious users may inject JavaScript, VBScript, ActiveX, HTML or Flash into a vulnerable application to fool a user in order to gather data from them.
+An attacker can steal the session cookie and take over the account, impersonating the user.
+It is also possible to modify the content of the page presented to the user.]]></Impact>
+       <Description><![CDATA[This script is possibly vulnerable to Cross Site Scripting (XSS) attacks.<br/><br/>
+Cross site scripting (also referred to as XSS) is a vulnerability that allows an attacker to send malicious code (usually in the form of Javascript) to another user.
+Because a browser cannot know if the script should be trusted or not, it will execute the script in the user context allowing the attacker to access any cookies or session tokens retained by the browser.  <br/><br/>While a traditional cross-site scripting vulnerability occurs on the server-side code, document object model based cross-site scripting is a type of vulnerability which affects the script code in the client's browser.]]></Description>
+       <DetailedInformation><![CDATA[<i>Quote from The Cross Site Scripting FAQ - http://www.cgisecurity.com/articles/xss-faq.shtml </i>   <h2>Introduction</h2>  <p>Websites today are more complex than ever, containing a lot of dynamic content making the experience for the user more enjoyable. Dynamic content is achieved through the use of web applications which can deliver different output to a user depending on their settings and needs. Dynamic websites suffer from a threat that static websites don't, called &quot;Cross Site Scripting&quot; (or XSS dubbed by other security professionals). Currently small informational tidbits about Cross Site Scripting holes exist but none really explain them to an average person or administrator. This FAQ was written to provide a better understanding of this emerging threat, and to give guidance on detection and prevention.</p>  <h2>&quot;What is Cross Site Scripting?&quot;</h2>  <p>Cross site scripting (also known as XSS) occurs when a web application gathers malicious data from a user. The data is usually gathered in the form of a hyperlink which contains malicious content within it. The user will most likely click on this link from another website, instant message, or simply just reading a web board or email message. Usually the attacker will encode the malicious portion of the link to the site in HEX (or other encoding methods) so the request is less suspicious looking to the user when clicked on. After the data is collected by the web application, it creates an output page for the user containing the malicious data that was originally sent to it, but in a manner to make it appear as valid content from the website. Many popular guestbook and forum programs allow users to submit posts with html and javascript embedded in them. If for example I was logged in as &quot;john&quot; and read a message by &quot;joe&quot; that contained malicious javascript in it, then it may be possible for &quot;joe&quot; to hijack my session just by reading his bulletin board post. Further details on how attacks like this are accomplished via &quot;cookie theft&quot; are explained in detail below.</p>  <h2>&quot;What does XSS and CSS mean?&quot;</h2>  <p>Often people refer to Cross Site Scripting as CSS. There has been a lot of confusion with Cascading Style Sheets (CSS) and cross site scripting. Some security people refer to Cross Site Scripting as XSS. If you hear someone say &quot;I found a XSS hole&quot;, they are talking about Cross Site Scripting for certain.</p>   <h2>&quot;What are the threats of Cross Site Scripting?&quot;</h2>  <p>Often attackers will inject JavaScript, VBScript, ActiveX, HTML, or Flash into a vulnerable application to fool a user (Read below for further details) in order to gather data from them. Everything from account hijacking, changing of user settings, cookie theft/poisoning, or false advertising is possible. New malicious uses are being found every day for XSS attacks. The post below by Brett Moore brings up a good point with regard to &quot;Denial Of Service&quot;, and potential &quot;auto-attacking&quot; of hosts if a user simply reads a post on a message board.</p>  <h2>&quot;What can I do to protect myself as a vendor?&quot;</h2>  <p>This is a simple answer. Never trust user input and always filter metacharacters. This will eliminate the majority of XSS attacks. Converting &lt; and &gt; to &amp;lt; and &amp;gt; is also suggested when it comes to script output. Remember XSS holes can be damaging and costly to your business if abused. Often attackers will disclose these holes to the public, which can erode customer and public confidence in the security and privacy of your organization's site. Filtering &lt; and &gt; alone will not solve all cross site scripting attacks and it is suggested you also attempt to filter out ( and ) by translating them to &amp;#40; and &amp;#41;, and also # and &amp; by translating them to &amp;#35 (#) and &amp;#38 (&amp;).</p>  <h2>&quot;What can I do to protect myself as a user?&quot;</h2>  <p>The easiest way to protect yourself as a user is to only follow links from the main website you wish to view. If you visit one website and it links to CNN for example, instead of clicking on it visit CNN's main site and use its search engine to find the content. This will probably eliminate ninety percent of the problem. Sometimes XSS can be executed automatically when you open an email, email attachment, read a guestbook, or bulletin board post. If you plan on opening an email, or reading a post on a public board from a person you don't know BE CAREFUL. One of the best ways to protect yourself is to turn off Javascript in your browser settings. In IE turn your security settings to high. This can prevent cookie theft, and in general is a safer thing to do.</p>  <h2>&quot;How common are XSS holes?&quot;</h2>  <p>Cross site scripting holes are gaining popularity among hackers as easy holes to find in large websites. Websites from FBI.gov, CNN.com, Time.com, Ebay, Yahoo, Apple computer, Microsoft, Zdnet, Wired, and Newsbytes have all had one form or another of XSS bugs.</p>  <p>Every month roughly 10-25 XSS holes are found in commercial products and advisories are published explaining the threat.</p>   <h2>&quot;Does encryption protect me?&quot;</h2>  <p>Websites that use SSL (https) are in no way more protected than websites that are not encrypted. The web applications work the same way as before, except the attack is taking place in an encrypted connection. People often think that because they see the lock on their browser it means everything is secure. This just isn't the case.</p>   <h2>&quot;Can XSS holes allow command execution?&quot;</h2>  <p>XSS holes can allow Javascript insertion, which may allow for limited execution. If an attacker were to exploit a browser flaw (browser hole) it could then be possible to execute commands on the client's side. If command execution were possible it would only be possible on the client side. In simple terms XSS holes can be used to help exploit other holes that may exist in your browser.</p>   <h2>&quot;What if I don't feel like fixing a CSS/XSS Hole?&quot;</h2>  <p>By not fixing an XSS hole this could allow possible user account compromise in portions of your site as they get added or updated. Cross Site Scripting has been found in various large sites recently and have been widely publicized. Left unrepaired, someone may discover it and publish a warning about your company. This may damage your company's reputation, depicting it as being lax on security matters. This of course also sends the message to your clients that you aren't dealing with every problem that arises, which turns into a trust issue. If your client doesn't trust you why would they wish to do business with you?</p>]]></DetailedInformation>
+       <Recommendation><![CDATA[Your script should filter metacharacters from user input.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[]]></Request>
+        <Response><![CDATA[]]></Response>
+       </TechnicalDetails>
+       <CWE id="79"><![CDATA[CWE-79]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:M/Au:N/C:N/I:P/A:N]]></Descriptor>
+          <Score><![CDATA[4.4]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Medium]]></AC>
+          <ACdesc><![CDATA[The access conditions are somewhat specialized.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no impact to the confidentiality of the system.]]></Cdesc>
+          <I><![CDATA[Partial]]></I>
+          <Idesc><![CDATA[Modification of some system files or information is possible, but the attacker does not have control over what can be modified, or the scope of what the attacker can affect is limited.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N]]></Descriptor>
+          <Score><![CDATA[5.3]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no loss of confidentiality within the impacted component.]]></Cdesc>
+          <I><![CDATA[Low]]></I>
+          <Idesc><![CDATA[Modification of data is possible, but the attacker does not have control over the consequence of a modification, or the amount of modification is constrained. The data modification does not have a direct, serious impact on the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+       <References>
+        <Reference>
+          <Database><![CDATA[Acunetix Cross Site Scripting Attack]]></Database>
+          <URL><![CDATA[http://www.acunetix.com/websitesecurity/cross-site-scripting.htm]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[VIDEO: How Cross-Site Scripting (XSS) Works]]></Database>
+          <URL><![CDATA[http://www.acunetix.com/blog/web-security-zone/video-how-cross-site-scripting-xss-works/]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[The Cross Site Scripting Faq]]></Database>
+          <URL><![CDATA[http://www.cgisecurity.com/xss-faq.html]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[OWASP Cross Site Scripting]]></Database>
+          <URL><![CDATA[http://www.owasp.org/index.php/Cross_Site_Scripting]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[XSS Annihilation]]></Database>
+          <URL><![CDATA[http://ha.ckers.org/blog/20060602/xss-annihilation/]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[XSS Filter Evasion Cheat Sheet]]></Database>
+          <URL><![CDATA[https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[Cross site scripting]]></Database>
+          <URL><![CDATA[http://en.wikipedia.org/wiki/Cross-site_scripting ]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[OWASP PHP Top 5]]></Database>
+          <URL><![CDATA[http://www.owasp.org/index.php/PHP_Top_5]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[How To: Prevent Cross-Site Scripting in ASP.NET]]></Database>
+          <URL><![CDATA[http://msdn.microsoft.com/en-us/library/ms998274.aspx]]></URL>
+        </Reference>
+       </References>
+      </ReportItem>
+
+      <ReportItem id="10" color="red">
+       <Name><![CDATA[DOM-based cross site scripting]]></Name>
+       <ModuleName><![CDATA[DeepScan]]></ModuleName>
+       <Details><![CDATA[<i>Source: </i><font color="dark">Referrer Header</font><br/><i>Referrer: </i><font color="dark">http://www.acunetix-referrer.com/javascript:domxssExecutionSink(0,&quot;'\&quot;&gt;&lt;xsstag&gt;()refdxss&quot;)</font><br/><i>Execution Sink: </i><font color="dark">set HTML code (innerHTML/outerHTML/...)</font><br/><i>HTML code set: </i><pre wrap="virtual">
+
+&lt;div class=&quot;navbar navbar-fixed-top&quot;&gt;
+    &lt;div class=&quot;navbar-inner&quot;&gt;
+        &lt;div class=&quot;container-fluid&quot;&gt;
+            &lt;button type=&quot;button&quot; class=&quot;btn btn-navbar&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.nav-collapse&quot;&gt;
+                &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+            &lt;/button&gt;
+            &lt;a class=&quot;brand&quot; href=&quot;/&quot;&gt;&lt;img src=&quot;/static/img/logo2.png&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/a&gt;
+            &lt;p class=&quot;navbar-text ...</pre>
+<i>Stack Trace: </i><br/><ul><li>appendChild@[native code]</li>
+<li>http://code.jquery.com/jquery-1.9.1.min.js:3:23057</li>
+<li>c@http://code.jquery.com/jquery-1.9.1.min.js:3:8110</li>
+<li>fireWith@http://code.jquery.com/jquery-1.9.1.min.js:3:16713</li>
+<li>ready@http://code.jquery.com/jquery-1.9.1.min.js:3:3525</li>
+<li>H@http://code.jquery.com/jquery-1.9.1.min.js:3:948</li>
+</ul>]]></Details>
+       <Affects><![CDATA[/]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[high]]></Severity>
+       <Type><![CDATA[Validation]]></Type>
+       <Impact><![CDATA[Malicious users may inject JavaScript, VBScript, ActiveX, HTML or Flash into a vulnerable application to fool a user in order to gather data from them.
+An attacker can steal the session cookie and take over the account, impersonating the user.
+It is also possible to modify the content of the page presented to the user.]]></Impact>
+       <Description><![CDATA[This script is possibly vulnerable to Cross Site Scripting (XSS) attacks.<br/><br/>
+Cross site scripting (also referred to as XSS) is a vulnerability that allows an attacker to send malicious code (usually in the form of Javascript) to another user.
+Because a browser cannot know if the script should be trusted or not, it will execute the script in the user context allowing the attacker to access any cookies or session tokens retained by the browser.  <br/><br/>While a traditional cross-site scripting vulnerability occurs on the server-side code, document object model based cross-site scripting is a type of vulnerability which affects the script code in the client's browser.]]></Description>
+       <DetailedInformation><![CDATA[<i>Quote from The Cross Site Scripting FAQ - http://www.cgisecurity.com/articles/xss-faq.shtml </i>   <h2>Introduction</h2>  <p>Websites today are more complex than ever, containing a lot of dynamic content making the experience for the user more enjoyable. Dynamic content is achieved through the use of web applications which can deliver different output to a user depending on their settings and needs. Dynamic websites suffer from a threat that static websites don't, called &quot;Cross Site Scripting&quot; (or XSS dubbed by other security professionals). Currently small informational tidbits about Cross Site Scripting holes exist but none really explain them to an average person or administrator. This FAQ was written to provide a better understanding of this emerging threat, and to give guidance on detection and prevention.</p>  <h2>&quot;What is Cross Site Scripting?&quot;</h2>  <p>Cross site scripting (also known as XSS) occurs when a web application gathers malicious data from a user. The data is usually gathered in the form of a hyperlink which contains malicious content within it. The user will most likely click on this link from another website, instant message, or simply just reading a web board or email message. Usually the attacker will encode the malicious portion of the link to the site in HEX (or other encoding methods) so the request is less suspicious looking to the user when clicked on. After the data is collected by the web application, it creates an output page for the user containing the malicious data that was originally sent to it, but in a manner to make it appear as valid content from the website. Many popular guestbook and forum programs allow users to submit posts with html and javascript embedded in them. If for example I was logged in as &quot;john&quot; and read a message by &quot;joe&quot; that contained malicious javascript in it, then it may be possible for &quot;joe&quot; to hijack my session just by reading his bulletin board post. Further details on how attacks like this are accomplished via &quot;cookie theft&quot; are explained in detail below.</p>  <h2>&quot;What does XSS and CSS mean?&quot;</h2>  <p>Often people refer to Cross Site Scripting as CSS. There has been a lot of confusion with Cascading Style Sheets (CSS) and cross site scripting. Some security people refer to Cross Site Scripting as XSS. If you hear someone say &quot;I found a XSS hole&quot;, they are talking about Cross Site Scripting for certain.</p>   <h2>&quot;What are the threats of Cross Site Scripting?&quot;</h2>  <p>Often attackers will inject JavaScript, VBScript, ActiveX, HTML, or Flash into a vulnerable application to fool a user (Read below for further details) in order to gather data from them. Everything from account hijacking, changing of user settings, cookie theft/poisoning, or false advertising is possible. New malicious uses are being found every day for XSS attacks. The post below by Brett Moore brings up a good point with regard to &quot;Denial Of Service&quot;, and potential &quot;auto-attacking&quot; of hosts if a user simply reads a post on a message board.</p>  <h2>&quot;What can I do to protect myself as a vendor?&quot;</h2>  <p>This is a simple answer. Never trust user input and always filter metacharacters. This will eliminate the majority of XSS attacks. Converting &lt; and &gt; to &amp;lt; and &amp;gt; is also suggested when it comes to script output. Remember XSS holes can be damaging and costly to your business if abused. Often attackers will disclose these holes to the public, which can erode customer and public confidence in the security and privacy of your organization's site. Filtering &lt; and &gt; alone will not solve all cross site scripting attacks and it is suggested you also attempt to filter out ( and ) by translating them to &amp;#40; and &amp;#41;, and also # and &amp; by translating them to &amp;#35 (#) and &amp;#38 (&amp;).</p>  <h2>&quot;What can I do to protect myself as a user?&quot;</h2>  <p>The easiest way to protect yourself as a user is to only follow links from the main website you wish to view. If you visit one website and it links to CNN for example, instead of clicking on it visit CNN's main site and use its search engine to find the content. This will probably eliminate ninety percent of the problem. Sometimes XSS can be executed automatically when you open an email, email attachment, read a guestbook, or bulletin board post. If you plan on opening an email, or reading a post on a public board from a person you don't know BE CAREFUL. One of the best ways to protect yourself is to turn off Javascript in your browser settings. In IE turn your security settings to high. This can prevent cookie theft, and in general is a safer thing to do.</p>  <h2>&quot;How common are XSS holes?&quot;</h2>  <p>Cross site scripting holes are gaining popularity among hackers as easy holes to find in large websites. Websites from FBI.gov, CNN.com, Time.com, Ebay, Yahoo, Apple computer, Microsoft, Zdnet, Wired, and Newsbytes have all had one form or another of XSS bugs.</p>  <p>Every month roughly 10-25 XSS holes are found in commercial products and advisories are published explaining the threat.</p>   <h2>&quot;Does encryption protect me?&quot;</h2>  <p>Websites that use SSL (https) are in no way more protected than websites that are not encrypted. The web applications work the same way as before, except the attack is taking place in an encrypted connection. People often think that because they see the lock on their browser it means everything is secure. This just isn't the case.</p>   <h2>&quot;Can XSS holes allow command execution?&quot;</h2>  <p>XSS holes can allow Javascript insertion, which may allow for limited execution. If an attacker were to exploit a browser flaw (browser hole) it could then be possible to execute commands on the client's side. If command execution were possible it would only be possible on the client side. In simple terms XSS holes can be used to help exploit other holes that may exist in your browser.</p>   <h2>&quot;What if I don't feel like fixing a CSS/XSS Hole?&quot;</h2>  <p>By not fixing an XSS hole this could allow possible user account compromise in portions of your site as they get added or updated. Cross Site Scripting has been found in various large sites recently and have been widely publicized. Left unrepaired, someone may discover it and publish a warning about your company. This may damage your company's reputation, depicting it as being lax on security matters. This of course also sends the message to your clients that you aren't dealing with every problem that arises, which turns into a trust issue. If your client doesn't trust you why would they wish to do business with you?</p>]]></DetailedInformation>
+       <Recommendation><![CDATA[Your script should filter metacharacters from user input.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[]]></Request>
+        <Response><![CDATA[]]></Response>
+       </TechnicalDetails>
+       <CWE id="79"><![CDATA[CWE-79]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:M/Au:N/C:N/I:P/A:N]]></Descriptor>
+          <Score><![CDATA[4.4]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Medium]]></AC>
+          <ACdesc><![CDATA[The access conditions are somewhat specialized.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no impact to the confidentiality of the system.]]></Cdesc>
+          <I><![CDATA[Partial]]></I>
+          <Idesc><![CDATA[Modification of some system files or information is possible, but the attacker does not have control over what can be modified, or the scope of what the attacker can affect is limited.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N]]></Descriptor>
+          <Score><![CDATA[5.3]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no loss of confidentiality within the impacted component.]]></Cdesc>
+          <I><![CDATA[Low]]></I>
+          <Idesc><![CDATA[Modification of data is possible, but the attacker does not have control over the consequence of a modification, or the amount of modification is constrained. The data modification does not have a direct, serious impact on the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+       <References>
+        <Reference>
+          <Database><![CDATA[Acunetix Cross Site Scripting Attack]]></Database>
+          <URL><![CDATA[http://www.acunetix.com/websitesecurity/cross-site-scripting.htm]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[VIDEO: How Cross-Site Scripting (XSS) Works]]></Database>
+          <URL><![CDATA[http://www.acunetix.com/blog/web-security-zone/video-how-cross-site-scripting-xss-works/]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[The Cross Site Scripting Faq]]></Database>
+          <URL><![CDATA[http://www.cgisecurity.com/xss-faq.html]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[OWASP Cross Site Scripting]]></Database>
+          <URL><![CDATA[http://www.owasp.org/index.php/Cross_Site_Scripting]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[XSS Annihilation]]></Database>
+          <URL><![CDATA[http://ha.ckers.org/blog/20060602/xss-annihilation/]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[XSS Filter Evasion Cheat Sheet]]></Database>
+          <URL><![CDATA[https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[Cross site scripting]]></Database>
+          <URL><![CDATA[http://en.wikipedia.org/wiki/Cross-site_scripting ]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[OWASP PHP Top 5]]></Database>
+          <URL><![CDATA[http://www.owasp.org/index.php/PHP_Top_5]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[How To: Prevent Cross-Site Scripting in ASP.NET]]></Database>
+          <URL><![CDATA[http://msdn.microsoft.com/en-us/library/ms998274.aspx]]></URL>
+        </Reference>
+       </References>
+      </ReportItem>
+
+      <ReportItem id="11" color="red">
+       <Name><![CDATA[DOM-based cross site scripting]]></Name>
+       <ModuleName><![CDATA[DeepScan]]></ModuleName>
+       <Details><![CDATA[<i>Source: </i><font color="dark">Referrer Header</font><br/><i>Referrer: </i><font color="dark">http://www.acunetix-referrer.com/javascript:domxssExecutionSink(0,&quot;'\&quot;&gt;&lt;xsstag&gt;()refdxss&quot;)</font><br/><i>Execution Sink: </i><font color="dark">set HTML code (innerHTML/outerHTML/...)</font><br/><i>HTML code set: </i><pre wrap="virtual">
+
+&lt;div class=&quot;navbar navbar-fixed-top&quot;&gt;
+    &lt;div class=&quot;navbar-inner&quot;&gt;
+        &lt;div class=&quot;container-fluid&quot;&gt;
+            &lt;button type=&quot;button&quot; class=&quot;btn btn-navbar&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.nav-collapse&quot;&gt;
+                &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+            &lt;/button&gt;
+            &lt;a class=&quot;brand&quot; href=&quot;/&quot;&gt;&lt;img src=&quot;/static/img/logo2.png&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/a&gt;
+            &lt;p class=&quot;navbar-text ...</pre>
+<i>Stack Trace: </i><br/><ul><li>removeChild@[native code]</li>
+<li>http://code.jquery.com/jquery-1.9.1.min.js:3:24323</li>
+<li>c@http://code.jquery.com/jquery-1.9.1.min.js:3:8110</li>
+<li>fireWith@http://code.jquery.com/jquery-1.9.1.min.js:3:16713</li>
+<li>ready@http://code.jquery.com/jquery-1.9.1.min.js:3:3525</li>
+<li>H@http://code.jquery.com/jquery-1.9.1.min.js:3:948</li>
+</ul>]]></Details>
+       <Affects><![CDATA[/]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[high]]></Severity>
+       <Type><![CDATA[Validation]]></Type>
+       <Impact><![CDATA[Malicious users may inject JavaScript, VBScript, ActiveX, HTML or Flash into a vulnerable application to fool a user in order to gather data from them.
+An attacker can steal the session cookie and take over the account, impersonating the user.
+It is also possible to modify the content of the page presented to the user.]]></Impact>
+       <Description><![CDATA[This script is possibly vulnerable to Cross Site Scripting (XSS) attacks.<br/><br/>
+Cross site scripting (also referred to as XSS) is a vulnerability that allows an attacker to send malicious code (usually in the form of Javascript) to another user.
+Because a browser cannot know if the script should be trusted or not, it will execute the script in the user context allowing the attacker to access any cookies or session tokens retained by the browser.  <br/><br/>While a traditional cross-site scripting vulnerability occurs on the server-side code, document object model based cross-site scripting is a type of vulnerability which affects the script code in the client's browser.]]></Description>
+       <DetailedInformation><![CDATA[<i>Quote from The Cross Site Scripting FAQ - http://www.cgisecurity.com/articles/xss-faq.shtml </i>   <h2>Introduction</h2>  <p>Websites today are more complex than ever, containing a lot of dynamic content making the experience for the user more enjoyable. Dynamic content is achieved through the use of web applications which can deliver different output to a user depending on their settings and needs. Dynamic websites suffer from a threat that static websites don't, called &quot;Cross Site Scripting&quot; (or XSS dubbed by other security professionals). Currently small informational tidbits about Cross Site Scripting holes exist but none really explain them to an average person or administrator. This FAQ was written to provide a better understanding of this emerging threat, and to give guidance on detection and prevention.</p>  <h2>&quot;What is Cross Site Scripting?&quot;</h2>  <p>Cross site scripting (also known as XSS) occurs when a web application gathers malicious data from a user. The data is usually gathered in the form of a hyperlink which contains malicious content within it. The user will most likely click on this link from another website, instant message, or simply just reading a web board or email message. Usually the attacker will encode the malicious portion of the link to the site in HEX (or other encoding methods) so the request is less suspicious looking to the user when clicked on. After the data is collected by the web application, it creates an output page for the user containing the malicious data that was originally sent to it, but in a manner to make it appear as valid content from the website. Many popular guestbook and forum programs allow users to submit posts with html and javascript embedded in them. If for example I was logged in as &quot;john&quot; and read a message by &quot;joe&quot; that contained malicious javascript in it, then it may be possible for &quot;joe&quot; to hijack my session just by reading his bulletin board post. Further details on how attacks like this are accomplished via &quot;cookie theft&quot; are explained in detail below.</p>  <h2>&quot;What does XSS and CSS mean?&quot;</h2>  <p>Often people refer to Cross Site Scripting as CSS. There has been a lot of confusion with Cascading Style Sheets (CSS) and cross site scripting. Some security people refer to Cross Site Scripting as XSS. If you hear someone say &quot;I found a XSS hole&quot;, they are talking about Cross Site Scripting for certain.</p>   <h2>&quot;What are the threats of Cross Site Scripting?&quot;</h2>  <p>Often attackers will inject JavaScript, VBScript, ActiveX, HTML, or Flash into a vulnerable application to fool a user (Read below for further details) in order to gather data from them. Everything from account hijacking, changing of user settings, cookie theft/poisoning, or false advertising is possible. New malicious uses are being found every day for XSS attacks. The post below by Brett Moore brings up a good point with regard to &quot;Denial Of Service&quot;, and potential &quot;auto-attacking&quot; of hosts if a user simply reads a post on a message board.</p>  <h2>&quot;What can I do to protect myself as a vendor?&quot;</h2>  <p>This is a simple answer. Never trust user input and always filter metacharacters. This will eliminate the majority of XSS attacks. Converting &lt; and &gt; to &amp;lt; and &amp;gt; is also suggested when it comes to script output. Remember XSS holes can be damaging and costly to your business if abused. Often attackers will disclose these holes to the public, which can erode customer and public confidence in the security and privacy of your organization's site. Filtering &lt; and &gt; alone will not solve all cross site scripting attacks and it is suggested you also attempt to filter out ( and ) by translating them to &amp;#40; and &amp;#41;, and also # and &amp; by translating them to &amp;#35 (#) and &amp;#38 (&amp;).</p>  <h2>&quot;What can I do to protect myself as a user?&quot;</h2>  <p>The easiest way to protect yourself as a user is to only follow links from the main website you wish to view. If you visit one website and it links to CNN for example, instead of clicking on it visit CNN's main site and use its search engine to find the content. This will probably eliminate ninety percent of the problem. Sometimes XSS can be executed automatically when you open an email, email attachment, read a guestbook, or bulletin board post. If you plan on opening an email, or reading a post on a public board from a person you don't know BE CAREFUL. One of the best ways to protect yourself is to turn off Javascript in your browser settings. In IE turn your security settings to high. This can prevent cookie theft, and in general is a safer thing to do.</p>  <h2>&quot;How common are XSS holes?&quot;</h2>  <p>Cross site scripting holes are gaining popularity among hackers as easy holes to find in large websites. Websites from FBI.gov, CNN.com, Time.com, Ebay, Yahoo, Apple computer, Microsoft, Zdnet, Wired, and Newsbytes have all had one form or another of XSS bugs.</p>  <p>Every month roughly 10-25 XSS holes are found in commercial products and advisories are published explaining the threat.</p>   <h2>&quot;Does encryption protect me?&quot;</h2>  <p>Websites that use SSL (https) are in no way more protected than websites that are not encrypted. The web applications work the same way as before, except the attack is taking place in an encrypted connection. People often think that because they see the lock on their browser it means everything is secure. This just isn't the case.</p>   <h2>&quot;Can XSS holes allow command execution?&quot;</h2>  <p>XSS holes can allow Javascript insertion, which may allow for limited execution. If an attacker were to exploit a browser flaw (browser hole) it could then be possible to execute commands on the client's side. If command execution were possible it would only be possible on the client side. In simple terms XSS holes can be used to help exploit other holes that may exist in your browser.</p>   <h2>&quot;What if I don't feel like fixing a CSS/XSS Hole?&quot;</h2>  <p>By not fixing an XSS hole this could allow possible user account compromise in portions of your site as they get added or updated. Cross Site Scripting has been found in various large sites recently and have been widely publicized. Left unrepaired, someone may discover it and publish a warning about your company. This may damage your company's reputation, depicting it as being lax on security matters. This of course also sends the message to your clients that you aren't dealing with every problem that arises, which turns into a trust issue. If your client doesn't trust you why would they wish to do business with you?</p>]]></DetailedInformation>
+       <Recommendation><![CDATA[Your script should filter metacharacters from user input.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[]]></Request>
+        <Response><![CDATA[]]></Response>
+       </TechnicalDetails>
+       <CWE id="79"><![CDATA[CWE-79]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:M/Au:N/C:N/I:P/A:N]]></Descriptor>
+          <Score><![CDATA[4.4]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Medium]]></AC>
+          <ACdesc><![CDATA[The access conditions are somewhat specialized.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no impact to the confidentiality of the system.]]></Cdesc>
+          <I><![CDATA[Partial]]></I>
+          <Idesc><![CDATA[Modification of some system files or information is possible, but the attacker does not have control over what can be modified, or the scope of what the attacker can affect is limited.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N]]></Descriptor>
+          <Score><![CDATA[5.3]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no loss of confidentiality within the impacted component.]]></Cdesc>
+          <I><![CDATA[Low]]></I>
+          <Idesc><![CDATA[Modification of data is possible, but the attacker does not have control over the consequence of a modification, or the amount of modification is constrained. The data modification does not have a direct, serious impact on the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+       <References>
+        <Reference>
+          <Database><![CDATA[Acunetix Cross Site Scripting Attack]]></Database>
+          <URL><![CDATA[http://www.acunetix.com/websitesecurity/cross-site-scripting.htm]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[VIDEO: How Cross-Site Scripting (XSS) Works]]></Database>
+          <URL><![CDATA[http://www.acunetix.com/blog/web-security-zone/video-how-cross-site-scripting-xss-works/]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[The Cross Site Scripting Faq]]></Database>
+          <URL><![CDATA[http://www.cgisecurity.com/xss-faq.html]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[OWASP Cross Site Scripting]]></Database>
+          <URL><![CDATA[http://www.owasp.org/index.php/Cross_Site_Scripting]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[XSS Annihilation]]></Database>
+          <URL><![CDATA[http://ha.ckers.org/blog/20060602/xss-annihilation/]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[XSS Filter Evasion Cheat Sheet]]></Database>
+          <URL><![CDATA[https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[Cross site scripting]]></Database>
+          <URL><![CDATA[http://en.wikipedia.org/wiki/Cross-site_scripting ]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[OWASP PHP Top 5]]></Database>
+          <URL><![CDATA[http://www.owasp.org/index.php/PHP_Top_5]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[How To: Prevent Cross-Site Scripting in ASP.NET]]></Database>
+          <URL><![CDATA[http://msdn.microsoft.com/en-us/library/ms998274.aspx]]></URL>
+        </Reference>
+       </References>
+      </ReportItem>
+
+      <ReportItem id="12" color="blue">
+       <Name><![CDATA[Cookie without HttpOnly flag set]]></Name>
+       <ModuleName><![CDATA[Crawler]]></ModuleName>
+       <Details><![CDATA[Cookie name: <font color="dark">&quot;username&quot;</font><br/>Cookie domain: <font color="dark">&quot;testhtml5.vulnweb.com&quot;</font><br/>]]></Details>
+       <Affects><![CDATA[/]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[low]]></Severity>
+       <Type><![CDATA[Informational]]></Type>
+       <Impact><![CDATA[None]]></Impact>
+       <Description><![CDATA[This cookie does not have the HTTPOnly flag set. When a cookie is set with the HTTPOnly flag, it instructs the browser that the cookie can only be accessed by the server and not by client-side scripts. This is an important security protection for session cookies.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[If possible, you should set the HTTPOnly flag for this cookie.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET / HTTP/1.1
+Cookie: username=admin
+Host: testhtml5.vulnweb.com
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 200 OK
+Server: nginx/1.4.1
+Date: Mon, 02 Feb 1970 21:37:20 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Original-Content-Encoding: gzip
+Content-Length: 5984
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="16"><![CDATA[CWE-16]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:N/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[0.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no impact to the confidentiality of the system.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[]]></Descriptor>
+          <Score><![CDATA[]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[]]></AV>
+          <AVdesc><![CDATA[]]></AVdesc>
+          <AC><![CDATA[]]></AC>
+          <ACdesc><![CDATA[]]></ACdesc>
+          <PR><![CDATA[]]></PR>
+          <PRdesc><![CDATA[]]></PRdesc>
+          <UI><![CDATA[]]></UI>
+          <UIdesc><![CDATA[]]></UIdesc>
+          <S><![CDATA[]]></S>
+          <Sdesc><![CDATA[]]></Sdesc>
+          <C><![CDATA[]]></C>
+          <Cdesc><![CDATA[]]></Cdesc>
+          <I><![CDATA[]]></I>
+          <Idesc><![CDATA[]]></Idesc>
+          <A><![CDATA[]]></A>
+          <Adesc><![CDATA[]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+      <References></References>
+      </ReportItem>
+
+      <ReportItem id="13" color="blue">
+       <Name><![CDATA[Login page password-guessing attack]]></Name>
+       <ModuleName><![CDATA[Scripting (Html_Authentication_Audit.script)]]></ModuleName>
+       <Details><![CDATA[The scanner tested 10 invalid credentials and no account lockout was detected.]]></Details>
+       <Affects><![CDATA[/login]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[low]]></Severity>
+       <Type><![CDATA[Validation]]></Type>
+       <Impact><![CDATA[An attacker may attempt to discover a weak password by systematically trying every possible combination of letters, numbers, and symbols until it discovers the one correct combination that works.]]></Impact>
+       <Description><![CDATA[A common threat web developers face is a password-guessing attack known as a brute force attack. A brute-force attack is an attempt to discover a password by systematically trying every possible combination of letters, numbers, and symbols until you discover the one correct combination that works. <br/><br/>
+
+This login page doesn't have any protection against password-guessing attacks (brute force attacks). It's recommended to implement some type of account lockout after a defined number of incorrect password attempts. Consult Web references for more information about fixing this problem.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[It's recommended to implement some type of account lockout after a defined number of incorrect password attempts.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[POST /login HTTP/1.1
+Content-Length: 35
+Content-Type: application/x-www-form-urlencoded
+Referer: http://testhtml5.vulnweb.com
+Host: testhtml5.vulnweb.com
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+password=uqOvdQ2i&amp;username=hqUOSmKn]]></Request>
+        <Response><![CDATA[HTTP/1.1 302 FOUND
+Server: nginx/1.4.1
+Date: Mon, 02 Feb 1970 21:41:29 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 209
+Connection: keep-alive
+Location: http://testhtml5.vulnweb.com/
+Set-Cookie: username=hqUOSmKn; Path=/
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="307"><![CDATA[CWE-307]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:P/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[5.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[Partial]]></C>
+          <Cdesc><![CDATA[There is considerable informational disclosure. Access to some system files is possible, but the attacker does not have control over what is obtained, or the scope of the loss is constrained.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L]]></Descriptor>
+          <Score><![CDATA[5.3]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no loss of confidentiality within the impacted component.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no loss of integrity within the impacted component.]]></Idesc>
+          <A><![CDATA[Low]]></A>
+          <Adesc><![CDATA[There is reduced performance or interruptions in resource availability. Even if repeated exploitation of the vulnerability is possible, the attacker does not have the ability to completely deny service to legitimate users.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+       <References>
+        <Reference>
+          <Database><![CDATA[Blocking Brute Force Attacks]]></Database>
+          <URL><![CDATA[http://www.owasp.org/index.php/Blocking_Brute_Force_Attacks]]></URL>
+        </Reference>
+       </References>
+      </ReportItem>
+
+      <ReportItem id="14" color="red">
+       <Name><![CDATA[XML external entity injection]]></Name>
+       <ModuleName><![CDATA[Scripting (XML_External_Entity_Injection.script)]]></ModuleName>
+       <Details><![CDATA[Custom POST input <b><font color="dark">text/xml</font></b> was set to <b><font color="dark">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;!DOCTYPE acunetix [
+  &lt;!ENTITY acunetixent SYSTEM &quot;http://hitCxGggmc1mu.bxss.me/&quot;&gt;
+]&gt;
+&lt;xxx&gt;&amp;acunetixent;&lt;/xxx&gt;
+</font></b><br/><br/>An HTTP request was initiated for the domain <b>hitCxGggmc1mu.bxss.me </b> which indicates that this script is vulnerable to XXE injection.<br/><br/>HTTP request details: <br/><pre wrap="virtual">IP address: 176.28.50.165
+User agent: Python-urllib/1.17
+</pre>]]></Details>
+       <Affects><![CDATA[/forgotpw]]></Affects>
+       <Parameter><![CDATA[text/xml]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[high]]></Severity>
+       <Type><![CDATA[Configuration]]></Type>
+       <Impact><![CDATA[Attacks can include disclosing local files, which may contain sensitive data such as passwords or private user data, using file: schemes or relative paths in the system identifier. Since the attack occurs relative to the application processing the XML document, an attacker may use this trusted application to pivot to other internal systems, possibly disclosing other internal content via http(s) requests.]]></Impact>
+       <Description><![CDATA[XML supports a facility known as &quot;external entities&quot;, which instruct an XML processor to retrieve and perform an inline include of XML located at a particular  URI. An external XML entity can be used to append or modify the document type declaration (DTD) associated with an XML document.  An  external XML entity can also be used to include XML within the  content of an XML document. <br/><br/>Now assume that the XML processor parses data originating from a source under attacker control. Most of the time the processor will not be validating, but it MAY include the replacement text thus initiating an unexpected file open operation, or HTTP transfer, or whatever system ids the XML
+ processor knows how to access. <br/><br/>below is a sample XML document that will use this functionality to include the contents of a local file (/etc/passwd)<br/>
+<pre wrap="virtual">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;!DOCTYPE acunetix [
+  &lt;!ENTITY acunetixent SYSTEM &quot;file:///etc/passwd&quot;&gt;
+]&gt;
+&lt;xxx&gt;&amp;acunetixent;&lt;/xxx&gt;
+</pre>]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[If possible it's recommended to disable parsing of XML external entities.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[POST /forgotpw HTTP/1.1
+Content-Type: text/xml
+Content-Length: 156
+Host: testhtml5.vulnweb.com
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;!DOCTYPE acunetix [
+  &lt;!ENTITY acunetixent SYSTEM &quot;http://hitCxGggmc1mu.bxss.me/&quot;&gt;
+]&gt;
+&lt;xxx&gt;&amp;acunetixent;&lt;/xxx&gt;
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 200 OK
+Server: nginx/1.4.1
+Date: Mon, 02 Feb 1970 21:41:36 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 7
+Connection: keep-alive
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="611"><![CDATA[CWE-611]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:M/Au:N/C:P/I:P/A:P]]></Descriptor>
+          <Score><![CDATA[6.8]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Medium]]></AC>
+          <ACdesc><![CDATA[The access conditions are somewhat specialized.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[Partial]]></C>
+          <Cdesc><![CDATA[There is considerable informational disclosure. Access to some system files is possible, but the attacker does not have control over what is obtained, or the scope of the loss is constrained.]]></Cdesc>
+          <I><![CDATA[Partial]]></I>
+          <Idesc><![CDATA[Modification of some system files or information is possible, but the attacker does not have control over what can be modified, or the scope of what the attacker can affect is limited.]]></Idesc>
+          <A><![CDATA[Partial]]></A>
+          <Adesc><![CDATA[There is reduced performance or interruptions in resource availability.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H]]></Descriptor>
+          <Score><![CDATA[10]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Changed]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can affect resources beyond the authorization privileges intended by the vulnerable component. In this case the vulnerable component and the impacted component are different.]]></Sdesc>
+          <C><![CDATA[High]]></C>
+          <Cdesc><![CDATA[There is total loss of confidentiality, resulting in all resources within the impacted component being divulged to the attacker. Alternatively, access to only some restricted information is obtained, but the disclosed information presents a direct, serious impact.]]></Cdesc>
+          <I><![CDATA[High]]></I>
+          <Idesc><![CDATA[There is a total loss of integrity, or a complete loss of protection. For example, the attacker is able to modify any/all files protected by the impacted component.]]></Idesc>
+          <A><![CDATA[High]]></A>
+          <Adesc><![CDATA[There is total loss of availability, resulting in the attacker being able to fully deny access to resources in the impacted component; this loss is either sustained (while the attacker continues to deliver the attack) or persistent (the condition persists even after the attack has completed).]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+       <References>
+        <Reference>
+          <Database><![CDATA[CWE-611: Information Exposure Through XML External Entity Reference]]></Database>
+          <URL><![CDATA[http://cwe.mitre.org/data/definitions/611.html]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[XXE (Xml eXternal Entity) attack]]></Database>
+          <URL><![CDATA[http://archive.cert.uni-stuttgart.de/bugtraq/2002/10/msg00421.html]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[XML External Entity (XXE) Processing]]></Database>
+          <URL><![CDATA[https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Processing]]></URL>
+        </Reference>
+       </References>
+      </ReportItem>
+
+      <ReportItem id="15" color="red">
+       <Name><![CDATA[Cross site scripting (verified)]]></Name>
+       <ModuleName><![CDATA[Scripting (XSS.script)]]></ModuleName>
+       <Details><![CDATA[Cookie input <b><font color="dark">username</font></b> was set to <b><font color="dark">1&lt;script&gt;ixIZ(9159)&lt;/script&gt;</font></b><br/>The input is reflected inside a text element.<br/>]]></Details>
+       <Affects><![CDATA[/]]></Affects>
+       <Parameter><![CDATA[username]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[high]]></Severity>
+       <Type><![CDATA[Validation]]></Type>
+       <Impact><![CDATA[Malicious users may inject JavaScript, VBScript, ActiveX, HTML or Flash into a vulnerable application to fool a user in order to gather data from them.
+An attacker can steal the session cookie and take over the account, impersonating the user.
+It is also possible to modify the content of the page presented to the user.]]></Impact>
+       <Description><![CDATA[This script is possibly vulnerable to Cross Site Scripting (XSS) attacks.<br/><br/>
+Cross site scripting (also referred to as XSS) is a vulnerability that allows an attacker to send malicious code (usually in the form of Javascript) to another user.
+Because a browser cannot know if the script should be trusted or not, it will execute the script in the user context allowing the attacker to access any cookies or session tokens retained by the browser.]]></Description>
+       <DetailedInformation><![CDATA[<i>Quote from The Cross Site Scripting FAQ - http://www.cgisecurity.com/articles/xss-faq.shtml </i> 
+
+<h2>Introduction</h2>
+
+<p>Websites today are more complex than ever, containing a lot of dynamic content making the experience for the user more enjoyable. Dynamic content is achieved through the use of web applications which can deliver different output to a user depending on their settings and needs. Dynamic websites suffer from a threat that static websites don't, called &quot;Cross Site Scripting&quot; (or XSS dubbed by other security professionals). Currently small informational tidbits about Cross Site Scripting holes exist but none really explain them to an average person or administrator. This FAQ was written to provide a better understanding of this emerging threat, and to give guidance on detection and prevention.</p>
+
+<h2>&quot;What is Cross Site Scripting?&quot;</h2>
+
+<p>Cross site scripting (also known as XSS) occurs when a web application gathers malicious data from a user. The data is usually gathered in the form of a hyperlink which contains malicious content within it. The user will most likely click on this link from another website, instant message, or simply just reading a web board or email message. Usually the attacker will encode the malicious portion of the link to the site in HEX (or other encoding methods) so the request is less suspicious looking to the user when clicked on. After the data is collected by the web application, it creates an output page for the user containing the malicious data that was originally sent to it, but in a manner to make it appear as valid content from the website. Many popular guestbook and forum programs allow users to submit posts with html and javascript embedded in them. If for example I was logged in as &quot;john&quot; and read a message by &quot;joe&quot; that contained malicious javascript in it, then it may be possible for &quot;joe&quot; to hijack my session just by reading his bulletin board post. Further details on how attacks like this are accomplished via &quot;cookie theft&quot; are explained in detail below.</p>
+
+<h2>&quot;What does XSS and CSS mean?&quot;</h2>
+
+<p>Often people refer to Cross Site Scripting as CSS. There has been a lot of confusion with Cascading Style Sheets (CSS) and cross site scripting. Some security people refer to Cross Site Scripting as XSS. If you hear someone say &quot;I found a XSS hole&quot;, they are talking about Cross Site Scripting for certain.</p>
+
+
+<h2>&quot;What are the threats of Cross Site Scripting?&quot;</h2>
+
+<p>Often attackers will inject JavaScript, VBScript, ActiveX, HTML, or Flash into a vulnerable application to fool a user (Read below for further details) in order to gather data from them. Everything from account hijacking, changing of user settings, cookie theft/poisoning, or false advertising is possible. New malicious uses are being found every day for XSS attacks. The post below by Brett Moore brings up a good point with regard to &quot;Denial Of Service&quot;, and potential &quot;auto-attacking&quot; of hosts if a user simply reads a post on a message board.</p>
+
+<h2>&quot;What can I do to protect myself as a vendor?&quot;</h2>
+
+<p>This is a simple answer. Never trust user input and always filter metacharacters. This will eliminate the majority of XSS attacks. Converting &lt; and &gt; to &amp;lt; and &amp;gt; is also suggested when it comes to script output. Remember XSS holes can be damaging and costly to your business if abused. Often attackers will disclose these holes to the public, which can erode customer and public confidence in the security and privacy of your organization's site. Filtering &lt; and &gt; alone will not solve all cross site scripting attacks and it is suggested you also attempt to filter out ( and ) by translating them to &amp;#40; and &amp;#41;, and also # and &amp; by translating them to &amp;#35 (#) and &amp;#38 (&amp;).</p>
+
+<h2>&quot;What can I do to protect myself as a user?&quot;</h2>
+
+<p>The easiest way to protect yourself as a user is to only follow links from the main website you wish to view. If you visit one website and it links to CNN for example, instead of clicking on it visit CNN's main site and use its search engine to find the content. This will probably eliminate ninety percent of the problem. Sometimes XSS can be executed automatically when you open an email, email attachment, read a guestbook, or bulletin board post. If you plan on opening an email, or reading a post on a public board from a person you don't know BE CAREFUL. One of the best ways to protect yourself is to turn off Javascript in your browser settings. In IE turn your security settings to high. This can prevent cookie theft, and in general is a safer thing to do.</p>
+
+<h2>&quot;How common are XSS holes?&quot;</h2>
+
+<p>Cross site scripting holes are gaining popularity among hackers as easy holes to find in large websites. Websites from FBI.gov, CNN.com, Time.com, Ebay, Yahoo, Apple computer, Microsoft, Zdnet, Wired, and Newsbytes have all had one form or another of XSS bugs.</p>
+
+<p>Every month roughly 10-25 XSS holes are found in commercial products and advisories are published explaining the threat.</p>
+
+
+<h2>&quot;Does encryption protect me?&quot;</h2>
+
+<p>Websites that use SSL (https) are in no way more protected than websites that are not encrypted. The web applications work the same way as before, except the attack is taking place in an encrypted connection. People often think that because they see the lock on their browser it means everything is secure. This just isn't the case.</p>
+
+
+<h2>&quot;Can XSS holes allow command execution?&quot;</h2>
+
+<p>XSS holes can allow Javascript insertion, which may allow for limited execution. If an attacker were to exploit a browser flaw (browser hole) it could then be possible to execute commands on the client's side. If command execution were possible it would only be possible on the client side. In simple terms XSS holes can be used to help exploit other holes that may exist in your browser.</p>
+
+
+<h2>&quot;What if I don't feel like fixing a CSS/XSS Hole?&quot;</h2>
+
+<p>By not fixing an XSS hole this could allow possible user account compromise in portions of your site as they get added or updated. Cross Site Scripting has been found in various large sites recently and have been widely publicized. Left unrepaired, someone may discover it and publish a warning about your company. This may damage your company's reputation, depicting it as being lax on security matters. This of course also sends the message to your clients that you aren't dealing with every problem that arises, which turns into a trust issue. If your client doesn't trust you why would they wish to do business with you?</p>]]></DetailedInformation>
+       <Recommendation><![CDATA[Your script should filter metacharacters from user input.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET / HTTP/1.1
+Cookie: username=1&lt;script&gt;ixIZ(9159)&lt;/script&gt;
+Referer: http://testhtml5.vulnweb.com
+Host: testhtml5.vulnweb.com
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 200 OK
+Server: nginx/1.4.1
+Date: Mon, 02 Feb 1970 21:41:49 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Original-Content-Encoding: gzip
+Content-Length: 6007
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="79"><![CDATA[CWE-79]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:P/I:P/A:N]]></Descriptor>
+          <Score><![CDATA[6.4]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[Partial]]></C>
+          <Cdesc><![CDATA[There is considerable informational disclosure. Access to some system files is possible, but the attacker does not have control over what is obtained, or the scope of the loss is constrained.]]></Cdesc>
+          <I><![CDATA[Partial]]></I>
+          <Idesc><![CDATA[Modification of some system files or information is possible, but the attacker does not have control over what can be modified, or the scope of what the attacker can affect is limited.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N]]></Descriptor>
+          <Score><![CDATA[5.3]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no loss of confidentiality within the impacted component.]]></Cdesc>
+          <I><![CDATA[Low]]></I>
+          <Idesc><![CDATA[Modification of data is possible, but the attacker does not have control over the consequence of a modification, or the amount of modification is constrained. The data modification does not have a direct, serious impact on the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+       <References>
+        <Reference>
+          <Database><![CDATA[Acunetix Cross Site Scripting Attack]]></Database>
+          <URL><![CDATA[http://www.acunetix.com/websitesecurity/cross-site-scripting.htm]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[VIDEO: How Cross-Site Scripting (XSS) Works]]></Database>
+          <URL><![CDATA[http://www.acunetix.com/blog/web-security-zone/video-how-cross-site-scripting-xss-works/]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[The Cross Site Scripting Faq]]></Database>
+          <URL><![CDATA[http://www.cgisecurity.com/xss-faq.html]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[OWASP Cross Site Scripting]]></Database>
+          <URL><![CDATA[http://www.owasp.org/index.php/Cross_Site_Scripting]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[XSS Annihilation]]></Database>
+          <URL><![CDATA[http://ha.ckers.org/blog/20060602/xss-annihilation/]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[XSS Filter Evasion Cheat Sheet]]></Database>
+          <URL><![CDATA[https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[Cross site scripting]]></Database>
+          <URL><![CDATA[http://en.wikipedia.org/wiki/Cross-site_scripting ]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[OWASP PHP Top 5]]></Database>
+          <URL><![CDATA[http://www.owasp.org/index.php/PHP_Top_5]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[How To: Prevent Cross-Site Scripting in ASP.NET]]></Database>
+          <URL><![CDATA[http://msdn.microsoft.com/en-us/library/ms998274.aspx]]></URL>
+        </Reference>
+       </References>
+      </ReportItem>
+
+      <ReportItem id="16" color="orange">
+       <Name><![CDATA[Vulnerable Javascript library]]></Name>
+       <ModuleName><![CDATA[Scripting (Javascript_Libraries_Audit.script)]]></ModuleName>
+       <Details><![CDATA[Detected Javascript library <b><font color="dark">sessvars</font></b> version <font color="dark"><b>1.00</font></b>.<br/>The version was detected from <b>file content</b>.]]></Details>
+       <Affects><![CDATA[/static/app/libs/sessvars.js]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[medium]]></Severity>
+       <Type><![CDATA[Configuration]]></Type>
+       <Impact><![CDATA[Consult Web References for more information.]]></Impact>
+       <Description><![CDATA[You are using a vulnerable Javascript library. One or more vulnerabilities were reported for this version of the Javascript library. Consult Attack details and Web References for more information about the affected library and the vulnerabilities that were reported.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Upgrade to the latest version.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET /static/app/libs/sessvars.js HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Referer: http://testhtml5.vulnweb.com/
+Acunetix-Aspect: enabled
+Acunetix-Aspect-Password: 082119f75623eb7abd7bf357698ff66c
+Acunetix-Aspect-Queries: filelist;aspectalerts
+Cookie: username=admin
+Host: testhtml5.vulnweb.com
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 200 OK
+Server: nginx/1.4.1
+Date: Mon, 02 Feb 1970 21:37:20 GMT
+Content-Type: application/x-javascript
+Content-Length: 8869
+Last-Modified: Tue, 07 May 2013 10:17:48 GMT
+Connection: keep-alive
+ETag: &quot;5188d4cc-22a5&quot;
+Expires: Wed, 04 Mar 1970 21:37:20 GMT
+Cache-Control: max-age=2592000
+Accept-Ranges: bytes
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="16"><![CDATA[CWE-16]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:P/I:P/A:N]]></Descriptor>
+          <Score><![CDATA[6.4]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[Partial]]></C>
+          <Cdesc><![CDATA[There is considerable informational disclosure. Access to some system files is possible, but the attacker does not have control over what is obtained, or the scope of the loss is constrained.]]></Cdesc>
+          <I><![CDATA[Partial]]></I>
+          <Idesc><![CDATA[Modification of some system files or information is possible, but the attacker does not have control over what can be modified, or the scope of what the attacker can affect is limited.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N]]></Descriptor>
+          <Score><![CDATA[6.5]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[Low]]></C>
+          <Cdesc><![CDATA[There is some loss of confidentiality. Access to some restricted information is obtained, but the attacker does not have control over what information is obtained, or the amount or kind of loss is constrained.]]></Cdesc>
+          <I><![CDATA[Low]]></I>
+          <Idesc><![CDATA[Modification of data is possible, but the attacker does not have control over the consequence of a modification, or the amount of modification is constrained. The data modification does not have a direct, serious impact on the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+       <References>
+        <Reference>
+          <Database><![CDATA[http://www.thomasfrank.se/sessionvars.html]]></Database>
+          <URL><![CDATA[http://www.thomasfrank.se/sessionvars.html]]></URL>
+        </Reference>
+       </References>
+      </ReportItem>
+
+      <ReportItem id="17" color="blue">
+       <Name><![CDATA[Insecure response with wildcard '*' in Access-Control-Allow-Origin]]></Name>
+       <ModuleName><![CDATA[Scripting (Access_Control_Allow_Origin_Dir.script)]]></ModuleName>
+       <Details><![CDATA[No details are available.]]></Details>
+       <Affects><![CDATA[/]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[low]]></Severity>
+       <Type><![CDATA[Configuration]]></Type>
+       <Impact><![CDATA[Any website can make XHR requests to your site and access the responses.]]></Impact>
+       <Description><![CDATA[Cross-origin resource sharing (CORS) is a mechanism that allows restricted resources (e.g. fonts) on a web page to be requested from another domain outside the domain from which the resource originated. The Access-Control-Allow-Origin header indicates whether a resource can be shared based by returning the value of the Origin request header, &quot;<b><font color="dark">*</font></b>&quot;, or &quot;null&quot; in the response. <br/><br/>
+If a website responds with Access-Control-Allow-Origin: <b><font color="dark">*</font></b> the requested resource allows sharing with every origin. Therefore, any website can make XHR (XMLHTTPRequest) requests to your site and access the responses. It's not recommended to use the Access-Control-Allow-Origin: <b><font color="dark">*</font></b> header.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Is recommended not to use  Access-Control-Allow-Origin: <b><font color="dark">*</font></b>. Instead the Access-Control-Allow-Origin header should contain the list of origins that can make COR requests.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET / HTTP/1.1
+Cookie: username=admin
+Host: testhtml5.vulnweb.com
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 200 OK
+Server: nginx/1.4.1
+Date: Mon, 02 Feb 1970 21:37:20 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Original-Content-Encoding: gzip
+Content-Length: 5984
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="16"><![CDATA[CWE-16]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:N/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[0.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no impact to the confidentiality of the system.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[]]></Descriptor>
+          <Score><![CDATA[]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[]]></AV>
+          <AVdesc><![CDATA[]]></AVdesc>
+          <AC><![CDATA[]]></AC>
+          <ACdesc><![CDATA[]]></ACdesc>
+          <PR><![CDATA[]]></PR>
+          <PRdesc><![CDATA[]]></PRdesc>
+          <UI><![CDATA[]]></UI>
+          <UIdesc><![CDATA[]]></UIdesc>
+          <S><![CDATA[]]></S>
+          <Sdesc><![CDATA[]]></Sdesc>
+          <C><![CDATA[]]></C>
+          <Cdesc><![CDATA[]]></Cdesc>
+          <I><![CDATA[]]></I>
+          <Idesc><![CDATA[]]></Idesc>
+          <A><![CDATA[]]></A>
+          <Adesc><![CDATA[]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+       <References>
+        <Reference>
+          <Database><![CDATA[Test Cross Origin Resource Sharing (OTG-CLIENT-007)]]></Database>
+          <URL><![CDATA[https://www.owasp.org/index.php/Test_Cross_Origin_Resource_Sharing_(OTG-CLIENT-007)]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[Cross-origin resource sharing]]></Database>
+          <URL><![CDATA[https://en.wikipedia.org/wiki/Cross-origin_resource_sharing]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[Cross-Origin Resource Sharing]]></Database>
+          <URL><![CDATA[http://www.w3.org/TR/cors/]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[CrossOriginRequestSecurity]]></Database>
+          <URL><![CDATA[https://code.google.com/p/html5security/wiki/CrossOriginRequestSecurity]]></URL>
+        </Reference>
+       </References>
+      </ReportItem>
+
+      <ReportItem id="18" color="blue">
+       <Name><![CDATA[Possible sensitive directories]]></Name>
+       <ModuleName><![CDATA[Scripting (Possible_Sensitive_Directories.script)]]></ModuleName>
+       <Details><![CDATA[No details are available.]]></Details>
+       <Affects><![CDATA[/admin]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[low]]></Severity>
+       <Type><![CDATA[Validation]]></Type>
+       <Impact><![CDATA[This directory may expose sensitive information that could help a malicious user to prepare more advanced attacks.]]></Impact>
+       <Description><![CDATA[A possible sensitive directory has been found. This directory is not directly linked from the website.This check looks for common sensitive resources like backup directories, database dumps, administration pages, temporary directories. Each one of these directories could help an attacker to learn more about his target.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Restrict access to this directory or remove it from the website.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET /admin HTTP/1.1
+Accept: acunetix/wvs
+Range: bytes=0-99999
+Host: testhtml5.vulnweb.com
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 301 MOVED PERMANENTLY
+Server: nginx/1.4.1
+Date: Mon, 02 Feb 1970 21:45:43 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 277
+Connection: keep-alive
+Location: http://testhtml5.vulnweb.com/admin/
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="200"><![CDATA[CWE-200]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:P/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[5.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[Partial]]></C>
+          <Cdesc><![CDATA[There is considerable informational disclosure. Access to some system files is possible, but the attacker does not have control over what is obtained, or the scope of the loss is constrained.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[7.5]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[High]]></C>
+          <Cdesc><![CDATA[There is total loss of confidentiality, resulting in all resources within the impacted component being divulged to the attacker. Alternatively, access to only some restricted information is obtained, but the disclosed information presents a direct, serious impact.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no loss of integrity within the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+       <References>
+        <Reference>
+          <Database><![CDATA[Web Server Security and Database Server Security]]></Database>
+          <URL><![CDATA[http://www.acunetix.com/websitesecurity/webserver-security.htm]]></URL>
+        </Reference>
+       </References>
+      </ReportItem>
+
+      <ReportItem id="19" color="blue">
+       <Name><![CDATA[Possible sensitive directories]]></Name>
+       <ModuleName><![CDATA[Scripting (Possible_Sensitive_Directories.script)]]></ModuleName>
+       <Details><![CDATA[No details are available.]]></Details>
+       <Affects><![CDATA[/static/app/services]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[low]]></Severity>
+       <Type><![CDATA[Validation]]></Type>
+       <Impact><![CDATA[This directory may expose sensitive information that could help a malicious user to prepare more advanced attacks.]]></Impact>
+       <Description><![CDATA[A possible sensitive directory has been found. This directory is not directly linked from the website.This check looks for common sensitive resources like backup directories, database dumps, administration pages, temporary directories. Each one of these directories could help an attacker to learn more about his target.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Restrict access to this directory or remove it from the website.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET /static/app/services HTTP/1.1
+Accept: acunetix/wvs
+Range: bytes=0-99999
+Host: testhtml5.vulnweb.com
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.1 301 Moved Permanently
+Server: nginx/1.4.1
+Date: Mon, 02 Feb 1970 21:45:51 GMT
+Content-Type: text/html
+Content-Length: 184
+Location: http://testhtml5.vulnweb.com/static/app/services/
+Connection: keep-alive
+Expires: Wed, 04 Mar 1970 21:45:51 GMT
+Cache-Control: max-age=2592000
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="200"><![CDATA[CWE-200]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:P/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[5.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[Partial]]></C>
+          <Cdesc><![CDATA[There is considerable informational disclosure. Access to some system files is possible, but the attacker does not have control over what is obtained, or the scope of the loss is constrained.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[7.5]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[High]]></C>
+          <Cdesc><![CDATA[There is total loss of confidentiality, resulting in all resources within the impacted component being divulged to the attacker. Alternatively, access to only some restricted information is obtained, but the disclosed information presents a direct, serious impact.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no loss of integrity within the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+       <References>
+        <Reference>
+          <Database><![CDATA[Web Server Security and Database Server Security]]></Database>
+          <URL><![CDATA[http://www.acunetix.com/websitesecurity/webserver-security.htm]]></URL>
+        </Reference>
+       </References>
+      </ReportItem>
+		</ReportItems>
+ </Scan>
+</ScanGroup>

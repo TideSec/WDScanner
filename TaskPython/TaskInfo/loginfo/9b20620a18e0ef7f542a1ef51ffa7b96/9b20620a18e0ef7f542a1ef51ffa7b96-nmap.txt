@@ -1,0 +1,1 @@
+# Nmap 7.60 scan initiated Tue Mar 19 15:47:21 2019 as: nmap.exe -oN C:\WDScanner\WWW\TaskPython\TaskInfo\loginfo\9b20620a18e0ef7f542a1ef51ffa7b96\9b20620a18e0ef7f542a1ef51ffa7b96-nmap.txt -sT -sV -O --script=banner --min-hostgroup 1024 --min-parallelism 1024 -p T:1-65535 www.kongziyjy.org

@@ -1,0 +1,1 @@
+http://www.chngec.com.cn/ [200 OK] Cookies[JSESSIONID], Country[CHINA][CN], HTTPServer[nginx/1.8.0], IP[123.233.120.98], JQuery[1.12.3], Java, PasswordField, Script[text/javascript], Title[华能热力用户服务平台], X-UA-Compatible[IE=9,IE=edge], nginx[1.8.0]

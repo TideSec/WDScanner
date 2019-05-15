@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Time    : 17/8/24 上午11:07
-# @Author  : 重剑无锋
-# @Site    : www.tidesec.net
-# @Email   : 6295259@qq.com
+# @Author  : SecPlus
+# @Site    : www.SecPlus.org
+# @Email   : miacey@163.com
 
 #依赖于wvs的结果，将wvs返回的每个Url打开查找链接
 
@@ -168,7 +168,9 @@ class Spider():
         return unrepect_url
 
     def crawler(self,crawl_deepth=1):
-
+        '''
+        正式的爬取，并依据深度进行爬取层级控制
+        '''
         self.current_deepth=0
         while self.current_deepth < crawl_deepth:
             if self.linkQuence.unvisitedUrlEmpty():break
@@ -189,11 +191,15 @@ class Spider():
         # print(self.linkQuence.visited)
         # print (self.linkQuence.unvisited)
         urllist=[]
+        # urllist.append("#"*30 + ' VisitedUrl '+ "#"*30)
         for suburl in self.linkQuence.getVisitedUrl():
             urllist.append(suburl)
         # urllist.append("#"*30 + ' UnVisitedUrl '+ "#"*30)
         for suburl in self.linkQuence.getUnvisitedUrl():
             urllist.append(suburl)
+        # urllist.append("#"*30 + ' External_link '+ "#"*30)
+        # for sublurl in self.linkQuence.getExternal_link():
+        #     urllist.append(sublurl)
         return urllist
 def writelog(domain_url,urllist):
     filename=domain_url + '.txt'
@@ -208,7 +214,12 @@ def urlspider(url,crawl_deepth=66):
     print "domain_url:"+domain_url
     spider = Spider(url,domain_url,urlprotocol)
     urllist=spider.crawler(crawl_deepth)
+    # writelog(domain_url,urllist)
     return urllist
+    # print '-' * 20 + url + '-' * 20
+    # for sublurl in urllist:
+    #     print sublurl
+    # print '\n' + 'Result record in:' + domain_url + '.txt'
 
 
 class Worker(threading.Thread):  # 处理工作请求
@@ -358,6 +369,33 @@ def downURL(url, filename):
     return 1
 
 
+def check_evil(url):
+    # 暗链检测 腾讯，360
+    print "+++++++++++++++check_evil_url+++++++++++++++++++++"
+
+    headers = {"Referer": "https://guanjia.qq.com/online_server/result.html"}
+
+    data = 'http://cgi.urlsec.qq.com/index.php?m=check&a=check&url=' + url
+
+    try:
+        respone = requests.get(data, headers=headers, timeout=60, verify=False)
+        if int(respone.status_code) == 200:
+            # print respone.content[1:-1]
+            result = eval(respone.content[1:-1])
+            whitetype = result["data"]["results"]["whitetype"]
+            if whitetype == 2:
+                # out.write(result["cms"])
+                return 1
+            else:
+                # out.write('Unknown')
+                return 0
+
+    except Exception as e:
+        print str(e)
+        # out.write('Unknown')
+        return 0
+
+
 def get_filters(path):
     if path is None:
         return
@@ -384,10 +422,17 @@ def check_key(html):
         for filter_word in filters:
             if filter_word in content:
                 return "1####" + filter_word
+
+                # pattern = re.compile('.*?赌博.*?|.*?彩票.*?|.*?百家乐.*?|.*?博彩.*?|.*?太阳城.*?')  # 若加上re.S速度很慢
+                # print "开始正则匹配"
+                # item = re.search(pattern, content)
+                # print "正则匹配结束"
+                # if item is not None:
+                #    return "1####"
+
     except Exception as e:
         print str(e)
         return "0"
-
 
 
 def check(item, base_url, urllog):
@@ -405,7 +450,12 @@ def check(item, base_url, urllog):
             host = item
             local_file = item.replace('/', '_')
 
-        
+        if host not in base_url:
+            if check_evil(item):
+                evilurl = "evil##" + item + " --- Parent_Page:" + base_url + '+++' + '\n'
+                urllog.write(evilurl)
+                downURL(base_url, local_file)
+        # print  item
         html = get_html(item)
         print "+++++++++++++++check_bad_url:"+item+"+++++++++++++++++++++"
         if not html:
@@ -476,6 +526,7 @@ def reptile(base_url):
         # title = parser.title
         parser.close()
         item_list = list(set(page_list))
+        item_list = removeext(item_list)
 
         proto, rest = urllib.splittype(base_url)
         host, rest = urllib.splithost(rest)
@@ -503,9 +554,60 @@ def reptile(base_url):
             else:
                 continue
             print item
+            # check(item,base_url,urllog)
             wm.add_job(check, item, base_url, urllog)
         wm.start()
         wm.wait_for_complete()
+
+        urllog.close()
+        urls.close()
+    except:
+        return False
+
+
+def reptile_simple(base_url):
+    try:
+        urlall_list = []
+        page_list = []
+        global hash
+        file = './logspider/' + hash + '/urllog.txt'
+        urllog = open(file, 'a+')
+        urlall = './logspider/' + hash + '/urlall.txt'
+        temp = open(urlall, 'a+')
+        temp.close()
+        urls = open(urlall, 'r+')
+        for url in urls.readlines():
+            urlall_list.append(url.strip('\n'))
+
+        if not len(base_url):
+            print "No page to reptile!"
+            sys.exit(1)
+
+        proto, rest = urllib.splittype(base_url)
+        host, rest = urllib.splithost(rest)
+        if base_url[0:4] == 'http':
+            base_domain = proto + '://' + host
+        elif base_url[0:3] == 'www':
+            base_domain = base_url.split('/')[0]
+        else:
+            base_domain = base_url
+        item = base_url
+
+        pos = item.find('#')
+        if pos != -1:
+            item = item[:pos]
+
+        if not item.startswith("http"):
+            item = base_domain + '/' + item
+            pass
+
+        # print urlall_list
+        if item not in urlall_list:
+            urls.write(item + '\n')
+            urlall_list.append(item)
+
+        print item
+        check(item, base_url, urllog)
 
         urllog.close()
         urls.close()
@@ -528,7 +630,7 @@ def get_html(url):
         # print html
         return html
     except:
-        return 'False'
+        return False
 
 
 def writefile(logname, cmd):
@@ -538,6 +640,19 @@ def writefile(logname, cmd):
         fp.close()
     except:
         return False
+def removeext(target_list):
+    target_list_tmp = []
+    excludeext = ['.zip', '.rar', '.pdf', '.doc', '.xls', '.jpg', '.mp3', '.mp4', '.mpg', '.wmv', '.wma']
+    for suburl in target_list:
+        exit_flag = 0
+        for ext in excludeext:
+            if ext in suburl:
+                print "break:" + suburl
+                exit_flag = 1
+                break
+        if exit_flag == 0:
+            target_list_tmp.append(suburl)
+    return target_list_tmp
 
 def geturl(url):
     global hash
@@ -549,7 +664,10 @@ def geturl(url):
         if len(a) > 50:
             # print a
             target_urls = a.split('<br>')
-            
+            # print target_urls
+            # print len(target_url)
+            # if target_url:
+            #     print target_url[1]
             hash = target_urls[0][-32:]
             print os.getcwd()
             if not os.path.exists('./logspider/' + hash):
@@ -557,11 +675,12 @@ def geturl(url):
             print hash
             site_url = target_urls[1]
             print "site_url:"+site_url
-            spider_urls = urlspider(site_url, 5)
+            spider_urls = urlspider(site_url, 100)
             target_url = target_urls[1:]
             num = 0
             for spider_url in spider_urls:
                 target_url.append(spider_url)
+            target_url = removeext(target_url)
             target_url = list(set(target_url))
             num_all = len(target_url)
             for url in target_url:
@@ -582,6 +701,18 @@ def geturl(url):
         # print info
 
 
+def test():
+    global hash
+    hash = '1111113'
+    url = 'http://ysfx.lyu.edu.cn'
+    if not os.path.exists('./logspider/' + hash):
+        os.mkdir('./logspider/' + hash)
+    reptile(url)
+
+
+# print time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))
+# test()
+# print time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))
 
 url = 'http://127.0.0.1/taskspider.php'
 i = 0

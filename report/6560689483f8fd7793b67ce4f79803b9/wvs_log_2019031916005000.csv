@@ -1,0 +1,809 @@
+TimeStamp, Source,LogType,Description
+03.19 16:00.50, , Initialization, Info, Command line:wvs.exe /ps 640403586696 /console "C:\Program Files (x86)\Acunetix\Web Vulnerability Scanner 10\wvs_console.exe"  /Scan http://www.lvquan.cn/ --HtmlAuthUser= --HtmlAuthPass=  /Verbose /ExportXML /SaveLogs /SaveFolder C:\WDScanner\WWW\report\6560689483f8fd7793b67ce4f79803b9\
+03.19 16:00.50, Console,Info,Test temporary directory ...
+03.19 16:00.50, Console,Info,Init WinSock ...
+03.19 16:00.50, Console,Info,Init HTTP module ...
+03.19 16:00.50, Console,Info,Clear old logs ...
+03.19 16:00.50, Console,Info,Parse branding ...
+03.19 16:00.50, App_Initialization_Shutdown,Info,Build: 20160217
+03.19 16:00.50, Console,Info,Init the browser ...
+03.19 16:00.50, Console,Info,Init database manager ...
+03.19 16:00.50, Console,Info,Init GHDB ...
+03.19 16:00.50, Console,Info,Init server info interface ...
+03.19 16:00.50, Frame_Config,Info,Parse Frame Config XML ...
+03.19 16:00.50, Console,Info,Init application detection ...
+03.19 16:00.50, Console,Info,Init Acunetix VVS ...
+03.19 16:00.50, Web_Activation,Info,ActivateLicenseKey LoadActivationSettings
+03.19 16:00.50, Web_Activation,Info,ActivateLicenseKey 8C43-BCB1-8326-CE87
+03.19 16:00.50, Web_Activation,Info,ActivateLicenseKey InternetOpen
+03.19 16:00.50, Web_Activation,Info,ActivateLicenseKey InternetConnect
+03.19 16:00.50, Web_Activation,Info,ActivateLicenseKey HttpOpenRequest
+03.19 16:00.50, Web_Activation,Info,ActivateLicenseKey InternetSetOption
+03.19 16:00.50, Web_Activation,Info,ActivateLicenseKey HttpAddRequestHeaders
+03.19 16:00.50, Web_Activation,Info,ActivateLicenseKey prepare POST data
+03.19 16:00.51, Web_Activation,Info,ActivateLicenseKey Request: cglaq+2vmQwXUVMcjJCdXesdjrjBk2UnjzvPy7M5KgROCOewO03wXhTIQ7i+c3u6u0lj5xrp9Ex5pP+3jWYkBcdrCzCxDrW4cO7RgjH2ynUw4TT9OMCtrAdH53mv6S8/CeB+j0WcB8XOgkUhFnKm9a5tx3D/340M2dBg6C98+KSrUWqWgj6JG/Y6zZkDlcxpXyAUmDPPp3VYli5QH8bJmsSBFi1mhW1bXTP4ifpxI5T4/3mmtHZP7iQaf/FnNm/rXInedzX8++A93EdhVeXFWqwNT1GHtCigC5G/sx98KH3RR7dESU9MNBHMdjRKIaqm4yMWji8SO79qXQ0LsBjlgZNAm3SCo+Ef4SkNWWW17SG3Go6yllkHzCTU8ThikCh3lhKs5NVz4cGDg6uxX3aC5EEpj4w2lMX31V9+nhkseQf2+5BIlwwLwjWMcGPVkgKzzRu+uz67Yh/rkETg1ISUrFF8hKvt+pFCoFRdcgQf6fDHjPE97Q8trhLknDruv/ryWG65VfUDh6NP3YFGlCfvrzmlobYBexou7HAL0GnAz+mBPx8IqRraUwDmAZEWFAnTOL33bvHHrU+89xyfE1s96axz5oZ+IgmFlUmQrFhN0Xk68AlQGTteLdO3ZpL+Jo/j+mjilH8P+4vKvcAEcupcHEA8qY1zxjTCyYeupDBOIHOYyw9qExyOrXFnM/D2oQ8U4CPYav2H6ByBtXyeeEYfeuuc1Jr9683fenFniyk2D1RgeS1nbkuNuEwZWy+R6H118hlhsYT9peP+QA0dfaSUsJwwzxKpEpgQbMvPKUfKtVBzpbTwQIJL5FaFS/peFq9gGa32SLlt/3eQcVVHS121EMidO8kvDXbav7DcXRf/kFWdmf+4PIzbRwd3biZyp76O1ca+d8C/RUNdSnJpV2x1o44pE0aQbRo8yoDJC2i+A6LhmLEMCu4Km5uobOjcmIAXC+kgk0ms9MXXfeNOOF6o9unOWq1hpQFtzUZPPY1fkp93xOXmdlUgfbmMEiz5cfkCAF02lHgjSig/TFRo6kUAUV/Tx4Wulx/ik2bpGp/4MsVRstpqamk1pZ8c9dDIK6WumXfiZrROM5nA4RYICkf4eas4ZpvvtAFrxIulFKnhvZl+kAAt6KQfUXv7Vbz819qYF9ClGWEvmzD0S4D9Lq5dseAGZzEnV2EAD+2zmmaI/944DCIrFISDsIU6ovvn03vhAIBR6YCYebCWdWgn85XmP276tqWxI60fO4SYX/Irjz1ArO4ptajsHgkkQqG76gEd8uXgciQFwauaRxFdmJhB+2zGfXZzrliPxW15EJtJLLTBv/RIvzIURXCoNPQCFRRmnnTlGWfEGydE8Ft61eRDddluy6/Pz39rz8Gc/t0o5QfAJUtvynYQvmTmGdhB8APcyeXjPGdulJOuWCF6FiO6LVGUAKrR9Wl//BjwH4k7He6YZ5GC8j+TC4gVkGv4LwTidszWhG4armbV9u5DvRDgxIi2dvLV10+sdAbBQwxugQ==
+03.19 16:00.51, Web_Activation,Info,ActivateLicenseKey HttpSendRequest
+03.19 16:00.52, Web_Activation,Info,ActivateLicenseKey HttpQueryInfo
+03.19 16:00.52, Web_Activation,Info,ActivateLicenseKey HttpQueryInfo dwCode = 200
+03.19 16:00.52, Web_Activation,Info,ActivateLicenseKey InternetReadFile
+03.19 16:00.52, Web_Activation,Info,ActivateLicenseKey InternetReadFile END
+03.19 16:00.52, Web_Activation,Info,ActivateLicenseKey ActivateRequestDone
+03.19 16:00.52, Web_Activation,Info,ActivateLicenseKey ActivateRequestDone
+03.19 16:00.52, Web_Activation,Info,ActivationResponse: cglaq+2vmQwXUVMcjJCdXesdjrjBk2UnjzvPy7M5FiNnCOeqMUrhHFmWDY/xPS3jpEly8gujo2V5oaCojXcxGJ1uEyqyDuLkbqSExDKxlCBtqWy4f97psBkdum3vum8iXaFQp2WgFMiJz1xhE3Kmu7dwzSj/l4EVxYQ8/SB467f+CjCNgGOJBrF9i5gs665VTi9ex2LS/zRzrwNtH8uO193OWjt403tbA321gP40YZP1uHqls2IX8n0Cerg/N3G0H8GpCEmfq6dohAkwBLjGGKgTA3aEvyH7Fe7RzVYqaTXHHIRRCw0ZGA3NL3IqR+T1/iFexhoBdfkzSw4Zql3vnIcAiybN5LdVrVJBAnu0+3u3XKyvy08E1TXKikca33oEwlP4rc0o1vyjgKy7Xj6TrDl7wN5FwISjgBAQ0DM6fgvw5YVQkRA6h2iMfRWGyDylnBmqtDmTP1rCjWfrwoSl4x89xueovo8E/WhceFxFz+rrh/M3+2d0nUCjxXTatNT1WWS7eegIjO9/2Z8L/BHgznX35PdFImcd6nYZxH7R6aLUFRJE6F6qBkS9RsdeXj2fZ+myPKi16QvgonaiKUEt+bZj9ppxWCyehVi/vElvwmFwrS5aFkZuAfXzKN6Oe92rmQLknxNS2Ibcu9o6dstWFyhU0ZNj2juym8jq7RBVAGKTygRyFwPVr3ZiK7q28Cs2wyTSNuiMugrw/CehS0oPZv6J7Zr86pa1MEA22gklDklbezRAJS/r/FIJRyDhujItxBV7h5D3vcmhESlWQaavuYt642CMNKlfJrSPBkbfuXZYqrziQLMToQDMDq0tQu4oOLukHfUqwnyDJgEBKBX7MNiCYIUKDXzK7difE1GwkFqDhfDFGpXTWAo9Q39JrrS7+NH1JYqKT08aX3xwDndiq5wwEBbuAgQgxdOGSjikfY7qlOFEV+QsvtXRZ7qFvoMNFfhs
+03.19 16:00.52, Web_Activation,Info,ActivateLicenseKey ActivateRequestDone END
+03.19 16:00.52, Console,Info,Load false positives ...
+03.19 16:00.52, Console,Info,Init global messaging ...
+03.19 16:00.52, Console,Info,Done.
+03.19 16:00.52, Scan,Info,http://www.lvquan.cn/ have the ip 218.5.76.86
+03.19 16:00.53, Scan,Info,Start URL : http://www.lvquan.cn/
+03.19 16:00.53, Scan,Info,Scanning Mode : Heuristic
+03.19 16:00.53, Scan,Info,Server banner: Apache
+03.19 16:00.53, Site_Structure,Info,Site_File unit instances (before reinit):
+03.19 16:00.53, Site_File,Info,SF: 0; SFL: 1; SFRL: 7
+03.19 16:00.53, Crawler,Info,[TCrawler : $0D33C9C0] Structure initialized
+03.19 16:00.53, Site_Structure,Info,Site_File unit instances (after reinit):
+03.19 16:00.53, Site_File,Info,SF: 1; SFL: 3; SFRL: 8
+03.19 16:00.53, Crawler,Info,[TCrawler : $0D33C9C0] Crawling started, URL: http://www.lvquan.cn/
+03.19 16:00.53, Crawler,Info,[TCrawler : $0D33C9C0] Crawler:  http://www.lvquan.cn/ State transition: CS_INITIALIZED -> CS_RUNNING
+03.19 16:00.53, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/
+03.19 16:00.53, Crawler,Info,[TCrawler : $0D33C9C0] Crawler:  http://www.lvquan.cn/ State transition: CS_RUNNING -> CS_DETECT404
+03.19 16:00.55, Crawler,Info,Auto custom 404 page detector done.
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Crawler:  http://www.lvquan.cn/ State transition: CS_DETECT404 -> CS_RUNNING
+03.19 16:00.55, ScriptExecThread(0),Info,Per server script "AJP_Audit.script" starting
+03.19 16:00.55, ScriptExecThread(4),Info,Per server script "Apache_Geronimo_Default_Administrative_Credentials.script" starting
+03.19 16:00.55, ScriptExecThread(3),Info,Per server script "Amazon_S3_Ping.script" starting
+03.19 16:00.55, ScriptExecThread(7),Info,Per server script "Apache_Axis2_Audit.script" starting
+03.19 16:00.55, ScriptExecThread(5),Info,Per server script "Apache_Proxy_CONNECT_Enabled.script" starting
+03.19 16:00.55, ScriptExecThread(1),Info,Per server script "Apache_mod_negotiation_Filename_Bruteforcing.script" starting
+03.19 16:00.55, ScriptExecThread(9),Info,Per server script "Apache_Roller_Audit.script" starting
+03.19 16:00.55, ScriptExecThread(8),Info,Per server script "Apache_httpOnly_Cookie_Disclosure.script" starting
+03.19 16:00.55, ScriptExecThread(6),Info,Per server script "Apache_Server_Information.script" starting
+03.19 16:00.55, ScriptExecThread(2),Info,Per server script "Apache_Running_As_Proxy.script" starting
+03.19 16:00.55, ScriptExecThread(4),Info,Per server script "Apache_Geronimo_Default_Administrative_Credentials.script" finished in 156 ms. Request count: 1. Status: 0
+03.19 16:00.55, ScriptExecThread(2),Info,Per server script "Apache_Running_As_Proxy.script" finished in 156 ms. Request count: 1. Status: 0
+03.19 16:00.55, ScriptExecThread(5),Info,Per server script "Apache_Proxy_CONNECT_Enabled.script" finished in 156 ms. Request count: 1. Status: 0
+03.19 16:00.55, ScriptExecThread(9),Info,Per server script "Apache_Roller_Audit.script" finished in 156 ms. Request count: 1. Status: 0
+03.19 16:00.55, ScriptExecThread(4),Info,Per server script "Apache_Solr_Exposed.script" starting
+03.19 16:00.55, ScriptExecThread(2),Info,Per server script "Apache_Unfiltered_Expect_Header_Injection.script" starting
+03.19 16:00.55, ScriptExecThread(5),Info,Per server script "Apache_XSS_via_Malformed_Method.script" starting
+03.19 16:00.55, ScriptExecThread(9),Info,Per server script "Arbitrary_file_existence_disclosure_in_Action_Pack.script" starting
+03.19 16:00.55, ScriptExecThread(2),Info,Per server script "Apache_Unfiltered_Expect_Header_Injection.script" finished in 47 ms. Request count: 1. Status: 0
+03.19 16:00.55, ScriptExecThread(2),Info,Per server script "ASP_NET_Error_Message.script" starting
+03.19 16:00.55, ScriptExecThread(8),Info,Per server script "Apache_httpOnly_Cookie_Disclosure.script" finished in 218 ms. Request count: 1. Status: 0
+03.19 16:00.55, ScriptExecThread(8),Info,Per server script "ASP_NET_Forms_Authentication_Bypass.script" starting
+03.19 16:00.55, ScriptExecThread(9),Info,Per server script "Arbitrary_file_existence_disclosure_in_Action_Pack.script" finished in 47 ms. Request count: 1. Status: 0
+03.19 16:00.55, ScriptExecThread(9),Info,Per server script "ASP_NET_Oracle_Padding.script" starting
+03.19 16:00.55, ScriptExecThread(1),Info,Per server script "Apache_mod_negotiation_Filename_Bruteforcing.script" finished in 218 ms. Request count: 2. Status: 0
+03.19 16:00.55, ScriptExecThread(5),Info,Per server script "Apache_XSS_via_Malformed_Method.script" finished in 47 ms. Request count: 1. Status: 0
+03.19 16:00.55, ScriptExecThread(1),Info,Per server script "Barracuda_locale_Directory_Traversal.script" starting
+03.19 16:00.55, ScriptExecThread(9),Info,Per server script "ASP_NET_Oracle_Padding.script" finished in 0 ms. Request count: 0. Status: 0
+03.19 16:00.55, ScriptExecThread(5),Info,Per server script "Bash_RCE_Server_Audit.script" starting
+03.19 16:00.55, ScriptExecThread(9),Info,Per server script "Clickjacking_X_Frame_Options.script" starting
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/favicon.ico
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/robots.txt
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/index.php
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/index.php
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/index.php
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/index.php
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/index.php
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/index.php
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/index.php
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/index.php
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/default/css/css.css
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/default/js/jquery-1.8.1.min.js
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/default/js/jquery.jslides.js
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/default/js/slide.js
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/default/js/jquery.SuperSlide.js
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/default
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/default/css
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/uploadfiles
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/uploadfiles/image
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/uploadfiles/image/201502
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/uploadfiles/image/201707
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/default/images
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/uploadfiles/image/201604
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/default/js
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Crawler:  http://www.lvquan.cn/ State transition: CS_RUNNING -> CS_LOGIN
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Crawler:  http://www.lvquan.cn/ State transition: CS_LOGIN -> CS_RUNNING
+03.19 16:00.55, ScriptExecThread(8),Info,Per server script "ASP_NET_Forms_Authentication_Bypass.script" finished in 94 ms. Request count: 1. Status: 0
+03.19 16:00.55, ScriptExecThread(8),Info,Per server script "ClientAccessPolicy_XML.script" starting
+03.19 16:00.55, ScriptExecThread(2),Info,Per server script "ASP_NET_Error_Message.script" finished in 172 ms. Request count: 1. Status: 0
+03.19 16:00.55, ScriptExecThread(2),Info,Per server script "ColdFusion_Audit.script" starting
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/favicon.ico
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/admin
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/cache
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/config
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/controllers
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/core
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/extensions
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/models
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/plugins
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/index.php
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/index.php
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/index.php
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/sysadmin
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/sitemap.xml
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/sitemap.xml.gz
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/robots.txt
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /robots.txt
+03.19 16:00.55, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:00.55, ScriptExecThread(8),Info,Per server script "ClientAccessPolicy_XML.script" finished in 218 ms. Request count: 2. Status: 0
+03.19 16:00.55, ScriptExecThread(6),Info,Per server script "Apache_Server_Information.script" finished in 577 ms. Request count: 5. Status: 0
+03.19 16:00.55, ScriptExecThread(8),Info,Per server script "ColdFusion_User_Agent_XSS.script" starting
+03.19 16:00.55, ScriptExecThread(6),Info,Per server script "ColdFusion_v8_File_Upload.script" starting
+03.19 16:00.55, ScriptExecThread(2),Info,Per server script "ColdFusion_Audit.script" finished in 249 ms. Request count: 2. Status: 0
+03.19 16:00.55, ScriptExecThread(2),Info,Per server script "ColdFusion_v9_Solr_Exposed.script" starting
+03.19 16:00.55, ScriptExecThread(9),Info,Per server script "Clickjacking_X_Frame_Options.script" finished in 405 ms. Request count: 1. Status: 0
+03.19 16:00.55, ScriptExecThread(3),Info,Per server script "Amazon_S3_Ping.script" finished in 639 ms. Request count: 1. Status: 0
+03.19 16:00.55, ScriptExecThread(3),Info,Per server script "CoreDumpCheck.script" starting
+03.19 16:00.55, ScriptExecThread(9),Info,Per server script "CRLF_Injection_PerServer.script" starting
+03.19 16:00.55, ScriptExecThread(7),Info,Per server script "Apache_Axis2_Audit.script" finished in 639 ms. Request count: 5. Status: 0
+03.19 16:00.55, ScriptExecThread(7),Info,Per server script "Crossdomain_XML.script" starting
+03.19 16:00.55, ScriptExecThread(8),Info,Per server script "ColdFusion_User_Agent_XSS.script" finished in 109 ms. Request count: 1. Status: 0
+03.19 16:00.55, ScriptExecThread(6),Info,Per server script "ColdFusion_v8_File_Upload.script" finished in 109 ms. Request count: 1. Status: 0
+03.19 16:00.55, ScriptExecThread(8),Info,Per server script "Database_Backup.script" starting
+03.19 16:00.55, ScriptExecThread(6),Info,Per server script "Django_Admin_Weak_Password.script" starting
+03.19 16:00.56, ScriptExecThread(7),Info,Per server script "Crossdomain_XML.script" finished in 78 ms. Request count: 1. Status: 0
+03.19 16:00.56, ScriptExecThread(7),Info,Per server script "elasticsearch_Audit.script" starting
+03.19 16:00.56, ScriptExecThread(9),Info,Per server script "CRLF_Injection_PerServer.script" finished in 110 ms. Request count: 1. Status: 0
+03.19 16:00.56, ScriptExecThread(9),Info,Per server script "elmah_Information_Disclosure.script" starting
+03.19 16:00.56, ScriptExecThread(6),Info,Per server script "Django_Admin_Weak_Password.script" finished in 94 ms. Request count: 1. Status: 0
+03.19 16:00.56, ScriptExecThread(6),Info,Per server script "Error_Page_Path_Disclosure.script" starting
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/index.php
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /index.php
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/index.php?a=show&c=content&id=493
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /index.php (variation 2)
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/index.php
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/index.php?a=post&c=form&cid=0&modelid=11
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /index.php (variation 1)
+03.19 16:00.56, Reporter,Info,[medium] HTML form without CSRF protection "/index.php (dee0661bd2b034891043223d2f9d8565)"
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/index.php
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/admin/images/dialog.css
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/admin/images/table_form.css
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/admin/js/dialog.js
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/extensions/language/zh-cn/lang.js
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/admin/js/core.js
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/admin
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/admin/images
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/admin/js
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/extensions/language
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/extensions/language/zh-cn
+03.19 16:00.56, ScriptExecThread(3),Info,Per server script "CoreDumpCheck.script" finished in 250 ms. Request count: 1. Status: 0
+03.19 16:00.56, ScriptExecThread(9),Info,Per server script "elmah_Information_Disclosure.script" finished in 156 ms. Request count: 2. Status: 0
+03.19 16:00.56, ScriptExecThread(9),Info,Per server script "Fantastico_Filelist.script" starting
+03.19 16:00.56, ScriptExecThread(3),Info,Per server script "Flask_Debug_Mode.script" starting
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/index.php?a=list&c=content&catid=263
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /index.php (variation 4)
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/default/js/gundong.js
+03.19 16:00.56, ScriptExecThread(2),Info,Per server script "ColdFusion_v9_Solr_Exposed.script" finished in 312 ms. Request count: 1. Status: 0
+03.19 16:00.56, ScriptExecThread(2),Info,Per server script "Frontpage_authors_pwd.script" starting
+03.19 16:00.56, ScriptExecThread(9),Info,Per server script "Fantastico_Filelist.script" finished in 63 ms. Request count: 1. Status: 0
+03.19 16:00.56, ScriptExecThread(9),Info,Per server script "Frontpage_Extensions_Enabled.script" starting
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/index.php?a=show&c=content&id=487
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /index.php (variation 3)
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/index.php
+03.19 16:00.56, ScriptExecThread(2),Info,Per server script "Frontpage_authors_pwd.script" finished in 62 ms. Request count: 1. Status: 0
+03.19 16:00.56, ScriptExecThread(2),Info,Per server script "Frontpage_Information.script" starting
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/index.php?a=show&c=content&id=486
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /index.php (variation 5)
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/index.php
+03.19 16:00.56, ScriptExecThread(2),Info,Per server script "Frontpage_Information.script" finished in 63 ms. Request count: 1. Status: 0
+03.19 16:00.56, ScriptExecThread(2),Info,Per server script "GlassFish_41_Directory_Traversal.script" starting
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/default/css/css.css
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/default/css/css.css
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/default/css/iepngfix.htc
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/index.php?a=list&c=content&catid=10
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /index.php (variation 6)
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/index.php?a=list&c=content&catid=114
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /index.php (variation 7)
+03.19 16:00.56, ScriptExecThread(3),Info,Per server script "Flask_Debug_Mode.script" finished in 359 ms. Request count: 1. Status: 0
+03.19 16:00.56, ScriptExecThread(2),Info,Per server script "GlassFish_41_Directory_Traversal.script" finished in 187 ms. Request count: 2. Status: 0
+03.19 16:00.56, ScriptExecThread(3),Info,Per server script "GlassFish_Audit.script" starting
+03.19 16:00.56, ScriptExecThread(2),Info,Per server script "Hadoop_Cluster_Web_Interface.script" starting
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/default/js/jquery.jslides.js
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/default/js/jquery.jslides.js
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/default/js/slide.js
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/default/js/slide.js
+03.19 16:00.56, ScriptExecThread(9),Info,Per server script "Frontpage_Extensions_Enabled.script" finished in 374 ms. Request count: 2. Status: 0
+03.19 16:00.56, ScriptExecThread(9),Info,Per server script "Heartbleed_Bug.script" starting
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/default/js/jquery-1.8.1.min.js
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/default/js/jquery-1.8.1.min.js
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/default
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/default/
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/default
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/default/css
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/default/css/
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/default/css
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/default/js/jquery.SuperSlide.js
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/default/js/jquery.SuperSlide.js
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/uploadfiles
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/uploadfiles/
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /uploadfiles
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/uploadfiles/image
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/uploadfiles/image/
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /uploadfiles/image
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/uploadfiles/image/201502
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/uploadfiles/image/201502/
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /uploadfiles/image/201502
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/uploadfiles/image/201707
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/uploadfiles/image/201707/
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /uploadfiles/image/201707
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/default/images
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/default/images/
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/default/images
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/uploadfiles/image/201604
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/uploadfiles/image/201604/
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /uploadfiles/image/201604
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/default/js
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/default/js/
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/default/js
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Crawler:  http://www.lvquan.cn/ State transition: CS_RUNNING -> CS_LOGIN
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Crawler:  http://www.lvquan.cn/ State transition: CS_LOGIN -> CS_RUNNING
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/admin
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/admin/
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/cache
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/cache/
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /cache
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/config
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/config/
+03.19 16:00.56, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /config
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/controllers
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/controllers/
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /controllers
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/core
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/core/
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /core
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/extensions
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/extensions/
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /extensions
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/plugins
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/plugins/
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /plugins
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/models
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/models/
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /models
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/index.php
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/index.php
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/index.php
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/index.php
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/index.php
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/index.php
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/index.php
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/index.php
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/default/css/css.css
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/default/js/jquery-1.8.1.min.js
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/default/js/jquery.jslides.js
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/default/js/slide.js
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/default/js/jquery.SuperSlide.js
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/default
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/default/css
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/uploadfiles
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/uploadfiles/image
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/uploadfiles/image/201502
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/default/images
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/default/js
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/index.php?c=api
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /index.php (variation 9)
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/index.php?s=member
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/index.php
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /index.php (variation 8)
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/sysadmin
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/sysadmin/
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /sysadmin
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/sitemap.xml
+03.19 16:00.57, ScriptExecThread(5),Info,Per server script "Bash_RCE_Server_Audit.script" finished in 1950 ms. Request count: 18. Status: 0
+03.19 16:00.57, ScriptExecThread(5),Info,Per server script "Horde_IMP_Webmail_Exploit.script" starting
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/index.php?s=sysadmin
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/index.php
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /index.php (variation 10)
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/sitemap.xml.gz
+03.19 16:00.57, ScriptExecThread(6),Info,Per server script "Error_Page_Path_Disclosure.script" finished in 1544 ms. Request count: 16. Status: 0
+03.19 16:00.57, ScriptExecThread(6),Info,Per server script "IBM_WebSphere_Audit.script" starting
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/admin/images/dialog.css
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/admin/images/dialog.css
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/admin/images/blue
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/index.php?a=hits&c=api&hits=723&id=493
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /index.php (variation 11)
+03.19 16:00.57, ScriptExecThread(5),Info,Per server script "Horde_IMP_Webmail_Exploit.script" finished in 203 ms. Request count: 2. Status: 0
+03.19 16:00.57, ScriptExecThread(5),Info,Per server script "IIS_Global_Asa.script" starting
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/admin/images/table_form.css
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/admin/images/table_form.css
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/admin/js/dialog.js
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/admin/js/dialog.js
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/extensions/language/zh-cn/lang.js
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /extensions/language/zh-cn/lang.js
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/index.php?a=post&c=form&cid=0&modelid=11
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /index.php (variation 12)
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/default/img/admin.css
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/default/img
+03.19 16:00.57, ScriptExecThread(5),Info,Per server script "IIS_Global_Asa.script" finished in 187 ms. Request count: 2. Status: 0
+03.19 16:00.57, ScriptExecThread(5),Info,Per server script "IIS_Internal_IP_Address.script" starting
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/admin
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/admin/
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/admin
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/admin/js/core.js
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/admin/js/core.js
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/admin/js
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/admin/js/
+03.19 16:00.57, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/admin/js
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/extensions/language
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/extensions/language/
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /extensions/language
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/extensions/language/zh-cn
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/extensions/language/zh-cn/
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /extensions/language/zh-cn
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/default/js/gundong.js
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/default/js/gundong.js
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/admin/images
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/admin/images/
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/admin/images
+03.19 16:00.58, ScriptExecThread(5),Info,Per server script "IIS_Internal_IP_Address.script" finished in 390 ms. Request count: 1. Status: 0
+03.19 16:00.58, ScriptExecThread(5),Info,Per server script "IIS_service_cnf.script" starting
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/default/css/iepngfix.htc
+03.19 16:00.58, Reporter,Info,[info] Broken links "/views/default/css/iepngfix.htc"
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/default/css/iepngfix.htc
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:00.58, ScriptExecThread(5),Info,Per server script "IIS_service_cnf.script" finished in 94 ms. Request count: 1. Status: 0
+03.19 16:00.58, ScriptExecThread(5),Info,Per server script "IIS_Unicode_Directory_Traversal.script" starting
+03.19 16:00.58, ScriptExecThread(5),Info,Per server script "IIS_Unicode_Directory_Traversal.script" finished in 0 ms. Request count: 0. Status: 0
+03.19 16:00.58, ScriptExecThread(5),Info,Per server script "IIS_v5_NTML_Basic_Auth_Bypass.script" starting
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/index.php?a=hits&c=api&hits=494&id=487
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /index.php (variation 13)
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:00.58, ScriptExecThread(5),Info,Per server script "IIS_v5_NTML_Basic_Auth_Bypass.script" finished in 78 ms. Request count: 1. Status: 0
+03.19 16:00.58, ScriptExecThread(5),Info,Per server script "Ioncube_Loader_Wizard.script" starting
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/default/
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/default
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/index.php?a=hits&c=api&hits=1360&id=486
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /index.php (variation 14)
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/default/css/
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/default/css
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/uploadfiles/
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /uploadfiles
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/uploadfiles/image/
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /uploadfiles/image
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/uploadfiles/image/201707/
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /uploadfiles/image/201707
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/uploadfiles/image/201502/
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /uploadfiles/image/201502
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/default/images/
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/default/images
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/uploadfiles/image/201604/
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /uploadfiles/image/201604
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/default/js/
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/default/js
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Crawler:  http://www.lvquan.cn/ State transition: CS_RUNNING -> CS_LOGIN
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Crawler:  http://www.lvquan.cn/ State transition: CS_LOGIN -> CS_RUNNING
+03.19 16:00.58, ScriptExecThread(5),Info,Per server script "Ioncube_Loader_Wizard.script" finished in 265 ms. Request count: 3. Status: 0
+03.19 16:00.58, ScriptExecThread(5),Info,Per server script "Java_Application_Servers_Fuzz.script" starting
+03.19 16:00.58, ScriptExecThread(5),Info,Per server script "Java_Application_Servers_Fuzz.script" finished in 16 ms. Request count: 0. Status: 0
+03.19 16:00.58, ScriptExecThread(5),Info,Per server script "Java_Debug_Wire_Protocol_Audit.script" starting
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/admin/
+03.19 16:00.58, Reporter,Info,[info] Broken links "/admin"
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /admin
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/cache/
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /cache
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/controllers/
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /controllers
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/config/
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /config
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/core/
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /core
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/extensions/
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /extensions
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/plugins/
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /plugins
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/models/
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /models
+03.19 16:00.58, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/index.php
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/index.php
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/index.php?a=post&c=form&cid=0&modelid=11
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/index.php (variation 1)
+03.19 16:00.59, Reporter,Info,[medium] HTML form without CSRF protection "/en/index.php (dee0661bd2b034891043223d2f9d8565)"
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/index.php
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/admin/images/dialog.css
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/admin/images/table_form.css
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/admin/js/dialog.js
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/extensions/language/zh-cn/lang.js
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/admin/js/core.js
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/admin
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/admin/images
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/admin/js
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/extensions
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/extensions/language
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/extensions/language/zh-cn
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/index.php?a=show&c=content&id=495
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/index.php (variation 2)
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/index.php
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/index.php?a=show&c=content&id=483
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/index.php (variation 3)
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/index.php
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/index.php?a=show&c=content&id=484
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/index.php (variation 4)
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/index.php
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/index.php?a=list&c=content&catid=184
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/index.php (variation 5)
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/index.php
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/index.php
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/index.php
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/index.php
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/index.php?a=list&c=content&catid=10
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/index.php (variation 6)
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/default/css/css.css
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/default/css/css.css
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/default/css/iepngfix.htc
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/default/js/jquery.jslides.js
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/default/js/jquery.jslides.js
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/index.php?a=list&c=content&catid=198
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/index.php (variation 7)
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/index.php
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/default/js/slide.js
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/default/js/slide.js
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/default/js/jquery.SuperSlide.js
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/default/js/jquery.SuperSlide.js
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/default
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/default/
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/default
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/uploadfiles
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/uploadfiles/
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/uploadfiles
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/default/css
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/default/css/
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/default/css
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/uploadfiles/image
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/uploadfiles/image/
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/uploadfiles/image
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/default/js/jquery-1.8.1.min.js
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/default/js/jquery-1.8.1.min.js
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/uploadfiles/image/201502
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/uploadfiles/image/201502/
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/uploadfiles/image/201502
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/default/images
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/default/images/
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/default/images
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/default/js
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/default/js/
+03.19 16:00.59, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/default/js
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/admin/images/blue
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/admin/images/blue/
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/admin/images/blue
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/sysadmin/
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /sysadmin
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/default/img
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/default/img/
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/default/img
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/index.php?back=/index.php%3Fs%3Dmember&c=login&s=member
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /index.php (variation 15)
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/default/img/admin.css
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/default/img/admin.css
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/admin/
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/admin
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/index.php?c=login&s=sysadmin
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /index.php (variation 16)
+03.19 16:01.00, Reporter,Info,[info] Password type input with auto-complete enabled "/index.php (571014f2d288da4ca29dacc769ce483c)"
+03.19 16:01.00, Reporter,Info,[medium] User credentials are sent in clear text "/index.php (571014f2d288da4ca29dacc769ce483c)"
+03.19 16:01.00, Reporter,Info,[medium] HTML form without CSRF protection "/index.php (571014f2d288da4ca29dacc769ce483c)"
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/index.php
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/admin/images/login.css
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/views/admin/js/jquery.min.js
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/admin/js/
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/admin/js
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/extensions/language/
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /extensions/language
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/extensions/language/zh-cn/
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /extensions/language/zh-cn
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/admin/images/
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/admin/images
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Crawler:  http://www.lvquan.cn/ State transition: CS_RUNNING -> CS_LOGIN
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Crawler:  http://www.lvquan.cn/ State transition: CS_LOGIN -> CS_RUNNING
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/admin/images/dialog.css
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/admin/images/dialog.css
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/admin/images/blue
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/admin/images/table_form.css
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/admin/images/table_form.css
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/extensions/language/zh-cn/lang.js
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/extensions/language/zh-cn/lang.js
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/admin/js/dialog.js
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/admin/js/dialog.js
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/admin/js/core.js
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/admin/js/core.js
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/admin/images
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/admin/images/
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/admin/images
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/admin
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/admin/
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/admin
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/extensions
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/extensions/
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/extensions
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/index.php?a=post&c=form&cid=0&modelid=11
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/index.php (variation 8)
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/default/img/admin.css
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/default/img
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/admin/js
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/admin/js/
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/admin/js
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/extensions/language
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/extensions/language/
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/extensions/language
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/extensions/language/zh-cn
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/extensions/language/zh-cn/
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/extensions/language/zh-cn
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/index.php?a=hits&c=api&hits=318&id=483
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/index.php (variation 10)
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/index.php?a=hits&c=api&hits=471&id=495
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/index.php (variation 9)
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/index.php?a=list&c=content&catid=184&page=5
+03.19 16:01.00, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/index.php (variation 12)
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/index.php
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/index.php?a=hits&c=api&hits=403&id=484
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/index.php (variation 11)
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/default/css/iepngfix.htc
+03.19 16:01.01, Reporter,Info,[info] Broken links "/en/views/default/css/iepngfix.htc"
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/default/css/iepngfix.htc
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/index.php?a=list&c=content&catid=184&page=2
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/index.php (variation 13)
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/index.php?a=list&c=content&catid=184&page=4
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/index.php (variation 14)
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/default/
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/default
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/index.php?a=list&c=content&catid=184&page=3
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/index.php (variation 15)
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/default/css/
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/default/css
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/uploadfiles/
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/uploadfiles
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/index.php?a=list&c=content&catid=198&page=2
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/index.php (variation 16)
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/index.php
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/uploadfiles/image/201502/
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/uploadfiles/image/201502
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/uploadfiles/image/
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/uploadfiles/image
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/default/js/
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/default/js
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/admin/images/blue/
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/admin/images/blue
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/default/images/
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/default/images
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/default/img/
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/default/img
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/admin/images/login.css
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/admin/images/login.css
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/views/admin/js/jquery.min.js
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /views/admin/js/jquery.min.js
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/index.php?c=login&s=sysadmin
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /index.php (variation 17)
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/index.php
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Crawler:  http://www.lvquan.cn/ State transition: CS_RUNNING -> CS_LOGIN
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Crawler:  http://www.lvquan.cn/ State transition: CS_LOGIN -> CS_RUNNING
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/admin/images/blue
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/admin/images/blue/
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/admin/images/blue
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/admin/images/
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/admin/images
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/extensions/
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/extensions
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/admin/
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/admin
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/default/img
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/en/views/default/img/
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/default/img
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/admin/js/
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/admin/js
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/extensions/language/
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/extensions/language
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/extensions/language/zh-cn/
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/extensions/language/zh-cn
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/default/img/admin.css
+03.19 16:01.01, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/default/img/admin.css
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/index.php?a=list&c=content&catid=184&page=1
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/index.php (variation 17)
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/index.php?c=login&s=sysadmin&url=
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /index.php (variation 18)
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/index.php?a=list&c=content&catid=198&page=1
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/index.php (variation 18)
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] Crawler:  http://www.lvquan.cn/ State transition: CS_RUNNING -> CS_LOGIN
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] Crawler:  http://www.lvquan.cn/ State transition: CS_LOGIN -> CS_RUNNING
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/admin/images/blue/
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/admin/images/blue
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/en/views/default/img/
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /en/views/default/img
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] No links found.
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] Crawler:  http://www.lvquan.cn/ State transition: CS_RUNNING -> CS_LOGIN
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] Crawler:  http://www.lvquan.cn/ State transition: CS_LOGIN -> CS_RUNNING
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] Processing file / (variation 1)
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] Crawler:  http://www.lvquan.cn/ State transition: CS_RUNNING -> CS_LOGIN
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] Crawler:  http://www.lvquan.cn/ State transition: CS_LOGIN -> CS_RUNNING
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] No more requests.
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] Crawler:  http://www.lvquan.cn/ State transition: CS_RUNNING -> CS_INTERCEPTION_MODE
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] Analyzing file: /
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] Analyzing file: /index.php?a=show&c=content&id=493
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] Analyzing file: /index.php?a=post&c=form&cid=0&modelid=11
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] Analyzing file: /index.php?a=list&c=content&catid=263
+03.19 16:01.02, Crawler,Info,[TCrawler : $0D33C9C0] Analyzing file: /index.php?a=list&c=content&catid=10
+03.19 16:01.03, ScriptExecThread(9),Info,Per server script "Heartbleed_Bug.script" finished in 6926 ms. Request count: 0. Status: 0
+03.19 16:01.03, ScriptExecThread(9),Info,Per server script "JBoss_Audit.script" starting
+03.19 16:01.04, ScriptExecThread(9),Info,Per server script "JBoss_Audit.script" finished in 609 ms. Request count: 8. Status: 0
+03.19 16:01.04, ScriptExecThread(9),Info,Per server script "JBoss_Status_Servlet_Information_Leak.script" starting
+03.19 16:01.04, ScriptExecThread(9),Info,Per server script "JBoss_Status_Servlet_Information_Leak.script" finished in 188 ms. Request count: 3. Status: 0
+03.19 16:01.04, ScriptExecThread(9),Info,Per server script "JBoss_Web_Service_Console.script" starting
+03.19 16:01.04, ScriptExecThread(9),Info,Per server script "JBoss_Web_Service_Console.script" finished in 78 ms. Request count: 1. Status: 0
+03.19 16:01.04, ScriptExecThread(9),Info,Per server script "Jenkins_Audit.script" starting
+03.19 16:01.05, ScriptExecThread(1),Info,Per server script "Barracuda_locale_Directory_Traversal.script" finished in 10031 ms. Request count: 1. Status: 0
+03.19 16:01.05, ScriptExecThread(1),Info,Per server script "Jetty_Audit.script" starting
+03.19 16:01.05, ScriptExecThread(1),Info,Per server script "Jetty_Audit.script" finished in 78 ms. Request count: 1. Status: 0
+03.19 16:01.05, ScriptExecThread(1),Info,Per server script "JMX_RMI_service.script" starting
+03.19 16:01.06, ScriptExecThread(3),Info,Per server script "GlassFish_Audit.script" finished in 10046 ms. Request count: 1. Status: 0
+03.19 16:01.06, ScriptExecThread(3),Info,Per server script "lighttpd_v1434_Sql_Injection.script" starting
+03.19 16:01.06, ScriptExecThread(3),Info,Per server script "lighttpd_v1434_Sql_Injection.script" finished in 0 ms. Request count: 0. Status: 0
+03.19 16:01.06, ScriptExecThread(3),Info,Per server script "Lotus_Domino_crlf_xss.script" starting
+03.19 16:01.07, ScriptExecThread(3),Info,Per server script "Lotus_Domino_crlf_xss.script" finished in 515 ms. Request count: 1. Status: 0
+03.19 16:01.07, ScriptExecThread(3),Info,Per server script "Misfortune_Cookie.script" starting
+03.19 16:01.07, ScriptExecThread(6),Info,Per server script "IBM_WebSphere_Audit.script" finished in 10015 ms. Request count: 1. Status: 0
+03.19 16:01.07, ScriptExecThread(6),Info,Per server script "MongoDB_Audit.script" starting
+03.19 16:01.13, ScriptExecThread(5),Info,Per server script "Java_Debug_Wire_Protocol_Audit.script" finished in 14991 ms. Request count: 0. Status: 0
+03.19 16:01.13, ScriptExecThread(5),Info,Per server script "Movable_Type_4_RCE.script" starting
+03.19 16:01.13, ScriptExecThread(8),Info,Per server script "Database_Backup.script" finished in 17769 ms. Request count: 152. Status: 0
+03.19 16:01.13, ScriptExecThread(8),Info,Per server script "ms12-050.script" starting
+03.19 16:01.13, Crawler,Info,[TCrawler : $0D33C9C0] Request done, http://www.lvquan.cn/_layouts/scriptresx.ashx?culture=en-us&name=SP.JSGrid.Res&rev=laygpE0lqaosnkB4iqx6mA%3D%3D&sections=All<script>alert(12345)</script>z
+03.19 16:01.13, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/_layouts/scriptresx.ashx
+03.19 16:01.13, Crawler,Info,[TCrawler : $0D33C9C0] Processing file /_layouts/scriptresx.ashx (variation 1)
+03.19 16:01.13, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/uploadfiles/image/201711
+03.19 16:01.13, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/uploadfiles/image/201506
+03.19 16:01.13, Crawler,Info,[TCrawler : $0D33C9C0] Added request for URL http://www.lvquan.cn/_layouts
+03.19 16:01.13, Reporter,Info,[high] Vulnerabilities in SharePoint could allow elevation of privilege "Web Server"
+03.19 16:01.13, ScriptExecThread(8),Info,Per server script "ms12-050.script" finished in 156 ms. Request count: 1. Status: 0
+03.19 16:01.13, ScriptExecThread(8),Info,Per server script "Nginx_PHP_FastCGI_Code_Execution_File_Upload.script" starting
+03.19 16:01.13, ScriptExecThread(8),Info,Per server script "Nginx_PHP_FastCGI_Code_Execution_File_Upload.script" finished in 15 ms. Request count: 0. Status: 0
+03.19 16:01.13, ScriptExecThread(8),Info,Per server script "Open_Redirect.script" starting
+03.19 16:01.14, ScriptExecThread(5),Info,Per server script "Movable_Type_4_RCE.script" finished in 312 ms. Request count: 2. Status: 0
+03.19 16:01.14, ScriptExecThread(5),Info,Per server script "Options_Server_Method.script" starting
+03.19 16:01.14, ScriptExecThread(5),Info,Per server script "Options_Server_Method.script" finished in 172 ms. Request count: 1. Status: 0
+03.19 16:01.14, ScriptExecThread(5),Info,Per server script "Oracle_Application_Logs.script" starting
+03.19 16:01.14, ScriptExecThread(8),Info,Per server script "Open_Redirect.script" finished in 328 ms. Request count: 3. Status: 0
+03.19 16:01.14, ScriptExecThread(8),Info,Per server script "Oracle_Reports_Audit.script" starting
+03.19 16:01.14, ScriptExecThread(8),Info,Per server script "Oracle_Reports_Audit.script" finished in 218 ms. Request count: 1. Status: 0
+03.19 16:01.14, ScriptExecThread(8),Info,Per server script "Parallels_Plesk_Audit.script" starting
+03.19 16:01.14, ScriptExecThread(9),Info,Per server script "Jenkins_Audit.script" finished in 10030 ms. Request count: 1. Status: 0
+03.19 16:01.14, ScriptExecThread(9),Info,Per server script "phpMoAdmin_Remote_Code_Execution.script" starting
+03.19 16:01.14, ScriptExecThread(5),Info,Per server script "Oracle_Application_Logs.script" finished in 405 ms. Request count: 2. Status: 0
+03.19 16:01.14, ScriptExecThread(5),Info,Per server script "PHP_CGI_RCE_Force_Redirect.script" starting
+03.19 16:01.14, ScriptExecThread(8),Info,Per server script "Parallels_Plesk_Audit.script" finished in 156 ms. Request count: 1. Status: 0
+03.19 16:01.14, ScriptExecThread(8),Info,Per server script "PHP_Hash_Collision_Denial_Of_Service.script" starting
+03.19 16:01.14, ScriptExecThread(8),Info,Per server script "PHP_Hash_Collision_Denial_Of_Service.script" finished in 0 ms. Request count: 0. Status: 0
+03.19 16:01.14, ScriptExecThread(8),Info,Per server script "Plesk_Agent_SQL_Injection.script" starting
+03.19 16:01.15, ScriptExecThread(9),Info,Per server script "phpMoAdmin_Remote_Code_Execution.script" finished in 500 ms. Request count: 3. Status: 0
+03.19 16:01.15, ScriptExecThread(9),Info,Per server script "Plesk_SSO_XXE.script" starting
+03.19 16:01.17, ScriptExecThread(3),Info,Per server script "Misfortune_Cookie.script" finished in 10093 ms. Request count: 1. Status: 0
+03.19 16:01.17, ScriptExecThread(3),Info,Per server script "Plone&Zope_Remote_Command_Execution.script" starting
+03.19 16:01.17, ScriptExecThread(6),Info,Per server script "MongoDB_Audit.script" finished in 10078 ms. Request count: 1. Status: 0
+03.19 16:01.17, ScriptExecThread(6),Info,Per server script "Pyramid_Debug_Mode.script" starting
+03.19 16:01.23, ScriptExecThread(8),Info,Per server script "Plesk_Agent_SQL_Injection.script" finished in 9329 ms. Request count: 1. Status: 0
+03.19 16:01.23, ScriptExecThread(8),Info,Per server script "Railo_Audit.script" starting
+03.19 16:01.26, ScriptExecThread(2),Info,Per server script "Hadoop_Cluster_Web_Interface.script" finished in 30030 ms. Request count: 3. Status: 0
+03.19 16:01.26, ScriptExecThread(2),Info,Per server script "Rails_XML_YAML.script" starting
+03.19 16:01.26, ScriptExecThread(2),Info,Per server script "Rails_XML_YAML.script" finished in 0 ms. Request count: 0. Status: 0
+03.19 16:01.26, ScriptExecThread(2),Info,Per server script "Registration_Page.script" starting
+03.19 16:01.34, ScriptExecThread(8),Info,Per server script "Railo_Audit.script" finished in 10296 ms. Request count: 1. Status: 0
+03.19 16:01.34, ScriptExecThread(8),Info,Per server script "Reverse_Proxy_Bypass.script" starting
+03.19 16:01.35, ScriptExecThread(1),Info,Per server script "JMX_RMI_service.script" finished in 30030 ms. Request count: 0. Status: 0
+03.19 16:01.35, ScriptExecThread(1),Info,Per server script "RubyOnRails_Database_File.script" starting
+03.19 16:01.36, ScriptExecThread(9),Info,Per server script "Plesk_SSO_XXE.script" finished in 21434 ms. Request count: 2. Status: 0
+03.19 16:01.36, ScriptExecThread(9),Info,Per server script "Same_Site_Scripting.script" starting
+03.19 16:01.36, ScriptExecThread(9),Info,Per server script "Same_Site_Scripting.script" finished in 281 ms. Request count: 0. Status: 0
+03.19 16:01.36, ScriptExecThread(9),Info,Per server script "Snoop_Servlet.script" starting
+03.19 16:01.46, ScriptExecThread(7),Info,Per server script "elasticsearch_Audit.script" finished in 49983 ms. Request count: 1. Status: 0
+03.19 16:01.46, ScriptExecThread(7),Info,Per server script "Spring_Boot_Actuator.script" starting
+03.19 16:01.56, ScriptExecThread(3),Info,Per server script "Plone&Zope_Remote_Command_Execution.script" finished in 39234 ms. Request count: 1. Status: 0
+03.19 16:01.56, ScriptExecThread(3),Info,Per server script "SSL_Audit.script" starting
+03.19 16:01.56, ScriptExecThread(3),Info,Per server script "SSL_Audit.script" finished in 0 ms. Request count: 0. Status: 0
+03.19 16:01.56, ScriptExecThread(3),Info,Per server script "Subdomain_Takeover.script" starting
+03.19 16:02.03, ScriptExecThread(6),Info,Per server script "Pyramid_Debug_Mode.script" finished in 45287 ms. Request count: 1. Status: 0
+03.19 16:02.03, ScriptExecThread(6),Info,Per server script "Tomcat_Audit.script" starting
+03.19 16:02.56, ScriptExecThread(7),Info,Per server script "Spring_Boot_Actuator.script" finished in 70918 ms. Request count: 1. Status: 0
+03.19 16:02.56, ScriptExecThread(7),Info,Per server script "Tomcat_Default_Credentials.script" starting
+03.19 16:03.39, ScriptExecThread(0),Info,Per server script "AJP_Audit.script" finished in 164191 ms. Request count: 0. Status: 0
+03.19 16:03.39, ScriptExecThread(0),Info,Per server script "Tomcat_Examples.script" starting
+03.19 16:04.21, ScriptExecThread(4),Info,Per server script "Apache_Solr_Exposed.script" finished in 205656 ms. Request count: 3. Status: 0
+03.19 16:04.21, ScriptExecThread(4),Info,Per server script "Tomcat_Hello_JSP_XSS.script" starting
+03.19 16:04.21, Scan,Error,Scan aborted because of too many network errors! This can be configured from Configuration > Scan settings > Scanning Options.
+03.19 16:04.21, Scan,Error,Scan "Scan Thread 1" was aborted by user.
+03.19 16:04.42, Reporter,Info,[low] Cookie without HttpOnly flag set "/"
+03.19 16:04.42, Crawler,Info,[TCrawler : $0D33C9C0] Crawler:  http://www.lvquan.cn/ State transition: CS_INTERCEPTION_MODE -> CS_DONE
+03.19 16:04.42, Crawler,Info,[TCrawler : $0D33C9C0] Crawling done http://www.lvquan.cn/
+03.19 16:04.42, Crawler,Info,[TCrawler : $0D33C9C0] Memory after crawling 81346560
+03.19 16:04.42, ScriptExec,Info,[TScriptExecutor : $07922720] Currently executing scripts:
+03.19 16:04.42, ScriptExec,Info,[TScriptExecutor : $07922720] Script Tomcat_Examples.script, no requests executed, running time 63118 milliseconds
+03.19 16:04.42, ScriptExec,Info,[TScriptExecutor : $07922720] Script RubyOnRails_Database_File.script, 2 requests executed, running time 186952 milliseconds
+03.19 16:04.42, ScriptExec,Info,[TScriptExecutor : $07922720] Script Registration_Page.script, 2 requests executed, running time 195984 milliseconds
+03.19 16:04.42, ScriptExec,Info,[TScriptExecutor : $07922720] Script Subdomain_Takeover.script, 1 requests executed, running time 166126 milliseconds
+03.19 16:04.42, ScriptExec,Info,[TScriptExecutor : $07922720] Script Tomcat_Hello_JSP_XSS.script, no requests executed, running time 21497 milliseconds
+03.19 16:04.42, ScriptExec,Info,[TScriptExecutor : $07922720] Script PHP_CGI_RCE_Force_Redirect.script, 7 requests executed, running time 208028 milliseconds
+03.19 16:04.42, ScriptExec,Info,[TScriptExecutor : $07922720] Script Tomcat_Audit.script, 1 requests executed, running time 159605 milliseconds
+03.19 16:04.42, ScriptExec,Info,[TScriptExecutor : $07922720] Script Tomcat_Default_Credentials.script, 1 requests executed, running time 105691 milliseconds
+03.19 16:04.42, ScriptExec,Info,[TScriptExecutor : $07922720] Script Reverse_Proxy_Bypass.script, 2 requests executed, running time 188356 milliseconds
+03.19 16:04.42, ScriptExec,Info,[TScriptExecutor : $07922720] Script Snoop_Servlet.script, 2 requests executed, running time 185891 milliseconds
+03.19 16:06.28, Slow_HTTP_DOS,Info,Slow_HTTP_DOS finished and the server is not vulnerable. Difference is 0
+03.19 16:06.28, Scan,Info,Internal module finished.
+03.19 16:06.28, Console,Info,--------------------------- Scan statistics ---------------------------
+03.19 16:06.28, Console,Info,Scan http://www.lvquan.cn/
+03.19 16:06.28, Console,Info, Number of alerts      : 10
+03.19 16:06.28, Console,Info, Number of KB items    : 0
+03.19 16:06.28, Console,Info, Number of requests    : 463
+03.19 16:06.28, Console,Info, Number of iterations  : 1
+03.19 16:06.28, Console,Info, Start time            : 19/3/2019, 16:00:52
+03.19 16:06.28, Console,Info, Finish time           : 19/3/2019, 16:06:28
+03.19 16:06.28, Console,Info, Scan time             : 5 minutes, 36 seconds
+03.19 16:06.28, Console,Info, Average response time : 1046.97
+03.19 16:06.28, Console,Info, Scan was responsive   : YES
+03.19 16:06.28, Console,Info, Scan was aborted      : YES
+03.19 16:06.28, Console,Info, Number of files       : 32
+03.19 16:06.28, Console,Info, Number of directories : 45
+03.19 16:06.28, Console,Info, Number of variations  : 38
+03.19 16:06.28, Console,Info,-----------------------------------------------------------------------

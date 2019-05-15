@@ -1,0 +1,18 @@
+# Nmap 7.60 scan initiated Sun Sep 17 16:05:06 2017 as: nmap.exe -oN C:\WDScanner\WWW\TaskPython\TaskInfo\loginfo\f71bcce3867466d807bac5200e63b33d\f71bcce3867466d807bac5200e63b33d-nmap.txt -sT -P0 -sV -O --script=banner -p T:21-25,80-89,110,143,443,513,873,1080,1433,1521,1158,3306-3308,3389,3690,5900,6379,7001,8000-8090,9000,9418,27017-27019,50060,111,11211,2049 www.zt10jwz.com
+Nmap scan report for www.zt10jwz.com (124.128.159.112)
+Host is up (0.0053s latency).
+Not shown: 131 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+| http-server-header: 
+|   Microsoft-HTTPAPI/2.0
+|_  Microsoft-IIS/7.0
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: firewall
+Running: Fortinet embedded
+OS CPE: cpe:/h:fortinet:fortigate_200b
+OS details: Fortinet FortiGate 200B firewall
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Sep 17 16:05:36 2017 -- 1 IP address (1 host up) scanned in 30.78 seconds

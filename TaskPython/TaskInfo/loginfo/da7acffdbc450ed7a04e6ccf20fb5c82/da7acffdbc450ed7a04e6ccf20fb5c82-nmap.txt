@@ -1,0 +1,4 @@
+# Nmap 7.60 scan initiated Wed May 15 18:55:11 2019 as: nmap.exe -oN C:\WDScanner\WWW\TaskPython\TaskInfo\loginfo\da7acffdbc450ed7a04e6ccf20fb5c82\da7acffdbc450ed7a04e6ccf20fb5c82-nmap.txt -sT -sV -O --script=banner --top-port 200 www.webscantest.com
+Failed to resolve "www.webscantest.com".
+WARNING: No targets were specified, so 0 hosts scanned.
+# Nmap done at Wed May 15 18:55:24 2019 -- 0 IP addresses (0 hosts up) scanned in 13.49 seconds
