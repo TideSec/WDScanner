@@ -47,7 +47,11 @@ WDScanner平台目前实现了如下功能：分布式web漏洞扫描、客户�
 
 1、下载虚拟机镜像
 
-打包好的vmware环境，使用VMware Workstation 15 Pro制作，直接下载后解压，用vmware打开即可。
+```
+链接: https://pan.baidu.com/s/1wGATRO57d8jNzZz4N3mNPQ 提取码:27ks  解压密码www.tidesec.net
+```
+
+打包好的vmware镜像，使用VMware Workstation 15 Pro制作，直接下载后解压，用vmware打开即可，理论上15.0以上版本都可以。
 
 虚拟机为win7系统，用户名TideSec，密码123456。
 
