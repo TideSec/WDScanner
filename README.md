@@ -1,9 +1,21 @@
 <div align=center><img src=images/logo.png width=30% ></div>
 
 
-# WDScanner_v1.1
+# WDScanner简介
 
-WDScanner平台目前实现了如下功能：分布式web漏洞扫描、客户管理、漏洞定期扫描、网站爬虫、暗链检测、坏链检测、网站指纹识别、代理搜集及部署、密码定向破解等功能。
+随着互联网各种安全漏洞愈演愈烈，JAVA反序列化漏洞、STRUTS命令执行漏洞、ImageMagick命令执行漏洞等高危漏洞频繁爆发。在这种情况下，为了能在漏洞爆发后快速形成漏洞检测能力，同时能对网站或主机进行全面快速的安全检测，开发了一套简单易用的分布式web漏洞检测系统WDScanner。
+
+WDScanner平台目前实现了如下功能：
+
+**客户管理：添加客户、添加客户持有系统、设置客户持有系统的扫描策略、周期性扫描等**
+
+**漏洞扫描：分布式web扫描、漏洞定期扫描、敏感信息泄露扫描、漏洞管理等**
+
+**信息搜集：网站标题、banner、端口开放、子域名、CMS指纹、操作系统版本、开发语言、WAF、CDN、中间件等**
+
+**网站爬虫：网站链接爬取、暗链检测、坏链检测、敏感字检测**
+
+**其他功能：代理搜集、检索中心、导出报告**
 
 ****
 
@@ -25,7 +37,6 @@ WDScanner平台目前实现了如下功能：分布式web漏洞扫描、客户�
 # 目录
 * [Install](#Install)
 * [Change_Log](#Change_Log)
-* [Abstract](#Abstract)
 * [Function](#Function)
     * [登录界面](#1、登录界面)
     * [分布式扫描](#2、分布式扫描)
@@ -132,10 +143,7 @@ WDScanner平台目前实现了如下功能：分布式web漏洞扫描、客户�
 - [2017-10-02] 实现了分布式扫描，可以多节点进行扫描
 - [2017-09-25] 使用php做了个前端展示，不会美工，凑合着看
 - [2017-08-12] 用python实现了漏洞扫描、爬虫、信息探测等
- 
-# Abstract
 
-随着互联网各种安全漏洞愈演愈烈，OPENSSL心脏滴血漏洞、JAVA反序列化漏洞、STRUTS命令执行漏洞、ImageMagick命令执行漏洞等高危漏洞频繁爆发。在这种情况下，为了能在漏洞爆发后快速形成漏洞检测能力，同时能对网站或主机进行全面快速的安全检测，开发了一套简单易用的分布式web漏洞检测系统WDScanner。
 
 # Function
 
@@ -159,7 +167,7 @@ WDScanner使用了分布式web漏洞扫描技术，前端服务器和用户进�
 
 汉化后的数据库可从这个表中获取，`https://github.com/TideSec/WDScanner`，在数据库文件的vul_cn表中。
 
-![pic](https://raw.githubusercontent.com/TideSec/Tide/master/images/vul_cn.jpg)
+![pic](images/vul_cn.jpg)
 
 扫描核心库使用了secscanner+w3af+awvs三款工具（secscanner是在建的另一套web扫描器， w3af是最好的开源扫描器），使用较多的扫描工具可能导致扫描速度有所降低，但误报率也会大大降低，扫描时也可选择最实用的扫描策略以节省时间。
 
