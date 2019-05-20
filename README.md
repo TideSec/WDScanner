@@ -53,6 +53,10 @@ WDScanner平台目前实现了如下功能：
 
 # Install
 
+
+**GitHub地址：`https://github.com/TideSec/WDScanner/`**
+
+
 ## 方式1：虚拟机环境
 
 1、下载虚拟机镜像
