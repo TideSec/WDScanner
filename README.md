@@ -62,7 +62,7 @@ WDScanner平台目前实现了如下功能：
 1、下载虚拟机镜像
 
 ```
-链接: https://pan.baidu.com/s/1wGATRO57d8jNzZz4N3mNPQ 提取码:27ks  解压密码www.tidesec.net
+链接: https://pan.baidu.com/s/1-3LRf7Z8N4iKoO0A-hnvQA 提取码: xexq  解压密码www.tidesec.net
 ```
 
 打包好的vmware镜像，使用VMware Workstation 15 Pro制作，直接下载后解压，用vmware打开即可，理论上15.0以上版本都可以。
@@ -72,7 +72,7 @@ WDScanner平台目前实现了如下功能：
 ```
 提供一个VMware Workstation 15 Pro的下载地址：
 
-链接: https://pan.baidu.com/s/1lqglKWzknAjeyrEnAaXLJA 提取码: icmv 
+链接: https://pan.baidu.com/s/1bvte1sM2U9_7IsNDWaJ_hQ 提取码: c2fs
 ```
 
 虚拟机为win7系统，用户名TideSec，密码123456。虚拟机默认是nat模式联网，理论上可自动分配ip地址可直接使用。
