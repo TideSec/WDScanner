@@ -62,7 +62,10 @@ WDScanner平台目前实现了如下功能：
 1、下载虚拟机镜像
 
 ```
-链接: https://pan.baidu.com/s/1-3LRf7Z8N4iKoO0A-hnvQA 提取码: xexq  解压密码www.tidesec.net
+链接: https://pan.baidu.com/s/1hcyL1S6AjKRh5fHerCCnJA 提取码: 8b44  解压密码www.tidesec.net
+
+因为分享的单文件有点大，有时候就莫名其妙的下载无效了，及时联系我，我会更新下载链接。
+
 ```
 
 打包好的vmware镜像，使用VMware Workstation 15 Pro制作，直接下载后解压，用vmware打开即可，理论上15.0以上版本都可以。
