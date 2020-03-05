@@ -94,7 +94,7 @@ WDScanner平台目前实现了如下功能：
 1、下载软件包
 
 ```
-链接：https://pan.baidu.com/s/1ojKxbrDabLqtL4HDgjljlg  提取码：vb3h  解压密码www.tidesec.net
+链接：https://pan.baidu.com/s/1vFz-ZifDH6zShSBERtOzng 提取码: bpfj 解压密码www.tidesec.net
 ```
 这里面打包好了phpstudy环境，把它解压到C盘根目录下，目录名不要变，即C:\WDScanner目录下。
 
@@ -121,7 +121,7 @@ WDScanner平台目前实现了如下功能：
 
 我把上面需要几个软件进行了打包，在`wdscan-soft`目录下，逐个安装即可，下载地址：
 ```
-链接：https://pan.baidu.com/s/1ojKxbrDabLqtL4HDgjljlg  提取码：vb3h  解压密码www.tidesec.net
+链接：https://pan.baidu.com/s/1vFz-ZifDH6zShSBERtOzng 提取码: bpfj 解压密码www.tidesec.net
 ```
 
 2、安装php运行环境
